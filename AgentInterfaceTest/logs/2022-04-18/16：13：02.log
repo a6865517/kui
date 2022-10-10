@@ -1,0 +1,35 @@
+2022-04-18 16:13:02.685 | DEBUG    | common.unittestMain:req_assert:72 - 本次执行的测试用例请求内容为：{'startTime': '2000-04-11 00:00:00', 'endTime': '2022-04-01 00:00:00'}
+2022-04-18 16:13:02.685 | DEBUG    | common.unittestMain:req_assert:73 - 本次执行的测试用例响应内容为：{"busiCode":0,"msg":"请求成功","data":[]}
+2022-04-18 16:13:02.686 | INFO     | common.unittestMain:req_assert:76 - 接口响应时间为：0.112579
+2022-04-18 16:13:02.686 | INFO     | common.unittestMain:req_assert:78 - busicode与预期一致为：0
+2022-04-18 16:13:02.686 | INFO     | common.unittestMain:req_assert:80 - msg与预期一致
+2022-04-18 16:13:02.918 | DEBUG    | common.unittestMain:req_assert:72 - 本次执行的测试用例请求内容为：{'startTime': '2000-04-11 00:00:00', 'endTime': ''}
+2022-04-18 16:13:02.918 | DEBUG    | common.unittestMain:req_assert:73 - 本次执行的测试用例响应内容为：{"busiCode":400,"msg":"endTime：结束时间不能为空","data":null}
+2022-04-18 16:13:02.919 | INFO     | common.unittestMain:req_assert:76 - 接口响应时间为：0.098843
+2022-04-18 16:13:02.919 | INFO     | common.unittestMain:req_assert:78 - busicode与预期一致为：400
+2022-04-18 16:13:02.919 | INFO     | common.unittestMain:req_assert:80 - msg与预期一致
+2022-04-18 16:13:02.919 | INFO     | common.unittestMain:assert_data:87 - 响应内容与预期一致
+2022-04-18 16:13:03.087 | DEBUG    | common.unittestMain:req_assert:72 - 本次执行的测试用例请求内容为：{'startTime': '', 'endTime': '2000-04-11 00:00:00'}
+2022-04-18 16:13:03.088 | DEBUG    | common.unittestMain:req_assert:73 - 本次执行的测试用例响应内容为：{"busiCode":400,"msg":"startTime：开始时间不能为空","data":null}
+2022-04-18 16:13:03.088 | INFO     | common.unittestMain:req_assert:76 - 接口响应时间为：0.083767
+2022-04-18 16:13:03.088 | INFO     | common.unittestMain:req_assert:78 - busicode与预期一致为：400
+2022-04-18 16:13:03.088 | INFO     | common.unittestMain:req_assert:80 - msg与预期一致
+2022-04-18 16:13:03.088 | INFO     | common.unittestMain:assert_data:87 - 响应内容与预期一致
+2022-04-18 16:13:03.273 | DEBUG    | common.unittestMain:req_assert:72 - 本次执行的测试用例请求内容为：{'startTime': '000', 'endTime': '111'}
+2022-04-18 16:13:03.273 | DEBUG    | common.unittestMain:req_assert:73 - 本次执行的测试用例响应内容为：{"busiCode":400,"msg":"参数解析异常","data":null}
+2022-04-18 16:13:03.273 | INFO     | common.unittestMain:req_assert:76 - 接口响应时间为：0.089056
+2022-04-18 16:13:03.273 | INFO     | common.unittestMain:req_assert:78 - busicode与预期一致为：400
+2022-04-18 16:13:03.273 | INFO     | common.unittestMain:req_assert:80 - msg与预期一致
+2022-04-18 16:13:03.274 | INFO     | common.unittestMain:assert_data:87 - 响应内容与预期一致
+2022-04-18 16:13:03.459 | DEBUG    | common.unittestMain:req_assert:72 - 本次执行的测试用例请求内容为：{'startTime': 'aaa', 'endTime': 'bbb'}
+2022-04-18 16:13:03.459 | DEBUG    | common.unittestMain:req_assert:73 - 本次执行的测试用例响应内容为：{"busiCode":400,"msg":"参数解析异常","data":null}
+2022-04-18 16:13:03.459 | INFO     | common.unittestMain:req_assert:76 - 接口响应时间为：0.09028
+2022-04-18 16:13:03.460 | INFO     | common.unittestMain:req_assert:78 - busicode与预期一致为：400
+2022-04-18 16:13:03.460 | INFO     | common.unittestMain:req_assert:80 - msg与预期一致
+2022-04-18 16:13:03.460 | INFO     | common.unittestMain:assert_data:87 - 响应内容与预期一致
+2022-04-18 16:13:03.633 | DEBUG    | common.unittestMain:req_assert:72 - 本次执行的测试用例请求内容为：{'startTime': '开始时间', 'endTime': '结束时间'}
+2022-04-18 16:13:03.633 | DEBUG    | common.unittestMain:req_assert:73 - 本次执行的测试用例响应内容为：{"busiCode":400,"msg":"参数解析异常","data":null}
+2022-04-18 16:13:03.633 | INFO     | common.unittestMain:req_assert:76 - 接口响应时间为：0.083092
+2022-04-18 16:13:03.633 | INFO     | common.unittestMain:req_assert:78 - busicode与预期一致为：400
+2022-04-18 16:13:03.633 | INFO     | common.unittestMain:req_assert:80 - msg与预期一致
+2022-04-18 16:13:03.633 | INFO     | common.unittestMain:assert_data:87 - 响应内容与预期一致

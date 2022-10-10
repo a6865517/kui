@@ -1,0 +1,16 @@
+2022-06-17 18:18:04.822 | INFO     | __main__:bind_gold_blood_device:73 - 绑定设备接口请求参数{"busiCode":400,"msg":"参数解析异常","data":null}
+2022-06-17 18:18:04.822 | INFO     | __main__:bind_gold_blood_device:74 - 绑定设备接口返回参数{"busiCode":400,"msg":"参数解析异常","data":null}
+2022-06-17 18:18:04.928 | INFO     | __main__:bind_gold_blood_device:73 - 绑定设备接口请求参数{"busiCode":400,"msg":"参数解析异常","data":null}
+2022-06-17 18:18:04.929 | INFO     | __main__:bind_gold_blood_device:74 - 绑定设备接口返回参数{"busiCode":400,"msg":"参数解析异常","data":null}
+2022-06-17 18:18:29.843 | INFO     | __main__:bind_gold_blood_device:73 - 绑定设备接口请求参数{'clinicId': 1442079173893074946, 'ids': 'B221031135000202', 'operateType': 1}
+2022-06-17 18:18:30.154 | INFO     | __main__:bind_gold_blood_device:74 - 绑定设备接口返回参数{"busiCode":400,"msg":"参数解析异常","data":null}
+2022-06-17 18:18:30.234 | INFO     | __main__:bind_gold_blood_device:73 - 绑定设备接口请求参数{'clinicId': 1442079173893074946, 'ids': 'BLD100288888809932', 'operateType': 1}
+2022-06-17 18:18:30.234 | INFO     | __main__:bind_gold_blood_device:74 - 绑定设备接口返回参数{"busiCode":400,"msg":"参数解析异常","data":null}
+2022-06-17 18:20:59.062 | INFO     | __main__:bind_gold_blood_device:73 - 绑定设备接口请求参数{'clinicId': 1442079173893074946, 'ids': 1391993393872678914, 'operateType': 1}
+2022-06-17 18:20:59.063 | INFO     | __main__:bind_gold_blood_device:74 - 绑定设备接口返回参数{"busiCode":400,"msg":"参数解析异常","data":null}
+2022-06-17 18:20:59.154 | INFO     | __main__:bind_gold_blood_device:73 - 绑定设备接口请求参数{'clinicId': 1442079173893074946, 'ids': 1474315307854172163, 'operateType': 1}
+2022-06-17 18:20:59.154 | INFO     | __main__:bind_gold_blood_device:74 - 绑定设备接口返回参数{"busiCode":400,"msg":"参数解析异常","data":null}
+2022-06-17 18:21:15.221 | INFO     | __main__:bind_gold_blood_device:73 - 绑定设备接口请求参数{'clinicId': 1442079173893074946, 'ids': [1391993393872678914], 'operateType': 1}
+2022-06-17 18:21:15.221 | INFO     | __main__:bind_gold_blood_device:74 - 绑定设备接口返回参数{"busiCode":201,"msg":"一个诊所只能绑定同种设备一次","data":null}
+2022-06-17 18:21:15.334 | INFO     | __main__:bind_gold_blood_device:73 - 绑定设备接口请求参数{'clinicId': 1442079173893074946, 'ids': [1474315307854172163], 'operateType': 1}
+2022-06-17 18:21:15.334 | INFO     | __main__:bind_gold_blood_device:74 - 绑定设备接口返回参数{"busiCode":201,"msg":"一个诊所只能绑定同种设备一次","data":null}

@@ -1,0 +1,221 @@
+[ {
+  "uid" : "95f877f6743187c2",
+  "name" : "1.该用例用于测试，请忽略111",
+  "time" : {
+    "start" : 1658369291156,
+    "stop" : 1658369291327,
+    "duration" : 171
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "c22a20b3c03cc278",
+  "name" : "3.该用例用于测试，请忽略333",
+  "time" : {
+    "start" : 1658369289661,
+    "stop" : 1658369289826,
+    "duration" : 165
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3c8f4b8ee23c29f1",
+  "name" : "3.该用例用于测试，请忽略333",
+  "time" : {
+    "start" : 1658369290586,
+    "stop" : 1658369290765,
+    "duration" : 179
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2f894d8da58f40ee",
+  "name" : "4.该用例用于测试，请忽略333",
+  "time" : {
+    "start" : 1658369290974,
+    "stop" : 1658369291129,
+    "duration" : 155
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "5621fe6125f73fe6",
+  "name" : "4.该用例用于测试，请忽略333",
+  "time" : {
+    "start" : 1658369288874,
+    "stop" : 1658369289049,
+    "duration" : 175
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ef22f03b5319b02c",
+  "name" : "4.该用例用于测试，请忽略333",
+  "time" : {
+    "start" : 1658369289844,
+    "stop" : 1658369290003,
+    "duration" : 159
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9602cc102bcb1032",
+  "name" : "1.该用例用于测试，请忽略111",
+  "time" : {
+    "start" : 1658369290210,
+    "stop" : 1658369290370,
+    "duration" : 160
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "ddcc2e1a305c5920",
+  "name" : "2.该用例用于测试，请忽略222",
+  "time" : {
+    "start" : 1658369291351,
+    "stop" : 1658369291504,
+    "duration" : 153
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "41bdf4c5d535899d",
+  "name" : "4.该用例用于测试，请忽略333",
+  "time" : {
+    "start" : 1658369290791,
+    "stop" : 1658369290949,
+    "duration" : 158
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "16e047d5dbbedce8",
+  "name" : "2.该用例用于测试，请忽略222",
+  "time" : {
+    "start" : 1658369288485,
+    "stop" : 1658369288668,
+    "duration" : 183
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "5afc5b6401691dc8",
+  "name" : "1.该用例用于测试，请忽略111",
+  "time" : {
+    "start" : 1658369289250,
+    "stop" : 1658369289449,
+    "duration" : 199
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "b1d54f63169913ec",
+  "name" : "4.该用例用于测试，请忽略333",
+  "time" : {
+    "start" : 1658369290027,
+    "stop" : 1658369290188,
+    "duration" : 161
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "a9bcad03ca6e6b2f",
+  "name" : "3.该用例用于测试，请忽略333",
+  "time" : {
+    "start" : 1658369288691,
+    "stop" : 1658369288850,
+    "duration" : 159
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9777445ba61927d8",
+  "name" : "2.该用例用于测试，请忽略222",
+  "time" : {
+    "start" : 1658369289479,
+    "stop" : 1658369289633,
+    "duration" : 154
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "aae1982a5b379f81",
+  "name" : "test_search",
+  "time" : {
+    "start" : 1658394267865,
+    "stop" : 1658394267971,
+    "duration" : 106
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c59519795790ab89",
+  "name" : "3.该用例用于测试，请忽略333",
+  "time" : {
+    "start" : 1658369291536,
+    "stop" : 1658369291696,
+    "duration" : 160
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5c4fb06c6a2951e2",
+  "name" : "4.该用例用于测试，请忽略333",
+  "time" : {
+    "start" : 1658369291717,
+    "stop" : 1658369291873,
+    "duration" : 156
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b1daf4a1b475b25e",
+  "name" : "4.该用例用于测试，请忽略333",
+  "time" : {
+    "start" : 1658369291899,
+    "stop" : 1658369292053,
+    "duration" : 154
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "24834f08c368edb",
+  "name" : "test_01",
+  "time" : {
+    "start" : 1658394516684,
+    "stop" : 1658394516684,
+    "duration" : 0
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "8989e9dbad48b93f",
+  "name" : "2.该用例用于测试，请忽略222",
+  "time" : {
+    "start" : 1658369290393,
+    "stop" : 1658369290563,
+    "duration" : 170
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "cf9fccb74588f138",
+  "name" : "4.该用例用于测试，请忽略333",
+  "time" : {
+    "start" : 1658369289067,
+    "stop" : 1658369289230,
+    "duration" : 163
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "be5eb11dd4d755f5",
+  "name" : "test_member_receive_address_save[test_data0]",
+  "time" : {
+    "start" : 1658397705613,
+    "stop" : 1658397705613,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+} ]

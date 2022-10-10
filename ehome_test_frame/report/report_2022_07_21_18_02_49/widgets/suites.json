@@ -1,0 +1,26 @@
+{
+  "total" : 2,
+  "items" : [ {
+    "uid" : "c7e256879139f580a918627990791d11",
+    "name" : "tests.agent.mall_manage",
+    "statistic" : {
+      "failed" : 11,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 8,
+      "unknown" : 0,
+      "total" : 20
+    }
+  }, {
+    "uid" : "eda4d171e2032ad61d4c83ef3963652f",
+    "name" : "conftest",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 2
+    }
+  } ]
+}

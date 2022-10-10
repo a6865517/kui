@@ -1,0 +1,55 @@
+#按日期维度查询绑定诊所环比数据
+- api: /ehome-dist-crm-app/app/statistical/device/queryRatioData
+  login_phone: 13698765432
+  assert_type: 1
+  data: {"period": "0"}
+  assert: { 'code': -1,'msg': '接口未知异常',data: null,dataLong: 10 }
+
+
+- api: /ehome-dist-crm-app/app/statistical/device/queryRatioData
+  login_phone: 13698765432
+  assert_type: 2
+  data: {"period": "day"}
+  assert: { 'code': 0,'msg': '请求成功',data: "'newBindClinicNum': 0",dataLong: 50 }
+
+
+- api: /ehome-dist-crm-app/app/statistical/device/queryRatioData
+  login_phone: 13698765432
+  assert_type: 2
+  data: {"period": "week"}
+  assert: { 'code': 0,'msg': '请求成功',data: "'newBindClinicNum': 0",dataLong: 50 }
+
+
+- api: /ehome-dist-crm-app/app/statistical/device/queryRatioData
+  login_phone: 13698765432
+  assert_type: 2
+  data: {"period": "month"}
+  assert: { 'code': 0,'msg': '请求成功',data: "'newBindClinicNum': 0",dataLong: 50 }
+
+
+- api: /ehome-dist-crm-app/app/statistical/device/queryRatioData
+  login_phone: 13698765432
+  assert_type: 2
+  data: {"period": "quarter"}
+  assert: { 'code': 0,'msg': '请求成功',data: "'newBindClinicNum': 0",dataLong: 50 }
+
+
+- api: /ehome-dist-crm-app/app/statistical/device/queryRatioData
+  login_phone: 13698765432
+  assert_type: 2
+  data: {"period": "quarter"}
+  assert: { 'code': 0,'msg': '请求成功',data: "'newBindClinicNum': 0",dataLong: 50 }
+
+
+- api: /ehome-dist-crm-app/app/statistical/device/queryRatioData
+  login_phone: 13698765432
+  assert_type: 2
+  data: {"period": "month"}
+  assert: { 'code': 0,'msg': '请求成功',data: "'newBindClinicNum': 0",dataLong: 50 }
+
+
+- api: /ehome-dist-crm-app/app/statistical/device/queryRatioData
+  login_phone: 13698765432
+  assert_type: 1
+  data: {"period": "null"}
+  assert: { 'code': -1,'msg': '接口未知异常',data: null,dataLong: 50 }

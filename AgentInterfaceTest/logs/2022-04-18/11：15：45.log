@@ -1,0 +1,3 @@
+2022-04-18 11:15:46.205 | DEBUG    | common.unittestMain:req_assert:72 - 本次执行的测试用例请求内容为：{}
+2022-04-18 11:15:46.206 | DEBUG    | common.unittestMain:req_assert:73 - 本次执行的测试用例响应内容为：{"busiCode":405,"msg":"请求方法仅限于:[\"POST\"]","data":null}
+2022-04-18 11:15:46.206 | INFO     | common.unittestMain:req_assert:76 - 接口响应时间为：0.085257

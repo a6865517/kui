@@ -1,0 +1,292 @@
+.environment {
+    border-radius: 10px;
+    position: absolute;
+    top: 10px;
+    left: 0px;
+    z-index: 9;
+    font-size: 18px;
+    color: #11b3d8;
+    padding: 0 18px;
+    border-color: #5f11d8;
+}
+
+.content {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 200px;
+    left: 0;
+    z-index: 9;
+}
+
+.box {
+    display: block;
+    width: 36%;
+    height: 68px;
+    min-width: 300px;
+    padding: 0 18px;
+    border: 1px solid #e81261;
+    border-radius: 8px;
+    font-size: 20px;
+}
+
+#phone {
+    margin: 80px auto 0 auto;
+    background: rgba(255, 255, 255, 0.15);
+}
+
+.ipt {
+    margin: 24px auto 0 auto;
+    box-sizing: border-box;
+}
+
+#btn {
+    margin: 48px auto 0 auto;
+    cursor: pointer;
+    background: rgba(255, 255, 255, 0.15);
+}
+
+#times {
+    margin: 48px auto 0 auto;
+    cursor: pointer;
+    background: rgba(255, 255, 255, 0.15);
+}
+
+#test_type {
+    margin: 48px auto 0 auto;
+    cursor: pointer;
+    background: rgba(255, 255, 255, 0.15);
+    color: #f0eaea;
+    text-align: left;
+}
+
+.bg {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+
+#startvideo {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+
+body {
+    /* background: url(./img/re3.png) top left; */
+    background: url('../img/re3.png') top left;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    background-size: cover;
+    font-family: 宋体;
+}
+
+input::-webkit-input-placeholder {
+    color: hsl(120, 7%, 94%);
+}
+
+.content-1 {
+    padding-top: 40px;
+}
+
+.container-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* 弹窗 */
+
+.modal-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-form {
+    width: 700px;
+    height: 500px;
+    background-color: #F6F8FA;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+    border-radius: 36px;
+}
+
+.tab {
+    width: 600px;
+    height: 60px;
+    background: #FFFFFF;
+    border-radius: 30px;
+    border: 2px solid #EDEFF3;
+    display: flex;
+}
+
+.tab-item {
+    width: 200px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    color: #757786;
+    cursor: pointer;
+    font-size: 22px;
+}
+
+.activeTab {
+    background-color: #426FFF;
+    color: #FFF;
+    box-shadow: 0px 10px 30px 0px rgba(66, 111, 255, 0.4);
+}
+
+.papers {
+    width: 100%;
+    padding: 40px 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.paper-item {
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 10px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    background: #FFF;
+    border: 2px solid #7A9AFF;
+    color: #426FFF;
+    margin: 12px 6px;
+    cursor: pointer;
+}
+
+.paper-item:hover {
+    background-color: #FF5B78;
+    color: #FFF;
+    border: 2px solid transparent;
+}
+
+.activePaper {
+    background-color: #FF5B78;
+    color: #FFF;
+    border: 2px solid transparent;
+}
+
+.modal-btn {
+    width: 240px;
+    height: 48px;
+    background-color: #426FFF;
+    color: #FFF;
+    box-shadow: 0px 10px 30px 0px rgba(66, 111, 255, 0.4);
+    border-radius: 24px;
+}
+
+.translocation {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.translocation-item {
+    width: 300px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 10px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    background: #FFF;
+    border: 2px solid #7A9AFF;
+    color: #426FFF;
+    margin: 12px 6px;
+    cursor: pointer;
+}
+
+.translocation-item:hover {
+    background-color: #00CB99;
+    color: #FFF;
+    border: 2px solid transparent;
+}
+
+.activeTranslocation {
+    background-color: #00CB99;
+    color: #FFF;
+    border: 2px solid transparent;
+}
+
+.hide {
+    display: none;
+}
+
+.alert-box {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.alert {
+    width: 50%;
+}
+
+
+/* 标题 */
+
+.title {
+    color: rgb(17 235 225);
+    font-size: 3.5rem;
+    -webkit-animation: shining 1.0s alternate infinite;
+    animation: shining 1.0s alternate infinite;
+    font-family: cursive;
+    letter-spacing: 20px;
+}
+
+@keyframes shining {
+    from {
+        text-shadow: 0 0 10px lightblue, 0 0 20px lightblue, 0 0 30px lightblue, 0 0 40px skyblue, 0 0 50px skyblue, 0 0 60px skyblue;
+    }
+    to {
+        text-shadow: 0 0 5px lightblue, 0 0 10px lightblue, 0 0 15px lightblue, 0 0 20px skyblue, 0 0 25px skyblue, 0 0 30px skyblue;
+    }
+}
+
+
+/* loading */
+
+.loading {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+.loadingActive {
+    display: flex;
+}
+
+.loadText {
+    font-size: 24px;
+    color: #FFF;
+    margin-left: 10px;
+}

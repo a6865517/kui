@@ -1,0 +1,170 @@
+2022-07-19 17:49:22.770 | INFO     | utils.login:login_test:22 - 本次登录获取token为:{'Authorization': 'bearer 39093976-9f0d-4171-98bd-bcda14fa4f41'}
+2022-07-19 17:49:23.695 | INFO     | utils.get_clinic_info_test:bind_gold_blood_device:71 - 绑定设备接口请求参数{'clinicId': 1545224171014402050, 'ids': [16], 'operateType': 1}
+2022-07-19 17:49:23.695 | INFO     | utils.get_clinic_info_test:bind_gold_blood_device:72 - 绑定设备接口返回参数{"busiCode":201,"msg":"一个诊所只能绑定同种设备一次","data":null}
+2022-07-19 17:49:23.788 | INFO     | utils.get_clinic_info_test:bind_gold_blood_device:71 - 绑定设备接口请求参数{'clinicId': 1545224171014402050, 'ids': [1386709332788838402], 'operateType': 1}
+2022-07-19 17:49:23.788 | INFO     | utils.get_clinic_info_test:bind_gold_blood_device:72 - 绑定设备接口返回参数{"busiCode":201,"msg":"一个诊所只能绑定同种设备一次","data":null}
+2022-07-19 17:49:24.166 | INFO     | blood_check.blood_check_test:add_patient:55 - 添加患者接口请求参数为:{'clinicId': 1545224171014402050, 'mobilePhone': '13600000000', 'userAge': 10, 'userMonth': 0, 'userName': '测试检测数据', 'userSex': 0}
+2022-07-19 17:49:24.167 | INFO     | blood_check.blood_check_test:add_patient:56 - 添加患者接口响应参数为:{"busiCode":0,"msg":"请求成功","data":"1549330555994427393"}
+2022-07-19 17:49:24.357 | INFO     | blood_check.blood_check_test:start_check:68 - 开始检测接口请求参数为：{'boardSno': '220301360723', 'cameraName': '测试相机', 'clinicId': 1545224171014402050, 'deviceSno': 'BLD100221070100262', 'hgbCalibration': [{'reference': 20317, 'groundTruth': 0, 'measure': 25501}, {'reference': 20732, 'groundTruth': 0, 'measure': 25637}, {'reference': 19684, 'groundTruth': 231, 'measure': 2397}, {'reference': 20401, 'groundTruth': 141, 'measure': 6061}, {'reference': 20628, 'groundTruth': 71, 'measure': 12633}, {'reference': 20360, 'groundTruth': 48, 'measure': 15893}], 'hgbCurveData': [], 'hgbMeasure': 0, 'hgbReference': 0, 'path': 'c69099f6-2df3-497b-b5ac-cefdca802aa9.zip', 'patientId': '1549330555994427393', 'pointConfig': {'plt': {'focus': 0, 'points': 0}, 'rbc': {'focus': 0, 'points': 0}, 'wbc': {'focus': 0, 'points': 0}}, 'type': 1}
+2022-07-19 17:49:24.358 | INFO     | blood_check.blood_check_test:start_check:69 - 开始检测接口响应内容为:{"busiCode":0,"msg":"请求成功","data":"1549330556720041985"}
+2022-07-19 17:49:25.743 | INFO     | blood_check.blood_check_test:get_manual_status:83 - 等待一秒钟，再去查询
+2022-07-19 17:49:25.743 | INFO     | blood_check.blood_check_test:get_manual_status:84 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': None}}
+2022-07-19 17:49:26.894 | INFO     | blood_check.blood_check_test:get_manual_status:83 - 等待一秒钟，再去查询
+2022-07-19 17:49:26.894 | INFO     | blood_check.blood_check_test:get_manual_status:84 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': None}}
+2022-07-19 17:49:28.053 | INFO     | blood_check.blood_check_test:get_manual_status:83 - 等待一秒钟，再去查询
+2022-07-19 17:49:28.054 | INFO     | blood_check.blood_check_test:get_manual_status:84 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': None}}
+2022-07-19 17:49:29.204 | INFO     | blood_check.blood_check_test:get_manual_status:83 - 等待一秒钟，再去查询
+2022-07-19 17:49:29.204 | INFO     | blood_check.blood_check_test:get_manual_status:84 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': None}}
+2022-07-19 17:49:30.359 | INFO     | blood_check.blood_check_test:get_manual_status:83 - 等待一秒钟，再去查询
+2022-07-19 17:49:30.360 | INFO     | blood_check.blood_check_test:get_manual_status:84 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': None}}
+2022-07-19 17:49:31.555 | INFO     | blood_check.blood_check_test:get_manual_status:83 - 等待一秒钟，再去查询
+2022-07-19 17:49:31.555 | INFO     | blood_check.blood_check_test:get_manual_status:84 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': None}}
+2022-07-19 17:49:32.712 | INFO     | blood_check.blood_check_test:get_manual_status:83 - 等待一秒钟，再去查询
+2022-07-19 17:49:32.712 | INFO     | blood_check.blood_check_test:get_manual_status:84 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': None}}
+2022-07-19 17:49:33.910 | INFO     | blood_check.blood_check_test:get_manual_status:83 - 等待一秒钟，再去查询
+2022-07-19 17:49:33.910 | INFO     | blood_check.blood_check_test:get_manual_status:84 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 4, 'msg': 'WBC=0*（异常）\nRBC=0*（异常）\nPLT=0*（异常）\nHGB=0*（异常）'}}
+2022-07-19 17:49:34.896 | INFO     | blood_check.blood_check_test:create_order:98 - 生成订单接口请求参数为：{'dataId': '1549330556720041985'}
+2022-07-19 17:49:34.896 | INFO     | blood_check.blood_check_test:create_order:99 - 生成订单接口响应内容为:{"busiCode":0,"msg":"请求成功","data":{"orderNo":"BLD1002210701002622207191749346311","payUrl":"https://qr.95516.com/48020000/10VA2207199854934171711645","money":10.00,"promptMsg":"未支付","orderStatus":0}}
+2022-07-19 17:49:35.176 | INFO     | blood_check.blood_check_test:call_back:117 - 支付回调接口请求参数为：{'openId': '111111111111', 'orderNo': 'BLD1002210701002622207191749346311', 'outOrderNo': '111111111111111', 'outTransactionNo': '111111111111111111111', 'payChannel': '0', 'payFinishTime': '2022-07-19 17:52:34', 'payStatus': 'SUCCESS', 'payType': 'WXPAY', 'tradeType': 'JSAPI'}
+2022-07-19 17:49:35.177 | INFO     | blood_check.blood_check_test:call_back:118 - 支付回调接口响应内容为:{"busiCode":0,"msg":"请求成功","data":null}
+2022-07-19 17:49:35.177 | SUCCESS  | __main__:_blood_check_test:85 - 本次请求响应内容为{'code': 0, 'msg': '检测完成', 'data': []}
+2022-07-19 17:53:13.492 | INFO     | utils.login:login_test:22 - 本次登录获取token为:{'Authorization': 'bearer 39093976-9f0d-4171-98bd-bcda14fa4f41'}
+2022-07-19 17:53:13.957 | INFO     | utils.get_clinic_info_test:bind_gold_blood_device:71 - 绑定设备接口请求参数{'clinicId': 1546306972916723714, 'ids': [16], 'operateType': 1}
+2022-07-19 17:53:13.957 | INFO     | utils.get_clinic_info_test:bind_gold_blood_device:72 - 绑定设备接口返回参数{"busiCode":201,"msg":"一个诊所只能绑定同种设备一次","data":null}
+2022-07-19 17:53:14.066 | INFO     | utils.get_clinic_info_test:bind_gold_blood_device:71 - 绑定设备接口请求参数{'clinicId': 1546306972916723714, 'ids': [1386709332788838402], 'operateType': 1}
+2022-07-19 17:53:14.066 | INFO     | utils.get_clinic_info_test:bind_gold_blood_device:72 - 绑定设备接口返回参数{"busiCode":201,"msg":"一个诊所只能绑定同种设备一次","data":null}
+2022-07-19 17:53:14.593 | INFO     | blood_check.blood_check_test:add_patient:55 - 添加患者接口请求参数为:{'clinicId': 1546306972916723714, 'mobilePhone': '13600000000', 'userAge': 10, 'userMonth': 0, 'userName': '测试检测数据', 'userSex': 0}
+2022-07-19 17:53:14.594 | INFO     | blood_check.blood_check_test:add_patient:56 - 添加患者接口响应参数为:{"busiCode":0,"msg":"请求成功","data":"1549331522357874689"}
+2022-07-19 17:53:15.009 | INFO     | blood_check.blood_check_test:start_check:68 - 开始检测接口请求参数为：{'boardSno': '220301360723', 'cameraName': '测试相机', 'clinicId': 1546306972916723714, 'deviceSno': 'BLD100221070100263', 'hgbCalibration': [{'reference': 20317, 'groundTruth': 0, 'measure': 25501}, {'reference': 20732, 'groundTruth': 0, 'measure': 25637}, {'reference': 19684, 'groundTruth': 231, 'measure': 2397}, {'reference': 20401, 'groundTruth': 141, 'measure': 6061}, {'reference': 20628, 'groundTruth': 71, 'measure': 12633}, {'reference': 20360, 'groundTruth': 48, 'measure': 15893}], 'hgbCurveData': [], 'hgbMeasure': 0, 'hgbReference': 0, 'path': 'c69099f6-2df3-497b-b5ac-cefdca802aa9.zip', 'patientId': '1549331522357874689', 'pointConfig': {'plt': {'focus': 0, 'points': 0}, 'rbc': {'focus': 0, 'points': 0}, 'wbc': {'focus': 0, 'points': 0}}, 'type': 1}
+2022-07-19 17:53:15.009 | INFO     | blood_check.blood_check_test:start_check:69 - 开始检测接口响应内容为:{"busiCode":0,"msg":"请求成功","data":"1549331524064956418"}
+2022-07-19 17:53:16.165 | INFO     | blood_check.blood_check_test:get_manual_status:83 - 等待一秒钟，再去查询
+2022-07-19 17:53:16.165 | INFO     | blood_check.blood_check_test:get_manual_status:84 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': None}}
+2022-07-19 17:53:17.329 | INFO     | blood_check.blood_check_test:get_manual_status:83 - 等待一秒钟，再去查询
+2022-07-19 17:53:17.329 | INFO     | blood_check.blood_check_test:get_manual_status:84 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': None}}
+2022-07-19 17:53:18.479 | INFO     | blood_check.blood_check_test:get_manual_status:83 - 等待一秒钟，再去查询
+2022-07-19 17:53:18.479 | INFO     | blood_check.blood_check_test:get_manual_status:84 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': None}}
+2022-07-19 17:53:19.639 | INFO     | blood_check.blood_check_test:get_manual_status:83 - 等待一秒钟，再去查询
+2022-07-19 17:53:19.639 | INFO     | blood_check.blood_check_test:get_manual_status:84 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': None}}
+2022-07-19 17:53:20.789 | INFO     | blood_check.blood_check_test:get_manual_status:83 - 等待一秒钟，再去查询
+2022-07-19 17:53:20.789 | INFO     | blood_check.blood_check_test:get_manual_status:84 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': None}}
+2022-07-19 17:53:21.967 | INFO     | blood_check.blood_check_test:get_manual_status:83 - 等待一秒钟，再去查询
+2022-07-19 17:53:21.967 | INFO     | blood_check.blood_check_test:get_manual_status:84 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': None}}
+2022-07-19 17:53:23.344 | INFO     | blood_check.blood_check_test:get_manual_status:83 - 等待一秒钟，再去查询
+2022-07-19 17:53:23.344 | INFO     | blood_check.blood_check_test:get_manual_status:84 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': None}}
+2022-07-19 17:53:24.511 | INFO     | blood_check.blood_check_test:get_manual_status:83 - 等待一秒钟，再去查询
+2022-07-19 17:53:24.511 | INFO     | blood_check.blood_check_test:get_manual_status:84 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 4, 'msg': 'WBC=0*（异常）\nRBC=0*（异常）\nPLT=0*（异常）\nHGB=0*（异常）'}}
+2022-07-19 17:53:25.419 | INFO     | blood_check.blood_check_test:create_order:98 - 生成订单接口请求参数为：{'dataId': '1549331524064956418'}
+2022-07-19 17:53:25.419 | INFO     | blood_check.blood_check_test:create_order:99 - 生成订单接口响应内容为:{"busiCode":0,"msg":"请求成功","data":{"orderNo":"BLD1002210701002632207191753249110","payUrl":"https://qr.95516.com/48020000/10VA2207196435325174846931","money":10.00,"promptMsg":"未支付","orderStatus":0}}
+2022-07-19 17:53:25.693 | INFO     | blood_check.blood_check_test:call_back:117 - 支付回调接口请求参数为：{'openId': '111111111111', 'orderNo': 'BLD1002210701002632207191753249110', 'outOrderNo': '111111111111111', 'outTransactionNo': '111111111111111111111', 'payChannel': '0', 'payFinishTime': '2022-07-19 17:56:25', 'payStatus': 'SUCCESS', 'payType': 'WXPAY', 'tradeType': 'JSAPI'}
+2022-07-19 17:53:25.694 | INFO     | blood_check.blood_check_test:call_back:118 - 支付回调接口响应内容为:{"busiCode":0,"msg":"请求成功","data":null}
+2022-07-19 17:53:25.694 | SUCCESS  | __main__:_blood_check_test:85 - 本次请求响应内容为{'code': 0, 'msg': '检测完成', 'data': []}
+2022-07-19 17:56:55.807 | INFO     | utils.login:login_test:22 - 本次登录获取token为:{'Authorization': 'bearer 39093976-9f0d-4171-98bd-bcda14fa4f41'}
+2022-07-19 17:56:56.243 | INFO     | utils.get_clinic_info_test:bind_gold_blood_device:71 - 绑定设备接口请求参数{'clinicId': 1545224171014402050, 'ids': [16], 'operateType': 1}
+2022-07-19 17:56:56.243 | INFO     | utils.get_clinic_info_test:bind_gold_blood_device:72 - 绑定设备接口返回参数{"busiCode":201,"msg":"一个诊所只能绑定同种设备一次","data":null}
+2022-07-19 17:56:56.365 | INFO     | utils.get_clinic_info_test:bind_gold_blood_device:71 - 绑定设备接口请求参数{'clinicId': 1545224171014402050, 'ids': [1386709332788838402], 'operateType': 1}
+2022-07-19 17:56:56.365 | INFO     | utils.get_clinic_info_test:bind_gold_blood_device:72 - 绑定设备接口返回参数{"busiCode":201,"msg":"一个诊所只能绑定同种设备一次","data":null}
+2022-07-19 17:56:56.678 | INFO     | blood_check.blood_check_test:add_patient:55 - 添加患者接口请求参数为:{'clinicId': 1545224171014402050, 'mobilePhone': '13600000000', 'userAge': 10, 'userMonth': 0, 'userName': '测试检测数据', 'userSex': 0}
+2022-07-19 17:56:56.678 | INFO     | blood_check.blood_check_test:add_patient:56 - 添加患者接口响应参数为:{"busiCode":0,"msg":"请求成功","data":"1549332453996679169"}
+2022-07-19 17:56:56.933 | INFO     | blood_check.blood_check_test:start_check:68 - 开始检测接口请求参数为：{'boardSno': '220301360723', 'cameraName': '测试相机', 'clinicId': 1545224171014402050, 'deviceSno': 'BLD100221070100262', 'hgbCalibration': [{'reference': 20317, 'groundTruth': 0, 'measure': 25501}, {'reference': 20732, 'groundTruth': 0, 'measure': 25637}, {'reference': 19684, 'groundTruth': 231, 'measure': 2397}, {'reference': 20401, 'groundTruth': 141, 'measure': 6061}, {'reference': 20628, 'groundTruth': 71, 'measure': 12633}, {'reference': 20360, 'groundTruth': 48, 'measure': 15893}], 'hgbCurveData': [], 'hgbMeasure': 0, 'hgbReference': 0, 'path': 'c69099f6-2df3-497b-b5ac-cefdca802aa9.zip', 'patientId': '1549332453996679169', 'pointConfig': {'plt': {'focus': 0, 'points': 0}, 'rbc': {'focus': 0, 'points': 0}, 'wbc': {'focus': 0, 'points': 0}}, 'type': 1}
+2022-07-19 17:56:56.933 | INFO     | blood_check.blood_check_test:start_check:69 - 开始检测接口响应内容为:{"busiCode":0,"msg":"请求成功","data":"1549332454625824769"}
+2022-07-19 17:56:58.087 | INFO     | blood_check.blood_check_test:get_manual_status:83 - 等待一秒钟，再去查询
+2022-07-19 17:56:58.087 | INFO     | blood_check.blood_check_test:get_manual_status:84 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': None}}
+2022-07-19 17:56:59.238 | INFO     | blood_check.blood_check_test:get_manual_status:83 - 等待一秒钟，再去查询
+2022-07-19 17:56:59.238 | INFO     | blood_check.blood_check_test:get_manual_status:84 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': None}}
+2022-07-19 17:57:00.426 | INFO     | blood_check.blood_check_test:get_manual_status:83 - 等待一秒钟，再去查询
+2022-07-19 17:57:00.426 | INFO     | blood_check.blood_check_test:get_manual_status:84 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': None}}
+2022-07-19 17:57:01.576 | INFO     | blood_check.blood_check_test:get_manual_status:83 - 等待一秒钟，再去查询
+2022-07-19 17:57:01.576 | INFO     | blood_check.blood_check_test:get_manual_status:84 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': None}}
+2022-07-19 17:57:02.724 | INFO     | blood_check.blood_check_test:get_manual_status:83 - 等待一秒钟，再去查询
+2022-07-19 17:57:02.724 | INFO     | blood_check.blood_check_test:get_manual_status:84 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': None}}
+2022-07-19 17:57:03.879 | INFO     | blood_check.blood_check_test:get_manual_status:83 - 等待一秒钟，再去查询
+2022-07-19 17:57:03.879 | INFO     | blood_check.blood_check_test:get_manual_status:84 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': None}}
+2022-07-19 17:57:05.042 | INFO     | blood_check.blood_check_test:get_manual_status:83 - 等待一秒钟，再去查询
+2022-07-19 17:57:05.042 | INFO     | blood_check.blood_check_test:get_manual_status:84 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': None}}
+2022-07-19 17:57:06.202 | INFO     | blood_check.blood_check_test:get_manual_status:83 - 等待一秒钟，再去查询
+2022-07-19 17:57:06.202 | INFO     | blood_check.blood_check_test:get_manual_status:84 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 4, 'msg': 'WBC=0*（异常）\nRBC=0*（异常）\nPLT=0*（异常）\nHGB=0*（异常）'}}
+2022-07-19 17:57:07.337 | INFO     | blood_check.blood_check_test:create_order:98 - 生成订单接口请求参数为：{'dataId': '1549332454625824769'}
+2022-07-19 17:57:07.337 | INFO     | blood_check.blood_check_test:create_order:99 - 生成订单接口响应内容为:{"busiCode":0,"msg":"请求成功","data":{"orderNo":"BLD1002210701002622207191757062312","payUrl":"https://qr.95516.com/48020000/10VA2207194615707171202198","money":10.00,"promptMsg":"未支付","orderStatus":0}}
+2022-07-19 17:57:07.612 | INFO     | blood_check.blood_check_test:call_back:117 - 支付回调接口请求参数为：{'openId': '111111111111', 'orderNo': 'BLD1002210701002622207191757062312', 'outOrderNo': '111111111111111', 'outTransactionNo': '111111111111111111111', 'payChannel': '0', 'payFinishTime': '2022-07-19 18:00:07', 'payStatus': 'SUCCESS', 'payType': 'WXPAY', 'tradeType': 'JSAPI'}
+2022-07-19 17:57:07.612 | INFO     | blood_check.blood_check_test:call_back:118 - 支付回调接口响应内容为:{"busiCode":0,"msg":"请求成功","data":null}
+2022-07-19 17:57:07.613 | SUCCESS  | __main__:_blood_check_test:85 - 本次请求响应内容为{'code': 0, 'msg': '检测完成', 'data': []}
+2022-07-19 17:57:54.101 | INFO     | utils.login:login_test:22 - 本次登录获取token为:{'Authorization': 'bearer 39093976-9f0d-4171-98bd-bcda14fa4f41'}
+2022-07-19 17:57:54.662 | INFO     | utils.get_clinic_info_test:bind_gold_blood_device:71 - 绑定设备接口请求参数{'clinicId': 1546306972916723714, 'ids': [16], 'operateType': 1}
+2022-07-19 17:57:54.662 | INFO     | utils.get_clinic_info_test:bind_gold_blood_device:72 - 绑定设备接口返回参数{"busiCode":201,"msg":"一个诊所只能绑定同种设备一次","data":null}
+2022-07-19 17:57:54.759 | INFO     | utils.get_clinic_info_test:bind_gold_blood_device:71 - 绑定设备接口请求参数{'clinicId': 1546306972916723714, 'ids': [1386709332788838402], 'operateType': 1}
+2022-07-19 17:57:54.759 | INFO     | utils.get_clinic_info_test:bind_gold_blood_device:72 - 绑定设备接口返回参数{"busiCode":201,"msg":"一个诊所只能绑定同种设备一次","data":null}
+2022-07-19 17:57:55.075 | INFO     | gold_check.gold_check_test:add_patient:56 - 添加患者接口请求参数为:{'age': 18, 'deviceId': 'B15', 'month': 0, 'name': '华强测试', 'phone': '13622220000', 'sex': 0, 'termClinicId': 1546306972916723714}
+2022-07-19 17:57:55.075 | INFO     | gold_check.gold_check_test:add_patient:57 - 添加患者接口响应参数为:{"busiCode":0,"msg":"请求成功","data":{"patientId":"1549332698940391425"}}
+2022-07-19 17:57:56.891 | INFO     | gold_check.gold_check_test:start_check:69 - 开始检测接口请求参数为：{'clinicId': 1546306972916723714, 'file': None, 'sno': 'B15'}
+2022-07-19 17:57:56.891 | INFO     | gold_check.gold_check_test:start_check:70 - 开始检测接口响应内容为:{"busiCode":0,"msg":"请求成功","data":{"stripTypeCode":"18","stripBatch":"2","testPoctDataId":["1549332704023887874","1549332705261207553"],"imgUrl":"https://publicmedia.ehomepoct.com/jbyimage/CRP_SAA.png","reactTime":5,"warningTips":null,"stripName":"CRP+SAA双联试纸检测(II)"}}
+2022-07-19 17:57:58.412 | INFO     | gold_check.gold_check_test:create_order:87 - 生成订单接口请求参数为：{'addressDetail': '湖南省长沙市雨花区华坤时代', 'briefAddress': '湖南省长沙市雨花区雨河路279号靠近湘府路站', 'clinicId': 1546306972916723714, 'latitude': 0, 'longitude': 0, 'patientId': '1549332698940391425', 'position': '湖南省长沙市雨花区华坤时代', 'sno': 'B15', 'testDataIds': ['1549332704023887874', '1549332705261207553']}
+2022-07-19 17:57:58.412 | INFO     | gold_check.gold_check_test:create_order:88 - 生成订单接口响应内容为:{"busiCode":0,"msg":"请求成功","data":{"orderNo":"B152207191757570337","orderPrice":10.00,"orderOriginalPrice":10.00,"orderDiscounts":0.00,"orderStatus":0,"payUrl":"https://qr.95516.com/48020000/10VA2207198195757175414260","needPay":true,"showMoney":true,"showQrCode":true}}
+2022-07-19 17:57:58.676 | INFO     | gold_check.gold_check_test:call_back:105 - 支付回调接口请求参数为：{'clinicId': 1546306972916723714, 'file': None, 'sno': 'B15'}
+2022-07-19 17:57:58.676 | INFO     | gold_check.gold_check_test:call_back:106 - 支付回调接口响应内容为:{"busiCode":0,"msg":"请求成功","data":null}
+2022-07-19 17:57:58.676 | SUCCESS  | __main__:_gold_check_test:44 - 本次请求响应内容为{'code': 0, 'msg': '检测完成', 'data': []}
+2022-07-19 18:01:08.331 | INFO     | utils.login:login_test:22 - 本次登录获取token为:{'Authorization': 'bearer 39093976-9f0d-4171-98bd-bcda14fa4f41'}
+2022-07-19 18:01:08.999 | INFO     | utils.get_clinic_info_test:bind_gold_blood_device:71 - 绑定设备接口请求参数{'clinicId': 1546306972916723714, 'ids': [16], 'operateType': 1}
+2022-07-19 18:01:08.999 | INFO     | utils.get_clinic_info_test:bind_gold_blood_device:72 - 绑定设备接口返回参数{"busiCode":201,"msg":"一个诊所只能绑定同种设备一次","data":null}
+2022-07-19 18:01:09.098 | INFO     | utils.get_clinic_info_test:bind_gold_blood_device:71 - 绑定设备接口请求参数{'clinicId': 1546306972916723714, 'ids': [1386709332788838402], 'operateType': 1}
+2022-07-19 18:01:09.098 | INFO     | utils.get_clinic_info_test:bind_gold_blood_device:72 - 绑定设备接口返回参数{"busiCode":201,"msg":"一个诊所只能绑定同种设备一次","data":null}
+2022-07-19 18:01:09.492 | INFO     | online_check.gold_online_start.gold_online_test:add_patient:61 - 添加患者接口请求参数为:{'age': 18, 'deviceId': 'B15', 'month': 0, 'name': '华强测试', 'phone': '13622220000', 'sex': 0, 'termClinicId': 1546306972916723714}
+2022-07-19 18:01:09.493 | INFO     | online_check.gold_online_start.gold_online_test:add_patient:62 - 添加患者接口响应参数为:{"busiCode":0,"msg":"请求成功","data":{"patientId":"1549333514380197889"}}
+2022-07-19 18:01:11.359 | INFO     | online_check.gold_online_start.gold_online_test:start_CRP_and_SAA:89 - crp+saa检测接口请求参数为:{'clinicId': 1546306972916723714, 'sno': 'B15'}
+2022-07-19 18:01:11.360 | INFO     | online_check.gold_online_start.gold_online_test:start_CRP_and_SAA:90 - crp+saa检测接口响应参数为:{"busiCode":0,"msg":"请求成功","data":{"stripTypeCode":"4","stripBatch":"38","testPoctDataId":"1549333517286850561","imgUrl":"http://publicmedia.ehomepoct.com/jbyimage/CRP.png","reactTime":5,"warningTips":null,"stripName":"CRP检测(XXXVIII)"}}
+2022-07-19 18:01:11.458 | INFO     | online_check.gold_online_start.gold_online_test:upload_patient:73 - 发布患者信息接口请求参数为:{'age': 18, 'deviceId': 'B15', 'month': 0, 'name': '华强测试', 'phone': '13622220000', 'sex': 0, 'termClinicId': 1546306972916723714}
+2022-07-19 18:01:11.459 | INFO     | online_check.gold_online_start.gold_online_test:upload_patient:74 - 发布患者信息接口响应参数为:{"busiCode":0,"msg":"请求成功","data":"1549333522617810945"}
+2022-07-19 18:01:11.944 | INFO     | online_check.gold_online_start.gold_online_test:create_order:103 - 金标仪创建联测订单接口请求参数为:{'addressDetail': '湖南省长沙市雨花区华坤时代', 'briefAddress': '湖南省长沙市雨花区雨河路279号靠近湘府路站', 'latitude': 113.029384, 'longitude': 28.111673, 'recordId': '1549333522617810945', 'sno': 'B15', 'testDataIds': ['1549333517286850561', '1549333520889757697']}
+2022-07-19 18:01:11.944 | INFO     | online_check.gold_online_start.gold_online_test:create_order:104 - 金标仪创建联测订单接口响应参数为:{"busiCode":0,"msg":"请求成功","data":null}
+2022-07-19 18:01:12.270 | INFO     | online_check.gold_online_start.gold_online_test:blood_test:117 - 血常规检测接口请求参数为:{'boardSno': '220301360723', 'cameraName': '测试相机', 'clinicId': 1546306972916723714, 'deviceSno': 'BLD100221070100263', 'hgbCalibration': [{'reference': 20317, 'groundTruth': 0, 'measure': 25501}, {'reference': 20732, 'groundTruth': 0, 'measure': 25637}, {'reference': 19684, 'groundTruth': 231, 'measure': 2397}, {'reference': 20401, 'groundTruth': 141, 'measure': 6061}, {'reference': 20628, 'groundTruth': 71, 'measure': 12633}, {'reference': 20360, 'groundTruth': 48, 'measure': 15893}], 'hgbCurveData': [], 'hgbMeasure': 0, 'hgbReference': 0, 'path': 'c69099f6-2df3-497b-b5ac-cefdca802aa9.zip', 'patientId': '1549333514380197889', 'pointConfig': {'plt': {'focus': 0, 'points': 0}, 'rbc': {'focus': 0, 'points': 0}, 'wbc': {'focus': 0, 'points': 0}}, 'type': 2}
+2022-07-19 18:01:12.270 | INFO     | online_check.gold_online_start.gold_online_test:blood_test:118 - 血常规检测接口响应参数为:{"busiCode":0,"msg":"请求成功","data":"1549333525377110018"}
+2022-07-19 18:01:13.466 | INFO     | online_check.gold_online_start.gold_online_test:get_manual_status:130 - 等待一秒钟，再去查询
+2022-07-19 18:01:13.466 | INFO     | online_check.gold_online_start.gold_online_test:get_manual_status:131 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': None}}
+2022-07-19 18:01:14.621 | INFO     | online_check.gold_online_start.gold_online_test:get_manual_status:130 - 等待一秒钟，再去查询
+2022-07-19 18:01:14.622 | INFO     | online_check.gold_online_start.gold_online_test:get_manual_status:131 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': None}}
+2022-07-19 18:01:15.777 | INFO     | online_check.gold_online_start.gold_online_test:get_manual_status:130 - 等待一秒钟，再去查询
+2022-07-19 18:01:15.777 | INFO     | online_check.gold_online_start.gold_online_test:get_manual_status:131 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': None}}
+2022-07-19 18:01:16.946 | INFO     | online_check.gold_online_start.gold_online_test:get_manual_status:130 - 等待一秒钟，再去查询
+2022-07-19 18:01:16.946 | INFO     | online_check.gold_online_start.gold_online_test:get_manual_status:131 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': None}}
+2022-07-19 18:01:18.102 | INFO     | online_check.gold_online_start.gold_online_test:get_manual_status:130 - 等待一秒钟，再去查询
+2022-07-19 18:01:18.102 | INFO     | online_check.gold_online_start.gold_online_test:get_manual_status:131 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': None}}
+2022-07-19 18:01:19.259 | INFO     | online_check.gold_online_start.gold_online_test:get_manual_status:130 - 等待一秒钟，再去查询
+2022-07-19 18:01:19.259 | INFO     | online_check.gold_online_start.gold_online_test:get_manual_status:131 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': None}}
+2022-07-19 18:01:20.419 | INFO     | online_check.gold_online_start.gold_online_test:get_manual_status:130 - 等待一秒钟，再去查询
+2022-07-19 18:01:20.419 | INFO     | online_check.gold_online_start.gold_online_test:get_manual_status:131 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': None}}
+2022-07-19 18:01:21.573 | INFO     | online_check.gold_online_start.gold_online_test:get_manual_status:130 - 等待一秒钟，再去查询
+2022-07-19 18:01:21.574 | INFO     | online_check.gold_online_start.gold_online_test:get_manual_status:131 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 4, 'msg': 'WBC=0*（异常）\nRBC=0*（异常）\nPLT=0*（异常）\nHGB=0*（异常）'}}
+2022-07-19 18:01:23.433 | INFO     | online_check.gold_online_start.gold_online_test:order_palce_blood:144 - 血常规下单接口请求参数为:{'dataId': '1549333525377110018', 'recordId': '1549333522617810945'}
+2022-07-19 18:01:23.434 | INFO     | online_check.gold_online_start.gold_online_test:order_palce_blood:145 - 血常规下单接口响应参数为:{"busiCode":0,"msg":"请求成功","data":{"orderNo":"B152207191801119682","payUrl":"https://qr.95516.com/48020000/10VA2207191520123188179348","money":10.00,"promptMsg":"未支付","orderStatus":0}}
+2022-07-19 18:01:23.831 | INFO     | online_check.gold_online_start.gold_online_test:call_back:161 - 支付回调接口请求参数为：{'openId': '111111111111', 'orderNo': 'B152207191801119682', 'outOrderNo': '111111111111111', 'outTransactionNo': '111111111111111111111', 'payChannel': '0', 'payFinishTime': '2022-07-19 18:02:23', 'payStatus': 'SUCCESS', 'payType': 'WXPAY', 'tradeType': 'JSAPI'}
+2022-07-19 18:01:23.831 | INFO     | online_check.gold_online_start.gold_online_test:call_back:162 - 支付回调接口响应内容为:{"busiCode":0,"msg":"请求成功","data":null}
+2022-07-19 18:01:23.832 | SUCCESS  | __main__:_online_gold_check_test:125 - 本次请求响应内容为{'code': 0, 'msg': '检测完成', 'data': []}
+2022-07-19 18:02:39.730 | INFO     | utils.login:login_test:22 - 本次登录获取token为:{'Authorization': 'bearer 39093976-9f0d-4171-98bd-bcda14fa4f41'}
+2022-07-19 18:02:40.178 | INFO     | utils.get_clinic_info_test:bind_gold_blood_device:71 - 绑定设备接口请求参数{'clinicId': 1545224171014402050, 'ids': [16], 'operateType': 1}
+2022-07-19 18:02:40.178 | INFO     | utils.get_clinic_info_test:bind_gold_blood_device:72 - 绑定设备接口返回参数{"busiCode":201,"msg":"一个诊所只能绑定同种设备一次","data":null}
+2022-07-19 18:02:40.275 | INFO     | utils.get_clinic_info_test:bind_gold_blood_device:71 - 绑定设备接口请求参数{'clinicId': 1545224171014402050, 'ids': [1386709332788838402], 'operateType': 1}
+2022-07-19 18:02:40.276 | INFO     | utils.get_clinic_info_test:bind_gold_blood_device:72 - 绑定设备接口返回参数{"busiCode":201,"msg":"一个诊所只能绑定同种设备一次","data":null}
+2022-07-19 18:02:40.707 | INFO     | blood_check.blood_check_test:add_patient:55 - 添加患者接口请求参数为:{'clinicId': 1545224171014402050, 'mobilePhone': '13600000000', 'userAge': 10, 'userMonth': 0, 'userName': '测试检测数据', 'userSex': 0}
+2022-07-19 18:02:40.707 | INFO     | blood_check.blood_check_test:add_patient:56 - 添加患者接口响应参数为:{"busiCode":0,"msg":"请求成功","data":"1549333896967278593"}
+2022-07-19 18:02:40.950 | INFO     | blood_check.blood_check_test:start_check:68 - 开始检测接口请求参数为：{'boardSno': '220301360723', 'cameraName': '测试相机', 'clinicId': 1545224171014402050, 'deviceSno': 'BLD100221070100262', 'hgbCalibration': [{'reference': 20317, 'groundTruth': 0, 'measure': 25501}, {'reference': 20732, 'groundTruth': 0, 'measure': 25637}, {'reference': 19684, 'groundTruth': 231, 'measure': 2397}, {'reference': 20401, 'groundTruth': 141, 'measure': 6061}, {'reference': 20628, 'groundTruth': 71, 'measure': 12633}, {'reference': 20360, 'groundTruth': 48, 'measure': 15893}], 'hgbCurveData': [], 'hgbMeasure': 0, 'hgbReference': 0, 'path': 'c69099f6-2df3-497b-b5ac-cefdca802aa9.zip', 'patientId': '1549333896967278593', 'pointConfig': {'plt': {'focus': 0, 'points': 0}, 'rbc': {'focus': 0, 'points': 0}, 'wbc': {'focus': 0, 'points': 0}}, 'type': 1}
+2022-07-19 18:02:40.951 | INFO     | blood_check.blood_check_test:start_check:69 - 开始检测接口响应内容为:{"busiCode":0,"msg":"请求成功","data":"1549333897873248257"}
+2022-07-19 18:02:42.113 | INFO     | blood_check.blood_check_test:get_manual_status:83 - 等待一秒钟，再去查询
+2022-07-19 18:02:42.113 | INFO     | blood_check.blood_check_test:get_manual_status:84 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': None}}
+2022-07-19 18:02:43.280 | INFO     | blood_check.blood_check_test:get_manual_status:83 - 等待一秒钟，再去查询
+2022-07-19 18:02:43.280 | INFO     | blood_check.blood_check_test:get_manual_status:84 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': None}}
+2022-07-19 18:02:44.432 | INFO     | blood_check.blood_check_test:get_manual_status:83 - 等待一秒钟，再去查询
+2022-07-19 18:02:44.432 | INFO     | blood_check.blood_check_test:get_manual_status:84 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': None}}
+2022-07-19 18:02:45.587 | INFO     | blood_check.blood_check_test:get_manual_status:83 - 等待一秒钟，再去查询
+2022-07-19 18:02:45.587 | INFO     | blood_check.blood_check_test:get_manual_status:84 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': None}}
+2022-07-19 18:02:46.745 | INFO     | blood_check.blood_check_test:get_manual_status:83 - 等待一秒钟，再去查询
+2022-07-19 18:02:46.745 | INFO     | blood_check.blood_check_test:get_manual_status:84 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': None}}
+2022-07-19 18:02:47.902 | INFO     | blood_check.blood_check_test:get_manual_status:83 - 等待一秒钟，再去查询
+2022-07-19 18:02:47.902 | INFO     | blood_check.blood_check_test:get_manual_status:84 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': None}}
+2022-07-19 18:02:49.060 | INFO     | blood_check.blood_check_test:get_manual_status:83 - 等待一秒钟，再去查询
+2022-07-19 18:02:49.060 | INFO     | blood_check.blood_check_test:get_manual_status:84 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': None}}
+2022-07-19 18:02:50.214 | INFO     | blood_check.blood_check_test:get_manual_status:83 - 等待一秒钟，再去查询
+2022-07-19 18:02:50.214 | INFO     | blood_check.blood_check_test:get_manual_status:84 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 4, 'msg': 'WBC=0*（异常）\nRBC=0*（异常）\nPLT=0*（异常）\nHGB=0*（异常）'}}
+2022-07-19 18:02:51.739 | INFO     | blood_check.blood_check_test:create_order:98 - 生成订单接口请求参数为：{'dataId': '1549333897873248257'}
+2022-07-19 18:02:51.740 | INFO     | blood_check.blood_check_test:create_order:99 - 生成订单接口响应内容为:{"busiCode":0,"msg":"请求成功","data":{"orderNo":"BLD1002210701002622207191802509639","payUrl":"https://qr.95516.com/48020000/10VA2207191310251184766603","money":10.00,"promptMsg":"未支付","orderStatus":0}}
+2022-07-19 18:02:52.003 | INFO     | blood_check.blood_check_test:call_back:117 - 支付回调接口请求参数为：{'openId': '111111111111', 'orderNo': 'BLD1002210701002622207191802509639', 'outOrderNo': '111111111111111', 'outTransactionNo': '111111111111111111111', 'payChannel': '0', 'payFinishTime': '2022-07-19 18:05:51', 'payStatus': 'SUCCESS', 'payType': 'WXPAY', 'tradeType': 'JSAPI'}
+2022-07-19 18:02:52.003 | INFO     | blood_check.blood_check_test:call_back:118 - 支付回调接口响应内容为:{"busiCode":0,"msg":"请求成功","data":null}
+2022-07-19 18:02:52.003 | SUCCESS  | __main__:_blood_check_test:85 - 本次请求响应内容为{'code': 0, 'msg': '检测完成', 'data': []}

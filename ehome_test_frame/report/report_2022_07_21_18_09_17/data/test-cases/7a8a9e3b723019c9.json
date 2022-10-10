@@ -1,0 +1,65 @@
+{
+  "uid" : "7a8a9e3b723019c9",
+  "name" : "test_01",
+  "fullName" : "conftest#test_01",
+  "historyId" : "1bc96a174c145df868a250f0fe299b23",
+  "time" : {
+    "start" : 1658394516684,
+    "stop" : 1658394516684,
+    "duration" : 0
+  },
+  "status" : "failed",
+  "statusMessage" : "Failed: Fixture \"get_env\" called directly. Fixtures are not meant to be called directly,\nbut are created automatically when test functions request them as parameters.\nSee https://docs.pytest.org/en/stable/fixture.html for more information about fixtures, and\nhttps://docs.pytest.org/en/stable/deprecations.html#calling-fixtures-directly about how to update your code.",
+  "statusTrace" : "Fixture \"get_env\" called directly. Fixtures are not meant to be called directly,\nbut are created automatically when test functions request them as parameters.\nSee https://docs.pytest.org/en/stable/fixture.html for more information about fixtures, and\nhttps://docs.pytest.org/en/stable/deprecations.html#calling-fixtures-directly about how to update your code.",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "conftest"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-B9EI7PH"
+  }, {
+    "name" : "thread",
+    "value" : "81484-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "conftest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "66c9de07a8116172",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'function' object has no attribute 'env'",
+      "time" : {
+        "start" : 1658394505419,
+        "stop" : 1658394505419,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "7a8a9e3b723019c9.json",
+  "parameterValues" : [ ]
+}

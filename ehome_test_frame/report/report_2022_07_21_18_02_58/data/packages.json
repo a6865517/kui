@@ -1,0 +1,299 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "tests.agent.mall_manage.test_member_receive_address_save",
+    "children" : [ {
+      "name" : "2.该用例用于测试，请忽略222",
+      "uid" : "a0d528e47f79f3ec",
+      "parentUid" : "8cf0afb857b754e14bb87501bf62090e",
+      "status" : "failed",
+      "time" : {
+        "start" : 1658369288485,
+        "stop" : 1658369288668,
+        "duration" : 183
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "{'case': '2.该用例用于测试，请忽略222', 'request': {'methods': 'POST', 'path': 'http://test-client.ehomepoct.com/mall-manage/memberReceiveAddress/save', 'login_user': 13622223662, 'data': {'areacode': '', 'city': '', 'defaultStatus': True, 'detailAddress': '', 'name': '', 'phone': '', 'postCode': '', 'province': '', 'region': ''}}, 'asserts': {'response': {'busiCode': 0, 'msg': '请求成功', 'data': None}}}" ]
+    }, {
+      "name" : "3.该用例用于测试，请忽略333",
+      "uid" : "b4b6aaca2628101c",
+      "parentUid" : "8cf0afb857b754e14bb87501bf62090e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1658369288691,
+        "stop" : 1658369288850,
+        "duration" : 159
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "{'case': '3.该用例用于测试，请忽略333', 'request': {'methods': 'GET', 'path': 'http://test-client.ehomepoct.com/mall-manage/memberReceiveAddress/save', 'login_user': 13622223662, 'data': {'areacode': '', 'city': '', 'defaultStatus': True, 'detailAddress': '', 'name': '', 'phone': '', 'postCode': '', 'province': '', 'region': ''}}, 'asserts': {'response': {'busiCode': 0, 'msg': '请求成功', 'data': None}}}" ]
+    }, {
+      "name" : "4.该用例用于测试，请忽略333",
+      "uid" : "546df60bb1d66839",
+      "parentUid" : "8cf0afb857b754e14bb87501bf62090e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1658369288874,
+        "stop" : 1658369289049,
+        "duration" : 175
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "{'case': '4.该用例用于测试，请忽略333', 'request': {'methods': 'get', 'path': 'http://test-client.ehomepoct.com/mall-manage/memberReceiveAddress/save', 'login_user': 13622223662, 'data': {'areacode': '', 'city': '', 'defaultStatus': True, 'detailAddress': '', 'name': '', 'phone': '', 'postCode': '', 'province': '', 'region': ''}}, 'asserts': {'response': {'busiCode': 0, 'msg': '请求成功', 'data': None}}}" ]
+    }, {
+      "name" : "4.该用例用于测试，请忽略333",
+      "uid" : "f74181cfa85db2ba",
+      "parentUid" : "8cf0afb857b754e14bb87501bf62090e",
+      "status" : "failed",
+      "time" : {
+        "start" : 1658369289067,
+        "stop" : 1658369289230,
+        "duration" : 163
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "{'case': '4.该用例用于测试，请忽略333', 'request': {'methods': 'post', 'path': 'http://test-client.ehomepoct.com/mall-manage/memberReceiveAddress/save', 'login_user': 13622223662, 'data': {'areacode': '', 'city': '', 'defaultStatus': True, 'detailAddress': '', 'name': '', 'phone': '', 'postCode': '', 'province': '', 'region': ''}}, 'asserts': {'response': {'busiCode': 0, 'msg': '请求成功', 'data': None}}}" ]
+    }, {
+      "name" : "1.该用例用于测试，请忽略111",
+      "uid" : "1f6bc166af45d5e9",
+      "parentUid" : "8cf0afb857b754e14bb87501bf62090e",
+      "status" : "failed",
+      "time" : {
+        "start" : 1658369289250,
+        "stop" : 1658369289449,
+        "duration" : 199
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "{'case': '1.该用例用于测试，请忽略111', 'request': {'methods': 'POST', 'path': 'http://test-client.ehomepoct.com/mall-manage/memberReceiveAddress/save', 'login_user': 13622223661, 'data': {'areacode': '', 'city': '', 'defaultStatus': True, 'detailAddress': '', 'name': '', 'phone': '', 'postCode': '', 'province': '', 'region': ''}}, 'asserts': {'response': {'busiCode': 0, 'msg': '请求成功', 'data': None}}}" ]
+    }, {
+      "name" : "2.该用例用于测试，请忽略222",
+      "uid" : "9e2d0f665e6c1988",
+      "parentUid" : "8cf0afb857b754e14bb87501bf62090e",
+      "status" : "failed",
+      "time" : {
+        "start" : 1658369289479,
+        "stop" : 1658369289633,
+        "duration" : 154
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "{'case': '2.该用例用于测试，请忽略222', 'request': {'methods': 'POST', 'path': 'http://test-client.ehomepoct.com/mall-manage/memberReceiveAddress/save', 'login_user': 13622223662, 'data': {'areacode': '', 'city': '', 'defaultStatus': True, 'detailAddress': '', 'name': '', 'phone': '', 'postCode': '', 'province': '', 'region': ''}}, 'asserts': {'response': {'busiCode': 0, 'msg': '请求成功', 'data': None}}}" ]
+    }, {
+      "name" : "3.该用例用于测试，请忽略333",
+      "uid" : "883b1190f970659c",
+      "parentUid" : "8cf0afb857b754e14bb87501bf62090e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1658369289661,
+        "stop" : 1658369289826,
+        "duration" : 165
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "{'case': '3.该用例用于测试，请忽略333', 'request': {'methods': 'GET', 'path': 'http://test-client.ehomepoct.com/mall-manage/memberReceiveAddress/save', 'login_user': 13622223662, 'data': {'areacode': '', 'city': '', 'defaultStatus': True, 'detailAddress': '', 'name': '', 'phone': '', 'postCode': '', 'province': '', 'region': ''}}, 'asserts': {'response': {'busiCode': 0, 'msg': '请求成功', 'data': None}}}" ]
+    }, {
+      "name" : "4.该用例用于测试，请忽略333",
+      "uid" : "655bd1db49b3d4b8",
+      "parentUid" : "8cf0afb857b754e14bb87501bf62090e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1658369289844,
+        "stop" : 1658369290003,
+        "duration" : 159
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "{'case': '4.该用例用于测试，请忽略333', 'request': {'methods': 'get', 'path': 'http://test-client.ehomepoct.com/mall-manage/memberReceiveAddress/save', 'login_user': 13622223662, 'data': {'areacode': '', 'city': '', 'defaultStatus': True, 'detailAddress': '', 'name': '', 'phone': '', 'postCode': '', 'province': '', 'region': ''}}, 'asserts': {'response': {'busiCode': 0, 'msg': '请求成功', 'data': None}}}" ]
+    }, {
+      "name" : "4.该用例用于测试，请忽略333",
+      "uid" : "63789adced8704e9",
+      "parentUid" : "8cf0afb857b754e14bb87501bf62090e",
+      "status" : "failed",
+      "time" : {
+        "start" : 1658369290027,
+        "stop" : 1658369290188,
+        "duration" : 161
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "{'case': '4.该用例用于测试，请忽略333', 'request': {'methods': 'post', 'path': 'http://test-client.ehomepoct.com/mall-manage/memberReceiveAddress/save', 'login_user': 13622223662, 'data': {'areacode': '', 'city': '', 'defaultStatus': True, 'detailAddress': '', 'name': '', 'phone': '', 'postCode': '', 'province': '', 'region': ''}}, 'asserts': {'response': {'busiCode': 0, 'msg': '请求成功', 'data': None}}}" ]
+    }, {
+      "name" : "1.该用例用于测试，请忽略111",
+      "uid" : "638ba39c97eeeb83",
+      "parentUid" : "8cf0afb857b754e14bb87501bf62090e",
+      "status" : "failed",
+      "time" : {
+        "start" : 1658369290210,
+        "stop" : 1658369290370,
+        "duration" : 160
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "{'case': '1.该用例用于测试，请忽略111', 'request': {'methods': 'POST', 'path': 'http://test-client.ehomepoct.com/mall-manage/memberReceiveAddress/save', 'login_user': 13622223661, 'data': {'areacode': '', 'city': '', 'defaultStatus': True, 'detailAddress': '', 'name': '', 'phone': '', 'postCode': '', 'province': '', 'region': ''}}, 'asserts': {'response': {'busiCode': 0, 'msg': '请求成功', 'data': None}}}" ]
+    }, {
+      "name" : "2.该用例用于测试，请忽略222",
+      "uid" : "5529b55f1db1d163",
+      "parentUid" : "8cf0afb857b754e14bb87501bf62090e",
+      "status" : "failed",
+      "time" : {
+        "start" : 1658369290393,
+        "stop" : 1658369290563,
+        "duration" : 170
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "{'case': '2.该用例用于测试，请忽略222', 'request': {'methods': 'POST', 'path': 'http://test-client.ehomepoct.com/mall-manage/memberReceiveAddress/save', 'login_user': 13622223662, 'data': {'areacode': '', 'city': '', 'defaultStatus': True, 'detailAddress': '', 'name': '', 'phone': '', 'postCode': '', 'province': '', 'region': ''}}, 'asserts': {'response': {'busiCode': 0, 'msg': '请求成功', 'data': None}}}" ]
+    }, {
+      "name" : "3.该用例用于测试，请忽略333",
+      "uid" : "36d577ccb6bccf04",
+      "parentUid" : "8cf0afb857b754e14bb87501bf62090e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1658369290586,
+        "stop" : 1658369290765,
+        "duration" : 179
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "{'case': '3.该用例用于测试，请忽略333', 'request': {'methods': 'GET', 'path': 'http://test-client.ehomepoct.com/mall-manage/memberReceiveAddress/save', 'login_user': 13622223662, 'data': {'areacode': '', 'city': '', 'defaultStatus': True, 'detailAddress': '', 'name': '', 'phone': '', 'postCode': '', 'province': '', 'region': ''}}, 'asserts': {'response': {'busiCode': 0, 'msg': '请求成功', 'data': None}}}" ]
+    }, {
+      "name" : "4.该用例用于测试，请忽略333",
+      "uid" : "861eefbda70da68c",
+      "parentUid" : "8cf0afb857b754e14bb87501bf62090e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1658369290791,
+        "stop" : 1658369290949,
+        "duration" : 158
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "{'case': '4.该用例用于测试，请忽略333', 'request': {'methods': 'get', 'path': 'http://test-client.ehomepoct.com/mall-manage/memberReceiveAddress/save', 'login_user': 13622223662, 'data': {'areacode': '', 'city': '', 'defaultStatus': True, 'detailAddress': '', 'name': '', 'phone': '', 'postCode': '', 'province': '', 'region': ''}}, 'asserts': {'response': {'busiCode': 0, 'msg': '请求成功', 'data': None}}}" ]
+    }, {
+      "name" : "4.该用例用于测试，请忽略333",
+      "uid" : "bd278a6376178e56",
+      "parentUid" : "8cf0afb857b754e14bb87501bf62090e",
+      "status" : "failed",
+      "time" : {
+        "start" : 1658369290974,
+        "stop" : 1658369291129,
+        "duration" : 155
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "{'case': '4.该用例用于测试，请忽略333', 'request': {'methods': 'post', 'path': 'http://test-client.ehomepoct.com/mall-manage/memberReceiveAddress/save', 'login_user': 13622223662, 'data': {'areacode': '', 'city': '', 'defaultStatus': True, 'detailAddress': '', 'name': '', 'phone': '', 'postCode': '', 'province': '', 'region': ''}}, 'asserts': {'response': {'busiCode': 0, 'msg': '请求成功', 'data': None}}}" ]
+    }, {
+      "name" : "1.该用例用于测试，请忽略111",
+      "uid" : "d6c0dd23adaebdb8",
+      "parentUid" : "8cf0afb857b754e14bb87501bf62090e",
+      "status" : "failed",
+      "time" : {
+        "start" : 1658369291156,
+        "stop" : 1658369291327,
+        "duration" : 171
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "{'case': '1.该用例用于测试，请忽略111', 'request': {'methods': 'POST', 'path': 'http://test-client.ehomepoct.com/mall-manage/memberReceiveAddress/save', 'login_user': 13622223661, 'data': {'areacode': '', 'city': '', 'defaultStatus': True, 'detailAddress': '', 'name': '', 'phone': '', 'postCode': '', 'province': '', 'region': ''}}, 'asserts': {'response': {'busiCode': 0, 'msg': '请求成功', 'data': None}}}" ]
+    }, {
+      "name" : "2.该用例用于测试，请忽略222",
+      "uid" : "ba044a376a0db01a",
+      "parentUid" : "8cf0afb857b754e14bb87501bf62090e",
+      "status" : "failed",
+      "time" : {
+        "start" : 1658369291351,
+        "stop" : 1658369291504,
+        "duration" : 153
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "{'case': '2.该用例用于测试，请忽略222', 'request': {'methods': 'POST', 'path': 'http://test-client.ehomepoct.com/mall-manage/memberReceiveAddress/save', 'login_user': 13622223662, 'data': {'areacode': '', 'city': '', 'defaultStatus': True, 'detailAddress': '', 'name': '', 'phone': '', 'postCode': '', 'province': '', 'region': ''}}, 'asserts': {'response': {'busiCode': 0, 'msg': '请求成功', 'data': None}}}" ]
+    }, {
+      "name" : "3.该用例用于测试，请忽略333",
+      "uid" : "1941b9443b28608",
+      "parentUid" : "8cf0afb857b754e14bb87501bf62090e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1658369291536,
+        "stop" : 1658369291696,
+        "duration" : 160
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "{'case': '3.该用例用于测试，请忽略333', 'request': {'methods': 'GET', 'path': 'http://test-client.ehomepoct.com/mall-manage/memberReceiveAddress/save', 'login_user': 13622223662, 'data': {'areacode': '', 'city': '', 'defaultStatus': True, 'detailAddress': '', 'name': '', 'phone': '', 'postCode': '', 'province': '', 'region': ''}}, 'asserts': {'response': {'busiCode': 0, 'msg': '请求成功', 'data': None}}}" ]
+    }, {
+      "name" : "4.该用例用于测试，请忽略333",
+      "uid" : "fbc75ff04d570ca8",
+      "parentUid" : "8cf0afb857b754e14bb87501bf62090e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1658369291717,
+        "stop" : 1658369291873,
+        "duration" : 156
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "{'case': '4.该用例用于测试，请忽略333', 'request': {'methods': 'get', 'path': 'http://test-client.ehomepoct.com/mall-manage/memberReceiveAddress/save', 'login_user': 13622223662, 'data': {'areacode': '', 'city': '', 'defaultStatus': True, 'detailAddress': '', 'name': '', 'phone': '', 'postCode': '', 'province': '', 'region': ''}}, 'asserts': {'response': {'busiCode': 0, 'msg': '请求成功', 'data': None}}}" ]
+    }, {
+      "name" : "4.该用例用于测试，请忽略333",
+      "uid" : "db45340c31296759",
+      "parentUid" : "8cf0afb857b754e14bb87501bf62090e",
+      "status" : "failed",
+      "time" : {
+        "start" : 1658369291899,
+        "stop" : 1658369292053,
+        "duration" : 154
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "{'case': '4.该用例用于测试，请忽略333', 'request': {'methods': 'post', 'path': 'http://test-client.ehomepoct.com/mall-manage/memberReceiveAddress/save', 'login_user': 13622223662, 'data': {'areacode': '', 'city': '', 'defaultStatus': True, 'detailAddress': '', 'name': '', 'phone': '', 'postCode': '', 'province': '', 'region': ''}}, 'asserts': {'response': {'busiCode': 0, 'msg': '请求成功', 'data': None}}}" ]
+    }, {
+      "name" : "test_member_receive_address_save[test_data0]",
+      "uid" : "ce2d53aeacf5eef3",
+      "parentUid" : "8cf0afb857b754e14bb87501bf62090e",
+      "status" : "broken",
+      "time" : {
+        "start" : 1658397778024,
+        "stop" : 1658397778024,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "{'case': '1.该用例用于测试，请忽略111', 'request': {'methods': 'POST', 'path': 'mall-manage/memberReceiveAddress/save', 'login_user': 13622223661, 'headers': {'origin': 'ios', 'sec-fetch-mode': 'cors'}, 'data': {'areacode': '', 'city': '', 'defaultStatus': True, 'detailAddress': '', 'name': '', 'phone': '', 'postCode': '', 'province': '', 'region': ''}}, 'asserts': {'response': {'busiCode': 400, 'msg': '参数解析异常', 'data': None}}}" ]
+    } ],
+    "uid" : "tests.agent.mall_manage.test_member_receive_address_save"
+  }, {
+    "name" : "conftest",
+    "children" : [ {
+      "name" : "test_search",
+      "uid" : "19eae0b8c7a271dc",
+      "parentUid" : "a259002b022e8296e5f8d1b56c0061f7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1658394267865,
+        "stop" : 1658394267971,
+        "duration" : 106
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_01",
+      "uid" : "77f2fd152b98036a",
+      "parentUid" : "a259002b022e8296e5f8d1b56c0061f7",
+      "status" : "failed",
+      "time" : {
+        "start" : 1658394516684,
+        "stop" : 1658394516684,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "a259002b022e8296e5f8d1b56c0061f7"
+  } ]
+}

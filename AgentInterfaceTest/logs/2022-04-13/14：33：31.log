@@ -1,0 +1,4 @@
+2022-04-13 14:33:31.993 | INFO     | common.unittestMain:req_assert:77 - 接口响应时间为：0.120209
+2022-04-13 14:33:31.993 | INFO     | common.unittestMain:req_assert:79 - busicode与预期一致为：0
+2022-04-13 14:33:31.994 | INFO     | common.unittestMain:req_assert:81 - msg与预期一致
+2022-04-13 14:33:31.994 | INFO     | agentTestCase:test_005_post_queryClinicRingRatioData:106 - 响应内容与预期一致

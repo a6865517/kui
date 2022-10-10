@@ -1,0 +1,55 @@
+#按日期维度查询合伙人环比数据，参数period为枚举值，	统计维度 日-day 周-week 月-month 季-quarter
+- api: /ehome-dist-crm-app/app/statistical/agent/queryRatioData
+  login_phone: 13698765432
+  assert_type: 2
+  data: { "period": "day" }
+  assert: { 'code': 0,'msg': '请求成功',data: "'newAgentNum': 0",dataLong: 50 }
+
+
+- api: /ehome-dist-crm-app/app/statistical/agent/queryRatioData
+  login_phone: 13698765432
+  assert_type: 2
+  data: { "period": "week" }
+  assert: { 'code': 0,'msg': '请求成功',data: "'newAgentNum': 0",dataLong: 50 }
+
+
+- api: /ehome-dist-crm-app/app/statistical/agent/queryRatioData
+  login_phone: 13698765432
+  assert_type: 2
+  data: { "period": "month" }
+  assert: { 'code': 0,'msg': '请求成功',data: "'newAgentNum': 0",dataLong: 50 }
+
+
+- api: /ehome-dist-crm-app/app/statistical/agent/queryRatioData
+  login_phone: 13698765432
+  assert_type: 2
+  data: { "period": "quarter" }
+  assert: { 'code': 0,'msg': '请求成功',data: "'newAgentNum': 0",dataLong: 50 }
+
+
+- api: /ehome-dist-crm-app/app/statistical/agent/queryRatioData
+  login_phone: 13698765432
+  assert_type: 1
+  data: { "period": "0" }
+  assert: { 'code': -1,'msg': '接口未知异常',data: null,dataLong: 50 }
+
+
+- api: /ehome-dist-crm-app/app/statistical/agent/queryRatioData
+  login_phone: 13698765432
+  assert_type: 1
+  data: { "period": "你好" }
+  assert: { 'code': -1,'msg': '接口未知异常',data: null,dataLong: 50 }
+
+
+- api: /ehome-dist-crm-app/app/statistical/agent/queryRatioData
+  login_phone: 13698765432
+  assert_type: 1
+  data: { "period": "a" }
+  assert: { 'code': -1,'msg': '接口未知异常',data: null,dataLong: 50 }
+
+
+- api: /ehome-dist-crm-app/app/statistical/agent/queryRatioData
+  login_phone: 13698765432
+  assert_type: 1
+  data: { "period": "hello" }
+  assert: { 'code': -1,'msg': '接口未知异常',data: null,dataLong: 50 }

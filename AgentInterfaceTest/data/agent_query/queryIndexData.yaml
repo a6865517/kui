@@ -1,0 +1,22 @@
+#查询首页统计数据
+- api: /ehome-dist-crm-app/app/statistical/index/queryIndexData
+  login_phone: 13698765432
+  assert_type: 2
+  data: {}
+  assert: { 'code': 0,'msg': '请求成功',data: "'agentName': '接口测试'",dataLong: 10 }
+
+
+- api: /ehome-dist-crm-app/app/statistical/index/queryIndexData
+  login_phone: 13698765432
+  assert_type: 2
+  data: {}
+  assert: { 'code': 0,'msg': '请求成功',data: "'agentName': '接口测试'",dataLong: 10 }
+
+
+- api: /ehome-dist-crm-app/app/statistical/index/queryIndexData
+  login_phone: 13698765432
+  assert_type: 2
+  data: {}
+  assert: { 'code': 0,'msg': '请求成功',data: "'agentName': '接口测试'",dataLong: 10 }
+
+

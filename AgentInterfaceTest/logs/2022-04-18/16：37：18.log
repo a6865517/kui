@@ -1,0 +1,48 @@
+2022-04-18 16:37:19.324 | DEBUG    | common.unittestMain:req_assert:72 - 本次执行的测试用例请求内容为：{'period': '0'}
+2022-04-18 16:37:19.324 | DEBUG    | common.unittestMain:req_assert:73 - 本次执行的测试用例响应内容为：{"busiCode":-1,"msg":"接口未知异常","data":null}
+2022-04-18 16:37:19.325 | INFO     | common.unittestMain:req_assert:76 - 接口响应时间为：0.089542
+2022-04-18 16:37:19.325 | INFO     | common.unittestMain:req_assert:78 - busicode与预期一致为：-1
+2022-04-18 16:37:19.325 | INFO     | common.unittestMain:req_assert:80 - msg与预期一致
+2022-04-18 16:37:19.325 | INFO     | common.unittestMain:assert_data:87 - 响应内容与预期一致
+2022-04-18 16:37:19.580 | DEBUG    | common.unittestMain:req_assert:72 - 本次执行的测试用例请求内容为：{'period': 'day'}
+2022-04-18 16:37:19.581 | DEBUG    | common.unittestMain:req_assert:73 - 本次执行的测试用例响应内容为：{"busiCode":0,"msg":"请求成功","data":{"clinicBindDetail":[{"staticDateSegment":"2022.04.17","totalBindClinicNum":0,"newBindClinicNum":0,"unBindClinicNum":0},{"staticDateSegment":"2022.04.16","totalBindClinicNum":0,"newBindClinicNum":0,"unBindClinicNum":0}],"increaseTotalBindClinicNum":0,"increaseBindClinicNum":0,"increaseUnbindClinicNum":0,"increaseBindClinicRatio":0.00,"increaseUnbindClinicRatio":0.00,"increaseTotalBindClinicRatio":0.00}}
+2022-04-18 16:37:19.581 | INFO     | common.unittestMain:req_assert:76 - 接口响应时间为：0.141932
+2022-04-18 16:37:19.581 | INFO     | common.unittestMain:req_assert:78 - busicode与预期一致为：0
+2022-04-18 16:37:19.581 | INFO     | common.unittestMain:req_assert:80 - msg与预期一致
+2022-04-18 16:37:19.581 | INFO     | common.unittestMain:assert_data:87 - 响应内容与预期一致
+2022-04-18 16:37:19.811 | DEBUG    | common.unittestMain:req_assert:72 - 本次执行的测试用例请求内容为：{'period': 'week'}
+2022-04-18 16:37:19.812 | DEBUG    | common.unittestMain:req_assert:73 - 本次执行的测试用例响应内容为：{"busiCode":0,"msg":"请求成功","data":{"clinicBindDetail":[{"staticDateSegment":"2022.04.11-2022.04.17","totalBindClinicNum":0,"newBindClinicNum":0,"unBindClinicNum":0},{"staticDateSegment":"2022.04.04-2022.04.10","totalBindClinicNum":0,"newBindClinicNum":0,"unBindClinicNum":0}],"increaseTotalBindClinicNum":0,"increaseBindClinicNum":0,"increaseUnbindClinicNum":0,"increaseBindClinicRatio":0.00,"increaseUnbindClinicRatio":0.00,"increaseTotalBindClinicRatio":0.00}}
+2022-04-18 16:37:19.812 | INFO     | common.unittestMain:req_assert:76 - 接口响应时间为：0.131064
+2022-04-18 16:37:19.812 | INFO     | common.unittestMain:req_assert:78 - busicode与预期一致为：0
+2022-04-18 16:37:19.812 | INFO     | common.unittestMain:req_assert:80 - msg与预期一致
+2022-04-18 16:37:19.813 | INFO     | common.unittestMain:assert_data:87 - 响应内容与预期一致
+2022-04-18 16:37:20.250 | DEBUG    | common.unittestMain:req_assert:72 - 本次执行的测试用例请求内容为：{'period': 'month'}
+2022-04-18 16:37:20.251 | DEBUG    | common.unittestMain:req_assert:73 - 本次执行的测试用例响应内容为：{"busiCode":0,"msg":"请求成功","data":{"clinicBindDetail":[{"staticDateSegment":"2022.03.01-2022.03.31","totalBindClinicNum":0,"newBindClinicNum":0,"unBindClinicNum":0},{"staticDateSegment":"2022.02.01-2022.02.28","totalBindClinicNum":0,"newBindClinicNum":0,"unBindClinicNum":0}],"increaseTotalBindClinicNum":0,"increaseBindClinicNum":0,"increaseUnbindClinicNum":0,"increaseBindClinicRatio":0.00,"increaseUnbindClinicRatio":0.00,"increaseTotalBindClinicRatio":0.00}}
+2022-04-18 16:37:20.251 | INFO     | common.unittestMain:req_assert:76 - 接口响应时间为：0.345806
+2022-04-18 16:37:20.251 | INFO     | common.unittestMain:req_assert:78 - busicode与预期一致为：0
+2022-04-18 16:37:20.252 | INFO     | common.unittestMain:req_assert:80 - msg与预期一致
+2022-04-18 16:37:20.252 | INFO     | common.unittestMain:assert_data:87 - 响应内容与预期一致
+2022-04-18 16:37:20.625 | DEBUG    | common.unittestMain:req_assert:72 - 本次执行的测试用例请求内容为：{'period': 'quarter'}
+2022-04-18 16:37:20.625 | DEBUG    | common.unittestMain:req_assert:73 - 本次执行的测试用例响应内容为：{"busiCode":0,"msg":"请求成功","data":{"clinicBindDetail":[{"staticDateSegment":"2022.01.01-2022.03.31","totalBindClinicNum":0,"newBindClinicNum":0,"unBindClinicNum":0},{"staticDateSegment":"2021.10.01-2021.12.31","totalBindClinicNum":0,"newBindClinicNum":0,"unBindClinicNum":0}],"increaseTotalBindClinicNum":0,"increaseBindClinicNum":0,"increaseUnbindClinicNum":0,"increaseBindClinicRatio":0.00,"increaseUnbindClinicRatio":0.00,"increaseTotalBindClinicRatio":0.00}}
+2022-04-18 16:37:20.626 | INFO     | common.unittestMain:req_assert:76 - 接口响应时间为：0.185714
+2022-04-18 16:37:20.626 | INFO     | common.unittestMain:req_assert:78 - busicode与预期一致为：0
+2022-04-18 16:37:20.627 | INFO     | common.unittestMain:req_assert:80 - msg与预期一致
+2022-04-18 16:37:20.627 | INFO     | common.unittestMain:assert_data:87 - 响应内容与预期一致
+2022-04-18 16:37:21.042 | DEBUG    | common.unittestMain:req_assert:72 - 本次执行的测试用例请求内容为：{'period': 'quarter'}
+2022-04-18 16:37:21.043 | DEBUG    | common.unittestMain:req_assert:73 - 本次执行的测试用例响应内容为：{"busiCode":0,"msg":"请求成功","data":{"clinicBindDetail":[{"staticDateSegment":"2022.01.01-2022.03.31","totalBindClinicNum":0,"newBindClinicNum":0,"unBindClinicNum":0},{"staticDateSegment":"2021.10.01-2021.12.31","totalBindClinicNum":0,"newBindClinicNum":0,"unBindClinicNum":0}],"increaseTotalBindClinicNum":0,"increaseBindClinicNum":0,"increaseUnbindClinicNum":0,"increaseBindClinicRatio":0.00,"increaseUnbindClinicRatio":0.00,"increaseTotalBindClinicRatio":0.00}}
+2022-04-18 16:37:21.043 | INFO     | common.unittestMain:req_assert:76 - 接口响应时间为：0.152714
+2022-04-18 16:37:21.043 | INFO     | common.unittestMain:req_assert:78 - busicode与预期一致为：0
+2022-04-18 16:37:21.043 | INFO     | common.unittestMain:req_assert:80 - msg与预期一致
+2022-04-18 16:37:21.044 | INFO     | common.unittestMain:assert_data:87 - 响应内容与预期一致
+2022-04-18 16:37:21.575 | DEBUG    | common.unittestMain:req_assert:72 - 本次执行的测试用例请求内容为：{'period': 'month'}
+2022-04-18 16:37:21.575 | DEBUG    | common.unittestMain:req_assert:73 - 本次执行的测试用例响应内容为：{"busiCode":0,"msg":"请求成功","data":{"clinicBindDetail":[{"staticDateSegment":"2022.03.01-2022.03.31","totalBindClinicNum":0,"newBindClinicNum":0,"unBindClinicNum":0},{"staticDateSegment":"2022.02.01-2022.02.28","totalBindClinicNum":0,"newBindClinicNum":0,"unBindClinicNum":0}],"increaseTotalBindClinicNum":0,"increaseBindClinicNum":0,"increaseUnbindClinicNum":0,"increaseBindClinicRatio":0.00,"increaseUnbindClinicRatio":0.00,"increaseTotalBindClinicRatio":0.00}}
+2022-04-18 16:37:21.575 | INFO     | common.unittestMain:req_assert:76 - 接口响应时间为：0.320484
+2022-04-18 16:37:21.575 | INFO     | common.unittestMain:req_assert:78 - busicode与预期一致为：0
+2022-04-18 16:37:21.575 | INFO     | common.unittestMain:req_assert:80 - msg与预期一致
+2022-04-18 16:37:21.575 | INFO     | common.unittestMain:assert_data:87 - 响应内容与预期一致
+2022-04-18 16:37:21.766 | DEBUG    | common.unittestMain:req_assert:72 - 本次执行的测试用例请求内容为：{'period': 'null'}
+2022-04-18 16:37:21.766 | DEBUG    | common.unittestMain:req_assert:73 - 本次执行的测试用例响应内容为：{"busiCode":-1,"msg":"接口未知异常","data":null}
+2022-04-18 16:37:21.767 | INFO     | common.unittestMain:req_assert:76 - 接口响应时间为：0.088685
+2022-04-18 16:37:21.767 | INFO     | common.unittestMain:req_assert:78 - busicode与预期一致为：-1
+2022-04-18 16:37:21.767 | INFO     | common.unittestMain:req_assert:80 - msg与预期一致
+2022-04-18 16:37:21.767 | INFO     | common.unittestMain:assert_data:87 - 响应内容与预期一致

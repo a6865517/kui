@@ -1,0 +1,138 @@
+#查询诊所列表数据
+- api: /ehome-dist-crm-app/app/statistical/clinic/queryClinicList
+  login_phone: 13698765432
+  assert_type: 1
+  data: {
+  "pageIndex": 1,
+  "pageSize": 10,
+  "condition": {
+    "groupStatus": "Activity",
+    "agentId": "1402661430539911171",
+    "startTime": "2020-03-13 00:00:00",
+    "endTime": "2022-04-20 23:59:59"}}
+  assert: { 'code': 0,'msg': '请求成功',data: {"total":1,"list":[{"clinicId":"1515962886886125570","clinicName":"接口测试","clinicMobile":"13698765432","agentName":"接口测试","testAmount":1080.00,"testNumber":18.0,"testPerson":18.00,"installedDay":0,"address":null,"headPicture":null,"termAgentName":"接口测试","termAgentId":"1515959916883808257"}]},dataLong: 50 }
+
+
+- api: /ehome-dist-crm-app/app/statistical/clinic/queryClinicList
+  login_phone: 13698765432
+  assert_type: 1
+  data: {
+  "pageIndex": 1,
+  "pageSize": 10,
+  "condition": {
+    "groupStatus": "Activity",
+    "agentId": "",
+    "startTime": "2022-03-13 00:00:00",
+    "endTime": "2023-04-13 23:59:59"}}
+  assert: { 'code': 0,'msg': '请求成功',data: {"total":1,"list":[{"clinicId":"1515962886886125570","clinicName":"接口测试","clinicMobile":"13698765432","agentName":"接口测试","testAmount":1080.00,"testNumber":18.0,"testPerson":18.00,"installedDay":0,"address":null,"headPicture":null,"termAgentName":"接口测试","termAgentId":"1515959916883808257"}]},dataLong: 50 }
+
+
+- api: /ehome-dist-crm-app/app/statistical/clinic/queryClinicList
+  login_phone: 13698765432
+  assert_type: 1
+  data: {
+  "pageIndex": 1,
+  "pageSize": 10,
+  "condition": {
+    "groupStatus": "InActivity",
+    "agentId": "",
+    "startTime": "2022-03-13 00:00:00",
+    "endTime": "2022-04-13 23:59:59"}}
+  assert: { 'code': 0,'msg': '请求成功',data: {"total":0,"list":[]},dataLong: 50 }
+
+
+- api: /ehome-dist-crm-app/app/statistical/clinic/queryClinicList
+  login_phone: 13698765432
+  assert_type: 1
+  data: {
+  "pageIndex": 1,
+  "pageSize": 10,
+  "condition": {
+    "groupStatus": "InActivity",
+    "agentId": "1402661430539911171",
+    "startTime": "2022-03-13 00:00:00",
+    "endTime": "2022-04-13 23:59:59"}}
+  assert: { 'code': 0,'msg': '请求成功',data: {"total":0,"list":[]},dataLong: 50 }
+
+
+- api: /ehome-dist-crm-app/app/statistical/clinic/queryClinicList
+  login_phone: 13698765432
+  assert_type: 1
+  data: {
+  "pageIndex": 1,
+  "pageSize": 10,
+  "condition": {
+    "groupStatus": "InActivity",
+    "agentId": "000000000000",
+    "startTime": "2022-03-13 00:00:00",
+    "endTime": "2022-04-13 23:59:59"}}
+  assert: { 'code': 0,'msg': '请求成功',data: {"total":0,"list":[]},dataLong: 50 }
+
+
+- api: /ehome-dist-crm-app/app/statistical/clinic/queryClinicList
+  login_phone: 13698765432
+  assert_type: 1
+  data: {
+  "pageIndex": 0,
+  "pageSize": 10,
+  "condition": {
+    "groupStatus": "InActivity",
+    "agentId": "000000000000",
+    "startTime": "2022-03-13 00:00:00",
+    "endTime": "2022-04-13 23:59:59"}}
+  assert: { 'code': 400,'msg': 'parameter:当前页不能小于1',data: null,dataLong: 50 }
+
+
+- api: /ehome-dist-crm-app/app/statistical/clinic/queryClinicList
+  login_phone: 13698765432
+  assert_type: 1
+  data: {
+  "pageIndex": 1,
+  "pageSize": 10,
+  "condition": {
+    "groupStatus": "InActivity",
+    "agentId": "000000000000",
+    "startTime": "2022-04-13 00:00:00",
+    "endTime": "2022-03-13 23:59:59"}}
+  assert: { 'code': 0,'msg': '请求成功',data: {"total":0,"list":[]},dataLong: 50 }
+
+
+- api: /ehome-dist-crm-app/app/statistical/clinic/queryClinicList
+  login_phone: 13698765432
+  assert_type: 1
+  data: {
+  "pageIndex": 1,
+  "pageSize": 200,
+  "condition": {
+    "groupStatus": "Activity",
+    "startTime": "2000-04-13 00:00:00",
+    "endTime": "2022-03-13 23:59:59"}}
+  assert: { 'code': 0,'msg': '请求成功',data: {"total":0,"list":[]},dataLong: 50 }
+
+
+- api: /ehome-dist-crm-app/app/statistical/clinic/queryClinicList
+  login_phone: 13698765432
+  assert_type: 1
+  data: {
+  "pageIndex": 1,
+  "pageSize": 10,
+  "condition": {
+    "groupStatus": "Activity",
+    "agentId": "1402661430539911171",
+    "startTime": "",
+    "endTime": "2022-04-13 23:59:59"}}
+  assert: { 'code': -1,'msg': '接口未知异常',data: null,dataLong: 50 }
+
+
+- api: /ehome-dist-crm-app/app/statistical/clinic/queryClinicList
+  login_phone: 13698765432
+  assert_type: 1
+  data: {
+  "pageIndex": 1,
+  "pageSize": 10,
+  "condition": {
+    "groupStatus": "Activity",
+    "agentId": "1402661430539911171",
+    "startTime": "",
+    "endTime": ""}}
+  assert: { 'code': -1,'msg': '接口未知异常',data: null,dataLong: 50 }

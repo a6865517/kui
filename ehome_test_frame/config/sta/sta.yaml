@@ -1,0 +1,39 @@
+host:
+
+
+mysql:
+  business:
+    database:
+    host:
+    port: 3306
+    user:
+    password:
+    charset: utf8
+  crm:
+    database:
+    host:
+    port: 3306
+    user:
+    password:
+    charset: utf8
+  erp:
+    database:
+    host:
+    port: 3306
+    user: ehome_gongkui
+    password:
+    charset: utf8
+  mall:
+    database:
+    host:
+    port: 3306
+    user: ehome_gongkui
+    password:
+    charset: utf8
+
+
+redis:
+    host:
+    port: 31263
+    db: 0
+    pwd:

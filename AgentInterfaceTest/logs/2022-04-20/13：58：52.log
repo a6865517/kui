@@ -1,0 +1,4 @@
+2022-04-20 13:58:52.561 | DEBUG    | common.unittestMain:req_assert:76 - 本次执行的测试用例请求内容为：{'phone': '', 'smsType': ''}
+2022-04-20 13:58:52.561 | DEBUG    | common.unittestMain:req_assert:77 - 本次执行的测试用例响应内容为：{"busiCode":400,"msg":"参数解析异常","data":null}
+2022-04-20 13:58:52.561 | INFO     | common.unittestMain:req_assert:80 - 接口响应时间为：0.088249
+2022-04-20 13:58:53.831 | SUCCESS  | utils.mysql_res:update_sql:104 - --------------------------------------------------更新成功--------------------------------------------------

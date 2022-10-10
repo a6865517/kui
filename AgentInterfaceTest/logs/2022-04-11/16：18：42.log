@@ -1,0 +1,14 @@
+2022-04-11 16:18:42.392 | INFO     | agentTestCase:test_001_post_queryEveryDayData:33 - 返回的响应码status_code为200
+2022-04-11 16:18:42.393 | INFO     | agentTestCase:test_001_post_queryEveryDayData:41 - 响应内容为:{'busiCode': 400, 'msg': 'startTime：开始时间不能为空', 'data': None}
+2022-04-11 16:18:42.480 | INFO     | agentTestCase:test_001_post_queryEveryDayData:33 - 返回的响应码status_code为200
+2022-04-11 16:18:42.480 | INFO     | agentTestCase:test_001_post_queryEveryDayData:41 - 响应内容为:{'busiCode': 400, 'msg': '参数解析异常', 'data': None}
+2022-04-11 16:18:42.561 | INFO     | agentTestCase:test_001_post_queryEveryDayData:33 - 返回的响应码status_code为200
+2022-04-11 16:18:42.562 | INFO     | agentTestCase:test_001_post_queryEveryDayData:41 - 响应内容为:{'busiCode': 400, 'msg': 'endTime：结束时间不能为空', 'data': None}
+2022-04-11 16:18:42.770 | INFO     | agentTestCase:test_001_post_queryEveryDayData:33 - 返回的响应码status_code为200
+2022-04-11 16:18:42.770 | INFO     | agentTestCase:test_001_post_queryEveryDayData:38 - 响应内容为:{'busiCode': 0, 'msg': '请求成功', 'data': []}
+2022-04-11 16:18:42.884 | INFO     | agentTestCase:test_001_post_queryEveryDayData:33 - 返回的响应码status_code为200
+2022-04-11 16:18:42.884 | INFO     | agentTestCase:test_001_post_queryEveryDayData:38 - 响应内容为:{'busiCode': 0, 'msg': '请求成功', 'data': []}
+2022-04-11 16:18:43.007 | INFO     | agentTestCase:test_001_post_queryEveryDayData:33 - 返回的响应码status_code为200
+2022-04-11 16:18:43.007 | INFO     | agentTestCase:test_001_post_queryEveryDayData:38 - 响应内容为:{'busiCode': 0, 'msg': '请求成功', 'data': []}
+2022-04-11 16:18:43.126 | INFO     | agentTestCase:test_001_post_queryEveryDayData:33 - 返回的响应码status_code为200
+2022-04-11 16:18:43.126 | INFO     | agentTestCase:test_001_post_queryEveryDayData:38 - 响应内容为:{'busiCode': 0, 'msg': '请求成功', 'data': []}

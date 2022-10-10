@@ -1,0 +1,4 @@
+2022-04-19 11:22:03.531 | DEBUG    | common.unittestMain:req_assert:74 - 本次执行的测试用例请求内容为：{'period': ''}
+2022-04-19 11:22:03.532 | DEBUG    | common.unittestMain:req_assert:75 - 本次执行的测试用例响应内容为：{"busiCode":400,"msg":"parentId：must not be null","data":null}
+2022-04-19 11:22:03.532 | INFO     | common.unittestMain:req_assert:78 - 接口响应时间为：0.084895
+2022-04-19 11:22:03.532 | INFO     | common.unittestMain:req_assert:80 - busicode与预期一致为：400

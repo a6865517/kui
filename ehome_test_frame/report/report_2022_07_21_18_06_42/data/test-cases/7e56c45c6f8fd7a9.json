@@ -1,0 +1,63 @@
+{
+  "uid" : "7e56c45c6f8fd7a9",
+  "name" : "1.该用例用于测试，请忽略111",
+  "fullName" : "tests.agent.mall_manage.test_member_receive_address_save#test_member_receive_address_save",
+  "historyId" : "2718d3968a5fc5d5f5e8da2b5a54d8a0",
+  "time" : {
+    "start" : 1658368919275,
+    "stop" : 1658368919476,
+    "duration" : 201
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: None",
+  "statusTrace" : "test_data = {'asserts': {'response': {'busiCode': 0, 'data': None, 'msg': '请求成功'}}, 'case': '1.该用例用于测试，请忽略111', 'request': {'data'...er': 13622223661, 'methods': 'POST', 'path': 'http://test-client.ehomepoct.com/mall-manage/memberReceiveAddress/save'}}\n\n    @allure.story('商城添加地址')\n    @allure.title(\"{test_data[case]}\")\n    @allure.link(\"http://showdoc.nevint.com/index.php?s=/268&page_id=29006\", name='link')\n    @pytest.mark.parametrize('test_data', read_yaml.read_case(__file__))\n    def test_member_receive_address_save(test_data):\n        res = request_main.request(test_data)\n>       base_assert.base_assert(res,test_data)\n\ntests\\agent\\mall_manage\\test_member_receive_address_save.py:21: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nres = <Response [200]>\nargs = ({'asserts': {'response': {'busiCode': 0, 'data': None, 'msg': '请求成功'}}, 'case': '1.该用例用于测试，请忽略111', 'request': {'data...': 13622223661, 'methods': 'POST', 'path': 'http://test-client.ehomepoct.com/mall-manage/memberReceiveAddress/save'}},)\nkwargs = {}, busiCode = 0, msg = '请求成功', res_time = 0.076536, _ = {}\n\n    def base_assert(res, *args, **kwargs):\n        \"\"\"\n        基础断言\n        :param res:\n        :param args:\n        :param kwargs:\n        :return:\n        \"\"\"\n        busiCode = None\n        msg = None\n        res_time = res.elapsed.total_seconds()\n        assert res_time < 5, log.warning('接口响应时间超过5秒')\n        for _ in args, kwargs:\n            if _:\n                busiCode = _[0]['asserts']['response']['busiCode']\n                msg = _[0]['asserts']['response']['msg']\n>       assert res.json()['busiCode'] == busiCode, log.error('busiCode与预期值不符')\nE       AssertionError: None\n\nutils\\base_assert.py:29: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "商城添加地址"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests.agent.mall_manage"
+  }, {
+    "name" : "suite",
+    "value" : "test_member_receive_address_save"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-B9EI7PH"
+  }, {
+    "name" : "thread",
+    "value" : "193580-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.agent.mall_manage.test_member_receive_address_save"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "test_data",
+    "value" : "{'case': '1.该用例用于测试，请忽略111', 'request': {'methods': 'POST', 'path': 'http://test-client.ehomepoct.com/mall-manage/memberReceiveAddress/save', 'login_user': 13622223661, 'data': {'areacode': '', 'city': '', 'defaultStatus': True, 'detailAddress': '', 'name': '', 'phone': '', 'postCode': '', 'province': '', 'region': ''}}, 'asserts': {'response': {'busiCode': 0, 'msg': '请求成功', 'data': None}}}"
+  } ],
+  "links" : [ {
+    "name" : "link",
+    "url" : "http://showdoc.nevint.com/index.php?s=/268&page_id=29006",
+    "type" : "link"
+  } ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7e56c45c6f8fd7a9.json",
+  "parameterValues" : [ "{'case': '1.该用例用于测试，请忽略111', 'request': {'methods': 'POST', 'path': 'http://test-client.ehomepoct.com/mall-manage/memberReceiveAddress/save', 'login_user': 13622223661, 'data': {'areacode': '', 'city': '', 'defaultStatus': True, 'detailAddress': '', 'name': '', 'phone': '', 'postCode': '', 'province': '', 'region': ''}}, 'asserts': {'response': {'busiCode': 0, 'msg': '请求成功', 'data': None}}}" ]
+}

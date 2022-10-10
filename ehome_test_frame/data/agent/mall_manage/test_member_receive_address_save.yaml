@@ -1,0 +1,125 @@
+- case: 1.该用例用于测试，请忽略111
+  request:
+    methods: POST
+    path: mall-manage/memberReceiveAddress/save
+    login_user: 13622223661
+    headers: {
+      "origin": "ios",
+      "sec-fetch-mode": "cors"
+    }
+    data: {
+      "areacode": "",
+      "city": "",
+      "defaultStatus": true,
+      "detailAddress": "",
+      "name": "",
+      "phone": "",
+      "postCode": "",
+      "province": "",
+      "region": ""
+    }
+  asserts:
+    response: {
+      "busiCode": 400,
+      "msg": "参数解析异常",
+      "data": null,
+    }
+
+- case: 2.该用例用于测试，请忽略222
+  request:
+    methods: POST
+    path: mall-manage/memberReceiveAddress/save
+    login_user: 13622223662
+    headers:
+    data: {
+      "areacode": "",
+      "city": "",
+      "defaultStatus": true,
+      "detailAddress": "",
+      "name": "",
+      "phone": "",
+      "postCode": "",
+      "province": "",
+      "region": ""
+    }
+  asserts:
+    response: {
+      "busiCode": 0,
+      "msg": "请求成功",
+      "data": null,
+    }
+
+
+- case: 3.该用例用于测试，请忽略333
+  request:
+    methods: GET
+    path: mall-manage/memberReceiveAddress/save
+    login_user: 13622223662
+    headers:
+    data: {
+      "areacode": "",
+      "city": "",
+      "defaultStatus": true,
+      "detailAddress": "",
+      "name": "",
+      "phone": "",
+      "postCode": "",
+      "province": "",
+      "region": ""
+    }
+  asserts:
+    response: {
+      "busiCode": 0,
+      "msg": "请求成功",
+      "data": null,
+    }
+
+
+- case: 4.该用例用于测试，请忽略333
+  request:
+    methods: get
+    path: mall-manage/memberReceiveAddress/save
+    login_user: 13622223662
+    headers:
+    data: {
+      "areacode": "",
+      "city": "",
+      "defaultStatus": true,
+      "detailAddress": "",
+      "name": "",
+      "phone": "",
+      "postCode": "",
+      "province": "",
+      "region": ""
+    }
+  asserts:
+    response: {
+      "busiCode": 0,
+      "msg": "请求成功",
+      "data": null,
+    }
+
+
+- case: 4.该用例用于测试，请忽略333
+  request:
+    methods: post
+    path: mall-manage/memberReceiveAddress/save
+    login_user: 13622223662
+    headers:
+    data: {
+      "areacode": "",
+      "city": "",
+      "defaultStatus": true,
+      "detailAddress": "",
+      "name": "",
+      "phone": "",
+      "postCode": "",
+      "province": "",
+      "region": ""
+    }
+  asserts:
+    response: {
+      "busiCode": 0,
+      "msg": "请求成功",
+      "data": null,
+    }

@@ -1,0 +1,19 @@
+2022-04-20 15:06:30.165 | DEBUG    | common.unittestMain:req_assert:76 - 本次执行的测试用例请求内容为：{'pageIndex': 1, 'pageSize': 10, 'condition': {'agentLevel': 3, 'groupStatus': 'Total', 'queryAgentNameOrPhone': '', 'startTime': '2020-04-14 00:00:00', 'endTime': '2025-04-20 23:59:59'}}
+2022-04-20 15:06:30.165 | DEBUG    | common.unittestMain:req_assert:77 - 本次执行的测试用例响应内容为：{"busiCode":0,"msg":"请求成功","data":{"total":0,"list":[]}}
+2022-04-20 15:06:30.165 | INFO     | common.unittestMain:req_assert:80 - 接口响应时间为：0.189561
+2022-04-20 15:06:30.165 | INFO     | common.unittestMain:req_assert:82 - busicode与预期一致为：0
+2022-04-20 15:06:30.165 | INFO     | common.unittestMain:req_assert:84 - msg与预期一致
+2022-04-20 15:06:30.206 | INFO     | common.unittestMain:assert_data:93 - 响应内容与预期一致
+2022-04-20 15:06:30.481 | DEBUG    | common.unittestMain:req_assert:76 - 本次执行的测试用例请求内容为：{'pageIndex': 1, 'pageSize': 10, 'condition': {'agentLevel': 3, 'groupStatus': 'Total', 'queryAgentNameOrPhone': '', 'startTime': '', 'endTime': '2025-04-20 23:59:59'}}
+2022-04-20 15:06:30.482 | DEBUG    | common.unittestMain:req_assert:77 - 本次执行的测试用例响应内容为：{"busiCode":0,"msg":"请求成功","data":{"total":0,"list":[]}}
+2022-04-20 15:06:30.482 | INFO     | common.unittestMain:req_assert:80 - 接口响应时间为：0.196506
+2022-04-20 15:06:30.482 | INFO     | common.unittestMain:req_assert:82 - busicode与预期一致为：0
+2022-04-20 15:06:30.482 | INFO     | common.unittestMain:req_assert:84 - msg与预期一致
+2022-04-20 15:06:30.482 | INFO     | common.unittestMain:assert_data:93 - 响应内容与预期一致
+2022-04-20 15:06:30.744 | DEBUG    | common.unittestMain:req_assert:76 - 本次执行的测试用例请求内容为：{'pageIndex': 1, 'pageSize': 10, 'condition': {'agentLevel': 3, 'groupStatus': 'Total', 'queryAgentNameOrPhone': '', 'startTime': '', 'endTime': ''}}
+2022-04-20 15:06:30.744 | DEBUG    | common.unittestMain:req_assert:77 - 本次执行的测试用例响应内容为：{"busiCode":0,"msg":"请求成功","data":{"total":0,"list":[]}}
+2022-04-20 15:06:30.744 | INFO     | common.unittestMain:req_assert:80 - 接口响应时间为：0.177984
+2022-04-20 15:06:30.744 | INFO     | common.unittestMain:req_assert:82 - busicode与预期一致为：0
+2022-04-20 15:06:30.744 | INFO     | common.unittestMain:req_assert:84 - msg与预期一致
+2022-04-20 15:06:30.744 | INFO     | common.unittestMain:assert_data:93 - 响应内容与预期一致
+2022-04-20 15:06:31.977 | SUCCESS  | utils.mysql_res:update_sql:104 - --------------------------------------------------更新成功--------------------------------------------------

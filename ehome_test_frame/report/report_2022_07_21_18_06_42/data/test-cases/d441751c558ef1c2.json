@@ -1,0 +1,101 @@
+{
+  "uid" : "d441751c558ef1c2",
+  "name" : "test_member_receive_address_save[test_data0]",
+  "fullName" : "tests.agent.mall_manage.test_member_receive_address_save#test_member_receive_address_save",
+  "historyId" : "2718d3968a5fc5d5f5e8da2b5a54d8a0",
+  "time" : {
+    "start" : 1658398001189,
+    "stop" : 1658398001365,
+    "duration" : 176
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests.agent.mall_manage"
+  }, {
+    "name" : "suite",
+    "value" : "test_member_receive_address_save"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-B9EI7PH"
+  }, {
+    "name" : "thread",
+    "value" : "16360-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.agent.mall_manage.test_member_receive_address_save"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "test_data",
+    "value" : "{'case': '1.该用例用于测试，请忽略111', 'request': {'methods': 'POST', 'path': 'mall-manage/memberReceiveAddress/save', 'login_user': 13622223661, 'headers': {'origin': 'ios', 'sec-fetch-mode': 'cors'}, 'data': {'areacode': '', 'city': '', 'defaultStatus': True, 'detailAddress': '', 'name': '', 'phone': '', 'postCode': '', 'province': '', 'region': ''}}, 'asserts': {'response': {'busiCode': 400, 'msg': '参数解析异常', 'data': None}}}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "72000b59071d11b5",
+      "status" : "broken",
+      "statusDetails" : "configparser.NoSectionError: No section: 'pytest'",
+      "time" : {
+        "start" : 1658397778024,
+        "stop" : 1658397778024,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "3c42fb8afc25c0ea",
+      "status" : "broken",
+      "statusDetails" : "configparser.NoSectionError: No section: 'pytest'",
+      "time" : {
+        "start" : 1658397769504,
+        "stop" : 1658397769504,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "815f1fd6f646f2df",
+      "status" : "broken",
+      "statusDetails" : "configparser.NoSectionError: No section: 'pytest'",
+      "time" : {
+        "start" : 1658397705613,
+        "stop" : 1658397705613,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "9be43c9014d7eb68",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: None",
+      "time" : {
+        "start" : 1658369288087,
+        "stop" : 1658369288321,
+        "duration" : 234
+      }
+    }, {
+      "uid" : "7e56c45c6f8fd7a9",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: None",
+      "time" : {
+        "start" : 1658368919275,
+        "stop" : 1658368919476,
+        "duration" : 201
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d441751c558ef1c2.json",
+  "parameterValues" : [ "{'case': '1.该用例用于测试，请忽略111', 'request': {'methods': 'POST', 'path': 'mall-manage/memberReceiveAddress/save', 'login_user': 13622223661, 'headers': {'origin': 'ios', 'sec-fetch-mode': 'cors'}, 'data': {'areacode': '', 'city': '', 'defaultStatus': True, 'detailAddress': '', 'name': '', 'phone': '', 'postCode': '', 'province': '', 'region': ''}}, 'asserts': {'response': {'busiCode': 400, 'msg': '参数解析异常', 'data': None}}}" ]
+}

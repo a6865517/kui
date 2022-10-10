@@ -1,0 +1,41 @@
+#查询诊所统计数据
+- api: /ehome-dist-crm-app/app/statistical/clinic/queryClinicData
+  login_phone: 13698765432
+  assert_type: 1
+  data: {"startTime": "2000-04-11 00:00:00","endTime": "2022-04-01 00:00:00"}
+  assert: { 'code': 0,'msg': '请求成功',data: [],dataLong: 50}
+
+
+- api: /ehome-dist-crm-app/app/statistical/clinic/queryClinicData
+  login_phone: 13698765432
+  assert_type: 1
+  data: {"startTime": "2000-04-11 00:00:00","endTime": ""}
+  assert: { 'code': 400,'msg': 'endTime：结束时间不能为空',data: null,dataLong: 50 }
+
+
+- api: /ehome-dist-crm-app/app/statistical/clinic/queryClinicData
+  login_phone: 13698765432
+  assert_type: 1
+  data: {"startTime": "","endTime": "2000-04-11 00:00:00"}
+  assert: { 'code': 400,'msg': 'startTime：开始时间不能为空',data: null,dataLong: 50 }
+
+
+- api: /ehome-dist-crm-app/app/statistical/clinic/queryClinicData
+  login_phone: 13698765432
+  assert_type: 1
+  data: {"startTime": "000","endTime": "111"}
+  assert: { 'code': 400,'msg': '参数解析异常',data: null,dataLong: 50 }
+
+
+- api: /ehome-dist-crm-app/app/statistical/clinic/queryClinicData
+  login_phone: 13698765432
+  assert_type: 1
+  data: {"startTime": "aaa","endTime": "bbb"}
+  assert: { 'code': 400,'msg': '参数解析异常',data: null,dataLong: 50 }
+
+
+- api: /ehome-dist-crm-app/app/statistical/clinic/queryClinicData
+  login_phone: 13698765432
+  assert_type: 1
+  data: {"startTime": "开始时间","endTime": "结束时间"}
+  assert: { 'code': 400,'msg': '参数解析异常',data: null,dataLong: 50 }

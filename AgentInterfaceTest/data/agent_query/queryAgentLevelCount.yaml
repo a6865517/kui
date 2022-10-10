@@ -1,0 +1,20 @@
+#查询合伙人下级各级合伙人数量,包含终端门诊数
+- api: /ehome-dist-crm-app/app/statistical/agent/queryAgentLevelCount
+  login_phone: 13698765432
+  assert_type: 1
+  data: {"phone": "13698765432","searchStr": "13698765432"}
+  assert: { 'code': 0,'msg': '请求成功',data: [{"levenType":"终端门诊","count":0,"leven":4}],dataLong: 50 }
+
+
+- api: /ehome-dist-crm-app/app/statistical/agent/queryAgentLevelCount
+  login_phone: 13698765432
+  assert_type: 1
+  data: {"phone": "13622223661","searchStr": "1"}
+  assert: { 'code': 0,'msg': '请求成功',data: [{"levenType":"终端门诊","count":0,"leven":4}],dataLong: 50 }
+
+
+- api: /ehome-dist-crm-app/app/statistical/agent/queryAgentLevelCount
+  login_phone: 13698765432
+  assert_type: 1
+  data: {"phone": "0","searchStr": "0"}
+  assert: { 'code': 0,'msg': '请求成功',data: [{"levenType":"终端门诊","count":0,"leven":4}],dataLong: 50 }

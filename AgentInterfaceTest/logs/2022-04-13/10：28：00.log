@@ -1,0 +1,5 @@
+2022-04-13 10:28:00.694 | INFO     | agentTestCase:test_001_post_queryEveryDayData:29 - 接口响应时间为：0.077992
+2022-04-13 10:28:00.874 | INFO     | agentTestCase:test_001_post_queryEveryDayData:29 - 接口响应时间为：0.082332
+2022-04-13 10:28:01.052 | INFO     | agentTestCase:test_001_post_queryEveryDayData:29 - 接口响应时间为：0.093597
+2022-04-13 10:28:01.323 | INFO     | agentTestCase:test_001_post_queryEveryDayData:29 - 接口响应时间为：0.079292
+2022-04-13 10:28:01.488 | INFO     | agentTestCase:test_001_post_queryEveryDayData:29 - 接口响应时间为：0.080559

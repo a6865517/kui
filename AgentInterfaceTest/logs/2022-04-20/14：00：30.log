@@ -1,0 +1,13 @@
+2022-04-20 14:00:30.707 | DEBUG    | common.unittestMain:req_assert:76 - 本次执行的测试用例请求内容为：{'phone': '', 'smsType': ''}
+2022-04-20 14:00:30.708 | DEBUG    | common.unittestMain:req_assert:77 - 本次执行的测试用例响应内容为：{"busiCode":400,"msg":"参数解析异常","data":null}
+2022-04-20 14:00:30.708 | INFO     | common.unittestMain:req_assert:80 - 接口响应时间为：0.076079
+2022-04-20 14:00:30.708 | INFO     | common.unittestMain:req_assert:82 - busicode与预期一致为：400
+2022-04-20 14:00:30.708 | INFO     | common.unittestMain:req_assert:84 - msg与预期一致
+2022-04-20 14:00:30.708 | INFO     | common.unittestMain:assert_data:93 - 响应内容与预期一致
+2022-04-20 14:00:30.921 | DEBUG    | common.unittestMain:req_assert:76 - 本次执行的测试用例请求内容为：{'phone': '13000000000', 'smsType': 'LOGIN'}
+2022-04-20 14:00:30.921 | DEBUG    | common.unittestMain:req_assert:77 - 本次执行的测试用例响应内容为：{"busiCode":30000,"msg":"短信发送过于频繁,请稍后再试","data":null}
+2022-04-20 14:00:30.921 | INFO     | common.unittestMain:req_assert:80 - 接口响应时间为：0.125695
+2022-04-20 14:00:31.083 | DEBUG    | common.unittestMain:req_assert:76 - 本次执行的测试用例请求内容为：{'phone': '13000000000', 'smsType': 'FORGETPWD'}
+2022-04-20 14:00:31.083 | DEBUG    | common.unittestMain:req_assert:77 - 本次执行的测试用例响应内容为：{"busiCode":30000,"msg":"短信发送过于频繁,请稍后再试","data":null}
+2022-04-20 14:00:31.083 | INFO     | common.unittestMain:req_assert:80 - 接口响应时间为：0.080455
+2022-04-20 14:00:32.298 | SUCCESS  | utils.mysql_res:update_sql:104 - --------------------------------------------------更新成功--------------------------------------------------

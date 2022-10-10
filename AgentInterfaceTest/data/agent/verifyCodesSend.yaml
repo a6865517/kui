@@ -1,0 +1,30 @@
+#发送验证码
+- api: /ehome-dist-crm-app/app/center/agent/verifyCode/send
+  login_phone: 13698765432
+  assert_type: 1
+  data: {"phone": "","smsType": ""}
+  assert: { 'code': 400,'msg': '参数解析异常',data: null,dataLong: 50 }
+
+
+
+- api: /ehome-dist-crm-app/app/center/agent/verifyCode/send
+  login_phone: 13698765432
+  assert_type: 1
+  data: {"phone": "13000000000","smsType": "LOGIN"}
+  assert: { 'code': 0,'msg': '请求成功',data: null,dataLong: 50 }
+
+
+- api: /ehome-dist-crm-app/app/center/agent/verifyCode/send
+  login_phone: 13698765432
+  assert_type: 1
+  data: {"phone": "13000000000","smsType": "FORGETPWD"}
+  assert: { 'code': 0,'msg': '请求成功',data: null,dataLong: 50 }
+
+
+- api: /ehome-dist-crm-app/app/center/agent/verifyCode/send
+  login_phone: 13698765432
+  assert_type: 1
+  data: {"phone": "13000000000","smsType": "TIXIAN"}
+  assert: { 'code': 0,'msg': '请求成功',data: null,dataLong: 50 }
+
+

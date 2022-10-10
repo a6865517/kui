@@ -1,0 +1,41 @@
+#查询检测项目统计数据
+- api: /ehome-dist-crm-app/app/statistical/test/queryTestProjectData
+  login_phone: 13698765432
+  assert_type: 1
+  data: {
+  "startTime": "2022-04-13 00:00:00",
+  "endTime": "2022-04-14 00:00:00"
+}
+  assert: { 'code': 0,'msg': '请求成功',data: [],dataLong: 50 }
+
+- api: /ehome-dist-crm-app/app/statistical/test/queryTestProjectData
+  login_phone: 13698765432
+  assert_type: 1
+  data: {
+  "startTime": "2020-04-13 00:00:00",
+  "endTime": "2025-04-14 00:00:00"
+}
+  assert: { 'code': 0,'msg': '请求成功',data: [{"projectName":"肺炎支原体","projectCode":"MP-IgM检测","totalTestMoney":1080.00,"totalTestMoneyRatio":100.00,"totalTestPortion":18.00,"totalTestPortionRatio":100.00}],dataLong: 50 }
+
+
+- api: /ehome-dist-crm-app/app/statistical/test/queryTestProjectData
+  login_phone: 13698765432
+  assert_type: 1
+  data: {
+  "startTime": "",
+  "endTime": "2025-04-14 00:00:00"
+}
+  assert: { 'code': 400,'msg': 'startTime：开始时间不能为空',data: null,dataLong: 50 }
+
+
+- api: /ehome-dist-crm-app/app/statistical/test/queryTestProjectData
+  login_phone: 13698765432
+  assert_type: 1
+  data: {
+  "startTime": "2025-04-14 00:00:00",
+  "endTime": ""
+}
+  assert: { 'code': 400,'msg': 'endTime：结束时间不能为空',data: null,dataLong: 50 }
+
+
+

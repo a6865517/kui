@@ -1,0 +1,54 @@
+{
+  "uid" : "c608b0f4b44afc95",
+  "name" : "test_member_receive_address_save[test_data0]",
+  "fullName" : "tests.agent.mall_manage.test_member_receive_address_save#test_member_receive_address_save",
+  "historyId" : "2718d3968a5fc5d5f5e8da2b5a54d8a0",
+  "time" : {
+    "start" : 1658398139886,
+    "stop" : 1658398140122,
+    "duration" : 236
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests.agent.mall_manage"
+  }, {
+    "name" : "suite",
+    "value" : "test_member_receive_address_save"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-B9EI7PH"
+  }, {
+    "name" : "thread",
+    "value" : "165952-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.agent.mall_manage.test_member_receive_address_save"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "test_data",
+    "value" : "{'case': '1.该用例用于测试，请忽略111', 'request': {'methods': 'POST', 'path': 'mall-manage/memberReceiveAddress/save', 'login_user': 13622223661, 'headers': {'origin': 'ios', 'sec-fetch-mode': 'cors'}, 'data': {'areacode': '', 'city': '', 'defaultStatus': True, 'detailAddress': '', 'name': '', 'phone': '', 'postCode': '', 'province': '', 'region': ''}}, 'asserts': {'response': {'busiCode': 400, 'msg': '参数解析异常', 'data': None}}}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c608b0f4b44afc95.json",
+  "parameterValues" : [ "{'case': '1.该用例用于测试，请忽略111', 'request': {'methods': 'POST', 'path': 'mall-manage/memberReceiveAddress/save', 'login_user': 13622223661, 'headers': {'origin': 'ios', 'sec-fetch-mode': 'cors'}, 'data': {'areacode': '', 'city': '', 'defaultStatus': True, 'detailAddress': '', 'name': '', 'phone': '', 'postCode': '', 'province': '', 'region': ''}}, 'asserts': {'response': {'busiCode': 400, 'msg': '参数解析异常', 'data': None}}}" ]
+}

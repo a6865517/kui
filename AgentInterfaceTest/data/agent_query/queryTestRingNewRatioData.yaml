@@ -1,0 +1,38 @@
+#查询检测环比数据
+- api: /ehome-dist-crm-app/app/statistical/test/queryTestRingNewRatioData
+  login_phone: 13698765432
+  assert_type: 1
+  data: {"period": ""}
+  assert: { 'code': -1,'msg': '接口未知异常',data: null,dataLong: 50 }
+
+
+- api: /ehome-dist-crm-app/app/statistical/test/queryTestRingNewRatioData
+  login_phone: 13698765432
+  assert_type: 2
+  data: {"period": "day"}
+  assert: { 'code': 0,'msg': '请求成功',data: "'testMoneyIncrease':",dataLong: 50 }
+
+
+- api: /ehome-dist-crm-app/app/statistical/test/queryTestRingNewRatioData
+  login_phone: 13698765432
+  assert_type: 2
+  data: {"period": "week"}
+  assert: { 'code': 0,'msg': '请求成功',data: "'testMoneyIncrease':",dataLong: 50 }
+
+- api: /ehome-dist-crm-app/app/statistical/test/queryTestRingNewRatioData
+  login_phone: 13698765432
+  assert_type: 2
+  data: {"period": "month"}
+  assert: { 'code': 0,'msg': '请求成功',data: "'testMoneyIncrease':",dataLong: 50 }
+
+- api: /ehome-dist-crm-app/app/statistical/test/queryTestRingNewRatioData
+  login_phone: 13698765432
+  assert_type: 2
+  data: {"period": "quarter"}
+  assert: { 'code': 0,'msg': '请求成功',data: "'testMoneyIncrease':",dataLong: 50 }
+
+- api: /ehome-dist-crm-app/app/statistical/test/queryTestRingNewRatioData
+  login_phone: 13698765432
+  assert_type: 1
+  data: {"period": "月"}
+  assert: { 'code': -1,'msg': '接口未知异常',data: null,dataLong: 50 }

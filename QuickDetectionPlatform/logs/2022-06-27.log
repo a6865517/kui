@@ -1,0 +1,112 @@
+2022-06-27 14:09:13.296 | INFO     | utils.login:login_test:22 - 本次登录获取token为:{'Authorization': 'bearer be476736-e973-4868-9545-c4701cdb99a5'}
+2022-06-27 14:09:14.207 | INFO     | utils.get_clinic_info_test:bind_gold_blood_device:71 - 绑定设备接口请求参数{'clinicId': 1442079173893074946, 'ids': [1391993393885261825], 'operateType': 1}
+2022-06-27 14:09:14.208 | INFO     | utils.get_clinic_info_test:bind_gold_blood_device:72 - 绑定设备接口返回参数{"busiCode":201,"msg":"一个诊所只能绑定同种设备一次","data":null}
+2022-06-27 14:09:14.318 | INFO     | utils.get_clinic_info_test:bind_gold_blood_device:71 - 绑定设备接口请求参数{'clinicId': 1442079173893074946, 'ids': [1474315307866755076], 'operateType': 1}
+2022-06-27 14:09:14.319 | INFO     | utils.get_clinic_info_test:bind_gold_blood_device:72 - 绑定设备接口返回参数{"busiCode":201,"msg":"一个诊所只能绑定同种设备一次","data":null}
+2022-06-27 14:09:14.510 | INFO     | online_check.gold_online_start.gold_online_test:add_patient:61 - 添加患者接口请求参数为:{'age': 18, 'deviceId': 'B221031135000149', 'month': 0, 'name': '华强测试', 'phone': '13622220000', 'sex': 0, 'termClinicId': 1442079173893074946}
+2022-06-27 14:09:14.510 | INFO     | online_check.gold_online_start.gold_online_test:add_patient:62 - 添加患者接口响应参数为:{"busiCode":0,"msg":"请求成功","data":{"patientId":"1541302618838921217"}}
+2022-06-27 14:09:38.055 | INFO     | utils.login:login_test:22 - 本次登录获取token为:{'Authorization': 'bearer be476736-e973-4868-9545-c4701cdb99a5'}
+2022-06-27 14:09:38.843 | INFO     | utils.get_clinic_info_test:bind_gold_blood_device:71 - 绑定设备接口请求参数{'clinicId': 1540156044377952258, 'ids': [1391993393885261825], 'operateType': 1}
+2022-06-27 14:09:38.843 | INFO     | utils.get_clinic_info_test:bind_gold_blood_device:72 - 绑定设备接口返回参数{"busiCode":201,"msg":"一个诊所只能绑定同种设备一次","data":null}
+2022-06-27 14:09:38.953 | INFO     | utils.get_clinic_info_test:bind_gold_blood_device:71 - 绑定设备接口请求参数{'clinicId': 1540156044377952258, 'ids': [1474315307866755076], 'operateType': 1}
+2022-06-27 14:09:38.953 | INFO     | utils.get_clinic_info_test:bind_gold_blood_device:72 - 绑定设备接口返回参数{"busiCode":201,"msg":"一个诊所只能绑定同种设备一次","data":null}
+2022-06-27 14:09:39.135 | INFO     | online_check.gold_online_start.gold_online_test:add_patient:61 - 添加患者接口请求参数为:{'age': 18, 'deviceId': 'B219091500000557', 'month': 0, 'name': '华强测试', 'phone': '13622220000', 'sex': 0, 'termClinicId': 1540156044377952258}
+2022-06-27 14:09:39.136 | INFO     | online_check.gold_online_start.gold_online_test:add_patient:62 - 添加患者接口响应参数为:{"busiCode":0,"msg":"请求成功","data":{"patientId":"1541302722153017346"}}
+2022-06-27 14:12:24.749 | INFO     | utils.login:login_test:22 - 本次登录获取token为:{'Authorization': 'bearer be476736-e973-4868-9545-c4701cdb99a5'}
+2022-06-27 14:12:25.569 | INFO     | utils.get_clinic_info_test:bind_gold_blood_device:71 - 绑定设备接口请求参数{'clinicId': 1442079173893074946, 'ids': [1391993393885261825], 'operateType': 1}
+2022-06-27 14:12:25.569 | INFO     | utils.get_clinic_info_test:bind_gold_blood_device:72 - 绑定设备接口返回参数{"busiCode":201,"msg":"一个诊所只能绑定同种设备一次","data":null}
+2022-06-27 14:12:25.681 | INFO     | utils.get_clinic_info_test:bind_gold_blood_device:71 - 绑定设备接口请求参数{'clinicId': 1442079173893074946, 'ids': [1474315307866755076], 'operateType': 1}
+2022-06-27 14:12:25.681 | INFO     | utils.get_clinic_info_test:bind_gold_blood_device:72 - 绑定设备接口返回参数{"busiCode":201,"msg":"一个诊所只能绑定同种设备一次","data":null}
+2022-06-27 14:12:26.238 | INFO     | online_check.gold_online_start.gold_online_test:add_patient:61 - 添加患者接口请求参数为:{'age': 18, 'deviceId': 'B221031135000149', 'month': 0, 'name': '华强测试', 'phone': '13622220000', 'sex': 0, 'termClinicId': 1442079173893074946}
+2022-06-27 14:12:26.239 | INFO     | online_check.gold_online_start.gold_online_test:add_patient:62 - 添加患者接口响应参数为:{"busiCode":0,"msg":"请求成功","data":{"patientId":"1541303421661691906"}}
+2022-06-27 14:12:29.705 | INFO     | online_check.gold_online_start.gold_online_test:start_CRP_and_SAA:89 - crp+saa检测接口请求参数为:{'clinicId': 1442079173893074946, 'sno': 'B221031135000149'}
+2022-06-27 14:12:29.705 | INFO     | online_check.gold_online_start.gold_online_test:start_CRP_and_SAA:90 - crp+saa检测接口响应参数为:{"busiCode":0,"msg":"请求成功","data":{"stripTypeCode":"4","stripBatch":"38","testPoctDataId":"1541303426724786178","imgUrl":"http://publicmedia.ehomepoct.com/jbyimage/CRP.png","reactTime":5,"warningTips":null,"stripName":"CRP检测(XXXVIII)"}}
+2022-06-27 14:12:30.359 | INFO     | online_check.gold_online_start.gold_online_test:upload_patient:73 - 发布患者信息接口请求参数为:{'age': 18, 'deviceId': 'B221031135000149', 'month': 0, 'name': '华强测试', 'phone': '13622220000', 'sex': 0, 'termClinicId': 1442079173893074946}
+2022-06-27 14:12:30.360 | INFO     | online_check.gold_online_start.gold_online_test:upload_patient:74 - 发布患者信息接口响应参数为:{"busiCode":0,"msg":"请求成功","data":"1541303438241775617"}
+2022-06-27 14:12:30.843 | INFO     | online_check.gold_online_start.gold_online_test:create_order:103 - 金标仪创建联测订单接口请求参数为:{'addressDetail': '湖南省长沙市雨花区华坤时代', 'briefAddress': '湖南省长沙市雨花区雨河路279号靠近湘府路站', 'latitude': 113.029384, 'longitude': 28.111673, 'recordId': '1541303438241775617', 'sno': 'B221031135000149', 'testDataIds': ['1541303426724786178', '1541303435427397633']}
+2022-06-27 14:12:30.843 | INFO     | online_check.gold_online_start.gold_online_test:create_order:104 - 金标仪创建联测订单接口响应参数为:{"busiCode":0,"msg":"请求成功","data":null}
+2022-06-27 14:12:31.164 | INFO     | online_check.gold_online_start.gold_online_test:blood_test:117 - 血常规检测接口请求参数为:{'boardSno': '220301360723', 'cameraName': '测试相机', 'clinicId': 1442079173893074946, 'deviceSno': 'BLD100021111800001', 'hgbCalibration': [{'reference': 20317, 'groundTruth': 0, 'measure': 25501}, {'reference': 20732, 'groundTruth': 0, 'measure': 25637}, {'reference': 19684, 'groundTruth': 231, 'measure': 2397}, {'reference': 20401, 'groundTruth': 141, 'measure': 6061}, {'reference': 20628, 'groundTruth': 71, 'measure': 12633}, {'reference': 20360, 'groundTruth': 48, 'measure': 15893}], 'hgbCurveData': [], 'hgbMeasure': 0, 'hgbReference': 0, 'path': 'c69099f6-2df3-497b-b5ac-cefdca802aa9.zip', 'patientId': '1541303421661691906', 'pointConfig': {'plt': {'focus': 0, 'points': 0}, 'rbc': {'focus': 0, 'points': 0}, 'wbc': {'focus': 0, 'points': 0}}, 'type': 2}
+2022-06-27 14:12:31.165 | INFO     | online_check.gold_online_start.gold_online_test:blood_test:118 - 血常规检测接口响应参数为:{"busiCode":0,"msg":"请求成功","data":"1541303443500879874"}
+2022-06-27 14:12:32.323 | INFO     | online_check.gold_online_start.gold_online_test:get_manual_status:130 - 等待一秒钟，再去查询
+2022-06-27 14:12:32.323 | INFO     | online_check.gold_online_start.gold_online_test:get_manual_status:131 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': ''}}
+2022-06-27 14:12:33.476 | INFO     | online_check.gold_online_start.gold_online_test:get_manual_status:130 - 等待一秒钟，再去查询
+2022-06-27 14:12:33.476 | INFO     | online_check.gold_online_start.gold_online_test:get_manual_status:131 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': ''}}
+2022-06-27 14:12:34.636 | INFO     | online_check.gold_online_start.gold_online_test:get_manual_status:130 - 等待一秒钟，再去查询
+2022-06-27 14:12:34.636 | INFO     | online_check.gold_online_start.gold_online_test:get_manual_status:131 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': ''}}
+2022-06-27 14:12:35.798 | INFO     | online_check.gold_online_start.gold_online_test:get_manual_status:130 - 等待一秒钟，再去查询
+2022-06-27 14:12:35.798 | INFO     | online_check.gold_online_start.gold_online_test:get_manual_status:131 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': ''}}
+2022-06-27 14:12:36.956 | INFO     | online_check.gold_online_start.gold_online_test:get_manual_status:130 - 等待一秒钟，再去查询
+2022-06-27 14:12:36.956 | INFO     | online_check.gold_online_start.gold_online_test:get_manual_status:131 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': ''}}
+2022-06-27 14:12:38.152 | INFO     | online_check.gold_online_start.gold_online_test:get_manual_status:130 - 等待一秒钟，再去查询
+2022-06-27 14:12:38.152 | INFO     | online_check.gold_online_start.gold_online_test:get_manual_status:131 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': ''}}
+2022-06-27 14:12:39.316 | INFO     | online_check.gold_online_start.gold_online_test:get_manual_status:130 - 等待一秒钟，再去查询
+2022-06-27 14:12:39.316 | INFO     | online_check.gold_online_start.gold_online_test:get_manual_status:131 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': ''}}
+2022-06-27 14:12:40.523 | INFO     | online_check.gold_online_start.gold_online_test:get_manual_status:130 - 等待一秒钟，再去查询
+2022-06-27 14:12:40.523 | INFO     | online_check.gold_online_start.gold_online_test:get_manual_status:131 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': ''}}
+2022-06-27 14:12:41.679 | INFO     | online_check.gold_online_start.gold_online_test:get_manual_status:130 - 等待一秒钟，再去查询
+2022-06-27 14:12:41.679 | INFO     | online_check.gold_online_start.gold_online_test:get_manual_status:131 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': ''}}
+2022-06-27 14:12:42.836 | INFO     | online_check.gold_online_start.gold_online_test:get_manual_status:130 - 等待一秒钟，再去查询
+2022-06-27 14:12:42.836 | INFO     | online_check.gold_online_start.gold_online_test:get_manual_status:131 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': ''}}
+2022-06-27 14:12:43.991 | INFO     | online_check.gold_online_start.gold_online_test:get_manual_status:130 - 等待一秒钟，再去查询
+2022-06-27 14:12:43.991 | INFO     | online_check.gold_online_start.gold_online_test:get_manual_status:131 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': ''}}
+2022-06-27 14:12:45.142 | INFO     | online_check.gold_online_start.gold_online_test:get_manual_status:130 - 等待一秒钟，再去查询
+2022-06-27 14:12:45.142 | INFO     | online_check.gold_online_start.gold_online_test:get_manual_status:131 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': ''}}
+2022-06-27 14:12:46.303 | INFO     | online_check.gold_online_start.gold_online_test:get_manual_status:130 - 等待一秒钟，再去查询
+2022-06-27 14:12:46.303 | INFO     | online_check.gold_online_start.gold_online_test:get_manual_status:131 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': ''}}
+2022-06-27 14:12:47.502 | INFO     | online_check.gold_online_start.gold_online_test:get_manual_status:130 - 等待一秒钟，再去查询
+2022-06-27 14:12:47.502 | INFO     | online_check.gold_online_start.gold_online_test:get_manual_status:131 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': ''}}
+2022-06-27 14:12:48.664 | INFO     | online_check.gold_online_start.gold_online_test:get_manual_status:130 - 等待一秒钟，再去查询
+2022-06-27 14:12:48.664 | INFO     | online_check.gold_online_start.gold_online_test:get_manual_status:131 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': ''}}
+2022-06-27 14:12:49.859 | INFO     | online_check.gold_online_start.gold_online_test:get_manual_status:130 - 等待一秒钟，再去查询
+2022-06-27 14:12:49.859 | INFO     | online_check.gold_online_start.gold_online_test:get_manual_status:131 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': ''}}
+2022-06-27 14:12:51.009 | INFO     | online_check.gold_online_start.gold_online_test:get_manual_status:130 - 等待一秒钟，再去查询
+2022-06-27 14:12:51.009 | INFO     | online_check.gold_online_start.gold_online_test:get_manual_status:131 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': ''}}
+2022-06-27 14:12:52.379 | INFO     | online_check.gold_online_start.gold_online_test:get_manual_status:130 - 等待一秒钟，再去查询
+2022-06-27 14:12:52.379 | INFO     | online_check.gold_online_start.gold_online_test:get_manual_status:131 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': ''}}
+2022-06-27 14:12:53.531 | INFO     | online_check.gold_online_start.gold_online_test:get_manual_status:130 - 等待一秒钟，再去查询
+2022-06-27 14:12:53.531 | INFO     | online_check.gold_online_start.gold_online_test:get_manual_status:131 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 4, 'msg': ''}}
+2022-06-27 14:12:54.656 | INFO     | online_check.gold_online_start.gold_online_test:order_palce_blood:144 - 血常规下单接口请求参数为:{'dataId': '1541303443500879874', 'recordId': '1541303438241775617'}
+2022-06-27 14:12:54.656 | INFO     | online_check.gold_online_start.gold_online_test:order_palce_blood:145 - 血常规下单接口响应参数为:{"busiCode":0,"msg":"请求成功","data":{"orderNo":"B2210311350001492206271412309518","payUrl":"https://qr.95516.com/48020000/10VA2206270401255149851938","money":9.00,"promptMsg":"未支付","orderStatus":0}}
+2022-06-27 14:12:55.989 | INFO     | online_check.gold_online_start.gold_online_test:call_back:161 - 支付回调接口请求参数为：{'openId': '111111111111', 'orderNo': 'B2210311350001492206271412309518', 'outOrderNo': '111111111111111', 'outTransactionNo': '111111111111111111111', 'payChannel': '0', 'payFinishTime': '2022-06-27 14:13:54', 'payStatus': 'SUCCESS', 'payType': 'WXPAY', 'tradeType': 'JSAPI'}
+2022-06-27 14:12:55.990 | INFO     | online_check.gold_online_start.gold_online_test:call_back:162 - 支付回调接口响应内容为:{"busiCode":0,"msg":"请求成功","data":null}
+2022-06-27 14:14:56.619 | INFO     | utils.login:login_test:22 - 本次登录获取token为:{'Authorization': 'bearer be476736-e973-4868-9545-c4701cdb99a5'}
+2022-06-27 14:14:57.404 | INFO     | utils.get_clinic_info_test:bind_gold_blood_device:71 - 绑定设备接口请求参数{'clinicId': 1540156044377952258, 'ids': [1391993393885261825], 'operateType': 1}
+2022-06-27 14:14:57.404 | INFO     | utils.get_clinic_info_test:bind_gold_blood_device:72 - 绑定设备接口返回参数{"busiCode":201,"msg":"一个诊所只能绑定同种设备一次","data":null}
+2022-06-27 14:14:57.508 | INFO     | utils.get_clinic_info_test:bind_gold_blood_device:71 - 绑定设备接口请求参数{'clinicId': 1540156044377952258, 'ids': [1474315307866755076], 'operateType': 1}
+2022-06-27 14:14:57.508 | INFO     | utils.get_clinic_info_test:bind_gold_blood_device:72 - 绑定设备接口返回参数{"busiCode":201,"msg":"一个诊所只能绑定同种设备一次","data":null}
+2022-06-27 14:14:57.706 | INFO     | online_check.gold_online_start.gold_online_test:add_patient:61 - 添加患者接口请求参数为:{'age': 18, 'deviceId': 'B219091500000557', 'month': 0, 'name': '华强测试', 'phone': '13622220000', 'sex': 0, 'termClinicId': 1540156044377952258}
+2022-06-27 14:14:57.706 | INFO     | online_check.gold_online_start.gold_online_test:add_patient:62 - 添加患者接口响应参数为:{"busiCode":0,"msg":"请求成功","data":{"patientId":"1541304058294124546"}}
+2022-06-27 14:14:59.887 | INFO     | online_check.gold_online_start.gold_online_test:start_CRP_and_SAA:89 - crp+saa检测接口请求参数为:{'clinicId': 1540156044377952258, 'sno': 'B219091500000557'}
+2022-06-27 14:14:59.888 | INFO     | online_check.gold_online_start.gold_online_test:start_CRP_and_SAA:90 - crp+saa检测接口响应参数为:{"busiCode":0,"msg":"请求成功","data":{"stripTypeCode":"4","stripBatch":"38","testPoctDataId":"1541304061867671554","imgUrl":"http://publicmedia.ehomepoct.com/jbyimage/CRP.png","reactTime":5,"warningTips":null,"stripName":"CRP检测(XXXVIII)"}}
+2022-06-27 14:15:00.023 | INFO     | online_check.gold_online_start.gold_online_test:upload_patient:73 - 发布患者信息接口请求参数为:{'age': 18, 'deviceId': 'B219091500000557', 'month': 0, 'name': '华强测试', 'phone': '13622220000', 'sex': 0, 'termClinicId': 1540156044377952258}
+2022-06-27 14:15:00.023 | INFO     | online_check.gold_online_start.gold_online_test:upload_patient:74 - 发布患者信息接口响应参数为:{"busiCode":0,"msg":"请求成功","data":"1541304068012326913"}
+2022-06-27 14:15:00.547 | INFO     | online_check.gold_online_start.gold_online_test:create_order:103 - 金标仪创建联测订单接口请求参数为:{'addressDetail': '湖南省长沙市雨花区华坤时代', 'briefAddress': '湖南省长沙市雨花区雨河路279号靠近湘府路站', 'latitude': 113.029384, 'longitude': 28.111673, 'recordId': '1541304068012326913', 'sno': 'B219091500000557', 'testDataIds': ['1541304061867671554', '1541304066087141378']}
+2022-06-27 14:15:00.547 | INFO     | online_check.gold_online_start.gold_online_test:create_order:104 - 金标仪创建联测订单接口响应参数为:{"busiCode":0,"msg":"请求成功","data":null}
+2022-06-27 14:15:00.835 | INFO     | online_check.gold_online_start.gold_online_test:blood_test:117 - 血常规检测接口请求参数为:{'boardSno': '220301360723', 'cameraName': '测试相机', 'clinicId': 1540156044377952258, 'deviceSno': 'BLD100288888800055', 'hgbCalibration': [{'reference': 20317, 'groundTruth': 0, 'measure': 25501}, {'reference': 20732, 'groundTruth': 0, 'measure': 25637}, {'reference': 19684, 'groundTruth': 231, 'measure': 2397}, {'reference': 20401, 'groundTruth': 141, 'measure': 6061}, {'reference': 20628, 'groundTruth': 71, 'measure': 12633}, {'reference': 20360, 'groundTruth': 48, 'measure': 15893}], 'hgbCurveData': [], 'hgbMeasure': 0, 'hgbReference': 0, 'path': 'c69099f6-2df3-497b-b5ac-cefdca802aa9.zip', 'patientId': '1541304058294124546', 'pointConfig': {'plt': {'focus': 0, 'points': 0}, 'rbc': {'focus': 0, 'points': 0}, 'wbc': {'focus': 0, 'points': 0}}, 'type': 2}
+2022-06-27 14:15:00.835 | INFO     | online_check.gold_online_start.gold_online_test:blood_test:118 - 血常规检测接口响应参数为:{"busiCode":0,"msg":"请求成功","data":"1541304071316885505"}
+2022-06-27 14:15:01.991 | INFO     | online_check.gold_online_start.gold_online_test:get_manual_status:130 - 等待一秒钟，再去查询
+2022-06-27 14:15:01.991 | INFO     | online_check.gold_online_start.gold_online_test:get_manual_status:131 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': ''}}
+2022-06-27 14:15:03.148 | INFO     | online_check.gold_online_start.gold_online_test:get_manual_status:130 - 等待一秒钟，再去查询
+2022-06-27 14:15:03.148 | INFO     | online_check.gold_online_start.gold_online_test:get_manual_status:131 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': ''}}
+2022-06-27 14:15:04.311 | INFO     | online_check.gold_online_start.gold_online_test:get_manual_status:130 - 等待一秒钟，再去查询
+2022-06-27 14:15:04.311 | INFO     | online_check.gold_online_start.gold_online_test:get_manual_status:131 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': ''}}
+2022-06-27 14:15:05.484 | INFO     | online_check.gold_online_start.gold_online_test:get_manual_status:130 - 等待一秒钟，再去查询
+2022-06-27 14:15:05.484 | INFO     | online_check.gold_online_start.gold_online_test:get_manual_status:131 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': ''}}
+2022-06-27 14:15:06.647 | INFO     | online_check.gold_online_start.gold_online_test:get_manual_status:130 - 等待一秒钟，再去查询
+2022-06-27 14:15:06.647 | INFO     | online_check.gold_online_start.gold_online_test:get_manual_status:131 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': ''}}
+2022-06-27 14:15:07.804 | INFO     | online_check.gold_online_start.gold_online_test:get_manual_status:130 - 等待一秒钟，再去查询
+2022-06-27 14:15:07.804 | INFO     | online_check.gold_online_start.gold_online_test:get_manual_status:131 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': ''}}
+2022-06-27 14:15:08.958 | INFO     | online_check.gold_online_start.gold_online_test:get_manual_status:130 - 等待一秒钟，再去查询
+2022-06-27 14:15:08.958 | INFO     | online_check.gold_online_start.gold_online_test:get_manual_status:131 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': ''}}
+2022-06-27 14:15:10.174 | INFO     | online_check.gold_online_start.gold_online_test:get_manual_status:130 - 等待一秒钟，再去查询
+2022-06-27 14:15:10.174 | INFO     | online_check.gold_online_start.gold_online_test:get_manual_status:131 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': ''}}
+2022-06-27 14:15:11.325 | INFO     | online_check.gold_online_start.gold_online_test:get_manual_status:130 - 等待一秒钟，再去查询
+2022-06-27 14:15:11.325 | INFO     | online_check.gold_online_start.gold_online_test:get_manual_status:131 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': ''}}
+2022-06-27 14:15:12.486 | INFO     | online_check.gold_online_start.gold_online_test:get_manual_status:130 - 等待一秒钟，再去查询
+2022-06-27 14:15:12.486 | INFO     | online_check.gold_online_start.gold_online_test:get_manual_status:131 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': ''}}
+2022-06-27 14:15:13.643 | INFO     | online_check.gold_online_start.gold_online_test:get_manual_status:130 - 等待一秒钟，再去查询
+2022-06-27 14:15:13.643 | INFO     | online_check.gold_online_start.gold_online_test:get_manual_status:131 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 4, 'msg': ''}}
+2022-06-27 14:15:15.483 | INFO     | online_check.gold_online_start.gold_online_test:order_palce_blood:144 - 血常规下单接口请求参数为:{'dataId': '1541304071316885505', 'recordId': '1541304068012326913'}
+2022-06-27 14:15:15.483 | INFO     | online_check.gold_online_start.gold_online_test:order_palce_blood:145 - 血常规下单接口响应参数为:{"busiCode":0,"msg":"请求成功","data":{"orderNo":"B2190915000005572206271415002147","payUrl":"https://qr.95516.com/48020000/10VA2206278161515147706739","money":9.00,"promptMsg":"未支付","orderStatus":0}}
+2022-06-27 14:15:15.800 | INFO     | online_check.gold_online_start.gold_online_test:call_back:161 - 支付回调接口请求参数为：{'openId': '111111111111', 'orderNo': 'B2190915000005572206271415002147', 'outOrderNo': '111111111111111', 'outTransactionNo': '111111111111111111111', 'payChannel': '0', 'payFinishTime': '2022-06-27 14:16:15', 'payStatus': 'SUCCESS', 'payType': 'WXPAY', 'tradeType': 'JSAPI'}
+2022-06-27 14:15:15.801 | INFO     | online_check.gold_online_start.gold_online_test:call_back:162 - 支付回调接口响应内容为:{"busiCode":0,"msg":"请求成功","data":null}

@@ -1,0 +1,44 @@
+2022-04-18 16:10:08.439 | DEBUG    | common.unittestMain:req_assert:72 - 本次执行的测试用例请求内容为：{'period': 'day'}
+2022-04-18 16:10:08.440 | DEBUG    | common.unittestMain:req_assert:73 - 本次执行的测试用例响应内容为：{"busiCode":0,"msg":"请求成功","data":{"agentDetail":[{"staticDateSegment":"2022.04.17","totalAgentNum":0,"newAgentNum":0},{"staticDateSegment":"2022.04.16","totalAgentNum":0,"newAgentNum":0}],"increaseTotalAgentNum":0,"increaseAgentNum":0,"increaseAgentRatio":0.00,"increaseTotalAgentRatio":0.00}}
+2022-04-18 16:10:08.440 | INFO     | common.unittestMain:req_assert:76 - 接口响应时间为：0.139414
+2022-04-18 16:10:08.440 | INFO     | common.unittestMain:req_assert:78 - busicode与预期一致为：0
+2022-04-18 16:10:08.441 | INFO     | common.unittestMain:req_assert:80 - msg与预期一致
+2022-04-18 16:10:08.665 | DEBUG    | common.unittestMain:req_assert:72 - 本次执行的测试用例请求内容为：{'period': 'week'}
+2022-04-18 16:10:08.666 | DEBUG    | common.unittestMain:req_assert:73 - 本次执行的测试用例响应内容为：{"busiCode":0,"msg":"请求成功","data":{"agentDetail":[{"staticDateSegment":"2022.04.11-2022.04.17","totalAgentNum":0,"newAgentNum":0},{"staticDateSegment":"2022.04.04-2022.04.10","totalAgentNum":0,"newAgentNum":0}],"increaseTotalAgentNum":0,"increaseAgentNum":0,"increaseAgentRatio":0.00,"increaseTotalAgentRatio":0.00}}
+2022-04-18 16:10:08.666 | INFO     | common.unittestMain:req_assert:76 - 接口响应时间为：0.133012
+2022-04-18 16:10:08.666 | INFO     | common.unittestMain:req_assert:78 - busicode与预期一致为：0
+2022-04-18 16:10:08.666 | INFO     | common.unittestMain:req_assert:80 - msg与预期一致
+2022-04-18 16:10:08.944 | DEBUG    | common.unittestMain:req_assert:72 - 本次执行的测试用例请求内容为：{'period': 'month'}
+2022-04-18 16:10:08.944 | DEBUG    | common.unittestMain:req_assert:73 - 本次执行的测试用例响应内容为：{"busiCode":0,"msg":"请求成功","data":{"agentDetail":[{"staticDateSegment":"2022.03.01-2022.03.31","totalAgentNum":0,"newAgentNum":0},{"staticDateSegment":"2022.02.01-2022.02.28","totalAgentNum":0,"newAgentNum":0}],"increaseTotalAgentNum":0,"increaseAgentNum":0,"increaseAgentRatio":0.00,"increaseTotalAgentRatio":0.00}}
+2022-04-18 16:10:08.944 | INFO     | common.unittestMain:req_assert:76 - 接口响应时间为：0.190337
+2022-04-18 16:10:08.944 | INFO     | common.unittestMain:req_assert:78 - busicode与预期一致为：0
+2022-04-18 16:10:08.944 | INFO     | common.unittestMain:req_assert:80 - msg与预期一致
+2022-04-18 16:10:09.276 | DEBUG    | common.unittestMain:req_assert:72 - 本次执行的测试用例请求内容为：{'period': 'quarter'}
+2022-04-18 16:10:09.276 | DEBUG    | common.unittestMain:req_assert:73 - 本次执行的测试用例响应内容为：{"busiCode":0,"msg":"请求成功","data":{"agentDetail":[{"staticDateSegment":"2022.01.01-2022.03.31","totalAgentNum":0,"newAgentNum":0},{"staticDateSegment":"2021.10.01-2021.12.31","totalAgentNum":0,"newAgentNum":0}],"increaseTotalAgentNum":0,"increaseAgentNum":0,"increaseAgentRatio":0.00,"increaseTotalAgentRatio":0.00}}
+2022-04-18 16:10:09.276 | INFO     | common.unittestMain:req_assert:76 - 接口响应时间为：0.245732
+2022-04-18 16:10:09.276 | INFO     | common.unittestMain:req_assert:78 - busicode与预期一致为：0
+2022-04-18 16:10:09.276 | INFO     | common.unittestMain:req_assert:80 - msg与预期一致
+2022-04-18 16:10:09.505 | DEBUG    | common.unittestMain:req_assert:72 - 本次执行的测试用例请求内容为：{'period': '0'}
+2022-04-18 16:10:09.506 | DEBUG    | common.unittestMain:req_assert:73 - 本次执行的测试用例响应内容为：{"busiCode":-1,"msg":"接口未知异常","data":null}
+2022-04-18 16:10:09.507 | INFO     | common.unittestMain:req_assert:76 - 接口响应时间为：0.120969
+2022-04-18 16:10:09.507 | INFO     | common.unittestMain:req_assert:78 - busicode与预期一致为：-1
+2022-04-18 16:10:09.508 | INFO     | common.unittestMain:req_assert:80 - msg与预期一致
+2022-04-18 16:10:09.509 | INFO     | common.unittestMain:assert_data:87 - 响应内容与预期一致
+2022-04-18 16:10:09.708 | DEBUG    | common.unittestMain:req_assert:72 - 本次执行的测试用例请求内容为：{'period': '你好'}
+2022-04-18 16:10:09.708 | DEBUG    | common.unittestMain:req_assert:73 - 本次执行的测试用例响应内容为：{"busiCode":-1,"msg":"接口未知异常","data":null}
+2022-04-18 16:10:09.709 | INFO     | common.unittestMain:req_assert:76 - 接口响应时间为：0.101467
+2022-04-18 16:10:09.709 | INFO     | common.unittestMain:req_assert:78 - busicode与预期一致为：-1
+2022-04-18 16:10:09.709 | INFO     | common.unittestMain:req_assert:80 - msg与预期一致
+2022-04-18 16:10:09.709 | INFO     | common.unittestMain:assert_data:87 - 响应内容与预期一致
+2022-04-18 16:10:09.897 | DEBUG    | common.unittestMain:req_assert:72 - 本次执行的测试用例请求内容为：{'period': 'a'}
+2022-04-18 16:10:09.898 | DEBUG    | common.unittestMain:req_assert:73 - 本次执行的测试用例响应内容为：{"busiCode":-1,"msg":"接口未知异常","data":null}
+2022-04-18 16:10:09.898 | INFO     | common.unittestMain:req_assert:76 - 接口响应时间为：0.094125
+2022-04-18 16:10:09.899 | INFO     | common.unittestMain:req_assert:78 - busicode与预期一致为：-1
+2022-04-18 16:10:09.899 | INFO     | common.unittestMain:req_assert:80 - msg与预期一致
+2022-04-18 16:10:09.900 | INFO     | common.unittestMain:assert_data:87 - 响应内容与预期一致
+2022-04-18 16:10:10.094 | DEBUG    | common.unittestMain:req_assert:72 - 本次执行的测试用例请求内容为：{'period': 'hello'}
+2022-04-18 16:10:10.095 | DEBUG    | common.unittestMain:req_assert:73 - 本次执行的测试用例响应内容为：{"busiCode":-1,"msg":"接口未知异常","data":null}
+2022-04-18 16:10:10.095 | INFO     | common.unittestMain:req_assert:76 - 接口响应时间为：0.095505
+2022-04-18 16:10:10.095 | INFO     | common.unittestMain:req_assert:78 - busicode与预期一致为：-1
+2022-04-18 16:10:10.095 | INFO     | common.unittestMain:req_assert:80 - msg与预期一致
+2022-04-18 16:10:10.095 | INFO     | common.unittestMain:assert_data:87 - 响应内容与预期一致

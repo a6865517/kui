@@ -1,0 +1,4 @@
+2022-04-20 14:22:41.216 | DEBUG    | common.unittestMain:req_assert:76 - 本次执行的测试用例请求内容为：{'pageIndex': 1, 'pageSize': 10, 'condition': {'agentLevel': 3, 'groupStatus': 'Total', 'queryAgentNameOrPhone': '', 'startTime': '2022-04-20 00:00:00', 'endTime': '2022-04-20 23:59:59'}}
+2022-04-20 14:22:41.216 | DEBUG    | common.unittestMain:req_assert:77 - 本次执行的测试用例响应内容为：{"busiCode":-1,"msg":"接口未知异常","data":null}
+2022-04-20 14:22:41.216 | INFO     | common.unittestMain:req_assert:80 - 接口响应时间为：0.077964
+2022-04-20 14:22:42.461 | SUCCESS  | utils.mysql_res:update_sql:104 - --------------------------------------------------更新成功--------------------------------------------------

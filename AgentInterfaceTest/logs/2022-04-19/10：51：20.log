@@ -1,0 +1,35 @@
+2022-04-19 10:51:20.771 | DEBUG    | common.unittestMain:req_assert:74 - 本次执行的测试用例请求内容为：{'period': ''}
+2022-04-19 10:51:20.772 | DEBUG    | common.unittestMain:req_assert:75 - 本次执行的测试用例响应内容为：{"busiCode":-1,"msg":"接口未知异常","data":null}
+2022-04-19 10:51:20.773 | INFO     | common.unittestMain:req_assert:78 - 接口响应时间为：0.081002
+2022-04-19 10:51:20.774 | INFO     | common.unittestMain:req_assert:80 - busicode与预期一致为：-1
+2022-04-19 10:51:20.774 | INFO     | common.unittestMain:req_assert:82 - msg与预期一致
+2022-04-19 10:51:20.775 | INFO     | common.unittestMain:assert_data:91 - 响应内容与预期一致
+2022-04-19 10:51:21.015 | DEBUG    | common.unittestMain:req_assert:74 - 本次执行的测试用例请求内容为：{'period': 'day'}
+2022-04-19 10:51:21.016 | DEBUG    | common.unittestMain:req_assert:75 - 本次执行的测试用例响应内容为：{"busiCode":0,"msg":"请求成功","data":{"testMoneyIncrease":0.00,"testMoneyIncreaseRatio":0.00,"testPortionIncrease":0.00,"testPortionIncreaseRatio":0.00,"testDetail":[{"dateSegment":"2022.04.18","testAmount":0.00,"testPortion":0.00},{"dateSegment":"2022.04.17","testAmount":0.00,"testPortion":0.00}]}}
+2022-04-19 10:51:21.016 | INFO     | common.unittestMain:req_assert:78 - 接口响应时间为：0.148997
+2022-04-19 10:51:21.016 | INFO     | common.unittestMain:req_assert:80 - busicode与预期一致为：0
+2022-04-19 10:51:21.016 | INFO     | common.unittestMain:req_assert:82 - msg与预期一致
+2022-04-19 10:51:21.016 | INFO     | common.unittestMain:assert_data:94 - 响应内容与预期一致
+2022-04-19 10:51:21.258 | DEBUG    | common.unittestMain:req_assert:74 - 本次执行的测试用例请求内容为：{'period': 'week'}
+2022-04-19 10:51:21.258 | DEBUG    | common.unittestMain:req_assert:75 - 本次执行的测试用例响应内容为：{"busiCode":0,"msg":"请求成功","data":{"testMoneyIncrease":0.00,"testMoneyIncreaseRatio":0.00,"testPortionIncrease":0.00,"testPortionIncreaseRatio":0.00,"testDetail":[{"dateSegment":"2022.04.11-2022.04.17","testAmount":0.00,"testPortion":0.00},{"dateSegment":"2022.04.04-2022.04.10","testAmount":0.00,"testPortion":0.00}]}}
+2022-04-19 10:51:21.258 | INFO     | common.unittestMain:req_assert:78 - 接口响应时间为：0.125771
+2022-04-19 10:51:21.258 | INFO     | common.unittestMain:req_assert:80 - busicode与预期一致为：0
+2022-04-19 10:51:21.258 | INFO     | common.unittestMain:req_assert:82 - msg与预期一致
+2022-04-19 10:51:21.258 | INFO     | common.unittestMain:assert_data:94 - 响应内容与预期一致
+2022-04-19 10:51:21.706 | DEBUG    | common.unittestMain:req_assert:74 - 本次执行的测试用例请求内容为：{'period': 'month'}
+2022-04-19 10:51:21.706 | DEBUG    | common.unittestMain:req_assert:75 - 本次执行的测试用例响应内容为：{"busiCode":0,"msg":"请求成功","data":{"testMoneyIncrease":0.00,"testMoneyIncreaseRatio":0.00,"testPortionIncrease":0.00,"testPortionIncreaseRatio":0.00,"testDetail":[{"dateSegment":"2022.03.01-2022.03.31","testAmount":0.00,"testPortion":0.00},{"dateSegment":"2022.02.01-2022.02.28","testAmount":0.00,"testPortion":0.00}]}}
+2022-04-19 10:51:21.706 | INFO     | common.unittestMain:req_assert:78 - 接口响应时间为：0.140869
+2022-04-19 10:51:21.706 | INFO     | common.unittestMain:req_assert:80 - busicode与预期一致为：0
+2022-04-19 10:51:21.706 | INFO     | common.unittestMain:req_assert:82 - msg与预期一致
+2022-04-19 10:51:21.707 | INFO     | common.unittestMain:assert_data:94 - 响应内容与预期一致
+2022-04-19 10:51:21.931 | DEBUG    | common.unittestMain:req_assert:74 - 本次执行的测试用例请求内容为：{'period': 'quarter'}
+2022-04-19 10:51:21.931 | DEBUG    | common.unittestMain:req_assert:75 - 本次执行的测试用例响应内容为：{"busiCode":0,"msg":"请求成功","data":{"testMoneyIncrease":0.00,"testMoneyIncreaseRatio":0.00,"testPortionIncrease":0.00,"testPortionIncreaseRatio":0.00,"testDetail":[{"dateSegment":"2022.01.01-2022.03.31","testAmount":0.00,"testPortion":0.00},{"dateSegment":"2021.10.01-2021.12.31","testAmount":0.00,"testPortion":0.00}]}}
+2022-04-19 10:51:21.932 | INFO     | common.unittestMain:req_assert:78 - 接口响应时间为：0.127741
+2022-04-19 10:51:21.932 | INFO     | common.unittestMain:req_assert:80 - busicode与预期一致为：0
+2022-04-19 10:51:21.932 | INFO     | common.unittestMain:req_assert:82 - msg与预期一致
+2022-04-19 10:51:22.105 | DEBUG    | common.unittestMain:req_assert:74 - 本次执行的测试用例请求内容为：{'period': '月'}
+2022-04-19 10:51:22.105 | DEBUG    | common.unittestMain:req_assert:75 - 本次执行的测试用例响应内容为：{"busiCode":-1,"msg":"接口未知异常","data":null}
+2022-04-19 10:51:22.105 | INFO     | common.unittestMain:req_assert:78 - 接口响应时间为：0.0798
+2022-04-19 10:51:22.105 | INFO     | common.unittestMain:req_assert:80 - busicode与预期一致为：-1
+2022-04-19 10:51:22.105 | INFO     | common.unittestMain:req_assert:82 - msg与预期一致
+2022-04-19 10:51:22.105 | INFO     | common.unittestMain:assert_data:91 - 响应内容与预期一致

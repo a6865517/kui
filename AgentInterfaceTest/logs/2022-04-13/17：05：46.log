@@ -1,0 +1,6 @@
+2022-04-13 17:05:46.940 | DEBUG    | common.unittestMain:req_assert:73 - 本次执行的测试用例请求内容为：{'period': '0'}
+2022-04-13 17:05:46.940 | DEBUG    | common.unittestMain:req_assert:74 - 本次执行的测试用例响应内容为：{"busiCode":-1,"msg":"接口未知异常","data":null}
+2022-04-13 17:05:46.940 | INFO     | common.unittestMain:req_assert:77 - 接口响应时间为：0.122714
+2022-04-13 17:05:46.941 | INFO     | common.unittestMain:req_assert:79 - busicode与预期一致为：-1
+2022-04-13 17:05:46.941 | INFO     | common.unittestMain:req_assert:81 - msg与预期一致
+2022-04-13 17:05:46.941 | INFO     | common.unittestMain:assert_data:92 - 响应内容与预期一致

@@ -1,0 +1,37 @@
+2022-04-20 15:11:52.704 | DEBUG    | common.unittestMain:req_assert:76 - 本次执行的测试用例请求内容为：{'pageIndex': 1, 'pageSize': 10, 'condition': {'agentLevel': 3, 'groupStatus': 'Total', 'queryAgentNameOrPhone': '', 'startTime': '2020-04-14 00:00:00', 'endTime': '2025-04-20 23:59:59'}}
+2022-04-20 15:11:52.704 | DEBUG    | common.unittestMain:req_assert:77 - 本次执行的测试用例响应内容为：{"busiCode":0,"msg":"请求成功","data":{"total":0,"list":[]}}
+2022-04-20 15:11:52.704 | INFO     | common.unittestMain:req_assert:80 - 接口响应时间为：0.261341
+2022-04-20 15:11:52.704 | INFO     | common.unittestMain:req_assert:82 - busicode与预期一致为：0
+2022-04-20 15:11:52.704 | INFO     | common.unittestMain:req_assert:84 - msg与预期一致
+2022-04-20 15:11:52.705 | INFO     | common.unittestMain:assert_data:93 - 响应内容与预期一致
+2022-04-20 15:11:53.022 | DEBUG    | common.unittestMain:req_assert:76 - 本次执行的测试用例请求内容为：{'pageIndex': 1, 'pageSize': 10, 'condition': {'agentLevel': 3, 'groupStatus': 'Total', 'queryAgentNameOrPhone': '', 'startTime': '', 'endTime': '2025-04-20 23:59:59'}}
+2022-04-20 15:11:53.023 | DEBUG    | common.unittestMain:req_assert:77 - 本次执行的测试用例响应内容为：{"busiCode":0,"msg":"请求成功","data":{"total":0,"list":[]}}
+2022-04-20 15:11:53.023 | INFO     | common.unittestMain:req_assert:80 - 接口响应时间为：0.193656
+2022-04-20 15:11:53.023 | INFO     | common.unittestMain:req_assert:82 - busicode与预期一致为：0
+2022-04-20 15:11:53.023 | INFO     | common.unittestMain:req_assert:84 - msg与预期一致
+2022-04-20 15:11:53.023 | INFO     | common.unittestMain:assert_data:93 - 响应内容与预期一致
+2022-04-20 15:11:53.271 | DEBUG    | common.unittestMain:req_assert:76 - 本次执行的测试用例请求内容为：{'pageIndex': 1, 'pageSize': 10, 'condition': {'agentLevel': 3, 'groupStatus': 'Total', 'queryAgentNameOrPhone': '', 'startTime': '', 'endTime': ''}}
+2022-04-20 15:11:53.271 | DEBUG    | common.unittestMain:req_assert:77 - 本次执行的测试用例响应内容为：{"busiCode":0,"msg":"请求成功","data":{"total":0,"list":[]}}
+2022-04-20 15:11:53.272 | INFO     | common.unittestMain:req_assert:80 - 接口响应时间为：0.16369
+2022-04-20 15:11:53.272 | INFO     | common.unittestMain:req_assert:82 - busicode与预期一致为：0
+2022-04-20 15:11:53.272 | INFO     | common.unittestMain:req_assert:84 - msg与预期一致
+2022-04-20 15:11:53.272 | INFO     | common.unittestMain:assert_data:93 - 响应内容与预期一致
+2022-04-20 15:11:53.526 | DEBUG    | common.unittestMain:req_assert:76 - 本次执行的测试用例请求内容为：{'pageIndex': 1, 'pageSize': 10, 'condition': {'agentLevel': 0, 'groupStatus': '', 'queryAgentNameOrPhone': '', 'startTime': '', 'endTime': ''}}
+2022-04-20 15:11:53.526 | DEBUG    | common.unittestMain:req_assert:77 - 本次执行的测试用例响应内容为：{"busiCode":0,"msg":"请求成功","data":{"total":0,"list":[]}}
+2022-04-20 15:11:53.526 | INFO     | common.unittestMain:req_assert:80 - 接口响应时间为：0.165441
+2022-04-20 15:11:53.526 | INFO     | common.unittestMain:req_assert:82 - busicode与预期一致为：0
+2022-04-20 15:11:53.526 | INFO     | common.unittestMain:req_assert:84 - msg与预期一致
+2022-04-20 15:11:53.526 | INFO     | common.unittestMain:assert_data:93 - 响应内容与预期一致
+2022-04-20 15:11:53.814 | DEBUG    | common.unittestMain:req_assert:76 - 本次执行的测试用例请求内容为：{'pageIndex': -1, 'pageSize': 10, 'condition': {'agentLevel': 0, 'groupStatus': '', 'queryAgentNameOrPhone': '', 'startTime': '', 'endTime': ''}}
+2022-04-20 15:11:53.815 | DEBUG    | common.unittestMain:req_assert:77 - 本次执行的测试用例响应内容为：{"busiCode":0,"msg":"请求成功","data":{"total":0,"list":[]}}
+2022-04-20 15:11:53.815 | INFO     | common.unittestMain:req_assert:80 - 接口响应时间为：0.18832
+2022-04-20 15:11:53.815 | INFO     | common.unittestMain:req_assert:82 - busicode与预期一致为：0
+2022-04-20 15:11:53.815 | INFO     | common.unittestMain:req_assert:84 - msg与预期一致
+2022-04-20 15:11:53.815 | INFO     | common.unittestMain:assert_data:93 - 响应内容与预期一致
+2022-04-20 15:11:54.094 | DEBUG    | common.unittestMain:req_assert:76 - 本次执行的测试用例请求内容为：{'pageIndex': -1, 'pageSize': 10, 'condition': {'agentLevel': 0}}
+2022-04-20 15:11:54.094 | DEBUG    | common.unittestMain:req_assert:77 - 本次执行的测试用例响应内容为：{"busiCode":0,"msg":"请求成功","data":{"total":0,"list":[]}}
+2022-04-20 15:11:54.094 | INFO     | common.unittestMain:req_assert:80 - 接口响应时间为：0.191223
+2022-04-20 15:11:54.094 | INFO     | common.unittestMain:req_assert:82 - busicode与预期一致为：0
+2022-04-20 15:11:54.094 | INFO     | common.unittestMain:req_assert:84 - msg与预期一致
+2022-04-20 15:11:54.094 | INFO     | common.unittestMain:assert_data:93 - 响应内容与预期一致
+2022-04-20 15:11:55.379 | SUCCESS  | utils.mysql_res:update_sql:104 - --------------------------------------------------更新成功--------------------------------------------------

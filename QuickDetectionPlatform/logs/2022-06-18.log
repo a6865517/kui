@@ -1,0 +1,199 @@
+2022-06-18 10:13:06.858 | INFO     | __main__:add_patient:40 - 添加患者接口请求参数为:{'clinicId': 1442079173893074946, 'mobilePhone': '13600000000', 'userAge': 10, 'userMonth': 0, 'userName': '测试检测数据', 'userSex': 0}
+2022-06-18 10:13:06.858 | INFO     | __main__:add_patient:41 - 添加患者接口响应参数为:{"busiCode":0,"msg":"请求成功","data":"1537981708267749378"}
+2022-06-18 10:15:32.299 | INFO     | utils.get_clinic_info_test:bind_gold_blood_device:71 - 绑定设备接口请求参数{'clinicId': 1442079173893074946, 'ids': [1391993393872678914], 'operateType': 1}
+2022-06-18 10:15:32.299 | INFO     | utils.get_clinic_info_test:bind_gold_blood_device:72 - 绑定设备接口返回参数{"busiCode":201,"msg":"一个诊所只能绑定同种设备一次","data":null}
+2022-06-18 10:15:32.426 | INFO     | utils.get_clinic_info_test:bind_gold_blood_device:71 - 绑定设备接口请求参数{'clinicId': 1442079173893074946, 'ids': [1474307705518788610], 'operateType': 1}
+2022-06-18 10:15:32.426 | INFO     | utils.get_clinic_info_test:bind_gold_blood_device:72 - 绑定设备接口返回参数{"busiCode":201,"msg":"一个诊所只能绑定同种设备一次","data":null}
+2022-06-18 10:15:32.681 | INFO     | __main__:add_patient:41 - 添加患者接口请求参数为:{'clinicId': 1442079173893074946, 'mobilePhone': '13600000000', 'userAge': 10, 'userMonth': 0, 'userName': '测试检测数据', 'userSex': 0}
+2022-06-18 10:15:32.681 | INFO     | __main__:add_patient:42 - 添加患者接口响应参数为:{"busiCode":0,"msg":"请求成功","data":"1537982319906324481"}
+2022-06-18 10:42:16.310 | INFO     | utils.get_clinic_info_test:bind_gold_blood_device:71 - 绑定设备接口请求参数{'clinicId': 1442079173893074946, 'ids': [1391993393872678914], 'operateType': 1}
+2022-06-18 10:42:16.311 | INFO     | utils.get_clinic_info_test:bind_gold_blood_device:72 - 绑定设备接口返回参数{"busiCode":201,"msg":"一个诊所只能绑定同种设备一次","data":null}
+2022-06-18 10:42:16.425 | INFO     | utils.get_clinic_info_test:bind_gold_blood_device:71 - 绑定设备接口请求参数{'clinicId': 1442079173893074946, 'ids': [1474307705518788610], 'operateType': 1}
+2022-06-18 10:42:16.425 | INFO     | utils.get_clinic_info_test:bind_gold_blood_device:72 - 绑定设备接口返回参数{"busiCode":201,"msg":"一个诊所只能绑定同种设备一次","data":null}
+2022-06-18 10:42:16.650 | INFO     | __main__:add_patient:50 - 添加患者接口请求参数为:{'clinicId': 1442079173893074946, 'mobilePhone': '13600000000', 'userAge': 10, 'userMonth': 0, 'userName': '测试检测数据', 'userSex': 0}
+2022-06-18 10:42:16.650 | INFO     | __main__:add_patient:51 - 添加患者接口响应参数为:{"busiCode":0,"msg":"请求成功","data":"1537989047477665794"}
+2022-06-18 10:42:25.431 | INFO     | __main__:start_check:64 - 开始检测接口请求参数为：{'boardSno': '210101000010', 'cameraName': '测试相机', 'clinicId': 1442079173893074946, 'deviceSno': 'BLD100021111800001', 'hgbCalibration': [{'reference': 20317, 'groundTruth': 0, 'measure': 25501}, {'reference': 20732, 'groundTruth': 0, 'measure': 25637}, {'reference': 19684, 'groundTruth': 231, 'measure': 2397}, {'reference': 20401, 'groundTruth': 141, 'measure': 6061}, {'reference': 20628, 'groundTruth': 71, 'measure': 12633}, {'reference': 20360, 'groundTruth': 48, 'measure': 15893}], 'hgbCurveData': [], 'hgbMeasure': 0, 'hgbReference': 0, 'path': 'c69099f6-2df3-497b-b5ac-cefdca802aa9.zip', 'patientId': '1537989047477665794', 'pointConfig': {'plt': {'focus': 0, 'points': 0}, 'rbc': {'focus': 0, 'points': 0}, 'wbc': {'focus': 0, 'points': 0}}, 'type': 1}
+2022-06-18 10:42:25.431 | INFO     | __main__:start_check:65 - 开始检测接口响应内容为:{"busiCode":0,"msg":"请求成功","data":"1537989060530339842"}
+2022-06-18 10:51:38.995 | INFO     | utils.get_clinic_info_test:bind_gold_blood_device:71 - 绑定设备接口请求参数{'clinicId': 1442079173893074946, 'ids': [1391993393872678914], 'operateType': 1}
+2022-06-18 10:51:38.996 | INFO     | utils.get_clinic_info_test:bind_gold_blood_device:72 - 绑定设备接口返回参数{"busiCode":201,"msg":"一个诊所只能绑定同种设备一次","data":null}
+2022-06-18 10:51:39.108 | INFO     | utils.get_clinic_info_test:bind_gold_blood_device:71 - 绑定设备接口请求参数{'clinicId': 1442079173893074946, 'ids': [1474307705518788610], 'operateType': 1}
+2022-06-18 10:51:39.108 | INFO     | utils.get_clinic_info_test:bind_gold_blood_device:72 - 绑定设备接口返回参数{"busiCode":201,"msg":"一个诊所只能绑定同种设备一次","data":null}
+2022-06-18 10:51:39.331 | INFO     | __main__:add_patient:51 - 添加患者接口请求参数为:{'clinicId': 1442079173893074946, 'mobilePhone': '13600000000', 'userAge': 10, 'userMonth': 0, 'userName': '测试检测数据', 'userSex': 0}
+2022-06-18 10:51:39.331 | INFO     | __main__:add_patient:52 - 添加患者接口响应参数为:{"busiCode":0,"msg":"请求成功","data":"1537991407545417730"}
+2022-06-18 10:51:47.966 | INFO     | __main__:start_check:65 - 开始检测接口请求参数为：{'boardSno': '210101000010', 'cameraName': '测试相机', 'clinicId': 1442079173893074946, 'deviceSno': 'BLD100021111800001', 'hgbCalibration': [{'reference': 20317, 'groundTruth': 0, 'measure': 25501}, {'reference': 20732, 'groundTruth': 0, 'measure': 25637}, {'reference': 19684, 'groundTruth': 231, 'measure': 2397}, {'reference': 20401, 'groundTruth': 141, 'measure': 6061}, {'reference': 20628, 'groundTruth': 71, 'measure': 12633}, {'reference': 20360, 'groundTruth': 48, 'measure': 15893}], 'hgbCurveData': [], 'hgbMeasure': 0, 'hgbReference': 0, 'path': 'c69099f6-2df3-497b-b5ac-cefdca802aa9.zip', 'patientId': '1537991407545417730', 'pointConfig': {'plt': {'focus': 0, 'points': 0}, 'rbc': {'focus': 0, 'points': 0}, 'wbc': {'focus': 0, 'points': 0}}, 'type': 1}
+2022-06-18 10:51:47.966 | INFO     | __main__:start_check:66 - 开始检测接口响应内容为:{"busiCode":0,"msg":"请求成功","data":"1537991420241575937"}
+2022-06-18 10:51:48.127 | INFO     | __main__:get_manual_status:80 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': ''}}
+2022-06-18 10:52:30.623 | INFO     | utils.get_clinic_info_test:bind_gold_blood_device:71 - 绑定设备接口请求参数{'clinicId': 1442079173893074946, 'ids': [1391993393872678914], 'operateType': 1}
+2022-06-18 10:52:30.623 | INFO     | utils.get_clinic_info_test:bind_gold_blood_device:72 - 绑定设备接口返回参数{"busiCode":201,"msg":"一个诊所只能绑定同种设备一次","data":null}
+2022-06-18 10:52:30.795 | INFO     | utils.get_clinic_info_test:bind_gold_blood_device:71 - 绑定设备接口请求参数{'clinicId': 1442079173893074946, 'ids': [1474307705518788610], 'operateType': 1}
+2022-06-18 10:52:30.795 | INFO     | utils.get_clinic_info_test:bind_gold_blood_device:72 - 绑定设备接口返回参数{"busiCode":201,"msg":"一个诊所只能绑定同种设备一次","data":null}
+2022-06-18 10:52:31.008 | INFO     | __main__:add_patient:51 - 添加患者接口请求参数为:{'clinicId': 1442079173893074946, 'mobilePhone': '13600000000', 'userAge': 10, 'userMonth': 0, 'userName': '测试检测数据', 'userSex': 0}
+2022-06-18 10:52:31.008 | INFO     | __main__:add_patient:52 - 添加患者接口响应参数为:{"busiCode":0,"msg":"请求成功","data":"1537991624483209218"}
+2022-06-18 10:52:39.554 | INFO     | __main__:start_check:65 - 开始检测接口请求参数为：{'boardSno': '210101000010', 'cameraName': '测试相机', 'clinicId': 1442079173893074946, 'deviceSno': 'BLD100021111800001', 'hgbCalibration': [{'reference': 20317, 'groundTruth': 0, 'measure': 25501}, {'reference': 20732, 'groundTruth': 0, 'measure': 25637}, {'reference': 19684, 'groundTruth': 231, 'measure': 2397}, {'reference': 20401, 'groundTruth': 141, 'measure': 6061}, {'reference': 20628, 'groundTruth': 71, 'measure': 12633}, {'reference': 20360, 'groundTruth': 48, 'measure': 15893}], 'hgbCurveData': [], 'hgbMeasure': 0, 'hgbReference': 0, 'path': 'c69099f6-2df3-497b-b5ac-cefdca802aa9.zip', 'patientId': '1537991624483209218', 'pointConfig': {'plt': {'focus': 0, 'points': 0}, 'rbc': {'focus': 0, 'points': 0}, 'wbc': {'focus': 0, 'points': 0}}, 'type': 1}
+2022-06-18 10:52:39.554 | INFO     | __main__:start_check:66 - 开始检测接口响应内容为:{"busiCode":0,"msg":"请求成功","data":"1537991637036761089"}
+2022-06-18 10:52:39.707 | INFO     | __main__:get_manual_status:80 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': ''}}
+2022-06-18 10:52:39.885 | INFO     | __main__:get_manual_status:80 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': ''}}
+2022-06-18 10:52:40.032 | INFO     | __main__:get_manual_status:80 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': ''}}
+2022-06-18 10:52:40.176 | INFO     | __main__:get_manual_status:80 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': ''}}
+2022-06-18 10:52:40.321 | INFO     | __main__:get_manual_status:80 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': ''}}
+2022-06-18 10:52:40.472 | INFO     | __main__:get_manual_status:80 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': ''}}
+2022-06-18 10:52:40.616 | INFO     | __main__:get_manual_status:80 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': ''}}
+2022-06-18 10:52:40.761 | INFO     | __main__:get_manual_status:80 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': ''}}
+2022-06-18 10:52:40.907 | INFO     | __main__:get_manual_status:80 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': ''}}
+2022-06-18 10:52:41.051 | INFO     | __main__:get_manual_status:80 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': ''}}
+2022-06-18 10:52:41.208 | INFO     | __main__:get_manual_status:80 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': ''}}
+2022-06-18 10:52:41.394 | INFO     | __main__:get_manual_status:80 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': ''}}
+2022-06-18 10:52:41.544 | INFO     | __main__:get_manual_status:80 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': ''}}
+2022-06-18 10:52:41.694 | INFO     | __main__:get_manual_status:80 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 3, 'msg': ''}}
+2022-06-18 11:04:13.327 | INFO     | utils.get_clinic_info_test:bind_gold_blood_device:71 - 绑定设备接口请求参数{'clinicId': 1442079173893074946, 'ids': [1391993393872678914], 'operateType': 1}
+2022-06-18 11:04:13.327 | INFO     | utils.get_clinic_info_test:bind_gold_blood_device:72 - 绑定设备接口返回参数{"busiCode":201,"msg":"一个诊所只能绑定同种设备一次","data":null}
+2022-06-18 11:04:13.441 | INFO     | utils.get_clinic_info_test:bind_gold_blood_device:71 - 绑定设备接口请求参数{'clinicId': 1442079173893074946, 'ids': [1474307705518788610], 'operateType': 1}
+2022-06-18 11:04:13.441 | INFO     | utils.get_clinic_info_test:bind_gold_blood_device:72 - 绑定设备接口返回参数{"busiCode":201,"msg":"一个诊所只能绑定同种设备一次","data":null}
+2022-06-18 11:04:13.702 | INFO     | __main__:add_patient:52 - 添加患者接口请求参数为:{'clinicId': 1442079173893074946, 'mobilePhone': '13600000000', 'userAge': 10, 'userMonth': 0, 'userName': '测试检测数据', 'userSex': 0}
+2022-06-18 11:04:13.702 | INFO     | __main__:add_patient:53 - 添加患者接口响应参数为:{"busiCode":0,"msg":"请求成功","data":"1537994571589943297"}
+2022-06-18 11:04:22.445 | INFO     | __main__:start_check:65 - 开始检测接口请求参数为：{'boardSno': '210101000010', 'cameraName': '测试相机', 'clinicId': 1442079173893074946, 'deviceSno': 'BLD100021111800001', 'hgbCalibration': [{'reference': 20317, 'groundTruth': 0, 'measure': 25501}, {'reference': 20732, 'groundTruth': 0, 'measure': 25637}, {'reference': 19684, 'groundTruth': 231, 'measure': 2397}, {'reference': 20401, 'groundTruth': 141, 'measure': 6061}, {'reference': 20628, 'groundTruth': 71, 'measure': 12633}, {'reference': 20360, 'groundTruth': 48, 'measure': 15893}], 'hgbCurveData': [], 'hgbMeasure': 0, 'hgbReference': 0, 'path': 'c69099f6-2df3-497b-b5ac-cefdca802aa9.zip', 'patientId': '1537994571589943297', 'pointConfig': {'plt': {'focus': 0, 'points': 0}, 'rbc': {'focus': 0, 'points': 0}, 'wbc': {'focus': 0, 'points': 0}}, 'type': 1}
+2022-06-18 11:04:22.445 | INFO     | __main__:start_check:66 - 开始检测接口响应内容为:{"busiCode":0,"msg":"请求成功","data":"1537994584424513537"}
+2022-06-18 11:04:22.597 | INFO     | __main__:get_manual_status:79 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': ''}}
+2022-06-18 11:04:22.741 | INFO     | __main__:get_manual_status:79 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': ''}}
+2022-06-18 11:04:22.886 | INFO     | __main__:get_manual_status:79 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': ''}}
+2022-06-18 11:04:23.151 | INFO     | __main__:get_manual_status:79 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': ''}}
+2022-06-18 11:04:23.295 | INFO     | __main__:get_manual_status:79 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': ''}}
+2022-06-18 11:04:23.438 | INFO     | __main__:get_manual_status:79 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': ''}}
+2022-06-18 11:04:23.583 | INFO     | __main__:get_manual_status:79 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': ''}}
+2022-06-18 11:04:23.776 | INFO     | __main__:get_manual_status:79 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': ''}}
+2022-06-18 11:04:23.937 | INFO     | __main__:get_manual_status:79 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': ''}}
+2022-06-18 11:04:24.085 | INFO     | __main__:get_manual_status:79 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': ''}}
+2022-06-18 11:04:24.235 | INFO     | __main__:get_manual_status:79 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': ''}}
+2022-06-18 11:04:24.381 | INFO     | __main__:get_manual_status:79 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': ''}}
+2022-06-18 11:04:24.553 | INFO     | __main__:get_manual_status:79 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 3, 'msg': ''}}
+2022-06-18 11:04:25.562 | INFO     | __main__:get_manual_status:83 - 等待一秒钟，再去查询
+2022-06-18 11:04:26.563 | INFO     | __main__:get_manual_status:83 - 等待一秒钟，再去查询
+2022-06-18 11:04:27.567 | INFO     | __main__:get_manual_status:83 - 等待一秒钟，再去查询
+2022-06-18 11:04:28.581 | INFO     | __main__:get_manual_status:83 - 等待一秒钟，再去查询
+2022-06-18 11:04:29.583 | INFO     | __main__:get_manual_status:83 - 等待一秒钟，再去查询
+2022-06-18 11:04:30.584 | INFO     | __main__:get_manual_status:83 - 等待一秒钟，再去查询
+2022-06-18 11:04:31.586 | INFO     | __main__:get_manual_status:83 - 等待一秒钟，再去查询
+2022-06-18 11:04:32.599 | INFO     | __main__:get_manual_status:83 - 等待一秒钟，再去查询
+2022-06-18 11:04:33.610 | INFO     | __main__:get_manual_status:83 - 等待一秒钟，再去查询
+2022-06-18 11:04:34.612 | INFO     | __main__:get_manual_status:83 - 等待一秒钟，再去查询
+2022-06-18 11:05:07.522 | INFO     | utils.get_clinic_info_test:bind_gold_blood_device:71 - 绑定设备接口请求参数{'clinicId': 1442079173893074946, 'ids': [1391993393872678914], 'operateType': 1}
+2022-06-18 11:05:07.522 | INFO     | utils.get_clinic_info_test:bind_gold_blood_device:72 - 绑定设备接口返回参数{"busiCode":201,"msg":"一个诊所只能绑定同种设备一次","data":null}
+2022-06-18 11:05:07.655 | INFO     | utils.get_clinic_info_test:bind_gold_blood_device:71 - 绑定设备接口请求参数{'clinicId': 1442079173893074946, 'ids': [1474307705518788610], 'operateType': 1}
+2022-06-18 11:05:07.655 | INFO     | utils.get_clinic_info_test:bind_gold_blood_device:72 - 绑定设备接口返回参数{"busiCode":201,"msg":"一个诊所只能绑定同种设备一次","data":null}
+2022-06-18 11:05:07.840 | INFO     | __main__:add_patient:52 - 添加患者接口请求参数为:{'clinicId': 1442079173893074946, 'mobilePhone': '13600000000', 'userAge': 10, 'userMonth': 0, 'userName': '测试检测数据', 'userSex': 0}
+2022-06-18 11:05:07.841 | INFO     | __main__:add_patient:53 - 添加患者接口响应参数为:{"busiCode":0,"msg":"请求成功","data":"1537994798849916929"}
+2022-06-18 11:05:16.345 | INFO     | __main__:start_check:65 - 开始检测接口请求参数为：{'boardSno': '210101000010', 'cameraName': '测试相机', 'clinicId': 1442079173893074946, 'deviceSno': 'BLD100021111800001', 'hgbCalibration': [{'reference': 20317, 'groundTruth': 0, 'measure': 25501}, {'reference': 20732, 'groundTruth': 0, 'measure': 25637}, {'reference': 19684, 'groundTruth': 231, 'measure': 2397}, {'reference': 20401, 'groundTruth': 141, 'measure': 6061}, {'reference': 20628, 'groundTruth': 71, 'measure': 12633}, {'reference': 20360, 'groundTruth': 48, 'measure': 15893}], 'hgbCurveData': [], 'hgbMeasure': 0, 'hgbReference': 0, 'path': 'c69099f6-2df3-497b-b5ac-cefdca802aa9.zip', 'patientId': '1537994798849916929', 'pointConfig': {'plt': {'focus': 0, 'points': 0}, 'rbc': {'focus': 0, 'points': 0}, 'wbc': {'focus': 0, 'points': 0}}, 'type': 1}
+2022-06-18 11:05:16.346 | INFO     | __main__:start_check:66 - 开始检测接口响应内容为:{"busiCode":0,"msg":"请求成功","data":"1537994811130839042"}
+2022-06-18 11:05:17.544 | INFO     | __main__:get_manual_status:80 - 等待一秒钟，再去查询
+2022-06-18 11:05:17.545 | INFO     | __main__:get_manual_status:81 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': ''}}
+2022-06-18 11:05:18.712 | INFO     | __main__:get_manual_status:80 - 等待一秒钟，再去查询
+2022-06-18 11:05:18.712 | INFO     | __main__:get_manual_status:81 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': ''}}
+2022-06-18 11:05:19.868 | INFO     | __main__:get_manual_status:80 - 等待一秒钟，再去查询
+2022-06-18 11:05:19.868 | INFO     | __main__:get_manual_status:81 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 3, 'msg': ''}}
+2022-06-18 11:05:20.933 | INFO     | __main__:create_order:94 - 生成订单接口请求参数为：{'dataId': '1537994811130839042'}
+2022-06-18 11:05:20.933 | INFO     | __main__:create_order:95 - 生成订单接口响应内容为:{"busiCode":0,"msg":"请求成功","data":{"orderNo":"BLD1000211118000012206181105212924","payUrl":"https://qr.95516.com/48020000/10VA2206182210522116385171","money":0.01,"promptMsg":"未支付","orderStatus":0}}
+2022-06-18 11:19:48.354 | INFO     | utils.get_clinic_info_test:bind_gold_blood_device:71 - 绑定设备接口请求参数{'clinicId': 1442079173893074946, 'ids': [1391993393872678914], 'operateType': 1}
+2022-06-18 11:19:48.354 | INFO     | utils.get_clinic_info_test:bind_gold_blood_device:72 - 绑定设备接口返回参数{"busiCode":201,"msg":"一个诊所只能绑定同种设备一次","data":null}
+2022-06-18 11:19:48.479 | INFO     | utils.get_clinic_info_test:bind_gold_blood_device:71 - 绑定设备接口请求参数{'clinicId': 1442079173893074946, 'ids': [1474307705518788610], 'operateType': 1}
+2022-06-18 11:19:48.479 | INFO     | utils.get_clinic_info_test:bind_gold_blood_device:72 - 绑定设备接口返回参数{"busiCode":201,"msg":"一个诊所只能绑定同种设备一次","data":null}
+2022-06-18 11:19:48.722 | INFO     | __main__:add_patient:54 - 添加患者接口请求参数为:{'clinicId': 1442079173893074946, 'mobilePhone': '13600000000', 'userAge': 10, 'userMonth': 0, 'userName': '测试检测数据', 'userSex': 0}
+2022-06-18 11:19:48.722 | INFO     | __main__:add_patient:55 - 添加患者接口响应参数为:{"busiCode":0,"msg":"请求成功","data":"1537998493335486466"}
+2022-06-18 11:19:57.332 | INFO     | __main__:start_check:67 - 开始检测接口请求参数为：{'boardSno': '210101000010', 'cameraName': '测试相机', 'clinicId': 1442079173893074946, 'deviceSno': 'BLD100021111800001', 'hgbCalibration': [{'reference': 20317, 'groundTruth': 0, 'measure': 25501}, {'reference': 20732, 'groundTruth': 0, 'measure': 25637}, {'reference': 19684, 'groundTruth': 231, 'measure': 2397}, {'reference': 20401, 'groundTruth': 141, 'measure': 6061}, {'reference': 20628, 'groundTruth': 71, 'measure': 12633}, {'reference': 20360, 'groundTruth': 48, 'measure': 15893}], 'hgbCurveData': [], 'hgbMeasure': 0, 'hgbReference': 0, 'path': 'c69099f6-2df3-497b-b5ac-cefdca802aa9.zip', 'patientId': '1537998493335486466', 'pointConfig': {'plt': {'focus': 0, 'points': 0}, 'rbc': {'focus': 0, 'points': 0}, 'wbc': {'focus': 0, 'points': 0}}, 'type': 1}
+2022-06-18 11:19:57.332 | INFO     | __main__:start_check:68 - 开始检测接口响应内容为:{"busiCode":0,"msg":"请求成功","data":"1537998506128113665"}
+2022-06-18 11:19:58.490 | INFO     | __main__:get_manual_status:82 - 等待一秒钟，再去查询
+2022-06-18 11:19:58.490 | INFO     | __main__:get_manual_status:83 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': ''}}
+2022-06-18 11:19:59.647 | INFO     | __main__:get_manual_status:82 - 等待一秒钟，再去查询
+2022-06-18 11:19:59.647 | INFO     | __main__:get_manual_status:83 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': ''}}
+2022-06-18 11:20:00.836 | INFO     | __main__:get_manual_status:82 - 等待一秒钟，再去查询
+2022-06-18 11:20:00.836 | INFO     | __main__:get_manual_status:83 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': ''}}
+2022-06-18 11:20:01.990 | INFO     | __main__:get_manual_status:82 - 等待一秒钟，再去查询
+2022-06-18 11:20:01.990 | INFO     | __main__:get_manual_status:83 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 3, 'msg': ''}}
+2022-06-18 11:20:02.927 | INFO     | __main__:create_order:97 - 生成订单接口请求参数为：{'dataId': '1537998506128113665'}
+2022-06-18 11:20:02.927 | INFO     | __main__:create_order:98 - 生成订单接口响应内容为:{"busiCode":0,"msg":"请求成功","data":{"orderNo":"BLD1000211118000012206181120039733","payUrl":"https://qr.95516.com/48020000/10VA2206182252004113952588","money":0.01,"promptMsg":"未支付","orderStatus":0}}
+2022-06-18 11:20:03.657 | INFO     | __main__:call_back:116 - 支付回调接口请求参数为：{'boardSno': '210101000010', 'cameraName': '测试相机', 'clinicId': 1442079173893074946, 'deviceSno': 'BLD100021111800001', 'hgbCalibration': [{'reference': 20317, 'groundTruth': 0, 'measure': 25501}, {'reference': 20732, 'groundTruth': 0, 'measure': 25637}, {'reference': 19684, 'groundTruth': 231, 'measure': 2397}, {'reference': 20401, 'groundTruth': 141, 'measure': 6061}, {'reference': 20628, 'groundTruth': 71, 'measure': 12633}, {'reference': 20360, 'groundTruth': 48, 'measure': 15893}], 'hgbCurveData': [], 'hgbMeasure': 0, 'hgbReference': 0, 'path': 'c69099f6-2df3-497b-b5ac-cefdca802aa9.zip', 'patientId': '1537998493335486466', 'pointConfig': {'plt': {'focus': 0, 'points': 0}, 'rbc': {'focus': 0, 'points': 0}, 'wbc': {'focus': 0, 'points': 0}}, 'type': 1}
+2022-06-18 11:20:03.657 | INFO     | __main__:call_back:117 - 支付回调接口响应内容为:{"busiCode":0,"msg":"请求成功","data":null}
+2022-06-18 11:39:01.314 | INFO     | utils.get_clinic_info_sta:bind_gold_blood_device:71 - 绑定设备接口请求参数{'clinicId': 1442082995943571458, 'ids': [1386932628008534018], 'operateType': 1}
+2022-06-18 11:39:01.314 | INFO     | utils.get_clinic_info_sta:bind_gold_blood_device:72 - 绑定设备接口返回参数{"msg":"认证未通过","busiCode":401}
+2022-06-18 11:39:01.377 | INFO     | utils.get_clinic_info_sta:bind_gold_blood_device:71 - 绑定设备接口请求参数{'clinicId': 1442082995943571458, 'ids': [1387605672557346818], 'operateType': 1}
+2022-06-18 11:39:01.377 | INFO     | utils.get_clinic_info_sta:bind_gold_blood_device:72 - 绑定设备接口返回参数{"msg":"认证未通过","busiCode":401}
+2022-06-18 11:40:18.826 | INFO     | utils.get_clinic_info_sta:bind_gold_blood_device:71 - 绑定设备接口请求参数{'clinicId': 1442082995943571458, 'ids': [1386932628008534018], 'operateType': 1}
+2022-06-18 11:40:18.826 | INFO     | utils.get_clinic_info_sta:bind_gold_blood_device:72 - 绑定设备接口返回参数{"busiCode":201,"msg":"一个诊所只能绑定同种设备一次","data":null}
+2022-06-18 11:40:18.920 | INFO     | utils.get_clinic_info_sta:bind_gold_blood_device:71 - 绑定设备接口请求参数{'clinicId': 1442082995943571458, 'ids': [1387605672557346818], 'operateType': 1}
+2022-06-18 11:40:18.920 | INFO     | utils.get_clinic_info_sta:bind_gold_blood_device:72 - 绑定设备接口返回参数{"busiCode":201,"msg":"一个诊所只能绑定同种设备一次","data":null}
+2022-06-18 11:42:48.865 | INFO     | utils.get_clinic_info_sta:bind_gold_blood_device:71 - 绑定设备接口请求参数{'clinicId': 1442082995943571458, 'ids': [1386932628008534018], 'operateType': 1}
+2022-06-18 11:42:48.865 | INFO     | utils.get_clinic_info_sta:bind_gold_blood_device:72 - 绑定设备接口返回参数{"busiCode":201,"msg":"一个诊所只能绑定同种设备一次","data":null}
+2022-06-18 11:42:48.961 | INFO     | utils.get_clinic_info_sta:bind_gold_blood_device:71 - 绑定设备接口请求参数{'clinicId': 1442082995943571458, 'ids': [1387605672557346818], 'operateType': 1}
+2022-06-18 11:42:48.961 | INFO     | utils.get_clinic_info_sta:bind_gold_blood_device:72 - 绑定设备接口返回参数{"busiCode":201,"msg":"一个诊所只能绑定同种设备一次","data":null}
+2022-06-18 11:44:45.794 | INFO     | utils.get_clinic_info_sta:bind_gold_blood_device:71 - 绑定设备接口请求参数{'clinicId': 1442082995943571458, 'ids': [1386932628008534018], 'operateType': 1}
+2022-06-18 11:44:45.794 | INFO     | utils.get_clinic_info_sta:bind_gold_blood_device:72 - 绑定设备接口返回参数{"busiCode":201,"msg":"一个诊所只能绑定同种设备一次","data":null}
+2022-06-18 11:44:45.890 | INFO     | utils.get_clinic_info_sta:bind_gold_blood_device:71 - 绑定设备接口请求参数{'clinicId': 1442082995943571458, 'ids': [1387605672557346818], 'operateType': 1}
+2022-06-18 11:44:45.890 | INFO     | utils.get_clinic_info_sta:bind_gold_blood_device:72 - 绑定设备接口返回参数{"busiCode":201,"msg":"一个诊所只能绑定同种设备一次","data":null}
+2022-06-18 11:44:46.196 | INFO     | __main__:add_patient:54 - 添加患者接口请求参数为:{'clinicId': 1442082995943571458, 'mobilePhone': '13600000000', 'userAge': 10, 'userMonth': 0, 'userName': '测试检测数据', 'userSex': 0}
+2022-06-18 11:44:46.196 | INFO     | __main__:add_patient:55 - 添加患者接口响应参数为:{"busiCode":0,"msg":"请求成功","data":"1538004768232013825"}
+2022-06-18 11:44:46.408 | INFO     | __main__:start_check:67 - 开始检测接口请求参数为：{'boardSno': '210101000010', 'cameraName': '测试相机', 'clinicId': 1442082995943571458, 'deviceSno': 'BLD100121031900002', 'hgbCalibration': [{'reference': 20317, 'groundTruth': 0, 'measure': 25501}, {'reference': 20732, 'groundTruth': 0, 'measure': 25637}, {'reference': 19684, 'groundTruth': 231, 'measure': 2397}, {'reference': 20401, 'groundTruth': 141, 'measure': 6061}, {'reference': 20628, 'groundTruth': 71, 'measure': 12633}, {'reference': 20360, 'groundTruth': 48, 'measure': 15893}], 'hgbCurveData': [], 'hgbMeasure': 0, 'hgbReference': 0, 'path': 'c69099f6-2df3-497b-b5ac-cefdca802aa9.zip', 'patientId': '1538004768232013825', 'pointConfig': {'plt': {'focus': 0, 'points': 0}, 'rbc': {'focus': 0, 'points': 0}, 'wbc': {'focus': 0, 'points': 0}}, 'type': 1}
+2022-06-18 11:44:46.408 | INFO     | __main__:start_check:68 - 开始检测接口响应内容为:{"busiCode":1,"msg":"板子不存在","data":null}
+2022-06-18 11:44:46.408 | ERROR    | __main__:start_check:72 - 开始检测接口响应结果错误，busiCode非预期值：0
+2022-06-18 11:44:47.497 | INFO     | __main__:get_manual_status:82 - 等待一秒钟，再去查询
+2022-06-18 11:44:47.497 | INFO     | __main__:get_manual_status:83 - 查询算法接口结果{'busiCode': 400, 'msg': '参数类型不匹配或参数类型转换错误', 'data': None}
+2022-06-18 11:50:18.185 | INFO     | utils.get_clinic_info_sta:bind_gold_blood_device:71 - 绑定设备接口请求参数{'clinicId': 1442082995943571458, 'ids': [1386932628008534018], 'operateType': 1}
+2022-06-18 11:50:18.185 | INFO     | utils.get_clinic_info_sta:bind_gold_blood_device:72 - 绑定设备接口返回参数{"busiCode":201,"msg":"一个诊所只能绑定同种设备一次","data":null}
+2022-06-18 11:50:18.300 | INFO     | utils.get_clinic_info_sta:bind_gold_blood_device:71 - 绑定设备接口请求参数{'clinicId': 1442082995943571458, 'ids': [1387605672557346818], 'operateType': 1}
+2022-06-18 11:50:18.300 | INFO     | utils.get_clinic_info_sta:bind_gold_blood_device:72 - 绑定设备接口返回参数{"busiCode":201,"msg":"一个诊所只能绑定同种设备一次","data":null}
+2022-06-18 11:50:18.552 | INFO     | __main__:add_patient:54 - 添加患者接口请求参数为:{'clinicId': 1442082995943571458, 'mobilePhone': '13600000000', 'userAge': 10, 'userMonth': 0, 'userName': '测试检测数据', 'userSex': 0}
+2022-06-18 11:50:18.552 | INFO     | __main__:add_patient:55 - 添加患者接口响应参数为:{"busiCode":0,"msg":"请求成功","data":"1538006162187976706"}
+2022-06-18 11:50:18.824 | INFO     | __main__:start_check:67 - 开始检测接口请求参数为：{'boardSno': '220301360723', 'cameraName': '测试相机', 'clinicId': 1442082995943571458, 'deviceSno': 'BLD100121031900002', 'hgbCalibration': [{'reference': 20317, 'groundTruth': 0, 'measure': 25501}, {'reference': 20732, 'groundTruth': 0, 'measure': 25637}, {'reference': 19684, 'groundTruth': 231, 'measure': 2397}, {'reference': 20401, 'groundTruth': 141, 'measure': 6061}, {'reference': 20628, 'groundTruth': 71, 'measure': 12633}, {'reference': 20360, 'groundTruth': 48, 'measure': 15893}], 'hgbCurveData': [], 'hgbMeasure': 0, 'hgbReference': 0, 'path': 'c69099f6-2df3-497b-b5ac-cefdca802aa9.zip', 'patientId': '1538006162187976706', 'pointConfig': {'plt': {'focus': 0, 'points': 0}, 'rbc': {'focus': 0, 'points': 0}, 'wbc': {'focus': 0, 'points': 0}}, 'type': 1}
+2022-06-18 11:50:18.824 | INFO     | __main__:start_check:68 - 开始检测接口响应内容为:{"busiCode":0,"msg":"请求成功","data":"1538006163479822338"}
+2022-06-18 11:50:19.921 | INFO     | __main__:get_manual_status:82 - 等待一秒钟，再去查询
+2022-06-18 11:50:19.921 | INFO     | __main__:get_manual_status:83 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': ''}}
+2022-06-18 11:50:21.028 | INFO     | __main__:get_manual_status:82 - 等待一秒钟，再去查询
+2022-06-18 11:50:21.028 | INFO     | __main__:get_manual_status:83 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': ''}}
+2022-06-18 11:50:22.127 | INFO     | __main__:get_manual_status:82 - 等待一秒钟，再去查询
+2022-06-18 11:50:22.127 | INFO     | __main__:get_manual_status:83 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': ''}}
+2022-06-18 11:50:23.223 | INFO     | __main__:get_manual_status:82 - 等待一秒钟，再去查询
+2022-06-18 11:50:23.223 | INFO     | __main__:get_manual_status:83 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': ''}}
+2022-06-18 11:50:24.317 | INFO     | __main__:get_manual_status:82 - 等待一秒钟，再去查询
+2022-06-18 11:50:24.317 | INFO     | __main__:get_manual_status:83 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': ''}}
+2022-06-18 11:50:25.404 | INFO     | __main__:get_manual_status:82 - 等待一秒钟，再去查询
+2022-06-18 11:50:25.404 | INFO     | __main__:get_manual_status:83 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': ''}}
+2022-06-18 11:50:26.501 | INFO     | __main__:get_manual_status:82 - 等待一秒钟，再去查询
+2022-06-18 11:50:26.501 | INFO     | __main__:get_manual_status:83 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': ''}}
+2022-06-18 11:50:27.599 | INFO     | __main__:get_manual_status:82 - 等待一秒钟，再去查询
+2022-06-18 11:50:27.599 | INFO     | __main__:get_manual_status:83 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 3, 'msg': ''}}
+2022-06-18 11:50:29.280 | INFO     | __main__:create_order:97 - 生成订单接口请求参数为：{'dataId': '1538006163479822338'}
+2022-06-18 11:50:29.280 | INFO     | __main__:create_order:98 - 生成订单接口响应内容为:{"busiCode":0,"msg":"请求成功","data":{"orderNo":"BLD1001210319000022206181150276282","payUrl":"https://qr.95516.com/48020000/10VA2206185235028112582449","money":0.01,"promptMsg":"未支付","orderStatus":0}}
+2022-06-18 11:50:29.616 | INFO     | __main__:call_back:116 - 支付回调接口请求参数为：{'boardSno': '220301360723', 'cameraName': '测试相机', 'clinicId': 1442082995943571458, 'deviceSno': 'BLD100121031900002', 'hgbCalibration': [{'reference': 20317, 'groundTruth': 0, 'measure': 25501}, {'reference': 20732, 'groundTruth': 0, 'measure': 25637}, {'reference': 19684, 'groundTruth': 231, 'measure': 2397}, {'reference': 20401, 'groundTruth': 141, 'measure': 6061}, {'reference': 20628, 'groundTruth': 71, 'measure': 12633}, {'reference': 20360, 'groundTruth': 48, 'measure': 15893}], 'hgbCurveData': [], 'hgbMeasure': 0, 'hgbReference': 0, 'path': 'c69099f6-2df3-497b-b5ac-cefdca802aa9.zip', 'patientId': '1538006162187976706', 'pointConfig': {'plt': {'focus': 0, 'points': 0}, 'rbc': {'focus': 0, 'points': 0}, 'wbc': {'focus': 0, 'points': 0}}, 'type': 1}
+2022-06-18 11:50:29.616 | INFO     | __main__:call_back:117 - 支付回调接口响应内容为:{"busiCode":0,"msg":"请求成功","data":null}
+2022-06-18 13:43:40.047 | INFO     | utils.get_clinic_info_sta:bind_gold_blood_device:71 - 绑定设备接口请求参数{'clinicId': 1442082995943571458, 'ids': [1386932628008534018], 'operateType': 1}
+2022-06-18 13:43:40.047 | INFO     | utils.get_clinic_info_sta:bind_gold_blood_device:72 - 绑定设备接口返回参数{"busiCode":201,"msg":"一个诊所只能绑定同种设备一次","data":null}
+2022-06-18 13:43:40.146 | INFO     | utils.get_clinic_info_sta:bind_gold_blood_device:71 - 绑定设备接口请求参数{'clinicId': 1442082995943571458, 'ids': [1387605672557346818], 'operateType': 1}
+2022-06-18 13:43:40.146 | INFO     | utils.get_clinic_info_sta:bind_gold_blood_device:72 - 绑定设备接口返回参数{"busiCode":201,"msg":"一个诊所只能绑定同种设备一次","data":null}
+2022-06-18 13:47:15.317 | INFO     | utils.get_clinic_info_sta:bind_gold_blood_device:71 - 绑定设备接口请求参数{'clinicId': 1442082995943571458, 'ids': [1386932628008534018], 'operateType': 1}
+2022-06-18 13:47:15.317 | INFO     | utils.get_clinic_info_sta:bind_gold_blood_device:72 - 绑定设备接口返回参数{"busiCode":201,"msg":"一个诊所只能绑定同种设备一次","data":null}
+2022-06-18 13:47:15.414 | INFO     | utils.get_clinic_info_sta:bind_gold_blood_device:71 - 绑定设备接口请求参数{'clinicId': 1442082995943571458, 'ids': [1387605672557346818], 'operateType': 1}
+2022-06-18 13:47:15.414 | INFO     | utils.get_clinic_info_sta:bind_gold_blood_device:72 - 绑定设备接口返回参数{"busiCode":201,"msg":"一个诊所只能绑定同种设备一次","data":null}
+2022-06-18 13:47:15.673 | INFO     | __main__:add_patient:54 - 添加患者接口请求参数为:{'clinicId': 1442082995943571458, 'mobilePhone': '13600000000', 'userAge': 10, 'userMonth': 0, 'userName': '测试检测数据', 'userSex': 0}
+2022-06-18 13:47:15.673 | INFO     | __main__:add_patient:55 - 添加患者接口响应参数为:{"busiCode":0,"msg":"请求成功","data":"1538035594277650433"}
+2022-06-18 13:47:15.947 | INFO     | __main__:start_check:67 - 开始检测接口请求参数为：{'boardSno': '220301360723', 'cameraName': '测试相机', 'clinicId': 1442082995943571458, 'deviceSno': 'BLD100121031900002', 'hgbCalibration': [{'reference': 20317, 'groundTruth': 0, 'measure': 25501}, {'reference': 20732, 'groundTruth': 0, 'measure': 25637}, {'reference': 19684, 'groundTruth': 231, 'measure': 2397}, {'reference': 20401, 'groundTruth': 141, 'measure': 6061}, {'reference': 20628, 'groundTruth': 71, 'measure': 12633}, {'reference': 20360, 'groundTruth': 48, 'measure': 15893}], 'hgbCurveData': [], 'hgbMeasure': 0, 'hgbReference': 0, 'path': 'c69099f6-2df3-497b-b5ac-cefdca802aa9.zip', 'patientId': '1538035594277650433', 'pointConfig': {'plt': {'focus': 0, 'points': 0}, 'rbc': {'focus': 0, 'points': 0}, 'wbc': {'focus': 0, 'points': 0}}, 'type': 1}
+2022-06-18 13:47:15.947 | INFO     | __main__:start_check:68 - 开始检测接口响应内容为:{"busiCode":0,"msg":"请求成功","data":"1538035595544330242"}
+2022-06-18 13:47:17.035 | INFO     | __main__:get_manual_status:82 - 等待一秒钟，再去查询
+2022-06-18 13:47:17.035 | INFO     | __main__:get_manual_status:83 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': ''}}
+2022-06-18 13:47:18.131 | INFO     | __main__:get_manual_status:82 - 等待一秒钟，再去查询
+2022-06-18 13:47:18.131 | INFO     | __main__:get_manual_status:83 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': ''}}
+2022-06-18 13:47:19.226 | INFO     | __main__:get_manual_status:82 - 等待一秒钟，再去查询
+2022-06-18 13:47:19.226 | INFO     | __main__:get_manual_status:83 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': ''}}
+2022-06-18 13:47:20.317 | INFO     | __main__:get_manual_status:82 - 等待一秒钟，再去查询
+2022-06-18 13:47:20.317 | INFO     | __main__:get_manual_status:83 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': ''}}
+2022-06-18 13:47:21.404 | INFO     | __main__:get_manual_status:82 - 等待一秒钟，再去查询
+2022-06-18 13:47:21.404 | INFO     | __main__:get_manual_status:83 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': ''}}
+2022-06-18 13:47:22.501 | INFO     | __main__:get_manual_status:82 - 等待一秒钟，再去查询
+2022-06-18 13:47:22.501 | INFO     | __main__:get_manual_status:83 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': ''}}
+2022-06-18 13:47:23.592 | INFO     | __main__:get_manual_status:82 - 等待一秒钟，再去查询
+2022-06-18 13:47:23.592 | INFO     | __main__:get_manual_status:83 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': ''}}
+2022-06-18 13:47:24.685 | INFO     | __main__:get_manual_status:82 - 等待一秒钟，再去查询
+2022-06-18 13:47:24.685 | INFO     | __main__:get_manual_status:83 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': ''}}
+2022-06-18 13:47:25.778 | INFO     | __main__:get_manual_status:82 - 等待一秒钟，再去查询
+2022-06-18 13:47:25.778 | INFO     | __main__:get_manual_status:83 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 3, 'msg': ''}}
+2022-06-18 13:47:26.905 | INFO     | __main__:create_order:97 - 生成订单接口请求参数为：{'dataId': '1538035595544330242'}
+2022-06-18 13:47:26.906 | INFO     | __main__:create_order:98 - 生成订单接口响应内容为:{"busiCode":0,"msg":"请求成功","data":{"orderNo":"BLD1001210319000022206181347265253","payUrl":"https://qr.95516.com/48020000/10VA2206188484726136155923","money":0.01,"promptMsg":"未支付","orderStatus":0}}
+2022-06-18 13:47:27.197 | INFO     | __main__:call_back:116 - 支付回调接口请求参数为：{'boardSno': '220301360723', 'cameraName': '测试相机', 'clinicId': 1442082995943571458, 'deviceSno': 'BLD100121031900002', 'hgbCalibration': [{'reference': 20317, 'groundTruth': 0, 'measure': 25501}, {'reference': 20732, 'groundTruth': 0, 'measure': 25637}, {'reference': 19684, 'groundTruth': 231, 'measure': 2397}, {'reference': 20401, 'groundTruth': 141, 'measure': 6061}, {'reference': 20628, 'groundTruth': 71, 'measure': 12633}, {'reference': 20360, 'groundTruth': 48, 'measure': 15893}], 'hgbCurveData': [], 'hgbMeasure': 0, 'hgbReference': 0, 'path': 'c69099f6-2df3-497b-b5ac-cefdca802aa9.zip', 'patientId': '1538035594277650433', 'pointConfig': {'plt': {'focus': 0, 'points': 0}, 'rbc': {'focus': 0, 'points': 0}, 'wbc': {'focus': 0, 'points': 0}}, 'type': 1}
+2022-06-18 13:47:27.198 | INFO     | __main__:call_back:117 - 支付回调接口响应内容为:{"busiCode":0,"msg":"请求成功","data":null}

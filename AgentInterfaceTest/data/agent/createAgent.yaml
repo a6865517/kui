@@ -1,0 +1,124 @@
+#创建合伙人
+- api: /ehome-dist-crm-app/app/agent/createAgent
+  login_phone: 13698765432
+  assert_type: 1
+  data: {
+  "invitationCode": "YGKJEK",
+  "level": 2,
+  "name": "接口测试",
+  "parentId": "1427509025808363521",
+  "password": "a6865517",
+  "phone": "13622221111",
+  "schemeId": "1003",
+  "verifyCode": "1581",
+  "inchargeArea": "[[\"110000\",\"110100\",\"110101\"]]",
+  "inchargeAreaName": "北京市,市辖区,东城区"
+}
+  assert: { 'code': 0,'msg': '请求成功',data: null,dataLong: 50 }
+
+
+- api: /ehome-dist-crm-app/app/agent/createAgent
+  login_phone: 13698765432
+  assert_type: 1
+  data: {
+  "invitationCode": "YGKJEK",
+  "level": 2,
+  "name": "接口测试",
+  "parentId": "1427509025808363521",
+  "password": "a6865517",
+  "phone": "13622221111",
+  "schemeId": "1003",
+  "verifyCode": "1581",
+  "inchargeArea": "[[\"110000\",\"110100\",\"110101\"]]",
+  "inchargeAreaName": "北京市,市辖区,东城区"
+}
+  assert: { 'code': 10001007,'msg': '手机号只能注册一次',data: null,dataLong: 50 }
+
+- api: /ehome-dist-crm-app/app/agent/createAgent
+  login_phone: 13698765432
+  assert_type: 1
+  data: {
+  "invitationCode": "YGKJEK",
+  "level": 2,
+  "name": "接口测试",
+  "parentId": "1427509025808363521",
+  "password": "a6865517",
+  "phone": "136",
+  "schemeId": "1003",
+  "verifyCode": "1581",
+  "inchargeArea": "[[\"110000\",\"110100\",\"110101\"]]",
+  "inchargeAreaName": "北京市,市辖区,东城区"
+}
+  assert: { 'code': 10001018,'msg': '请检查手机号码',data: null,dataLong: 50 }
+
+
+- api: /ehome-dist-crm-app/app/agent/createAgent
+  login_phone: 13698765432
+  assert_type: 1
+  data: {
+  "invitationCode": "YGKJEK",
+  "level": 2,
+  "name": "接口测试",
+  "parentId": "1427509025808363521",
+  "password": "1",
+  "phone": "13622221111",
+  "schemeId": "1003",
+  "verifyCode": "1581",
+  "inchargeArea": "[[\"110000\",\"110100\",\"110101\"]]",
+  "inchargeAreaName": "北京市,市辖区,东城区"
+}
+  assert: { 'code': 400,'msg': 'password：密码长度需大于等于8位，并由2项不同类型组成：如数字、大写字母、小写字母、特殊符号',data: null,dataLong: 50 }
+
+
+- api: /ehome-dist-crm-app/app/agent/createAgent
+  login_phone: 13698765432
+  assert_type: 1
+  data: {
+  "invitationCode": "YGKJEK",
+  "level": 2,
+  "name": "接口测试",
+  "parentId": "1427509025808363521",
+  "password": "123456789",
+  "phone": "13622221111",
+  "schemeId": "1003",
+  "verifyCode": "1581",
+  "inchargeArea": "[[\"110000\",\"110100\",\"110101\"]]",
+  "inchargeAreaName": "北京市,市辖区,东城区"
+}
+  assert: { 'code': 400,'msg': 'password：密码长度需大于等于8位，并由2项不同类型组成：如数字、大写字母、小写字母、特殊符号',data: null,dataLong: 50 }
+
+
+- api: /ehome-dist-crm-app/app/agent/createAgent
+  login_phone: 13698765432
+  assert_type: 1
+  data: {
+  "invitationCode": "",
+  "level": 2,
+  "name": "接口测试",
+  "parentId": "1427509025808363521",
+  "password": "a123456789",
+  "phone": "13622221111",
+  "schemeId": "1003",
+  "verifyCode": "1581",
+  "inchargeArea": "",
+  "inchargeAreaName": "北京市,市辖区,东城区"
+}
+  assert: { 'code': 400,'msg': 'invitationCode：must not be blank',data: null,dataLong: 50 }
+
+
+- api: /ehome-dist-crm-app/app/agent/createAgent
+  login_phone: 13698765432
+  assert_type: 1
+  data: {
+  "invitationCode": "YGKJEK",
+  "level": 2,
+  "name": "接口测试",
+  "parentId": "1427509025808363521",
+  "password": "a6865517",
+  "phone": "13622221111",
+  "schemeId": "1003",
+  "verifyCode": "",
+  "inchargeArea": "[[\"110000\",\"110100\",\"110101\"]]",
+  "inchargeAreaName": "北京市,市辖区,东城区"
+}
+  assert: { 'code': 10001007,'msg': '手机号只能注册一次',data: null,dataLong: 50 }

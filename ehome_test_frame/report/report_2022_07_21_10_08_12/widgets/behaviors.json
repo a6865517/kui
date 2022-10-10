@@ -1,0 +1,48 @@
+{
+  "total" : 4,
+  "items" : [ {
+    "uid" : "8c8c352fbf2f3410c23df6deb4b784ec",
+    "name" : "商城添加地址",
+    "statistic" : {
+      "failed" : 3,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 5
+    }
+  }, {
+    "uid" : "c01e3708973677b8f67d81a44e634414",
+    "name" : "商城添加地址222",
+    "statistic" : {
+      "failed" : 3,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 5
+    }
+  }, {
+    "uid" : "d35df606447b319ae0065f16411bdc46",
+    "name" : "商城添加地址333",
+    "statistic" : {
+      "failed" : 3,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 5
+    }
+  }, {
+    "uid" : "24d59d309a7dbc4f0366182b690e0706",
+    "name" : "商城添加地址444",
+    "statistic" : {
+      "failed" : 3,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 5
+    }
+  } ]
+}

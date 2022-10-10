@@ -1,0 +1,6 @@
+2022-04-20 14:59:05.900 | DEBUG    | common.unittestMain:req_assert:76 - 本次执行的测试用例请求内容为：{'pageIndex': 1, 'pageSize': 10, 'condition': {'groupStatus': 'Total', 'staticDate': '2022-04-20'}}
+2022-04-20 14:59:05.900 | DEBUG    | common.unittestMain:req_assert:77 - 本次执行的测试用例响应内容为：{"busiCode":0,"msg":"请求成功","data":{"total":1,"list":[{"agentName":"接口测试","agentId":"1515959916883808257","agentLevel":3,"registTime":"2022-04-18 15:46:24","headPicture":"http://patient.ehomepoct.com/images/defaultHeadPartner.png","phone":"13698765432","testAmount":0.00,"testPortion":0.00,"testTimes":0.00,"totalClinicNum":0,"newClinicNum":0,"address":""}]}}
+2022-04-20 14:59:05.900 | INFO     | common.unittestMain:req_assert:80 - 接口响应时间为：0.217761
+2022-04-20 14:59:05.901 | INFO     | common.unittestMain:req_assert:82 - busicode与预期一致为：0
+2022-04-20 14:59:05.901 | INFO     | common.unittestMain:req_assert:84 - msg与预期一致
+2022-04-20 14:59:07.173 | SUCCESS  | utils.mysql_res:update_sql:104 - --------------------------------------------------更新成功--------------------------------------------------

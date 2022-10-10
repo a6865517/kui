@@ -1,0 +1,61 @@
+{
+  "uid" : "cdadf76812f2e202",
+  "name" : "4.该用例用于测试，请忽略333",
+  "fullName" : "tests.agent.mall_manage.test_member_receive_address_save#test_member_receive_address_save",
+  "historyId" : "dd4ea8fb5b55d25b50d5da434e08618a",
+  "time" : {
+    "start" : 1658369288874,
+    "stop" : 1658369289049,
+    "duration" : 175
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "商城添加地址"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests.agent.mall_manage"
+  }, {
+    "name" : "suite",
+    "value" : "test_member_receive_address_save"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-B9EI7PH"
+  }, {
+    "name" : "thread",
+    "value" : "179164-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.agent.mall_manage.test_member_receive_address_save"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "test_data",
+    "value" : "{'case': '4.该用例用于测试，请忽略333', 'request': {'methods': 'get', 'path': 'http://test-client.ehomepoct.com/mall-manage/memberReceiveAddress/save', 'login_user': 13622223662, 'data': {'areacode': '', 'city': '', 'defaultStatus': True, 'detailAddress': '', 'name': '', 'phone': '', 'postCode': '', 'province': '', 'region': ''}}, 'asserts': {'response': {'busiCode': 0, 'msg': '请求成功', 'data': None}}}"
+  } ],
+  "links" : [ {
+    "name" : "jira地址",
+    "url" : "http://jira.ehome.com/browse/PARTNER-384",
+    "type" : "link"
+  } ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "cdadf76812f2e202.json",
+  "parameterValues" : [ "{'case': '4.该用例用于测试，请忽略333', 'request': {'methods': 'get', 'path': 'http://test-client.ehomepoct.com/mall-manage/memberReceiveAddress/save', 'login_user': 13622223662, 'data': {'areacode': '', 'city': '', 'defaultStatus': True, 'detailAddress': '', 'name': '', 'phone': '', 'postCode': '', 'province': '', 'region': ''}}, 'asserts': {'response': {'busiCode': 0, 'msg': '请求成功', 'data': None}}}" ]
+}

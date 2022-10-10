@@ -1,0 +1,16 @@
+2022-04-13 14:34:54.443 | INFO     | common.unittestMain:req_assert:77 - 接口响应时间为：0.245751
+2022-04-13 14:34:54.443 | INFO     | common.unittestMain:req_assert:79 - busicode与预期一致为：0
+2022-04-13 14:34:54.443 | INFO     | common.unittestMain:req_assert:81 - msg与预期一致
+2022-04-13 14:34:54.444 | INFO     | agentTestCase:test_005_post_queryClinicRingRatioData:106 - 响应内容与预期一致
+2022-04-13 14:34:54.677 | INFO     | common.unittestMain:req_assert:77 - 接口响应时间为：0.135439
+2022-04-13 14:34:54.677 | INFO     | common.unittestMain:req_assert:79 - busicode与预期一致为：0
+2022-04-13 14:34:54.678 | INFO     | common.unittestMain:req_assert:81 - msg与预期一致
+2022-04-13 14:34:54.678 | INFO     | agentTestCase:test_005_post_queryClinicRingRatioData:106 - 响应内容与预期一致
+2022-04-13 14:34:54.877 | INFO     | common.unittestMain:req_assert:77 - 接口响应时间为：0.113886
+2022-04-13 14:34:54.877 | INFO     | common.unittestMain:req_assert:79 - busicode与预期一致为：0
+2022-04-13 14:34:54.878 | INFO     | common.unittestMain:req_assert:81 - msg与预期一致
+2022-04-13 14:34:54.878 | INFO     | agentTestCase:test_005_post_queryClinicRingRatioData:106 - 响应内容与预期一致
+2022-04-13 14:34:55.136 | INFO     | common.unittestMain:req_assert:77 - 接口响应时间为：0.156079
+2022-04-13 14:34:55.136 | INFO     | common.unittestMain:req_assert:79 - busicode与预期一致为：0
+2022-04-13 14:34:55.136 | INFO     | common.unittestMain:req_assert:81 - msg与预期一致
+2022-04-13 14:34:55.137 | INFO     | agentTestCase:test_005_post_queryClinicRingRatioData:106 - 响应内容与预期一致

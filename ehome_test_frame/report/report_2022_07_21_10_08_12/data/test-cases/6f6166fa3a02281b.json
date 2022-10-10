@@ -1,0 +1,63 @@
+{
+  "uid" : "6f6166fa3a02281b",
+  "name" : "3.该用例用于测试，请忽略333",
+  "fullName" : "tests.agent.mall_manage.test_member_receive_address_save#test_member_receive_address_save2",
+  "historyId" : "88292bb6a00169d3d39141a9dbfc8d0c",
+  "time" : {
+    "start" : 1658369289661,
+    "stop" : 1658369289826,
+    "duration" : 165
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "商城添加地址222"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests.agent.mall_manage"
+  }, {
+    "name" : "suite",
+    "value" : "test_member_receive_address_save"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-B9EI7PH"
+  }, {
+    "name" : "thread",
+    "value" : "179164-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.agent.mall_manage.test_member_receive_address_save"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "test_data",
+    "value" : "{'case': '3.该用例用于测试，请忽略333', 'request': {'methods': 'GET', 'path': 'http://test-client.ehomepoct.com/mall-manage/memberReceiveAddress/save', 'login_user': 13622223662, 'data': {'areacode': '', 'city': '', 'defaultStatus': True, 'detailAddress': '', 'name': '', 'phone': '', 'postCode': '', 'province': '', 'region': ''}}, 'asserts': {'response': {'busiCode': 0, 'msg': '请求成功', 'data': None}}}"
+  } ],
+  "links" : [ {
+    "name" : "jira地址",
+    "url" : "http://jira.ehome.com/browse/PARTNER-384",
+    "type" : "link"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6f6166fa3a02281b.json",
+  "parameterValues" : [ "{'case': '3.该用例用于测试，请忽略333', 'request': {'methods': 'GET', 'path': 'http://test-client.ehomepoct.com/mall-manage/memberReceiveAddress/save', 'login_user': 13622223662, 'data': {'areacode': '', 'city': '', 'defaultStatus': True, 'detailAddress': '', 'name': '', 'phone': '', 'postCode': '', 'province': '', 'region': ''}}, 'asserts': {'response': {'busiCode': 0, 'msg': '请求成功', 'data': None}}}" ]
+}

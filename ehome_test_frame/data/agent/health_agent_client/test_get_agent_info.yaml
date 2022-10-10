@@ -1,0 +1,13 @@
+- case: 1.该用例用于测试，请忽略111
+  request:
+    methods: GET
+    path: health-agent-client/api/center/agent/info/1427509025808363521
+    login_user: 13622223661
+    headers:{}
+    data:
+  asserts:
+    response: {
+      "busiCode": 0,
+      "msg": "请求成功",
+      "data": null,
+    }

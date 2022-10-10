@@ -1,0 +1,53 @@
+{
+  "uid" : "e308e7d1dcefb70d",
+  "name" : "test_01",
+  "fullName" : "tests.agent.test_agent_001#test_01",
+  "historyId" : "73b3101cd221626e6cb292698ad4b2da",
+  "time" : {
+    "start" : 1658126429966,
+    "stop" : 1658126429966,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests.agent"
+  }, {
+    "name" : "suite",
+    "value" : "test_agent_001"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-B9EI7PH"
+  }, {
+    "name" : "thread",
+    "value" : "1464-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.agent.test_agent_001"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e308e7d1dcefb70d.json",
+  "parameterValues" : [ ]
+}

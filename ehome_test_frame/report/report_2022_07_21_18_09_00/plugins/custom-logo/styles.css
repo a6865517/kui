@@ -1,0 +1,17 @@
+.side-nav__brand {
+  background: url('3.jpg') no-repeat left center !important;
+  margin-left: 10px;
+  height: 65px;
+  background-size: contain !important;
+}
+.side-nav__brand span{
+	display: none;
+}
+.side-nav__brand:after {
+    content: "伊鸿健康";
+    margin-left: 36px;
+    margin-top: 22px;
+    font-size: 20px;
+    position: absolute;
+    top: 24px;
+}

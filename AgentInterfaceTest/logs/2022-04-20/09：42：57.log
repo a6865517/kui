@@ -1,0 +1,3 @@
+2022-04-20 09:42:58.201 | DEBUG    | common.unittestMain:req_assert:74 - 本次执行的测试用例请求内容为：{'invitationCode': 'YGKJEK', 'level': 2, 'name': '接口测试', 'parentId': '1427509025808363521', 'password': 'a6865517', 'phone': '13622221111', 'schemeId': '1003', 'verifyCode': '1581', 'inchargeArea': '[["110000","110100","110101"]]', 'inchargeAreaName': '北京市,市辖区,东城区'}
+2022-04-20 09:42:58.201 | DEBUG    | common.unittestMain:req_assert:75 - 本次执行的测试用例响应内容为：{"busiCode":10001007,"msg":"手机号只能注册一次","data":null}
+2022-04-20 09:42:58.201 | INFO     | common.unittestMain:req_assert:78 - 接口响应时间为：0.258758

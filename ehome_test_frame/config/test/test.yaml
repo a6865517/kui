@@ -1,0 +1,39 @@
+host:
+
+
+mysql:
+  business:
+    database: ehome_business_beta
+    host:
+    port: 3306
+    user: ehome_gongkui
+    password: Z65eE1faa9EjEsJj
+    charset: utf8
+  crm:
+    database: ehome_crm_beta
+    host:
+    port: 3306
+    user: ehome_gongkui
+    password:
+    charset: utf8
+  erp:
+    database: ehome_erp_beta
+    host:
+    port: 3306
+    user:
+    password:
+    charset: utf8
+  mall:
+    database: ehome_mall_test
+    host:
+    port: 3306
+    user:
+    password:
+    charset: utf8
+
+
+redis:
+    host:
+    port:
+    db: 0
+    pwd:

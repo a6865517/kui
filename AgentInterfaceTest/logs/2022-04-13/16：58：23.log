@@ -1,0 +1,3 @@
+2022-04-13 16:58:23.773 | DEBUG    | common.unittestMain:req_assert:73 - 本次执行的测试用例请求内容为：{'endTime': '', 'startTime': ''}
+2022-04-13 16:58:23.773 | DEBUG    | common.unittestMain:req_assert:74 - 本次执行的测试用例响应内容为：{"busiCode":400,"msg":"endTime：结束时间不能为空","data":null}
+2022-04-13 16:58:23.773 | INFO     | common.unittestMain:req_assert:77 - 接口响应时间为：0.101075

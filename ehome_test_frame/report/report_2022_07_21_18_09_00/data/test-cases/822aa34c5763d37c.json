@@ -1,0 +1,56 @@
+{
+  "uid" : "822aa34c5763d37c",
+  "name" : "test_member_receive_address_save[test_data0]",
+  "fullName" : "tests.agent.mall_manage.test_member_receive_address_save#test_member_receive_address_save",
+  "historyId" : "2718d3968a5fc5d5f5e8da2b5a54d8a0",
+  "time" : {
+    "start" : 1658397778024,
+    "stop" : 1658397778024,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "statusMessage" : "configparser.NoSectionError: No section: 'pytest'",
+  "statusTrace" : "test_data = {'asserts': {'response': {'busiCode': 400, 'data': None, 'msg': '参数解析异常'}}, 'case': '1.该用例用于测试，请忽略111', 'request': {'d...: '', ...}, 'headers': {'origin': 'ios', 'sec-fetch-mode': 'cors'}, 'login_user': 13622223661, 'methods': 'POST', ...}}\n\n    @pytest.mark.parametrize('test_data', read_yaml.read_case(__file__))\n    def test_member_receive_address_save(test_data):\n>       res = request_main.request(test_data)\n\ntests\\agent\\mall_manage\\test_member_receive_address_save.py:20: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\nutils\\request_main.py:51: in request\n    if 'test' in str(config.get('pytest', 'addopts')):\nC:\\Users\\kui\\AppData\\Local\\Programs\\Python\\Python39\\lib\\configparser.py:781: in get\n    d = self._unify_values(section, vars)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <configparser.ConfigParser object at 0x000001EBA058A7C0>\nsection = 'pytest', vars = None\n\n    def _unify_values(self, section, vars):\n        \"\"\"Create a sequence of lookups with 'vars' taking priority over\n        the 'section' which takes priority over the DEFAULTSECT.\n    \n        \"\"\"\n        sectiondict = {}\n        try:\n            sectiondict = self._sections[section]\n        except KeyError:\n            if section != self.default_section:\n>               raise NoSectionError(section) from None\nE               configparser.NoSectionError: No section: 'pytest'\n\nC:\\Users\\kui\\AppData\\Local\\Programs\\Python\\Python39\\lib\\configparser.py:1152: NoSectionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests.agent.mall_manage"
+  }, {
+    "name" : "suite",
+    "value" : "test_member_receive_address_save"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-B9EI7PH"
+  }, {
+    "name" : "thread",
+    "value" : "92004-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.agent.mall_manage.test_member_receive_address_save"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "test_data",
+    "value" : "{'case': '1.该用例用于测试，请忽略111', 'request': {'methods': 'POST', 'path': 'mall-manage/memberReceiveAddress/save', 'login_user': 13622223661, 'headers': {'origin': 'ios', 'sec-fetch-mode': 'cors'}, 'data': {'areacode': '', 'city': '', 'defaultStatus': True, 'detailAddress': '', 'name': '', 'phone': '', 'postCode': '', 'province': '', 'region': ''}}, 'asserts': {'response': {'busiCode': 400, 'msg': '参数解析异常', 'data': None}}}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "822aa34c5763d37c.json",
+  "parameterValues" : [ "{'case': '1.该用例用于测试，请忽略111', 'request': {'methods': 'POST', 'path': 'mall-manage/memberReceiveAddress/save', 'login_user': 13622223661, 'headers': {'origin': 'ios', 'sec-fetch-mode': 'cors'}, 'data': {'areacode': '', 'city': '', 'defaultStatus': True, 'detailAddress': '', 'name': '', 'phone': '', 'postCode': '', 'province': '', 'region': ''}}, 'asserts': {'response': {'busiCode': 400, 'msg': '参数解析异常', 'data': None}}}" ]
+}

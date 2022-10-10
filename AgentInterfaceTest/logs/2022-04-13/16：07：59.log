@@ -1,0 +1,210 @@
+2022-04-13 16:08:00.261 | DEBUG    | common.unittestMain:req_assert:73 - 本次执行的测试用例请求内容为：{'endTime': '2022-04-01 00:00:00', 'startTime': '2000-04-11 00:00:00'}
+2022-04-13 16:08:00.261 | DEBUG    | common.unittestMain:req_assert:74 - 本次执行的测试用例响应内容为：{"busiCode":0,"msg":"请求成功","data":[{"staticDate":"2021-12-15","totalAgentNum":130,"newAgentNum":0},{"staticDate":"2021-12-17","totalAgentNum":130,"newAgentNum":0},{"staticDate":"2022-01-06","totalAgentNum":130,"newAgentNum":0},{"staticDate":"2022-01-12","totalAgentNum":1,"newAgentNum":0},{"staticDate":"2022-01-13","totalAgentNum":7,"newAgentNum":0},{"staticDate":"2022-03-18","totalAgentNum":24,"newAgentNum":0}]}
+2022-04-13 16:08:00.262 | INFO     | common.unittestMain:req_assert:77 - 接口响应时间为：0.146618
+2022-04-13 16:08:00.262 | INFO     | common.unittestMain:req_assert:79 - busicode与预期一致为：0
+2022-04-13 16:08:00.262 | INFO     | common.unittestMain:req_assert:81 - msg与预期一致
+2022-04-13 16:08:00.262 | INFO     | common.unittestMain:assert_data:89 - 响应内容与预期一致
+2022-04-13 16:08:00.443 | DEBUG    | common.unittestMain:req_assert:73 - 本次执行的测试用例请求内容为：{'endTime': '2022-04-01 00:00:00', 'startTime': '2000-04-11 00:00:00'}
+2022-04-13 16:08:00.443 | DEBUG    | common.unittestMain:req_assert:74 - 本次执行的测试用例响应内容为：{"busiCode":0,"msg":"请求成功","data":[{"staticDate":"2021-12-15","totalAgentNum":15,"newAgentNum":0},{"staticDate":"2021-12-17","totalAgentNum":15,"newAgentNum":0},{"staticDate":"2022-01-06","totalAgentNum":35,"newAgentNum":0},{"staticDate":"2022-01-13","totalAgentNum":3,"newAgentNum":0},{"staticDate":"2022-03-18","totalAgentNum":11,"newAgentNum":0}]}
+2022-04-13 16:08:00.443 | INFO     | common.unittestMain:req_assert:77 - 接口响应时间为：0.091411
+2022-04-13 16:08:00.443 | INFO     | common.unittestMain:req_assert:79 - busicode与预期一致为：0
+2022-04-13 16:08:00.443 | INFO     | common.unittestMain:req_assert:81 - msg与预期一致
+2022-04-13 16:08:00.443 | INFO     | common.unittestMain:assert_data:89 - 响应内容与预期一致
+2022-04-13 16:08:00.597 | DEBUG    | common.unittestMain:req_assert:73 - 本次执行的测试用例请求内容为：{'endTime': '', 'startTime': '2000-04-11 00:00:00'}
+2022-04-13 16:08:00.597 | DEBUG    | common.unittestMain:req_assert:74 - 本次执行的测试用例响应内容为：{"busiCode":400,"msg":"endTime：结束时间不能为空","data":null}
+2022-04-13 16:08:00.597 | INFO     | common.unittestMain:req_assert:77 - 接口响应时间为：0.072399
+2022-04-13 16:08:00.598 | INFO     | common.unittestMain:req_assert:79 - busicode与预期一致为：400
+2022-04-13 16:08:00.598 | INFO     | common.unittestMain:req_assert:81 - msg与预期一致
+2022-04-13 16:08:00.598 | INFO     | common.unittestMain:assert_data:92 - 响应内容与预期一致
+2022-04-13 16:08:00.748 | DEBUG    | common.unittestMain:req_assert:73 - 本次执行的测试用例请求内容为：{'endTime': '2000-04-11 00:00:00', 'startTime': ''}
+2022-04-13 16:08:00.749 | DEBUG    | common.unittestMain:req_assert:74 - 本次执行的测试用例响应内容为：{"busiCode":400,"msg":"startTime：开始时间不能为空","data":null}
+2022-04-13 16:08:00.749 | INFO     | common.unittestMain:req_assert:77 - 接口响应时间为：0.06755
+2022-04-13 16:08:00.749 | INFO     | common.unittestMain:req_assert:79 - busicode与预期一致为：400
+2022-04-13 16:08:00.749 | INFO     | common.unittestMain:req_assert:81 - msg与预期一致
+2022-04-13 16:08:00.749 | INFO     | common.unittestMain:assert_data:92 - 响应内容与预期一致
+2022-04-13 16:08:00.905 | DEBUG    | common.unittestMain:req_assert:73 - 本次执行的测试用例请求内容为：{'endTime': '1', 'startTime': ''}
+2022-04-13 16:08:00.905 | DEBUG    | common.unittestMain:req_assert:74 - 本次执行的测试用例响应内容为：{"busiCode":400,"msg":"startTime：开始时间不能为空","data":null}
+2022-04-13 16:08:00.905 | INFO     | common.unittestMain:req_assert:77 - 接口响应时间为：0.072809
+2022-04-13 16:08:00.906 | INFO     | common.unittestMain:req_assert:79 - busicode与预期一致为：400
+2022-04-13 16:08:00.906 | INFO     | common.unittestMain:req_assert:81 - msg与预期一致
+2022-04-13 16:08:00.906 | INFO     | common.unittestMain:assert_data:92 - 响应内容与预期一致
+2022-04-13 16:08:01.116 | DEBUG    | common.unittestMain:req_assert:73 - 本次执行的测试用例请求内容为：{'period': 'day'}
+2022-04-13 16:08:01.116 | DEBUG    | common.unittestMain:req_assert:74 - 本次执行的测试用例响应内容为：{"busiCode":0,"msg":"请求成功","data":{"agentDetail":[{"staticDateSegment":"2022.04.12","totalAgentNum":0,"newAgentNum":0},{"staticDateSegment":"2022.04.11","totalAgentNum":0,"newAgentNum":0}],"increaseTotalAgentNum":0,"increaseAgentNum":0,"increaseAgentRatio":0.00,"increaseTotalAgentRatio":0.00}}
+2022-04-13 16:08:01.116 | INFO     | common.unittestMain:req_assert:77 - 接口响应时间为：0.113472
+2022-04-13 16:08:01.116 | INFO     | common.unittestMain:req_assert:79 - busicode与预期一致为：0
+2022-04-13 16:08:01.116 | INFO     | common.unittestMain:req_assert:81 - msg与预期一致
+2022-04-13 16:08:01.117 | INFO     | common.unittestMain:assert_data:89 - 响应内容与预期一致
+2022-04-13 16:08:01.304 | DEBUG    | common.unittestMain:req_assert:73 - 本次执行的测试用例请求内容为：{'period': 'week'}
+2022-04-13 16:08:01.304 | DEBUG    | common.unittestMain:req_assert:74 - 本次执行的测试用例响应内容为：{"busiCode":0,"msg":"请求成功","data":{"agentDetail":[{"staticDateSegment":"2022.04.04-2022.04.10","totalAgentNum":0,"newAgentNum":0},{"staticDateSegment":"2022.03.28-2022.04.03","totalAgentNum":0,"newAgentNum":0}],"increaseTotalAgentNum":0,"increaseAgentNum":0,"increaseAgentRatio":0.00,"increaseTotalAgentRatio":0.00}}
+2022-04-13 16:08:01.305 | INFO     | common.unittestMain:req_assert:77 - 接口响应时间为：0.113012
+2022-04-13 16:08:01.305 | INFO     | common.unittestMain:req_assert:79 - busicode与预期一致为：0
+2022-04-13 16:08:01.305 | INFO     | common.unittestMain:req_assert:81 - msg与预期一致
+2022-04-13 16:08:01.305 | INFO     | common.unittestMain:assert_data:89 - 响应内容与预期一致
+2022-04-13 16:08:01.503 | DEBUG    | common.unittestMain:req_assert:73 - 本次执行的测试用例请求内容为：{'period': 'month'}
+2022-04-13 16:08:01.503 | DEBUG    | common.unittestMain:req_assert:74 - 本次执行的测试用例响应内容为：{"busiCode":0,"msg":"请求成功","data":{"agentDetail":[{"staticDateSegment":"2022.03.01-2022.03.31","totalAgentNum":0,"newAgentNum":0},{"staticDateSegment":"2022.02.01-2022.02.28","totalAgentNum":0,"newAgentNum":0}],"increaseTotalAgentNum":0,"increaseAgentNum":0,"increaseAgentRatio":0.00,"increaseTotalAgentRatio":0.00}}
+2022-04-13 16:08:01.503 | INFO     | common.unittestMain:req_assert:77 - 接口响应时间为：0.113727
+2022-04-13 16:08:01.503 | INFO     | common.unittestMain:req_assert:79 - busicode与预期一致为：0
+2022-04-13 16:08:01.503 | INFO     | common.unittestMain:req_assert:81 - msg与预期一致
+2022-04-13 16:08:01.503 | INFO     | common.unittestMain:assert_data:89 - 响应内容与预期一致
+2022-04-13 16:08:01.691 | DEBUG    | common.unittestMain:req_assert:73 - 本次执行的测试用例请求内容为：{'period': 'quarter'}
+2022-04-13 16:08:01.691 | DEBUG    | common.unittestMain:req_assert:74 - 本次执行的测试用例响应内容为：{"busiCode":0,"msg":"请求成功","data":{"agentDetail":[{"staticDateSegment":"2022.01.01-2022.03.31","totalAgentNum":0,"newAgentNum":0},{"staticDateSegment":"2021.10.01-2021.12.31","totalAgentNum":0,"newAgentNum":0}],"increaseTotalAgentNum":0,"increaseAgentNum":0,"increaseAgentRatio":0.00,"increaseTotalAgentRatio":0.00}}
+2022-04-13 16:08:01.691 | INFO     | common.unittestMain:req_assert:77 - 接口响应时间为：0.109843
+2022-04-13 16:08:01.692 | INFO     | common.unittestMain:req_assert:79 - busicode与预期一致为：0
+2022-04-13 16:08:01.692 | INFO     | common.unittestMain:req_assert:81 - msg与预期一致
+2022-04-13 16:08:01.692 | INFO     | common.unittestMain:assert_data:89 - 响应内容与预期一致
+2022-04-13 16:08:01.847 | DEBUG    | common.unittestMain:req_assert:73 - 本次执行的测试用例请求内容为：{'period': '0'}
+2022-04-13 16:08:01.848 | DEBUG    | common.unittestMain:req_assert:74 - 本次执行的测试用例响应内容为：{"busiCode":-1,"msg":"接口未知异常","data":null}
+2022-04-13 16:08:01.848 | INFO     | common.unittestMain:req_assert:77 - 接口响应时间为：0.065023
+2022-04-13 16:08:01.848 | INFO     | common.unittestMain:req_assert:79 - busicode与预期一致为：-1
+2022-04-13 16:08:01.848 | INFO     | common.unittestMain:req_assert:81 - msg与预期一致
+2022-04-13 16:08:01.848 | INFO     | common.unittestMain:assert_data:92 - 响应内容与预期一致
+2022-04-13 16:08:02.134 | DEBUG    | common.unittestMain:req_assert:73 - 本次执行的测试用例请求内容为：{'period': '你好'}
+2022-04-13 16:08:02.135 | DEBUG    | common.unittestMain:req_assert:74 - 本次执行的测试用例响应内容为：{"busiCode":-1,"msg":"接口未知异常","data":null}
+2022-04-13 16:08:02.135 | INFO     | common.unittestMain:req_assert:77 - 接口响应时间为：0.172592
+2022-04-13 16:08:02.135 | INFO     | common.unittestMain:req_assert:79 - busicode与预期一致为：-1
+2022-04-13 16:08:02.135 | INFO     | common.unittestMain:req_assert:81 - msg与预期一致
+2022-04-13 16:08:02.135 | INFO     | common.unittestMain:assert_data:92 - 响应内容与预期一致
+2022-04-13 16:08:02.280 | DEBUG    | common.unittestMain:req_assert:73 - 本次执行的测试用例请求内容为：{'period': 'a'}
+2022-04-13 16:08:02.281 | DEBUG    | common.unittestMain:req_assert:74 - 本次执行的测试用例响应内容为：{"busiCode":-1,"msg":"接口未知异常","data":null}
+2022-04-13 16:08:02.281 | INFO     | common.unittestMain:req_assert:77 - 接口响应时间为：0.066122
+2022-04-13 16:08:02.281 | INFO     | common.unittestMain:req_assert:79 - busicode与预期一致为：-1
+2022-04-13 16:08:02.281 | INFO     | common.unittestMain:req_assert:81 - msg与预期一致
+2022-04-13 16:08:02.281 | INFO     | common.unittestMain:assert_data:92 - 响应内容与预期一致
+2022-04-13 16:08:02.449 | DEBUG    | common.unittestMain:req_assert:73 - 本次执行的测试用例请求内容为：{'period': 'hello'}
+2022-04-13 16:08:02.449 | DEBUG    | common.unittestMain:req_assert:74 - 本次执行的测试用例响应内容为：{"busiCode":-1,"msg":"接口未知异常","data":null}
+2022-04-13 16:08:02.450 | INFO     | common.unittestMain:req_assert:77 - 接口响应时间为：0.084403
+2022-04-13 16:08:02.451 | INFO     | common.unittestMain:req_assert:79 - busicode与预期一致为：-1
+2022-04-13 16:08:02.451 | INFO     | common.unittestMain:req_assert:81 - msg与预期一致
+2022-04-13 16:08:02.452 | INFO     | common.unittestMain:assert_data:92 - 响应内容与预期一致
+2022-04-13 16:08:02.636 | DEBUG    | common.unittestMain:req_assert:73 - 本次执行的测试用例请求内容为：{'startTime': '2000-04-11 00:00:00', 'endTime': '2022-04-01 00:00:00'}
+2022-04-13 16:08:02.636 | DEBUG    | common.unittestMain:req_assert:74 - 本次执行的测试用例响应内容为：{"busiCode":0,"msg":"请求成功","data":[{"staticDate":"2021-12-15","activeClinic":0,"inActiveClinic":555,"activeClinicRatio":0.00},{"staticDate":"2022-01-06","activeClinic":0,"inActiveClinic":555,"activeClinicRatio":0.00},{"staticDate":"2022-03-10","activeClinic":0,"inActiveClinic":0,"activeClinicRatio":0.00},{"staticDate":"2022-03-18","activeClinic":0,"inActiveClinic":555,"activeClinicRatio":0.00}]}
+2022-04-13 16:08:02.636 | INFO     | common.unittestMain:req_assert:77 - 接口响应时间为：0.097018
+2022-04-13 16:08:02.637 | INFO     | common.unittestMain:req_assert:79 - busicode与预期一致为：0
+2022-04-13 16:08:02.637 | INFO     | common.unittestMain:req_assert:81 - msg与预期一致
+2022-04-13 16:08:02.637 | INFO     | common.unittestMain:assert_data:89 - 响应内容与预期一致
+2022-04-13 16:08:02.795 | DEBUG    | common.unittestMain:req_assert:73 - 本次执行的测试用例请求内容为：{'startTime': '2000-04-11 00:00:00', 'endTime': ''}
+2022-04-13 16:08:02.795 | DEBUG    | common.unittestMain:req_assert:74 - 本次执行的测试用例响应内容为：{"busiCode":400,"msg":"endTime：结束时间不能为空","data":null}
+2022-04-13 16:08:02.796 | INFO     | common.unittestMain:req_assert:77 - 接口响应时间为：0.072795
+2022-04-13 16:08:02.796 | INFO     | common.unittestMain:req_assert:79 - busicode与预期一致为：400
+2022-04-13 16:08:02.796 | INFO     | common.unittestMain:req_assert:81 - msg与预期一致
+2022-04-13 16:08:02.796 | INFO     | common.unittestMain:assert_data:92 - 响应内容与预期一致
+2022-04-13 16:08:02.985 | DEBUG    | common.unittestMain:req_assert:73 - 本次执行的测试用例请求内容为：{'startTime': '', 'endTime': '2000-04-11 00:00:00'}
+2022-04-13 16:08:02.985 | DEBUG    | common.unittestMain:req_assert:74 - 本次执行的测试用例响应内容为：{"busiCode":400,"msg":"startTime：开始时间不能为空","data":null}
+2022-04-13 16:08:02.986 | INFO     | common.unittestMain:req_assert:77 - 接口响应时间为：0.105884
+2022-04-13 16:08:02.986 | INFO     | common.unittestMain:req_assert:79 - busicode与预期一致为：400
+2022-04-13 16:08:02.986 | INFO     | common.unittestMain:req_assert:81 - msg与预期一致
+2022-04-13 16:08:02.986 | INFO     | common.unittestMain:assert_data:92 - 响应内容与预期一致
+2022-04-13 16:08:03.144 | DEBUG    | common.unittestMain:req_assert:73 - 本次执行的测试用例请求内容为：{'startTime': '000', 'endTime': '111'}
+2022-04-13 16:08:03.144 | DEBUG    | common.unittestMain:req_assert:74 - 本次执行的测试用例响应内容为：{"busiCode":400,"msg":"参数解析异常","data":null}
+2022-04-13 16:08:03.144 | INFO     | common.unittestMain:req_assert:77 - 接口响应时间为：0.075445
+2022-04-13 16:08:03.144 | INFO     | common.unittestMain:req_assert:79 - busicode与预期一致为：400
+2022-04-13 16:08:03.144 | INFO     | common.unittestMain:req_assert:81 - msg与预期一致
+2022-04-13 16:08:03.144 | INFO     | common.unittestMain:assert_data:92 - 响应内容与预期一致
+2022-04-13 16:08:03.295 | DEBUG    | common.unittestMain:req_assert:73 - 本次执行的测试用例请求内容为：{'startTime': 'aaa', 'endTime': 'bbb'}
+2022-04-13 16:08:03.296 | DEBUG    | common.unittestMain:req_assert:74 - 本次执行的测试用例响应内容为：{"busiCode":400,"msg":"参数解析异常","data":null}
+2022-04-13 16:08:03.296 | INFO     | common.unittestMain:req_assert:77 - 接口响应时间为：0.068972
+2022-04-13 16:08:03.296 | INFO     | common.unittestMain:req_assert:79 - busicode与预期一致为：400
+2022-04-13 16:08:03.296 | INFO     | common.unittestMain:req_assert:81 - msg与预期一致
+2022-04-13 16:08:03.296 | INFO     | common.unittestMain:assert_data:92 - 响应内容与预期一致
+2022-04-13 16:08:03.471 | DEBUG    | common.unittestMain:req_assert:73 - 本次执行的测试用例请求内容为：{'startTime': '开始时间', 'endTime': '结束时间'}
+2022-04-13 16:08:03.472 | DEBUG    | common.unittestMain:req_assert:74 - 本次执行的测试用例响应内容为：{"busiCode":400,"msg":"参数解析异常","data":null}
+2022-04-13 16:08:03.472 | INFO     | common.unittestMain:req_assert:77 - 接口响应时间为：0.083766
+2022-04-13 16:08:03.472 | INFO     | common.unittestMain:req_assert:79 - busicode与预期一致为：400
+2022-04-13 16:08:03.472 | INFO     | common.unittestMain:req_assert:81 - msg与预期一致
+2022-04-13 16:08:03.472 | INFO     | common.unittestMain:assert_data:92 - 响应内容与预期一致
+2022-04-13 16:08:03.849 | DEBUG    | common.unittestMain:req_assert:73 - 本次执行的测试用例请求内容为：{'pageIndex': 1, 'pageSize': 10, 'condition': {'groupStatus': 'Activity', 'agentId': '1402661430539911171', 'startTime': '2022-03-13 00:00:00', 'endTime': '2022-04-13 23:59:59'}}
+2022-04-13 16:08:03.850 | DEBUG    | common.unittestMain:req_assert:74 - 本次执行的测试用例响应内容为：{"busiCode":0,"msg":"请求成功","data":{"total":3,"list":[{"clinicId":"1460172750298550274","clinicName":"王刚","clinicMobile":"16621056013","agentName":"王杰","testAmount":0.00,"testNumber":0.0,"testPerson":0.00,"installedDay":140,"address":"湖南省长沙市雨花区湘府东路200","headPicture":null,"termAgentName":"王杰","termAgentId":"1413077292501479425"},{"clinicId":"1460549694448119810","clinicName":"刘伶","clinicMobile":"16621056014","agentName":"王杰","testAmount":0.00,"testNumber":0.0,"testPerson":0.00,"installedDay":0,"address":null,"headPicture":null,"termAgentName":"王杰","termAgentId":"1413077292501479425"},{"clinicId":"1473181445678108674","clinicName":"老黄","clinicMobile":"16621056015","agentName":"王杰","testAmount":0.00,"testNumber":0.0,"testPerson":0.00,"installedDay":0,"address":"洞井子街道湘府路","headPicture":null,"termAgentName":"王杰","termAgentId":"1413077292501479425"}]}}
+2022-04-13 16:08:03.850 | INFO     | common.unittestMain:req_assert:77 - 接口响应时间为：0.295376
+2022-04-13 16:08:03.850 | INFO     | common.unittestMain:req_assert:79 - busicode与预期一致为：0
+2022-04-13 16:08:03.850 | INFO     | common.unittestMain:req_assert:81 - msg与预期一致
+2022-04-13 16:08:03.850 | INFO     | common.unittestMain:assert_data:89 - 响应内容与预期一致
+2022-04-13 16:08:04.140 | DEBUG    | common.unittestMain:req_assert:73 - 本次执行的测试用例请求内容为：{'pageIndex': 1, 'pageSize': 10, 'condition': {'groupStatus': 'Activity', 'agentId': '', 'startTime': '2022-03-13 00:00:00', 'endTime': '2022-04-13 23:59:59'}}
+2022-04-13 16:08:04.140 | DEBUG    | common.unittestMain:req_assert:74 - 本次执行的测试用例响应内容为：{"busiCode":0,"msg":"请求成功","data":{"total":3,"list":[{"clinicId":"1460172750298550274","clinicName":"王刚","clinicMobile":"16621056013","agentName":"王杰","testAmount":0.00,"testNumber":0.0,"testPerson":0.00,"installedDay":140,"address":"湖南省长沙市雨花区湘府东路200","headPicture":null,"termAgentName":"王杰","termAgentId":"1413077292501479425"},{"clinicId":"1460549694448119810","clinicName":"刘伶","clinicMobile":"16621056014","agentName":"王杰","testAmount":0.00,"testNumber":0.0,"testPerson":0.00,"installedDay":0,"address":null,"headPicture":null,"termAgentName":"王杰","termAgentId":"1413077292501479425"},{"clinicId":"1473181445678108674","clinicName":"老黄","clinicMobile":"16621056015","agentName":"王杰","testAmount":0.00,"testNumber":0.0,"testPerson":0.00,"installedDay":0,"address":"洞井子街道湘府路","headPicture":null,"termAgentName":"王杰","termAgentId":"1413077292501479425"}]}}
+2022-04-13 16:08:04.140 | INFO     | common.unittestMain:req_assert:77 - 接口响应时间为：0.203458
+2022-04-13 16:08:04.141 | INFO     | common.unittestMain:req_assert:79 - busicode与预期一致为：0
+2022-04-13 16:08:04.141 | INFO     | common.unittestMain:req_assert:81 - msg与预期一致
+2022-04-13 16:08:04.141 | INFO     | common.unittestMain:assert_data:89 - 响应内容与预期一致
+2022-04-13 16:08:04.761 | DEBUG    | common.unittestMain:req_assert:73 - 本次执行的测试用例请求内容为：{'pageIndex': 1, 'pageSize': 10, 'condition': {'groupStatus': 'InActivity', 'agentId': '', 'startTime': '2022-03-13 00:00:00', 'endTime': '2022-04-13 23:59:59'}}
+2022-04-13 16:08:04.761 | DEBUG    | common.unittestMain:req_assert:74 - 本次执行的测试用例响应内容为：{"busiCode":0,"msg":"请求成功","data":{"total":555,"list":[{"clinicId":"1402995358161256449","clinicName":"荷塘罗小勇诊所","clinicMobile":"15273386968","agentName":"张牡丹","testAmount":0.00,"testNumber":0.0,"testPerson":0.00,"installedDay":273,"address":"荷塘区合泰居民小区","headPicture":null,"termAgentName":"张牡丹","termAgentId":"1407988957143105537"},{"clinicId":"1402995389220077569","clinicName":"崔德虎","clinicMobile":"18273814538","agentName":"廖雄雄","testAmount":0.00,"testNumber":0.0,"testPerson":0.00,"installedDay":257,"address":"娄底饣娄星区育才路新科街","headPicture":null,"termAgentName":"廖雄雄","termAgentId":"1416261390348423170"},{"clinicId":"1402999283685810178","clinicName":"学堂坡社区卫生服务站","clinicMobile":"18973606226","agentName":"谢亚然3","testAmount":0.00,"testNumber":0.0,"testPerson":0.00,"installedDay":278,"address":null,"headPicture":null,"termAgentName":"谢亚然3","termAgentId":"1407344228587061251"},{"clinicId":"1403000103974223874","clinicName":"刘蕾测试账号3","clinicMobile":"18566663333","agentName":"董晓文","testAmount":0.00,"testNumber":0.0,"testPerson":0.00,"installedDay":155,"address":"湖南省长沙市雨花区洞井街道湘府东路200号华坤时代","headPicture":null,"termAgentName":"董晓文","termAgentId":"1402984792864636929"},{"clinicId":"1403001006349369345","clinicName":"周世平诊所7","clinicMobile":"15874056764","agentName":"张鑫","testAmount":0.00,"testNumber":0.0,"testPerson":0.00,"installedDay":267,"address":null,"headPicture":null,"termAgentName":"张鑫","termAgentId":"1402984800917700610"},{"clinicId":"1403007701188378626","clinicName":"荷塘孔安平诊所","clinicMobile":"15173368921","agentName":"康芬平","testAmount":0.00,"testNumber":0.0,"testPerson":0.00,"installedDay":271,"address":"合泰裕丰广场一区","headPicture":null,"termAgentName":"康芬平","termAgentId":"1411903825745383427"},{"clinicId":"1403008406636756993","clinicName":"泉塘村卫生室","clinicMobile":"13308486310","agentName":"华乔","testAmount":0.00,"testNumber":0.0,"testPerson":0.00,"installedDay":242,"address":"湖南省长沙市开福区东风路9号，四季花城8栋北门门面","headPicture":null,"termAgentName":"华乔","termAgentId":"1416268001733357569"},{"clinicId":"1403012488927674369","clinicName":"开福区胡晓紫诊所","clinicMobile":"13787212005","agentName":"李旺","testAmount":0.00,"testNumber":0.0,"testPerson":0.00,"installedDay":298,"address":"湖南省长沙市开福区","headPicture":null,"termAgentName":"李旺","termAgentId":"1402984765601660930"},{"clinicId":"1403013973535137794","clinicName":"罗家坝诊所","clinicMobile":"13337310836","agentName":"谢亚然3","testAmount":0.00,"testNumber":0.0,"testPerson":0.00,"installedDay":249,"address":null,"headPicture":null,"termAgentName":"谢亚然3","termAgentId":"1407344228587061251"},{"clinicId":"1403015887890980867","clinicName":"刘子贵中医诊所","clinicMobile":"18874754996","agentName":"王佑程","testAmount":0.00,"testNumber":0.0,"testPerson":0.00,"installedDay":261,"address":null,"headPicture":null,"termAgentName":"王佑程","termAgentId":"1405731385476431873"}]}}
+2022-04-13 16:08:04.761 | INFO     | common.unittestMain:req_assert:77 - 接口响应时间为：0.532271
+2022-04-13 16:08:04.761 | INFO     | common.unittestMain:req_assert:79 - busicode与预期一致为：0
+2022-04-13 16:08:04.761 | INFO     | common.unittestMain:req_assert:81 - msg与预期一致
+2022-04-13 16:08:04.772 | INFO     | common.unittestMain:assert_data:89 - 响应内容与预期一致
+2022-04-13 16:08:05.369 | DEBUG    | common.unittestMain:req_assert:73 - 本次执行的测试用例请求内容为：{'pageIndex': 1, 'pageSize': 10, 'condition': {'groupStatus': 'InActivity', 'agentId': '1402661430539911171', 'startTime': '2022-03-13 00:00:00', 'endTime': '2022-04-13 23:59:59'}}
+2022-04-13 16:08:05.369 | DEBUG    | common.unittestMain:req_assert:74 - 本次执行的测试用例响应内容为：{"busiCode":0,"msg":"请求成功","data":{"total":555,"list":[{"clinicId":"1402995358161256449","clinicName":"荷塘罗小勇诊所","clinicMobile":"15273386968","agentName":"张牡丹","testAmount":0.00,"testNumber":0.0,"testPerson":0.00,"installedDay":273,"address":"荷塘区合泰居民小区","headPicture":null,"termAgentName":"张牡丹","termAgentId":"1407988957143105537"},{"clinicId":"1402995389220077569","clinicName":"崔德虎","clinicMobile":"18273814538","agentName":"廖雄雄","testAmount":0.00,"testNumber":0.0,"testPerson":0.00,"installedDay":257,"address":"娄底饣娄星区育才路新科街","headPicture":null,"termAgentName":"廖雄雄","termAgentId":"1416261390348423170"},{"clinicId":"1402999283685810178","clinicName":"学堂坡社区卫生服务站","clinicMobile":"18973606226","agentName":"谢亚然3","testAmount":0.00,"testNumber":0.0,"testPerson":0.00,"installedDay":278,"address":null,"headPicture":null,"termAgentName":"谢亚然3","termAgentId":"1407344228587061251"},{"clinicId":"1403000103974223874","clinicName":"刘蕾测试账号3","clinicMobile":"18566663333","agentName":"董晓文","testAmount":0.00,"testNumber":0.0,"testPerson":0.00,"installedDay":155,"address":"湖南省长沙市雨花区洞井街道湘府东路200号华坤时代","headPicture":null,"termAgentName":"董晓文","termAgentId":"1402984792864636929"},{"clinicId":"1403001006349369345","clinicName":"周世平诊所7","clinicMobile":"15874056764","agentName":"张鑫","testAmount":0.00,"testNumber":0.0,"testPerson":0.00,"installedDay":267,"address":null,"headPicture":null,"termAgentName":"张鑫","termAgentId":"1402984800917700610"},{"clinicId":"1403007701188378626","clinicName":"荷塘孔安平诊所","clinicMobile":"15173368921","agentName":"康芬平","testAmount":0.00,"testNumber":0.0,"testPerson":0.00,"installedDay":271,"address":"合泰裕丰广场一区","headPicture":null,"termAgentName":"康芬平","termAgentId":"1411903825745383427"},{"clinicId":"1403008406636756993","clinicName":"泉塘村卫生室","clinicMobile":"13308486310","agentName":"华乔","testAmount":0.00,"testNumber":0.0,"testPerson":0.00,"installedDay":242,"address":"湖南省长沙市开福区东风路9号，四季花城8栋北门门面","headPicture":null,"termAgentName":"华乔","termAgentId":"1416268001733357569"},{"clinicId":"1403012488927674369","clinicName":"开福区胡晓紫诊所","clinicMobile":"13787212005","agentName":"李旺","testAmount":0.00,"testNumber":0.0,"testPerson":0.00,"installedDay":298,"address":"湖南省长沙市开福区","headPicture":null,"termAgentName":"李旺","termAgentId":"1402984765601660930"},{"clinicId":"1403013973535137794","clinicName":"罗家坝诊所","clinicMobile":"13337310836","agentName":"谢亚然3","testAmount":0.00,"testNumber":0.0,"testPerson":0.00,"installedDay":249,"address":null,"headPicture":null,"termAgentName":"谢亚然3","termAgentId":"1407344228587061251"},{"clinicId":"1403015887890980867","clinicName":"刘子贵中医诊所","clinicMobile":"18874754996","agentName":"王佑程","testAmount":0.00,"testNumber":0.0,"testPerson":0.00,"installedDay":261,"address":null,"headPicture":null,"termAgentName":"王佑程","termAgentId":"1405731385476431873"}]}}
+2022-04-13 16:08:05.369 | INFO     | common.unittestMain:req_assert:77 - 接口响应时间为：0.487571
+2022-04-13 16:08:05.370 | INFO     | common.unittestMain:req_assert:79 - busicode与预期一致为：0
+2022-04-13 16:08:05.370 | INFO     | common.unittestMain:req_assert:81 - msg与预期一致
+2022-04-13 16:08:05.381 | INFO     | common.unittestMain:assert_data:89 - 响应内容与预期一致
+2022-04-13 16:08:06.096 | DEBUG    | common.unittestMain:req_assert:73 - 本次执行的测试用例请求内容为：{'pageIndex': 1, 'pageSize': 10, 'condition': {'groupStatus': 'InActivity', 'agentId': '000000000000', 'startTime': '2022-03-13 00:00:00', 'endTime': '2022-04-13 23:59:59'}}
+2022-04-13 16:08:06.097 | DEBUG    | common.unittestMain:req_assert:74 - 本次执行的测试用例响应内容为：{"busiCode":0,"msg":"请求成功","data":{"total":555,"list":[{"clinicId":"1402995358161256449","clinicName":"荷塘罗小勇诊所","clinicMobile":"15273386968","agentName":"张牡丹","testAmount":0.00,"testNumber":0.0,"testPerson":0.00,"installedDay":273,"address":"荷塘区合泰居民小区","headPicture":null,"termAgentName":"张牡丹","termAgentId":"1407988957143105537"},{"clinicId":"1402995389220077569","clinicName":"崔德虎","clinicMobile":"18273814538","agentName":"廖雄雄","testAmount":0.00,"testNumber":0.0,"testPerson":0.00,"installedDay":257,"address":"娄底饣娄星区育才路新科街","headPicture":null,"termAgentName":"廖雄雄","termAgentId":"1416261390348423170"},{"clinicId":"1402999283685810178","clinicName":"学堂坡社区卫生服务站","clinicMobile":"18973606226","agentName":"谢亚然3","testAmount":0.00,"testNumber":0.0,"testPerson":0.00,"installedDay":278,"address":null,"headPicture":null,"termAgentName":"谢亚然3","termAgentId":"1407344228587061251"},{"clinicId":"1403000103974223874","clinicName":"刘蕾测试账号3","clinicMobile":"18566663333","agentName":"董晓文","testAmount":0.00,"testNumber":0.0,"testPerson":0.00,"installedDay":155,"address":"湖南省长沙市雨花区洞井街道湘府东路200号华坤时代","headPicture":null,"termAgentName":"董晓文","termAgentId":"1402984792864636929"},{"clinicId":"1403001006349369345","clinicName":"周世平诊所7","clinicMobile":"15874056764","agentName":"张鑫","testAmount":0.00,"testNumber":0.0,"testPerson":0.00,"installedDay":267,"address":null,"headPicture":null,"termAgentName":"张鑫","termAgentId":"1402984800917700610"},{"clinicId":"1403007701188378626","clinicName":"荷塘孔安平诊所","clinicMobile":"15173368921","agentName":"康芬平","testAmount":0.00,"testNumber":0.0,"testPerson":0.00,"installedDay":271,"address":"合泰裕丰广场一区","headPicture":null,"termAgentName":"康芬平","termAgentId":"1411903825745383427"},{"clinicId":"1403008406636756993","clinicName":"泉塘村卫生室","clinicMobile":"13308486310","agentName":"华乔","testAmount":0.00,"testNumber":0.0,"testPerson":0.00,"installedDay":242,"address":"湖南省长沙市开福区东风路9号，四季花城8栋北门门面","headPicture":null,"termAgentName":"华乔","termAgentId":"1416268001733357569"},{"clinicId":"1403012488927674369","clinicName":"开福区胡晓紫诊所","clinicMobile":"13787212005","agentName":"李旺","testAmount":0.00,"testNumber":0.0,"testPerson":0.00,"installedDay":298,"address":"湖南省长沙市开福区","headPicture":null,"termAgentName":"李旺","termAgentId":"1402984765601660930"},{"clinicId":"1403013973535137794","clinicName":"罗家坝诊所","clinicMobile":"13337310836","agentName":"谢亚然3","testAmount":0.00,"testNumber":0.0,"testPerson":0.00,"installedDay":249,"address":null,"headPicture":null,"termAgentName":"谢亚然3","termAgentId":"1407344228587061251"},{"clinicId":"1403015887890980867","clinicName":"刘子贵中医诊所","clinicMobile":"18874754996","agentName":"王佑程","testAmount":0.00,"testNumber":0.0,"testPerson":0.00,"installedDay":261,"address":null,"headPicture":null,"termAgentName":"王佑程","termAgentId":"1405731385476431873"}]}}
+2022-04-13 16:08:06.097 | INFO     | common.unittestMain:req_assert:77 - 接口响应时间为：0.626174
+2022-04-13 16:08:06.097 | INFO     | common.unittestMain:req_assert:79 - busicode与预期一致为：0
+2022-04-13 16:08:06.097 | INFO     | common.unittestMain:req_assert:81 - msg与预期一致
+2022-04-13 16:08:06.100 | INFO     | common.unittestMain:assert_data:89 - 响应内容与预期一致
+2022-04-13 16:08:06.294 | DEBUG    | common.unittestMain:req_assert:73 - 本次执行的测试用例请求内容为：{'pageIndex': 0, 'pageSize': 10, 'condition': {'groupStatus': 'InActivity', 'agentId': '000000000000', 'startTime': '2022-03-13 00:00:00', 'endTime': '2022-04-13 23:59:59'}}
+2022-04-13 16:08:06.294 | DEBUG    | common.unittestMain:req_assert:74 - 本次执行的测试用例响应内容为：{"busiCode":400,"msg":"parameter:当前页不能小于1","data":null}
+2022-04-13 16:08:06.295 | INFO     | common.unittestMain:req_assert:77 - 接口响应时间为：0.108218
+2022-04-13 16:08:06.295 | INFO     | common.unittestMain:req_assert:79 - busicode与预期一致为：400
+2022-04-13 16:08:06.295 | INFO     | common.unittestMain:req_assert:81 - msg与预期一致
+2022-04-13 16:08:06.295 | INFO     | common.unittestMain:assert_data:92 - 响应内容与预期一致
+2022-04-13 16:08:06.979 | DEBUG    | common.unittestMain:req_assert:73 - 本次执行的测试用例请求内容为：{'pageIndex': 1, 'pageSize': 10, 'condition': {'groupStatus': 'InActivity', 'agentId': '000000000000', 'startTime': '2022-04-13 00:00:00', 'endTime': '2022-03-13 23:59:59'}}
+2022-04-13 16:08:06.980 | DEBUG    | common.unittestMain:req_assert:74 - 本次执行的测试用例响应内容为：{"busiCode":0,"msg":"请求成功","data":{"total":555,"list":[{"clinicId":"1402995358161256449","clinicName":"荷塘罗小勇诊所","clinicMobile":"15273386968","agentName":"张牡丹","testAmount":0.00,"testNumber":0.0,"testPerson":0.00,"installedDay":273,"address":"荷塘区合泰居民小区","headPicture":null,"termAgentName":"张牡丹","termAgentId":"1407988957143105537"},{"clinicId":"1402995389220077569","clinicName":"崔德虎","clinicMobile":"18273814538","agentName":"廖雄雄","testAmount":0.00,"testNumber":0.0,"testPerson":0.00,"installedDay":257,"address":"娄底饣娄星区育才路新科街","headPicture":null,"termAgentName":"廖雄雄","termAgentId":"1416261390348423170"},{"clinicId":"1402999283685810178","clinicName":"学堂坡社区卫生服务站","clinicMobile":"18973606226","agentName":"谢亚然3","testAmount":0.00,"testNumber":0.0,"testPerson":0.00,"installedDay":278,"address":null,"headPicture":null,"termAgentName":"谢亚然3","termAgentId":"1407344228587061251"},{"clinicId":"1403000103974223874","clinicName":"刘蕾测试账号3","clinicMobile":"18566663333","agentName":"董晓文","testAmount":0.00,"testNumber":0.0,"testPerson":0.00,"installedDay":155,"address":"湖南省长沙市雨花区洞井街道湘府东路200号华坤时代","headPicture":null,"termAgentName":"董晓文","termAgentId":"1402984792864636929"},{"clinicId":"1403001006349369345","clinicName":"周世平诊所7","clinicMobile":"15874056764","agentName":"张鑫","testAmount":0.00,"testNumber":0.0,"testPerson":0.00,"installedDay":267,"address":null,"headPicture":null,"termAgentName":"张鑫","termAgentId":"1402984800917700610"},{"clinicId":"1403007701188378626","clinicName":"荷塘孔安平诊所","clinicMobile":"15173368921","agentName":"康芬平","testAmount":0.00,"testNumber":0.0,"testPerson":0.00,"installedDay":271,"address":"合泰裕丰广场一区","headPicture":null,"termAgentName":"康芬平","termAgentId":"1411903825745383427"},{"clinicId":"1403008406636756993","clinicName":"泉塘村卫生室","clinicMobile":"13308486310","agentName":"华乔","testAmount":0.00,"testNumber":0.0,"testPerson":0.00,"installedDay":242,"address":"湖南省长沙市开福区东风路9号，四季花城8栋北门门面","headPicture":null,"termAgentName":"华乔","termAgentId":"1416268001733357569"},{"clinicId":"1403012488927674369","clinicName":"开福区胡晓紫诊所","clinicMobile":"13787212005","agentName":"李旺","testAmount":0.00,"testNumber":0.0,"testPerson":0.00,"installedDay":298,"address":"湖南省长沙市开福区","headPicture":null,"termAgentName":"李旺","termAgentId":"1402984765601660930"},{"clinicId":"1403013973535137794","clinicName":"罗家坝诊所","clinicMobile":"13337310836","agentName":"谢亚然3","testAmount":0.00,"testNumber":0.0,"testPerson":0.00,"installedDay":249,"address":null,"headPicture":null,"termAgentName":"谢亚然3","termAgentId":"1407344228587061251"},{"clinicId":"1403015887890980867","clinicName":"刘子贵中医诊所","clinicMobile":"18874754996","agentName":"王佑程","testAmount":0.00,"testNumber":0.0,"testPerson":0.00,"installedDay":261,"address":null,"headPicture":null,"termAgentName":"王佑程","termAgentId":"1405731385476431873"}]}}
+2022-04-13 16:08:06.980 | INFO     | common.unittestMain:req_assert:77 - 接口响应时间为：0.598144
+2022-04-13 16:08:06.980 | INFO     | common.unittestMain:req_assert:79 - busicode与预期一致为：0
+2022-04-13 16:08:06.981 | INFO     | common.unittestMain:req_assert:81 - msg与预期一致
+2022-04-13 16:08:06.995 | INFO     | common.unittestMain:assert_data:89 - 响应内容与预期一致
+2022-04-13 16:08:07.398 | DEBUG    | common.unittestMain:req_assert:73 - 本次执行的测试用例请求内容为：{'pageIndex': 1, 'pageSize': 200, 'condition': {'groupStatus': 'Activity', 'startTime': '2000-04-13 00:00:00', 'endTime': '2022-03-13 23:59:59'}}
+2022-04-13 16:08:07.398 | DEBUG    | common.unittestMain:req_assert:74 - 本次执行的测试用例响应内容为：{"busiCode":1002,"msg":"查询数据失败","data":null}
+2022-04-13 16:08:07.398 | INFO     | common.unittestMain:req_assert:77 - 接口响应时间为：0.319509
+2022-04-13 16:08:07.398 | INFO     | common.unittestMain:req_assert:79 - busicode与预期一致为：1002
+2022-04-13 16:08:07.399 | INFO     | common.unittestMain:req_assert:81 - msg与预期一致
+2022-04-13 16:08:07.399 | INFO     | common.unittestMain:assert_data:92 - 响应内容与预期一致
+2022-04-13 16:08:07.564 | DEBUG    | common.unittestMain:req_assert:73 - 本次执行的测试用例请求内容为：{'pageIndex': 1, 'pageSize': 10, 'condition': {'groupStatus': 'Activity', 'agentId': '1402661430539911171', 'startTime': '', 'endTime': '2022-04-13 23:59:59'}}
+2022-04-13 16:08:07.564 | DEBUG    | common.unittestMain:req_assert:74 - 本次执行的测试用例响应内容为：{"busiCode":-1,"msg":"接口未知异常","data":null}
+2022-04-13 16:08:07.564 | INFO     | common.unittestMain:req_assert:77 - 接口响应时间为：0.085196
+2022-04-13 16:08:07.564 | INFO     | common.unittestMain:req_assert:79 - busicode与预期一致为：-1
+2022-04-13 16:08:07.564 | INFO     | common.unittestMain:req_assert:81 - msg与预期一致
+2022-04-13 16:08:07.565 | INFO     | common.unittestMain:assert_data:92 - 响应内容与预期一致
+2022-04-13 16:08:07.733 | DEBUG    | common.unittestMain:req_assert:73 - 本次执行的测试用例请求内容为：{'pageIndex': 1, 'pageSize': 10, 'condition': {'groupStatus': 'Activity', 'agentId': '1402661430539911171', 'startTime': '', 'endTime': ''}}
+2022-04-13 16:08:07.733 | DEBUG    | common.unittestMain:req_assert:74 - 本次执行的测试用例响应内容为：{"busiCode":-1,"msg":"接口未知异常","data":null}
+2022-04-13 16:08:07.735 | INFO     | common.unittestMain:req_assert:77 - 接口响应时间为：0.09371
+2022-04-13 16:08:07.735 | INFO     | common.unittestMain:req_assert:79 - busicode与预期一致为：-1
+2022-04-13 16:08:07.736 | INFO     | common.unittestMain:req_assert:81 - msg与预期一致
+2022-04-13 16:08:07.736 | INFO     | common.unittestMain:assert_data:92 - 响应内容与预期一致
+2022-04-13 16:08:07.955 | DEBUG    | common.unittestMain:req_assert:73 - 本次执行的测试用例请求内容为：{'period': 'day'}
+2022-04-13 16:08:07.955 | DEBUG    | common.unittestMain:req_assert:74 - 本次执行的测试用例响应内容为：{"busiCode":0,"msg":"请求成功","data":{"activeClinicIncrease":0,"activeClinicIncreaseRatio":0.00,"inActiveClinicIncrease":-124,"inActiveClinicIncreaseRatio":-100.00,"activeClinicRatio":0.00,"clinicDetail":[{"staticDateSegment":"2022.04.12","totalClinicNum":0,"activeClinicNum":0,"inActiveClinicNum":0,"activeClinicRatio":0.00},{"staticDateSegment":"2022.04.11","totalClinicNum":124,"activeClinicNum":0,"inActiveClinicNum":124,"activeClinicRatio":0.00}]}}
+2022-04-13 16:08:07.955 | INFO     | common.unittestMain:req_assert:77 - 接口响应时间为：0.133026
+2022-04-13 16:08:07.956 | INFO     | common.unittestMain:req_assert:79 - busicode与预期一致为：0
+2022-04-13 16:08:07.956 | INFO     | common.unittestMain:req_assert:81 - msg与预期一致
+2022-04-13 16:08:07.956 | INFO     | common.unittestMain:assert_data:89 - 响应内容与预期一致
+2022-04-13 16:08:08.143 | DEBUG    | common.unittestMain:req_assert:73 - 本次执行的测试用例请求内容为：{'period': 'week'}
+2022-04-13 16:08:08.143 | DEBUG    | common.unittestMain:req_assert:74 - 本次执行的测试用例响应内容为：{"busiCode":0,"msg":"请求成功","data":{"activeClinicIncrease":0,"activeClinicIncreaseRatio":0.00,"inActiveClinicIncrease":0,"inActiveClinicIncreaseRatio":0.00,"activeClinicRatio":0.00,"clinicDetail":[{"staticDateSegment":"2022.04.04-2022.04.10","totalClinicNum":0,"activeClinicNum":0,"inActiveClinicNum":0,"activeClinicRatio":0.00},{"staticDateSegment":"2022.03.28-2022.04.03","totalClinicNum":0,"activeClinicNum":0,"inActiveClinicNum":0,"activeClinicRatio":0.00}]}}
+2022-04-13 16:08:08.144 | INFO     | common.unittestMain:req_assert:77 - 接口响应时间为：0.107924
+2022-04-13 16:08:08.144 | INFO     | common.unittestMain:req_assert:79 - busicode与预期一致为：0
+2022-04-13 16:08:08.145 | INFO     | common.unittestMain:req_assert:81 - msg与预期一致
+2022-04-13 16:08:08.145 | INFO     | common.unittestMain:assert_data:89 - 响应内容与预期一致
+2022-04-13 16:08:08.330 | DEBUG    | common.unittestMain:req_assert:73 - 本次执行的测试用例请求内容为：{'period': 'month'}
+2022-04-13 16:08:08.330 | DEBUG    | common.unittestMain:req_assert:74 - 本次执行的测试用例响应内容为：{"busiCode":0,"msg":"请求成功","data":{"activeClinicIncrease":0,"activeClinicIncreaseRatio":0.00,"inActiveClinicIncrease":0,"inActiveClinicIncreaseRatio":0.00,"activeClinicRatio":0.00,"clinicDetail":[{"staticDateSegment":"2022.03.01-2022.03.31","totalClinicNum":0,"activeClinicNum":0,"inActiveClinicNum":0,"activeClinicRatio":0.00},{"staticDateSegment":"2022.02.01-2022.02.28","totalClinicNum":0,"activeClinicNum":0,"inActiveClinicNum":0,"activeClinicRatio":0.00}]}}
+2022-04-13 16:08:08.331 | INFO     | common.unittestMain:req_assert:77 - 接口响应时间为：0.108218
+2022-04-13 16:08:08.331 | INFO     | common.unittestMain:req_assert:79 - busicode与预期一致为：0
+2022-04-13 16:08:08.331 | INFO     | common.unittestMain:req_assert:81 - msg与预期一致
+2022-04-13 16:08:08.331 | INFO     | common.unittestMain:assert_data:89 - 响应内容与预期一致
+2022-04-13 16:08:08.515 | DEBUG    | common.unittestMain:req_assert:73 - 本次执行的测试用例请求内容为：{'period': 'quarter'}
+2022-04-13 16:08:08.515 | DEBUG    | common.unittestMain:req_assert:74 - 本次执行的测试用例响应内容为：{"busiCode":0,"msg":"请求成功","data":{"activeClinicIncrease":0,"activeClinicIncreaseRatio":0.00,"inActiveClinicIncrease":0,"inActiveClinicIncreaseRatio":0.00,"activeClinicRatio":0.00,"clinicDetail":[{"staticDateSegment":"2022.01.01-2022.03.31","totalClinicNum":0,"activeClinicNum":0,"inActiveClinicNum":0,"activeClinicRatio":0.00},{"staticDateSegment":"2021.10.01-2021.12.31","totalClinicNum":0,"activeClinicNum":0,"inActiveClinicNum":0,"activeClinicRatio":0.00}]}}
+2022-04-13 16:08:08.515 | INFO     | common.unittestMain:req_assert:77 - 接口响应时间为：0.102943
+2022-04-13 16:08:08.515 | INFO     | common.unittestMain:req_assert:79 - busicode与预期一致为：0
+2022-04-13 16:08:08.515 | INFO     | common.unittestMain:req_assert:81 - msg与预期一致
+2022-04-13 16:08:08.516 | INFO     | common.unittestMain:assert_data:89 - 响应内容与预期一致
+2022-04-13 16:08:08.666 | DEBUG    | common.unittestMain:req_assert:73 - 本次执行的测试用例请求内容为：{'period': '0'}
+2022-04-13 16:08:08.666 | DEBUG    | common.unittestMain:req_assert:74 - 本次执行的测试用例响应内容为：{"busiCode":-1,"msg":"接口未知异常","data":null}
+2022-04-13 16:08:08.666 | INFO     | common.unittestMain:req_assert:77 - 接口响应时间为：0.074119
+2022-04-13 16:08:08.667 | INFO     | common.unittestMain:req_assert:79 - busicode与预期一致为：-1
+2022-04-13 16:08:08.667 | INFO     | common.unittestMain:req_assert:81 - msg与预期一致
+2022-04-13 16:08:08.667 | INFO     | common.unittestMain:assert_data:92 - 响应内容与预期一致
+2022-04-13 16:08:08.815 | DEBUG    | common.unittestMain:req_assert:73 - 本次执行的测试用例请求内容为：{'period': '日'}
+2022-04-13 16:08:08.816 | DEBUG    | common.unittestMain:req_assert:74 - 本次执行的测试用例响应内容为：{"busiCode":-1,"msg":"接口未知异常","data":null}
+2022-04-13 16:08:08.816 | INFO     | common.unittestMain:req_assert:77 - 接口响应时间为：0.069904
+2022-04-13 16:08:08.816 | INFO     | common.unittestMain:req_assert:79 - busicode与预期一致为：-1
+2022-04-13 16:08:08.816 | INFO     | common.unittestMain:req_assert:81 - msg与预期一致
+2022-04-13 16:08:08.816 | INFO     | common.unittestMain:assert_data:92 - 响应内容与预期一致

@@ -1,0 +1,4 @@
+2022-04-20 14:13:15.150 | DEBUG    | common.unittestMain:req_assert:76 - 本次执行的测试用例请求内容为：{'phone': '', 'searchStr': ''}
+2022-04-20 14:13:15.151 | DEBUG    | common.unittestMain:req_assert:77 - 本次执行的测试用例响应内容为：{"busiCode":0,"msg":"请求成功","data":[{"levenType":"终端门诊","count":0,"leven":4}]}
+2022-04-20 14:13:15.152 | INFO     | common.unittestMain:req_assert:80 - 接口响应时间为：0.381422
+2022-04-20 14:13:16.472 | SUCCESS  | utils.mysql_res:update_sql:104 - --------------------------------------------------更新成功--------------------------------------------------

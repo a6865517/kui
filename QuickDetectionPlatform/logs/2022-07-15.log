@@ -1,0 +1,290 @@
+2022-07-15 15:08:33.777 | INFO     | utils.login:login_test:22 - 本次登录获取token为:{'Authorization': 'bearer 39093976-9f0d-4171-98bd-bcda14fa4f41'}
+2022-07-15 15:08:34.357 | INFO     | utils.get_clinic_info_test:bind_gold_blood_device:71 - 绑定设备接口请求参数{'clinicId': 1460172750298550274, 'ids': [14], 'operateType': 1}
+2022-07-15 15:08:34.358 | INFO     | utils.get_clinic_info_test:bind_gold_blood_device:72 - 绑定设备接口返回参数{"busiCode":201,"msg":"一个诊所只能绑定同种设备一次","data":null}
+2022-07-15 15:08:34.459 | INFO     | utils.get_clinic_info_test:bind_gold_blood_device:71 - 绑定设备接口请求参数{'clinicId': 1460172750298550274, 'ids': [1386709332788838402], 'operateType': 1}
+2022-07-15 15:08:34.460 | INFO     | utils.get_clinic_info_test:bind_gold_blood_device:72 - 绑定设备接口返回参数{"busiCode":201,"msg":"一个诊所只能绑定同种设备一次","data":null}
+2022-07-15 15:08:35.167 | INFO     | gold_check.gold_check_test:add_patient:56 - 添加患者接口请求参数为:{'age': 18, 'deviceId': 'B21', 'month': 0, 'name': '华强测试', 'phone': '13622220000', 'sex': 0, 'termClinicId': 1460172750298550274}
+2022-07-15 15:08:35.168 | INFO     | gold_check.gold_check_test:add_patient:57 - 添加患者接口响应参数为:{"busiCode":0,"msg":"请求成功","data":{"patientId":"1547840534664749057"}}
+2022-07-15 15:08:37.717 | INFO     | gold_check.gold_check_test:start_check:69 - 开始检测接口请求参数为：{'clinicId': 1460172750298550274, 'file': None, 'sno': 'B21'}
+2022-07-15 15:08:37.717 | INFO     | gold_check.gold_check_test:start_check:70 - 开始检测接口响应内容为:{"busiCode":0,"msg":"请求成功","data":{"stripTypeCode":"6","stripBatch":"23","testPoctDataId":["1547840540062818305"],"imgUrl":"http://publicmedia.ehomepoct.com/jbyimage/MP_IgM.png","reactTime":15,"warningTips":null,"stripName":"MP-IgM检测(XXIII)"}}
+2022-07-15 15:08:38.186 | INFO     | gold_check.gold_check_test:create_order:87 - 生成订单接口请求参数为：{'addressDetail': '湖南省长沙市雨花区华坤时代', 'briefAddress': '湖南省长沙市雨花区雨河路279号靠近湘府路站', 'clinicId': 1460172750298550274, 'latitude': 0, 'longitude': 0, 'patientId': '1547840534664749057', 'position': '湖南省长沙市雨花区华坤时代', 'sno': 'B21', 'testDataIds': ['1547840540062818305']}
+2022-07-15 15:08:38.186 | INFO     | gold_check.gold_check_test:create_order:88 - 生成订单接口响应内容为:{"busiCode":20050100,"msg":"没有价格方案!","data":null}
+2022-07-15 15:08:38.301 | INFO     | gold_check.gold_check_test:call_back:105 - 支付回调接口请求参数为：{'clinicId': 1460172750298550274, 'file': None, 'sno': 'B21'}
+2022-07-15 15:08:38.301 | INFO     | gold_check.gold_check_test:call_back:106 - 支付回调接口响应内容为:{"busiCode":0,"msg":"请求成功","data":null}
+2022-07-15 15:08:38.301 | SUCCESS  | __main__:_gold_check_test:44 - 本次请求响应内容为{'code': -1, 'msg': '检测接口异常', 'data': []}
+2022-07-15 15:08:47.012 | INFO     | utils.login:login_test:22 - 本次登录获取token为:{'Authorization': 'bearer 39093976-9f0d-4171-98bd-bcda14fa4f41'}
+2022-07-15 15:08:49.166 | INFO     | utils.get_clinic_info_test:bind_gold_blood_device:71 - 绑定设备接口请求参数{'clinicId': 1460172750298550274, 'ids': [14], 'operateType': 1}
+2022-07-15 15:08:49.166 | INFO     | utils.get_clinic_info_test:bind_gold_blood_device:72 - 绑定设备接口返回参数{"busiCode":201,"msg":"一个诊所只能绑定同种设备一次","data":null}
+2022-07-15 15:08:49.260 | INFO     | utils.get_clinic_info_test:bind_gold_blood_device:71 - 绑定设备接口请求参数{'clinicId': 1460172750298550274, 'ids': [1386709332788838402], 'operateType': 1}
+2022-07-15 15:08:49.260 | INFO     | utils.get_clinic_info_test:bind_gold_blood_device:72 - 绑定设备接口返回参数{"busiCode":201,"msg":"一个诊所只能绑定同种设备一次","data":null}
+2022-07-15 15:08:49.578 | INFO     | gold_check.gold_check_test:add_patient:56 - 添加患者接口请求参数为:{'age': 18, 'deviceId': 'B21', 'month': 0, 'name': '华强测试', 'phone': '13622220000', 'sex': 0, 'termClinicId': 1460172750298550274}
+2022-07-15 15:08:49.578 | INFO     | gold_check.gold_check_test:add_patient:57 - 添加患者接口响应参数为:{"busiCode":0,"msg":"请求成功","data":{"patientId":"1547840595113058305"}}
+2022-07-15 15:08:50.512 | INFO     | gold_check.gold_check_test:start_check:69 - 开始检测接口请求参数为：{'clinicId': 1460172750298550274, 'file': None, 'sno': 'B21'}
+2022-07-15 15:08:50.512 | INFO     | gold_check.gold_check_test:start_check:70 - 开始检测接口响应内容为:{"busiCode":0,"msg":"请求成功","data":{"stripTypeCode":"4","stripBatch":"38","testPoctDataId":["1547840597721915393"],"imgUrl":"http://publicmedia.ehomepoct.com/jbyimage/CRP.png","reactTime":5,"warningTips":null,"stripName":"CRP检测(XXXVIII)"}}
+2022-07-15 15:08:50.691 | INFO     | gold_check.gold_check_test:create_order:87 - 生成订单接口请求参数为：{'addressDetail': '湖南省长沙市雨花区华坤时代', 'briefAddress': '湖南省长沙市雨花区雨河路279号靠近湘府路站', 'clinicId': 1460172750298550274, 'latitude': 0, 'longitude': 0, 'patientId': '1547840595113058305', 'position': '湖南省长沙市雨花区华坤时代', 'sno': 'B21', 'testDataIds': ['1547840597721915393']}
+2022-07-15 15:08:50.692 | INFO     | gold_check.gold_check_test:create_order:88 - 生成订单接口响应内容为:{"busiCode":20050100,"msg":"没有价格方案!","data":null}
+2022-07-15 15:08:50.769 | INFO     | gold_check.gold_check_test:call_back:105 - 支付回调接口请求参数为：{'clinicId': 1460172750298550274, 'file': None, 'sno': 'B21'}
+2022-07-15 15:08:50.769 | INFO     | gold_check.gold_check_test:call_back:106 - 支付回调接口响应内容为:{"busiCode":0,"msg":"请求成功","data":null}
+2022-07-15 15:08:50.769 | SUCCESS  | __main__:_gold_check_test:44 - 本次请求响应内容为{'code': -1, 'msg': '检测接口异常', 'data': []}
+2022-07-15 15:08:59.561 | INFO     | utils.login:login_test:22 - 本次登录获取token为:{'Authorization': 'bearer 39093976-9f0d-4171-98bd-bcda14fa4f41'}
+2022-07-15 15:08:59.996 | INFO     | utils.get_clinic_info_test:bind_gold_blood_device:71 - 绑定设备接口请求参数{'clinicId': 1460172750298550274, 'ids': [14], 'operateType': 1}
+2022-07-15 15:08:59.997 | INFO     | utils.get_clinic_info_test:bind_gold_blood_device:72 - 绑定设备接口返回参数{"busiCode":201,"msg":"一个诊所只能绑定同种设备一次","data":null}
+2022-07-15 15:09:00.087 | INFO     | utils.get_clinic_info_test:bind_gold_blood_device:71 - 绑定设备接口请求参数{'clinicId': 1460172750298550274, 'ids': [1386709332788838402], 'operateType': 1}
+2022-07-15 15:09:00.087 | INFO     | utils.get_clinic_info_test:bind_gold_blood_device:72 - 绑定设备接口返回参数{"busiCode":201,"msg":"一个诊所只能绑定同种设备一次","data":null}
+2022-07-15 15:09:00.502 | INFO     | gold_check.gold_check_test:add_patient:56 - 添加患者接口请求参数为:{'age': 18, 'deviceId': 'B21', 'month': 0, 'name': '华强测试', 'phone': '13622220000', 'sex': 0, 'termClinicId': 1460172750298550274}
+2022-07-15 15:09:00.502 | INFO     | gold_check.gold_check_test:add_patient:57 - 添加患者接口响应参数为:{"busiCode":0,"msg":"请求成功","data":{"patientId":"1547840640516399106"}}
+2022-07-15 15:09:01.436 | INFO     | gold_check.gold_check_test:start_check:69 - 开始检测接口请求参数为：{'clinicId': 1460172750298550274, 'file': None, 'sno': 'B21'}
+2022-07-15 15:09:02.137 | INFO     | gold_check.gold_check_test:start_check:70 - 开始检测接口响应内容为:{"busiCode":0,"msg":"请求成功","data":{"stripTypeCode":"4","stripBatch":"38","testPoctDataId":["1547840643259473922"],"imgUrl":"http://publicmedia.ehomepoct.com/jbyimage/CRP.png","reactTime":5,"warningTips":null,"stripName":"CRP检测(XXXVIII)"}}
+2022-07-15 15:09:02.436 | INFO     | gold_check.gold_check_test:create_order:87 - 生成订单接口请求参数为：{'addressDetail': '湖南省长沙市雨花区华坤时代', 'briefAddress': '湖南省长沙市雨花区雨河路279号靠近湘府路站', 'clinicId': 1460172750298550274, 'latitude': 0, 'longitude': 0, 'patientId': '1547840640516399106', 'position': '湖南省长沙市雨花区华坤时代', 'sno': 'B21', 'testDataIds': ['1547840643259473922']}
+2022-07-15 15:09:02.436 | INFO     | gold_check.gold_check_test:create_order:88 - 生成订单接口响应内容为:{"busiCode":20050100,"msg":"没有价格方案!","data":null}
+2022-07-15 15:09:02.507 | INFO     | gold_check.gold_check_test:call_back:105 - 支付回调接口请求参数为：{'clinicId': 1460172750298550274, 'file': None, 'sno': 'B21'}
+2022-07-15 15:09:02.508 | INFO     | gold_check.gold_check_test:call_back:106 - 支付回调接口响应内容为:{"busiCode":0,"msg":"请求成功","data":null}
+2022-07-15 15:09:02.508 | SUCCESS  | __main__:_gold_check_test:44 - 本次请求响应内容为{'code': -1, 'msg': '检测接口异常', 'data': []}
+2022-07-15 15:09:58.685 | INFO     | utils.login:login_sta:33 - 本次登录获取token为:{'Authorization': 'bearer abb1394f-5778-4e43-902d-db6dda3de837'}
+2022-07-15 15:09:59.313 | INFO     | utils.get_clinic_info_sta:bind_gold_blood_device:71 - 绑定设备接口请求参数{'clinicId': 1480361848497287169, 'ids': [1391993392987680770], 'operateType': 1}
+2022-07-15 15:09:59.314 | INFO     | utils.get_clinic_info_sta:bind_gold_blood_device:72 - 绑定设备接口返回参数{"busiCode":201,"msg":"一个诊所只能绑定同种设备一次","data":null}
+2022-07-15 15:09:59.421 | INFO     | utils.get_clinic_info_sta:bind_gold_blood_device:71 - 绑定设备接口请求参数{'clinicId': 1480361848497287169, 'ids': [1387605672557346818], 'operateType': 1}
+2022-07-15 15:09:59.421 | INFO     | utils.get_clinic_info_sta:bind_gold_blood_device:72 - 绑定设备接口返回参数{"busiCode":201,"msg":"一个诊所只能绑定同种设备一次","data":null}
+2022-07-15 15:09:59.728 | INFO     | gold_check.gold_check_sta:add_patient:55 - 添加患者接口请求参数为:{'age': 18, 'deviceId': 'B219091500000519', 'month': 0, 'name': '华强测试', 'phone': '13622220000', 'sex': 0, 'termClinicId': 1480361848497287169}
+2022-07-15 15:09:59.729 | INFO     | gold_check.gold_check_sta:add_patient:56 - 添加患者接口响应参数为:{"busiCode":0,"msg":"请求成功","data":{"patientId":"1547840889351618561"}}
+2022-07-15 15:10:00.408 | INFO     | gold_check.gold_check_sta:start_check:67 - 开始检测接口请求参数为：{'clinicId': 1480361848497287169, 'file': None, 'sno': 'B219091500000519'}
+2022-07-15 15:10:00.409 | INFO     | gold_check.gold_check_sta:start_check:68 - 开始检测接口响应内容为:{"busiCode":0,"msg":"请求成功","data":{"stripTypeCode":"4","stripBatch":"38","testPoctDataId":["1547840892023390210"],"imgUrl":"http://publicmedia.ehomepoct.com/CRP.png","reactTime":5,"warningTips":null,"stripName":"CRP检测(XXXVIII)"}}
+2022-07-15 15:10:02.267 | INFO     | gold_check.gold_check_sta:create_order:87 - 生成订单接口请求参数为：{'addressDetail': '湖南省长沙市雨花区华坤时代', 'briefAddress': '湖南省长沙市雨花区雨河路279号靠近湘府路站', 'clinicId': 1480361848497287169, 'latitude': 0, 'longitude': 0, 'patientId': '1547840889351618561', 'position': '湖南省长沙市雨花区华坤时代', 'sno': 'B219091500000519', 'testDataIds': ['1547840892023390210']}
+2022-07-15 15:10:02.267 | INFO     | gold_check.gold_check_sta:create_order:88 - 生成订单接口响应内容为:{"busiCode":0,"msg":"请求成功","data":{"orderNo":"B2190915000005192207151510007978","orderPrice":10.00,"orderOriginalPrice":10.00,"orderDiscounts":0.00,"orderStatus":0,"payUrl":"https://qr.95516.com/48020000/10VA2207159631001153714104","needPay":true,"showMoney":true,"showQrCode":true}}
+2022-07-15 15:10:02.490 | INFO     | gold_check.gold_check_sta:call_back:106 - 支付回调接口请求参数为：{'clinicId': 1480361848497287169, 'file': None, 'sno': 'B219091500000519'}
+2022-07-15 15:10:02.490 | INFO     | gold_check.gold_check_sta:call_back:107 - 支付回调接口响应内容为:{"busiCode":0,"msg":"请求成功","data":null}
+2022-07-15 15:10:02.490 | SUCCESS  | __main__:_gold_check_sta:65 - 本次请求响应内容为{'code': 0, 'msg': '检测完成', 'data': []}
+2022-07-15 15:10:07.987 | INFO     | utils.login:login_sta:33 - 本次登录获取token为:{'Authorization': 'bearer abb1394f-5778-4e43-902d-db6dda3de837'}
+2022-07-15 15:10:08.569 | INFO     | utils.get_clinic_info_sta:bind_gold_blood_device:71 - 绑定设备接口请求参数{'clinicId': 1480361848497287169, 'ids': [1391993392987680770], 'operateType': 1}
+2022-07-15 15:10:08.569 | INFO     | utils.get_clinic_info_sta:bind_gold_blood_device:72 - 绑定设备接口返回参数{"busiCode":201,"msg":"一个诊所只能绑定同种设备一次","data":null}
+2022-07-15 15:10:08.669 | INFO     | utils.get_clinic_info_sta:bind_gold_blood_device:71 - 绑定设备接口请求参数{'clinicId': 1480361848497287169, 'ids': [1387605672557346818], 'operateType': 1}
+2022-07-15 15:10:08.669 | INFO     | utils.get_clinic_info_sta:bind_gold_blood_device:72 - 绑定设备接口返回参数{"busiCode":201,"msg":"一个诊所只能绑定同种设备一次","data":null}
+2022-07-15 15:10:08.975 | INFO     | gold_check.gold_check_sta:add_patient:55 - 添加患者接口请求参数为:{'age': 18, 'deviceId': 'B219091500000519', 'month': 0, 'name': '华强测试', 'phone': '13622220000', 'sex': 0, 'termClinicId': 1480361848497287169}
+2022-07-15 15:10:08.975 | INFO     | gold_check.gold_check_sta:add_patient:56 - 添加患者接口响应参数为:{"busiCode":0,"msg":"请求成功","data":{"patientId":"1547840928140541954"}}
+2022-07-15 15:10:09.509 | INFO     | gold_check.gold_check_sta:start_check:67 - 开始检测接口请求参数为：{'clinicId': 1480361848497287169, 'file': None, 'sno': 'B219091500000519'}
+2022-07-15 15:10:09.509 | INFO     | gold_check.gold_check_sta:start_check:68 - 开始检测接口响应内容为:{"busiCode":0,"msg":"请求成功","data":{"stripTypeCode":"4","stripBatch":"38","testPoctDataId":["1547840930204139522"],"imgUrl":"http://publicmedia.ehomepoct.com/CRP.png","reactTime":5,"warningTips":null,"stripName":"CRP检测(XXXVIII)"}}
+2022-07-15 15:10:10.461 | INFO     | gold_check.gold_check_sta:create_order:87 - 生成订单接口请求参数为：{'addressDetail': '湖南省长沙市雨花区华坤时代', 'briefAddress': '湖南省长沙市雨花区雨河路279号靠近湘府路站', 'clinicId': 1480361848497287169, 'latitude': 0, 'longitude': 0, 'patientId': '1547840928140541954', 'position': '湖南省长沙市雨花区华坤时代', 'sno': 'B219091500000519', 'testDataIds': ['1547840930204139522']}
+2022-07-15 15:10:10.461 | INFO     | gold_check.gold_check_sta:create_order:88 - 生成订单接口响应内容为:{"busiCode":0,"msg":"请求成功","data":{"orderNo":"B2190915000005192207151510108709","orderPrice":10.00,"orderOriginalPrice":10.00,"orderDiscounts":0.00,"orderStatus":0,"payUrl":"https://qr.95516.com/48020000/10VA2207158041010157231867","needPay":true,"showMoney":true,"showQrCode":true}}
+2022-07-15 15:10:10.702 | INFO     | gold_check.gold_check_sta:call_back:106 - 支付回调接口请求参数为：{'clinicId': 1480361848497287169, 'file': None, 'sno': 'B219091500000519'}
+2022-07-15 15:10:10.702 | INFO     | gold_check.gold_check_sta:call_back:107 - 支付回调接口响应内容为:{"busiCode":0,"msg":"请求成功","data":null}
+2022-07-15 15:10:10.702 | SUCCESS  | __main__:_gold_check_sta:65 - 本次请求响应内容为{'code': 0, 'msg': '检测完成', 'data': []}
+2022-07-15 15:10:27.893 | INFO     | utils.login:login_sta:33 - 本次登录获取token为:{'Authorization': 'bearer abb1394f-5778-4e43-902d-db6dda3de837'}
+2022-07-15 15:10:28.466 | INFO     | utils.get_clinic_info_sta:bind_gold_blood_device:71 - 绑定设备接口请求参数{'clinicId': 1546407792416694274, 'ids': [1391993392987680770], 'operateType': 1}
+2022-07-15 15:10:28.466 | INFO     | utils.get_clinic_info_sta:bind_gold_blood_device:72 - 绑定设备接口返回参数{"busiCode":201,"msg":"一个诊所只能绑定同种设备一次","data":null}
+2022-07-15 15:10:28.572 | INFO     | utils.get_clinic_info_sta:bind_gold_blood_device:71 - 绑定设备接口请求参数{'clinicId': 1546407792416694274, 'ids': [1387605672557346818], 'operateType': 1}
+2022-07-15 15:10:28.573 | INFO     | utils.get_clinic_info_sta:bind_gold_blood_device:72 - 绑定设备接口返回参数{"busiCode":201,"msg":"一个诊所只能绑定同种设备一次","data":null}
+2022-07-15 15:10:28.876 | INFO     | gold_check.gold_check_sta:add_patient:55 - 添加患者接口请求参数为:{'age': 18, 'deviceId': 'B219091500000557', 'month': 0, 'name': '华强测试', 'phone': '13622220000', 'sex': 0, 'termClinicId': 1546407792416694274}
+2022-07-15 15:10:28.876 | INFO     | gold_check.gold_check_sta:add_patient:56 - 添加患者接口响应参数为:{"busiCode":0,"msg":"请求成功","data":{"patientId":"1547841011619774466"}}
+2022-07-15 15:10:29.405 | INFO     | gold_check.gold_check_sta:start_check:67 - 开始检测接口请求参数为：{'clinicId': 1546407792416694274, 'file': None, 'sno': 'B219091500000557'}
+2022-07-15 15:10:29.406 | INFO     | gold_check.gold_check_sta:start_check:68 - 开始检测接口响应内容为:{"busiCode":0,"msg":"请求成功","data":{"stripTypeCode":"4","stripBatch":"38","testPoctDataId":["1547841013700149250"],"imgUrl":"http://publicmedia.ehomepoct.com/CRP.png","reactTime":5,"warningTips":null,"stripName":"CRP检测(XXXVIII)"}}
+2022-07-15 15:10:30.452 | INFO     | gold_check.gold_check_sta:create_order:87 - 生成订单接口请求参数为：{'addressDetail': '湖南省长沙市雨花区华坤时代', 'briefAddress': '湖南省长沙市雨花区雨河路279号靠近湘府路站', 'clinicId': 1546407792416694274, 'latitude': 0, 'longitude': 0, 'patientId': '1547841011619774466', 'position': '湖南省长沙市雨花区华坤时代', 'sno': 'B219091500000557', 'testDataIds': ['1547841013700149250']}
+2022-07-15 15:10:30.452 | INFO     | gold_check.gold_check_sta:create_order:88 - 生成订单接口响应内容为:{"busiCode":0,"msg":"请求成功","data":{"orderNo":"B2190915000005572207151510294662","orderPrice":10.00,"orderOriginalPrice":10.00,"orderDiscounts":0.00,"orderStatus":0,"payUrl":"https://qr.95516.com/48020000/10VA2207157541030153356489","needPay":true,"showMoney":true,"showQrCode":true}}
+2022-07-15 15:10:30.680 | INFO     | gold_check.gold_check_sta:call_back:106 - 支付回调接口请求参数为：{'clinicId': 1546407792416694274, 'file': None, 'sno': 'B219091500000557'}
+2022-07-15 15:10:30.680 | INFO     | gold_check.gold_check_sta:call_back:107 - 支付回调接口响应内容为:{"busiCode":0,"msg":"请求成功","data":null}
+2022-07-15 15:10:30.680 | SUCCESS  | __main__:_gold_check_sta:65 - 本次请求响应内容为{'code': 0, 'msg': '检测完成', 'data': []}
+2022-07-15 15:11:03.640 | INFO     | utils.login:login_test:22 - 本次登录获取token为:{'Authorization': 'bearer 39093976-9f0d-4171-98bd-bcda14fa4f41'}
+2022-07-15 15:11:04.239 | INFO     | utils.get_clinic_info_test:bind_gold_blood_device:71 - 绑定设备接口请求参数{'clinicId': 1442079173893074946, 'ids': [14], 'operateType': 1}
+2022-07-15 15:11:04.239 | INFO     | utils.get_clinic_info_test:bind_gold_blood_device:72 - 绑定设备接口返回参数{"busiCode":201,"msg":"一个诊所只能绑定同种设备一次","data":null}
+2022-07-15 15:11:04.359 | INFO     | utils.get_clinic_info_test:bind_gold_blood_device:71 - 绑定设备接口请求参数{'clinicId': 1442079173893074946, 'ids': [1386709332788838402], 'operateType': 1}
+2022-07-15 15:11:04.359 | INFO     | utils.get_clinic_info_test:bind_gold_blood_device:72 - 绑定设备接口返回参数{"busiCode":201,"msg":"一个诊所只能绑定同种设备一次","data":null}
+2022-07-15 15:11:04.717 | INFO     | gold_check.gold_check_test:add_patient:56 - 添加患者接口请求参数为:{'age': 18, 'deviceId': 'B221031135000149', 'month': 0, 'name': '华强测试', 'phone': '13622220000', 'sex': 0, 'termClinicId': 1442079173893074946}
+2022-07-15 15:11:04.717 | INFO     | gold_check.gold_check_test:add_patient:57 - 添加患者接口响应参数为:{"busiCode":0,"msg":"请求成功","data":{"patientId":"1547841161906135041"}}
+2022-07-15 15:11:05.718 | INFO     | gold_check.gold_check_test:start_check:69 - 开始检测接口请求参数为：{'clinicId': 1442079173893074946, 'file': None, 'sno': 'B221031135000149'}
+2022-07-15 15:11:05.719 | INFO     | gold_check.gold_check_test:start_check:70 - 开始检测接口响应内容为:{"busiCode":0,"msg":"请求成功","data":{"stripTypeCode":"4","stripBatch":"38","testPoctDataId":["1547841164720513025"],"imgUrl":"http://publicmedia.ehomepoct.com/jbyimage/CRP.png","reactTime":5,"warningTips":null,"stripName":"CRP检测(XXXVIII)"}}
+2022-07-15 15:11:05.888 | INFO     | gold_check.gold_check_test:create_order:87 - 生成订单接口请求参数为：{'addressDetail': '湖南省长沙市雨花区华坤时代', 'briefAddress': '湖南省长沙市雨花区雨河路279号靠近湘府路站', 'clinicId': 1442079173893074946, 'latitude': 0, 'longitude': 0, 'patientId': '1547841161906135041', 'position': '湖南省长沙市雨花区华坤时代', 'sno': 'B221031135000149', 'testDataIds': ['1547841164720513025']}
+2022-07-15 15:11:05.889 | INFO     | gold_check.gold_check_test:create_order:88 - 生成订单接口响应内容为:{"busiCode":20050100,"msg":"没有价格方案!","data":null}
+2022-07-15 15:11:05.975 | INFO     | gold_check.gold_check_test:call_back:105 - 支付回调接口请求参数为：{'clinicId': 1442079173893074946, 'file': None, 'sno': 'B221031135000149'}
+2022-07-15 15:11:05.976 | INFO     | gold_check.gold_check_test:call_back:106 - 支付回调接口响应内容为:{"busiCode":0,"msg":"请求成功","data":null}
+2022-07-15 15:11:05.976 | SUCCESS  | __main__:_gold_check_test:44 - 本次请求响应内容为{'code': -1, 'msg': '检测接口异常', 'data': []}
+2022-07-15 15:11:25.334 | INFO     | utils.login:login_sta:33 - 本次登录获取token为:{'Authorization': 'bearer abb1394f-5778-4e43-902d-db6dda3de837'}
+2022-07-15 15:11:25.756 | INFO     | utils.get_clinic_info_sta:bind_gold_blood_device:71 - 绑定设备接口请求参数{'clinicId': 1546407792416694274, 'ids': [1391993392987680770], 'operateType': 1}
+2022-07-15 15:11:25.757 | INFO     | utils.get_clinic_info_sta:bind_gold_blood_device:72 - 绑定设备接口返回参数{"busiCode":201,"msg":"一个诊所只能绑定同种设备一次","data":null}
+2022-07-15 15:11:25.857 | INFO     | utils.get_clinic_info_sta:bind_gold_blood_device:71 - 绑定设备接口请求参数{'clinicId': 1546407792416694274, 'ids': [1387605672557346818], 'operateType': 1}
+2022-07-15 15:11:25.857 | INFO     | utils.get_clinic_info_sta:bind_gold_blood_device:72 - 绑定设备接口返回参数{"busiCode":201,"msg":"一个诊所只能绑定同种设备一次","data":null}
+2022-07-15 15:11:26.252 | INFO     | gold_check.gold_check_sta:add_patient:55 - 添加患者接口请求参数为:{'age': 18, 'deviceId': 'B219091500000557', 'month': 0, 'name': '华强测试', 'phone': '13622220000', 'sex': 0, 'termClinicId': 1546407792416694274}
+2022-07-15 15:11:26.252 | INFO     | gold_check.gold_check_sta:add_patient:56 - 添加患者接口响应参数为:{"busiCode":0,"msg":"请求成功","data":{"patientId":"1547841251852730370"}}
+2022-07-15 15:11:26.766 | INFO     | gold_check.gold_check_sta:start_check:67 - 开始检测接口请求参数为：{'clinicId': 1546407792416694274, 'file': None, 'sno': 'B219091500000557'}
+2022-07-15 15:11:26.766 | INFO     | gold_check.gold_check_sta:start_check:68 - 开始检测接口响应内容为:{"busiCode":0,"msg":"请求成功","data":{"stripTypeCode":"4","stripBatch":"38","testPoctDataId":["1547841254293815297"],"imgUrl":"http://publicmedia.ehomepoct.com/CRP.png","reactTime":5,"warningTips":null,"stripName":"CRP检测(XXXVIII)"}}
+2022-07-15 15:11:27.713 | INFO     | gold_check.gold_check_sta:create_order:87 - 生成订单接口请求参数为：{'addressDetail': '湖南省长沙市雨花区华坤时代', 'briefAddress': '湖南省长沙市雨花区雨河路279号靠近湘府路站', 'clinicId': 1546407792416694274, 'latitude': 0, 'longitude': 0, 'patientId': '1547841251852730370', 'position': '湖南省长沙市雨花区华坤时代', 'sno': 'B219091500000557', 'testDataIds': ['1547841254293815297']}
+2022-07-15 15:11:27.713 | INFO     | gold_check.gold_check_sta:create_order:88 - 生成订单接口响应内容为:{"busiCode":0,"msg":"请求成功","data":{"orderNo":"B2190915000005572207151511276491","orderPrice":10.00,"orderOriginalPrice":10.00,"orderDiscounts":0.00,"orderStatus":0,"payUrl":"https://qr.95516.com/48020000/10VA2207150771128158010927","needPay":true,"showMoney":true,"showQrCode":true}}
+2022-07-15 15:11:27.930 | INFO     | gold_check.gold_check_sta:call_back:106 - 支付回调接口请求参数为：{'clinicId': 1546407792416694274, 'file': None, 'sno': 'B219091500000557'}
+2022-07-15 15:11:27.930 | INFO     | gold_check.gold_check_sta:call_back:107 - 支付回调接口响应内容为:{"busiCode":0,"msg":"请求成功","data":null}
+2022-07-15 15:11:27.931 | SUCCESS  | __main__:_gold_check_sta:65 - 本次请求响应内容为{'code': 0, 'msg': '检测完成', 'data': []}
+2022-07-15 15:11:33.117 | INFO     | utils.login:login_sta:33 - 本次登录获取token为:{'Authorization': 'bearer abb1394f-5778-4e43-902d-db6dda3de837'}
+2022-07-15 15:11:33.563 | INFO     | utils.get_clinic_info_sta:bind_gold_blood_device:71 - 绑定设备接口请求参数{'clinicId': 1546407792416694274, 'ids': [1391993392987680770], 'operateType': 1}
+2022-07-15 15:11:33.563 | INFO     | utils.get_clinic_info_sta:bind_gold_blood_device:72 - 绑定设备接口返回参数{"busiCode":201,"msg":"一个诊所只能绑定同种设备一次","data":null}
+2022-07-15 15:11:33.670 | INFO     | utils.get_clinic_info_sta:bind_gold_blood_device:71 - 绑定设备接口请求参数{'clinicId': 1546407792416694274, 'ids': [1387605672557346818], 'operateType': 1}
+2022-07-15 15:11:33.670 | INFO     | utils.get_clinic_info_sta:bind_gold_blood_device:72 - 绑定设备接口返回参数{"busiCode":201,"msg":"一个诊所只能绑定同种设备一次","data":null}
+2022-07-15 15:11:33.971 | INFO     | gold_check.gold_check_sta:add_patient:55 - 添加患者接口请求参数为:{'age': 18, 'deviceId': 'B219091500000557', 'month': 0, 'name': '华强测试', 'phone': '13622220000', 'sex': 0, 'termClinicId': 1546407792416694274}
+2022-07-15 15:11:33.971 | INFO     | gold_check.gold_check_sta:add_patient:56 - 添加患者接口响应参数为:{"busiCode":0,"msg":"请求成功","data":{"patientId":"1547841284647993346"}}
+2022-07-15 15:11:34.520 | INFO     | gold_check.gold_check_sta:start_check:67 - 开始检测接口请求参数为：{'clinicId': 1546407792416694274, 'file': None, 'sno': 'B219091500000557'}
+2022-07-15 15:11:34.520 | INFO     | gold_check.gold_check_sta:start_check:68 - 开始检测接口响应内容为:{"busiCode":0,"msg":"请求成功","data":{"stripTypeCode":"4","stripBatch":"38","testPoctDataId":["1547841286791282689"],"imgUrl":"http://publicmedia.ehomepoct.com/CRP.png","reactTime":5,"warningTips":null,"stripName":"CRP检测(XXXVIII)"}}
+2022-07-15 15:11:35.497 | INFO     | gold_check.gold_check_sta:create_order:87 - 生成订单接口请求参数为：{'addressDetail': '湖南省长沙市雨花区华坤时代', 'briefAddress': '湖南省长沙市雨花区雨河路279号靠近湘府路站', 'clinicId': 1546407792416694274, 'latitude': 0, 'longitude': 0, 'patientId': '1547841284647993346', 'position': '湖南省长沙市雨花区华坤时代', 'sno': 'B219091500000557', 'testDataIds': ['1547841286791282689']}
+2022-07-15 15:11:35.497 | INFO     | gold_check.gold_check_sta:create_order:88 - 生成订单接口响应内容为:{"busiCode":0,"msg":"请求成功","data":{"orderNo":"B2190915000005572207151511358133","orderPrice":10.00,"orderOriginalPrice":10.00,"orderDiscounts":0.00,"orderStatus":0,"payUrl":"https://qr.95516.com/48020000/10VA2207157781135156995573","needPay":true,"showMoney":true,"showQrCode":true}}
+2022-07-15 15:11:35.717 | INFO     | gold_check.gold_check_sta:call_back:106 - 支付回调接口请求参数为：{'clinicId': 1546407792416694274, 'file': None, 'sno': 'B219091500000557'}
+2022-07-15 15:11:35.717 | INFO     | gold_check.gold_check_sta:call_back:107 - 支付回调接口响应内容为:{"busiCode":0,"msg":"请求成功","data":null}
+2022-07-15 15:11:35.718 | SUCCESS  | __main__:_gold_check_sta:65 - 本次请求响应内容为{'code': 0, 'msg': '检测完成', 'data': []}
+2022-07-15 15:13:10.268 | INFO     | utils.login:login_test:22 - 本次登录获取token为:{'Authorization': 'bearer 39093976-9f0d-4171-98bd-bcda14fa4f41'}
+2022-07-15 15:13:10.842 | INFO     | utils.get_clinic_info_test:bind_gold_blood_device:71 - 绑定设备接口请求参数{'clinicId': 1442079173893074946, 'ids': [14], 'operateType': 1}
+2022-07-15 15:13:10.843 | INFO     | utils.get_clinic_info_test:bind_gold_blood_device:72 - 绑定设备接口返回参数{"busiCode":201,"msg":"一个诊所只能绑定同种设备一次","data":null}
+2022-07-15 15:13:11.203 | INFO     | utils.get_clinic_info_test:bind_gold_blood_device:71 - 绑定设备接口请求参数{'clinicId': 1442079173893074946, 'ids': [1386709332788838402], 'operateType': 1}
+2022-07-15 15:13:11.203 | INFO     | utils.get_clinic_info_test:bind_gold_blood_device:72 - 绑定设备接口返回参数{"busiCode":201,"msg":"一个诊所只能绑定同种设备一次","data":null}
+2022-07-15 15:13:11.638 | INFO     | gold_check.gold_check_test:add_patient:56 - 添加患者接口请求参数为:{'age': 18, 'deviceId': 'B221031135000149', 'month': 0, 'name': '华强测试', 'phone': '13622220000', 'sex': 0, 'termClinicId': 1442079173893074946}
+2022-07-15 15:13:11.638 | INFO     | gold_check.gold_check_test:add_patient:57 - 添加患者接口响应参数为:{"busiCode":0,"msg":"请求成功","data":{"patientId":"1547841693823574018"}}
+2022-07-15 15:13:12.606 | INFO     | gold_check.gold_check_test:start_check:69 - 开始检测接口请求参数为：{'clinicId': 1442079173893074946, 'file': None, 'sno': 'B221031135000149'}
+2022-07-15 15:13:12.606 | INFO     | gold_check.gold_check_test:start_check:70 - 开始检测接口响应内容为:{"busiCode":0,"msg":"请求成功","data":{"stripTypeCode":"4","stripBatch":"38","testPoctDataId":["1547841696998662145"],"imgUrl":"http://publicmedia.ehomepoct.com/jbyimage/CRP.png","reactTime":5,"warningTips":null,"stripName":"CRP检测(XXXVIII)"}}
+2022-07-15 15:13:12.778 | INFO     | gold_check.gold_check_test:create_order:87 - 生成订单接口请求参数为：{'addressDetail': '湖南省长沙市雨花区华坤时代', 'briefAddress': '湖南省长沙市雨花区雨河路279号靠近湘府路站', 'clinicId': 1442079173893074946, 'latitude': 0, 'longitude': 0, 'patientId': '1547841693823574018', 'position': '湖南省长沙市雨花区华坤时代', 'sno': 'B221031135000149', 'testDataIds': ['1547841696998662145']}
+2022-07-15 15:13:12.778 | INFO     | gold_check.gold_check_test:create_order:88 - 生成订单接口响应内容为:{"busiCode":20050100,"msg":"没有价格方案!","data":null}
+2022-07-15 15:13:12.855 | INFO     | gold_check.gold_check_test:call_back:105 - 支付回调接口请求参数为：{'clinicId': 1442079173893074946, 'file': None, 'sno': 'B221031135000149'}
+2022-07-15 15:13:12.855 | INFO     | gold_check.gold_check_test:call_back:106 - 支付回调接口响应内容为:{"busiCode":0,"msg":"请求成功","data":null}
+2022-07-15 15:13:12.856 | SUCCESS  | __main__:_gold_check_test:44 - 本次请求响应内容为{'code': -1, 'msg': '检测接口异常', 'data': []}
+2022-07-15 15:16:29.352 | INFO     | utils.login:login_test:22 - 本次登录获取token为:{'Authorization': 'bearer 39093976-9f0d-4171-98bd-bcda14fa4f41'}
+2022-07-15 15:16:29.909 | INFO     | utils.get_clinic_info_test:bind_gold_blood_device:71 - 绑定设备接口请求参数{'clinicId': 1442079173893074946, 'ids': [14], 'operateType': 1}
+2022-07-15 15:16:29.909 | INFO     | utils.get_clinic_info_test:bind_gold_blood_device:72 - 绑定设备接口返回参数{"busiCode":201,"msg":"一个诊所只能绑定同种设备一次","data":null}
+2022-07-15 15:16:30.002 | INFO     | utils.get_clinic_info_test:bind_gold_blood_device:71 - 绑定设备接口请求参数{'clinicId': 1442079173893074946, 'ids': [1386709332788838402], 'operateType': 1}
+2022-07-15 15:16:30.003 | INFO     | utils.get_clinic_info_test:bind_gold_blood_device:72 - 绑定设备接口返回参数{"busiCode":201,"msg":"一个诊所只能绑定同种设备一次","data":null}
+2022-07-15 15:16:30.417 | INFO     | gold_check.gold_check_test:add_patient:56 - 添加患者接口请求参数为:{'age': 18, 'deviceId': 'B221031135000149', 'month': 0, 'name': '华强测试', 'phone': '13622220000', 'sex': 0, 'termClinicId': 1442079173893074946}
+2022-07-15 15:16:30.417 | INFO     | gold_check.gold_check_test:add_patient:57 - 添加患者接口响应参数为:{"busiCode":0,"msg":"请求成功","data":{"patientId":"1547842528020307970"}}
+2022-07-15 15:16:31.402 | INFO     | gold_check.gold_check_test:start_check:69 - 开始检测接口请求参数为：{'clinicId': 1442079173893074946, 'file': None, 'sno': 'B221031135000149'}
+2022-07-15 15:16:31.402 | INFO     | gold_check.gold_check_test:start_check:70 - 开始检测接口响应内容为:{"busiCode":0,"msg":"请求成功","data":{"stripTypeCode":"4","stripBatch":"38","testPoctDataId":["1547842530834685953"],"imgUrl":"http://publicmedia.ehomepoct.com/jbyimage/CRP.png","reactTime":5,"warningTips":null,"stripName":"CRP检测(XXXVIII)"}}
+2022-07-15 15:16:31.562 | INFO     | gold_check.gold_check_test:create_order:87 - 生成订单接口请求参数为：{'addressDetail': '湖南省长沙市雨花区华坤时代', 'briefAddress': '湖南省长沙市雨花区雨河路279号靠近湘府路站', 'clinicId': 1442079173893074946, 'latitude': 0, 'longitude': 0, 'patientId': '1547842528020307970', 'position': '湖南省长沙市雨花区华坤时代', 'sno': 'B221031135000149', 'testDataIds': ['1547842530834685953']}
+2022-07-15 15:16:31.562 | INFO     | gold_check.gold_check_test:create_order:88 - 生成订单接口响应内容为:{"busiCode":20050100,"msg":"没有价格方案!","data":null}
+2022-07-15 15:16:31.643 | INFO     | gold_check.gold_check_test:call_back:105 - 支付回调接口请求参数为：{'clinicId': 1442079173893074946, 'file': None, 'sno': 'B221031135000149'}
+2022-07-15 15:16:31.643 | INFO     | gold_check.gold_check_test:call_back:106 - 支付回调接口响应内容为:{"busiCode":0,"msg":"请求成功","data":null}
+2022-07-15 15:16:31.643 | SUCCESS  | __main__:_gold_check_test:44 - 本次请求响应内容为{'code': -1, 'msg': '检测接口异常', 'data': []}
+2022-07-15 15:16:47.561 | INFO     | utils.login:login_test:22 - 本次登录获取token为:{'Authorization': 'bearer 39093976-9f0d-4171-98bd-bcda14fa4f41'}
+2022-07-15 15:16:48.152 | INFO     | utils.get_clinic_info_test:bind_gold_blood_device:71 - 绑定设备接口请求参数{'clinicId': 1442079173893074946, 'ids': [14], 'operateType': 1}
+2022-07-15 15:16:48.153 | INFO     | utils.get_clinic_info_test:bind_gold_blood_device:72 - 绑定设备接口返回参数{"busiCode":201,"msg":"一个诊所只能绑定同种设备一次","data":null}
+2022-07-15 15:16:48.245 | INFO     | utils.get_clinic_info_test:bind_gold_blood_device:71 - 绑定设备接口请求参数{'clinicId': 1442079173893074946, 'ids': [1386709332788838402], 'operateType': 1}
+2022-07-15 15:16:48.245 | INFO     | utils.get_clinic_info_test:bind_gold_blood_device:72 - 绑定设备接口返回参数{"busiCode":201,"msg":"一个诊所只能绑定同种设备一次","data":null}
+2022-07-15 15:16:48.563 | INFO     | gold_check.gold_check_test:add_patient:56 - 添加患者接口请求参数为:{'age': 18, 'deviceId': 'B221031135000149', 'month': 0, 'name': '华强测试', 'phone': '13622220000', 'sex': 0, 'termClinicId': 1442079173893074946}
+2022-07-15 15:16:48.563 | INFO     | gold_check.gold_check_test:add_patient:57 - 添加患者接口响应参数为:{"busiCode":0,"msg":"请求成功","data":{"patientId":"1547842604088205314"}}
+2022-07-15 15:16:49.478 | INFO     | gold_check.gold_check_test:start_check:69 - 开始检测接口请求参数为：{'clinicId': 1442079173893074946, 'file': None, 'sno': 'B221031135000149'}
+2022-07-15 15:16:49.478 | INFO     | gold_check.gold_check_test:start_check:70 - 开始检测接口响应内容为:{"busiCode":0,"msg":"请求成功","data":{"stripTypeCode":"5","stripBatch":"41","testPoctDataId":["1547842606579621889"],"imgUrl":"http://publicmedia.ehomepoct.com/jbyimage/SAA.png","reactTime":5,"warningTips":null,"stripName":"SAA检测(XXXXI)"}}
+2022-07-15 15:16:49.713 | INFO     | gold_check.gold_check_test:create_order:87 - 生成订单接口请求参数为：{'addressDetail': '湖南省长沙市雨花区华坤时代', 'briefAddress': '湖南省长沙市雨花区雨河路279号靠近湘府路站', 'clinicId': 1442079173893074946, 'latitude': 0, 'longitude': 0, 'patientId': '1547842604088205314', 'position': '湖南省长沙市雨花区华坤时代', 'sno': 'B221031135000149', 'testDataIds': ['1547842606579621889']}
+2022-07-15 15:16:49.713 | INFO     | gold_check.gold_check_test:create_order:88 - 生成订单接口响应内容为:{"busiCode":20050100,"msg":"没有价格方案!","data":null}
+2022-07-15 15:16:49.787 | INFO     | gold_check.gold_check_test:call_back:105 - 支付回调接口请求参数为：{'clinicId': 1442079173893074946, 'file': None, 'sno': 'B221031135000149'}
+2022-07-15 15:16:49.788 | INFO     | gold_check.gold_check_test:call_back:106 - 支付回调接口响应内容为:{"busiCode":0,"msg":"请求成功","data":null}
+2022-07-15 15:16:49.788 | SUCCESS  | __main__:_gold_check_test:44 - 本次请求响应内容为{'code': -1, 'msg': '检测接口异常', 'data': []}
+2022-07-15 15:16:55.723 | INFO     | utils.login:login_test:22 - 本次登录获取token为:{'Authorization': 'bearer 39093976-9f0d-4171-98bd-bcda14fa4f41'}
+2022-07-15 15:16:56.169 | INFO     | utils.get_clinic_info_test:bind_gold_blood_device:71 - 绑定设备接口请求参数{'clinicId': 1442079173893074946, 'ids': [14], 'operateType': 1}
+2022-07-15 15:16:56.169 | INFO     | utils.get_clinic_info_test:bind_gold_blood_device:72 - 绑定设备接口返回参数{"busiCode":201,"msg":"一个诊所只能绑定同种设备一次","data":null}
+2022-07-15 15:16:56.259 | INFO     | utils.get_clinic_info_test:bind_gold_blood_device:71 - 绑定设备接口请求参数{'clinicId': 1442079173893074946, 'ids': [1386709332788838402], 'operateType': 1}
+2022-07-15 15:16:56.259 | INFO     | utils.get_clinic_info_test:bind_gold_blood_device:72 - 绑定设备接口返回参数{"busiCode":201,"msg":"一个诊所只能绑定同种设备一次","data":null}
+2022-07-15 15:16:56.573 | INFO     | gold_check.gold_check_test:add_patient:56 - 添加患者接口请求参数为:{'age': 18, 'deviceId': 'B221031135000149', 'month': 0, 'name': '华强测试', 'phone': '13622220000', 'sex': 0, 'termClinicId': 1442079173893074946}
+2022-07-15 15:16:56.573 | INFO     | gold_check.gold_check_test:add_patient:57 - 添加患者接口响应参数为:{"busiCode":0,"msg":"请求成功","data":{"patientId":"1547842637726523393"}}
+2022-07-15 15:16:57.454 | INFO     | gold_check.gold_check_test:start_check:69 - 开始检测接口请求参数为：{'clinicId': 1442079173893074946, 'file': None, 'sno': 'B221031135000149'}
+2022-07-15 15:16:57.454 | INFO     | gold_check.gold_check_test:start_check:70 - 开始检测接口响应内容为:{"busiCode":0,"msg":"请求成功","data":{"stripTypeCode":"6","stripBatch":"23","testPoctDataId":["1547842639945310209"],"imgUrl":"http://publicmedia.ehomepoct.com/jbyimage/MP_IgM.png","reactTime":15,"warningTips":null,"stripName":"MP-IgM检测(XXIII)"}}
+2022-07-15 15:16:57.645 | INFO     | gold_check.gold_check_test:create_order:87 - 生成订单接口请求参数为：{'addressDetail': '湖南省长沙市雨花区华坤时代', 'briefAddress': '湖南省长沙市雨花区雨河路279号靠近湘府路站', 'clinicId': 1442079173893074946, 'latitude': 0, 'longitude': 0, 'patientId': '1547842637726523393', 'position': '湖南省长沙市雨花区华坤时代', 'sno': 'B221031135000149', 'testDataIds': ['1547842639945310209']}
+2022-07-15 15:16:57.645 | INFO     | gold_check.gold_check_test:create_order:88 - 生成订单接口响应内容为:{"busiCode":20050100,"msg":"没有价格方案!","data":null}
+2022-07-15 15:16:57.739 | INFO     | gold_check.gold_check_test:call_back:105 - 支付回调接口请求参数为：{'clinicId': 1442079173893074946, 'file': None, 'sno': 'B221031135000149'}
+2022-07-15 15:16:57.739 | INFO     | gold_check.gold_check_test:call_back:106 - 支付回调接口响应内容为:{"busiCode":0,"msg":"请求成功","data":null}
+2022-07-15 15:16:57.739 | SUCCESS  | __main__:_gold_check_test:44 - 本次请求响应内容为{'code': -1, 'msg': '检测接口异常', 'data': []}
+2022-07-15 15:17:04.451 | INFO     | utils.login:login_test:22 - 本次登录获取token为:{'Authorization': 'bearer 39093976-9f0d-4171-98bd-bcda14fa4f41'}
+2022-07-15 15:17:05.024 | INFO     | utils.get_clinic_info_test:bind_gold_blood_device:71 - 绑定设备接口请求参数{'clinicId': 1442079173893074946, 'ids': [14], 'operateType': 1}
+2022-07-15 15:17:05.025 | INFO     | utils.get_clinic_info_test:bind_gold_blood_device:72 - 绑定设备接口返回参数{"busiCode":201,"msg":"一个诊所只能绑定同种设备一次","data":null}
+2022-07-15 15:17:05.138 | INFO     | utils.get_clinic_info_test:bind_gold_blood_device:71 - 绑定设备接口请求参数{'clinicId': 1442079173893074946, 'ids': [1386709332788838402], 'operateType': 1}
+2022-07-15 15:17:05.138 | INFO     | utils.get_clinic_info_test:bind_gold_blood_device:72 - 绑定设备接口返回参数{"busiCode":201,"msg":"一个诊所只能绑定同种设备一次","data":null}
+2022-07-15 15:17:05.458 | INFO     | gold_check.gold_check_test:add_patient:56 - 添加患者接口请求参数为:{'age': 18, 'deviceId': 'B221031135000149', 'month': 0, 'name': '华强测试', 'phone': '13622220000', 'sex': 0, 'termClinicId': 1442079173893074946}
+2022-07-15 15:17:05.459 | INFO     | gold_check.gold_check_test:add_patient:57 - 添加患者接口响应参数为:{"busiCode":0,"msg":"请求成功","data":{"patientId":"1547842674980331522"}}
+2022-07-15 15:17:06.874 | INFO     | gold_check.gold_check_test:start_check:69 - 开始检测接口请求参数为：{'clinicId': 1442079173893074946, 'file': None, 'sno': 'B221031135000149'}
+2022-07-15 15:17:06.874 | INFO     | gold_check.gold_check_test:start_check:70 - 开始检测接口响应内容为:{"busiCode":0,"msg":"请求成功","data":{"stripTypeCode":"17","stripBatch":"8","testPoctDataId":["1547842679472431105"],"imgUrl":"https://publicmedia.ehomepoct.com/jbyimage/Cpn_IgM.png","reactTime":15,"warningTips":null,"stripName":"Cpn-IgM检测(VIII)"}}
+2022-07-15 15:17:07.126 | INFO     | gold_check.gold_check_test:create_order:87 - 生成订单接口请求参数为：{'addressDetail': '湖南省长沙市雨花区华坤时代', 'briefAddress': '湖南省长沙市雨花区雨河路279号靠近湘府路站', 'clinicId': 1442079173893074946, 'latitude': 0, 'longitude': 0, 'patientId': '1547842674980331522', 'position': '湖南省长沙市雨花区华坤时代', 'sno': 'B221031135000149', 'testDataIds': ['1547842679472431105']}
+2022-07-15 15:17:07.127 | INFO     | gold_check.gold_check_test:create_order:88 - 生成订单接口响应内容为:{"busiCode":20050100,"msg":"没有价格方案!","data":null}
+2022-07-15 15:17:07.209 | INFO     | gold_check.gold_check_test:call_back:105 - 支付回调接口请求参数为：{'clinicId': 1442079173893074946, 'file': None, 'sno': 'B221031135000149'}
+2022-07-15 15:17:07.210 | INFO     | gold_check.gold_check_test:call_back:106 - 支付回调接口响应内容为:{"busiCode":0,"msg":"请求成功","data":null}
+2022-07-15 15:17:07.210 | SUCCESS  | __main__:_gold_check_test:44 - 本次请求响应内容为{'code': -1, 'msg': '检测接口异常', 'data': []}
+2022-07-15 15:17:13.950 | INFO     | utils.login:login_test:22 - 本次登录获取token为:{'Authorization': 'bearer 39093976-9f0d-4171-98bd-bcda14fa4f41'}
+2022-07-15 15:17:16.398 | INFO     | utils.get_clinic_info_test:bind_gold_blood_device:71 - 绑定设备接口请求参数{'clinicId': 1442079173893074946, 'ids': [14], 'operateType': 1}
+2022-07-15 15:17:16.398 | INFO     | utils.get_clinic_info_test:bind_gold_blood_device:72 - 绑定设备接口返回参数{"busiCode":201,"msg":"一个诊所只能绑定同种设备一次","data":null}
+2022-07-15 15:17:16.488 | INFO     | utils.get_clinic_info_test:bind_gold_blood_device:71 - 绑定设备接口请求参数{'clinicId': 1442079173893074946, 'ids': [1386709332788838402], 'operateType': 1}
+2022-07-15 15:17:16.488 | INFO     | utils.get_clinic_info_test:bind_gold_blood_device:72 - 绑定设备接口返回参数{"busiCode":201,"msg":"一个诊所只能绑定同种设备一次","data":null}
+2022-07-15 15:17:17.570 | INFO     | blood_check.blood_check_test:add_patient:55 - 添加患者接口请求参数为:{'clinicId': 1442079173893074946, 'mobilePhone': '13600000000', 'userAge': 10, 'userMonth': 0, 'userName': '测试检测数据', 'userSex': 0}
+2022-07-15 15:17:17.570 | INFO     | blood_check.blood_check_test:add_patient:56 - 添加患者接口响应参数为:{"busiCode":0,"msg":"请求成功","data":"1547842723815038978"}
+2022-07-15 15:17:21.354 | INFO     | blood_check.blood_check_test:start_check:68 - 开始检测接口请求参数为：{'boardSno': '220301360723', 'cameraName': '测试相机', 'clinicId': 1442079173893074946, 'deviceSno': 'BLD100021111800001', 'hgbCalibration': [{'reference': 20317, 'groundTruth': 0, 'measure': 25501}, {'reference': 20732, 'groundTruth': 0, 'measure': 25637}, {'reference': 19684, 'groundTruth': 231, 'measure': 2397}, {'reference': 20401, 'groundTruth': 141, 'measure': 6061}, {'reference': 20628, 'groundTruth': 71, 'measure': 12633}, {'reference': 20360, 'groundTruth': 48, 'measure': 15893}], 'hgbCurveData': [], 'hgbMeasure': 0, 'hgbReference': 0, 'path': 'c69099f6-2df3-497b-b5ac-cefdca802aa9.zip', 'patientId': '1547842723815038978', 'pointConfig': {'plt': {'focus': 0, 'points': 0}, 'rbc': {'focus': 0, 'points': 0}, 'wbc': {'focus': 0, 'points': 0}}, 'type': 1}
+2022-07-15 15:17:21.354 | INFO     | blood_check.blood_check_test:start_check:69 - 开始检测接口响应内容为:{"busiCode":0,"msg":"请求成功","data":"1547842741099765761"}
+2022-07-15 15:17:22.720 | INFO     | blood_check.blood_check_test:get_manual_status:83 - 等待一秒钟，再去查询
+2022-07-15 15:17:22.720 | INFO     | blood_check.blood_check_test:get_manual_status:84 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': None}}
+2022-07-15 15:17:23.894 | INFO     | blood_check.blood_check_test:get_manual_status:83 - 等待一秒钟，再去查询
+2022-07-15 15:17:23.894 | INFO     | blood_check.blood_check_test:get_manual_status:84 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': None}}
+2022-07-15 15:17:25.267 | INFO     | blood_check.blood_check_test:get_manual_status:83 - 等待一秒钟，再去查询
+2022-07-15 15:17:25.267 | INFO     | blood_check.blood_check_test:get_manual_status:84 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': None}}
+2022-07-15 15:17:26.449 | INFO     | blood_check.blood_check_test:get_manual_status:83 - 等待一秒钟，再去查询
+2022-07-15 15:17:26.449 | INFO     | blood_check.blood_check_test:get_manual_status:84 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': None}}
+2022-07-15 15:17:27.609 | INFO     | blood_check.blood_check_test:get_manual_status:83 - 等待一秒钟，再去查询
+2022-07-15 15:17:27.609 | INFO     | blood_check.blood_check_test:get_manual_status:84 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': None}}
+2022-07-15 15:17:28.783 | INFO     | blood_check.blood_check_test:get_manual_status:83 - 等待一秒钟，再去查询
+2022-07-15 15:17:28.784 | INFO     | blood_check.blood_check_test:get_manual_status:84 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': None}}
+2022-07-15 15:17:30.012 | INFO     | blood_check.blood_check_test:get_manual_status:83 - 等待一秒钟，再去查询
+2022-07-15 15:17:30.012 | INFO     | blood_check.blood_check_test:get_manual_status:84 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': None}}
+2022-07-15 15:17:31.201 | INFO     | blood_check.blood_check_test:get_manual_status:83 - 等待一秒钟，再去查询
+2022-07-15 15:17:31.201 | INFO     | blood_check.blood_check_test:get_manual_status:84 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 4, 'msg': 'WBC=0*（异常）\nRBC=0*（异常）\nPLT=0*（异常）\nHGB=0*（异常）'}}
+2022-07-15 15:17:33.182 | INFO     | blood_check.blood_check_test:create_order:98 - 生成订单接口请求参数为：{'dataId': '1547842741099765761'}
+2022-07-15 15:17:33.183 | INFO     | blood_check.blood_check_test:create_order:99 - 生成订单接口响应内容为:{"busiCode":0,"msg":"请求成功","data":{"orderNo":"BLD1000211118000012207151517328360","payUrl":"https://qr.95516.com/48020000/10VA2207154411733158737765","money":10.00,"promptMsg":"未支付","orderStatus":0}}
+2022-07-15 15:17:34.696 | INFO     | blood_check.blood_check_test:call_back:117 - 支付回调接口请求参数为：{'openId': '111111111111', 'orderNo': 'BLD1000211118000012207151517328360', 'outOrderNo': '111111111111111', 'outTransactionNo': '111111111111111111111', 'payChannel': '0', 'payFinishTime': '2022-07-15 15:20:33', 'payStatus': 'SUCCESS', 'payType': 'WXPAY', 'tradeType': 'JSAPI'}
+2022-07-15 15:17:34.696 | INFO     | blood_check.blood_check_test:call_back:118 - 支付回调接口响应内容为:{"busiCode":0,"msg":"请求成功","data":null}
+2022-07-15 15:17:34.697 | SUCCESS  | __main__:_blood_check_test:85 - 本次请求响应内容为{'code': 0, 'msg': '检测完成', 'data': []}
+2022-07-15 15:22:23.884 | INFO     | utils.login:login_test:22 - 本次登录获取token为:{'Authorization': 'bearer 39093976-9f0d-4171-98bd-bcda14fa4f41'}
+2022-07-15 15:22:24.331 | INFO     | utils.get_clinic_info_test:bind_gold_blood_device:71 - 绑定设备接口请求参数{'clinicId': 1442079173893074946, 'ids': [14], 'operateType': 1}
+2022-07-15 15:22:24.332 | INFO     | utils.get_clinic_info_test:bind_gold_blood_device:72 - 绑定设备接口返回参数{"busiCode":201,"msg":"一个诊所只能绑定同种设备一次","data":null}
+2022-07-15 15:22:24.429 | INFO     | utils.get_clinic_info_test:bind_gold_blood_device:71 - 绑定设备接口请求参数{'clinicId': 1442079173893074946, 'ids': [1386709332788838402], 'operateType': 1}
+2022-07-15 15:22:24.429 | INFO     | utils.get_clinic_info_test:bind_gold_blood_device:72 - 绑定设备接口返回参数{"busiCode":201,"msg":"一个诊所只能绑定同种设备一次","data":null}
+2022-07-15 15:22:27.046 | INFO     | blood_check.blood_check_test:add_patient:55 - 添加患者接口请求参数为:{'clinicId': 1442079173893074946, 'mobilePhone': '13600000000', 'userAge': 10, 'userMonth': 0, 'userName': '测试检测数据', 'userSex': 0}
+2022-07-15 15:22:27.046 | INFO     | blood_check.blood_check_test:add_patient:56 - 添加患者接口响应参数为:{"busiCode":0,"msg":"请求成功","data":"1547844016685965314"}
+2022-07-15 15:22:31.648 | INFO     | blood_check.blood_check_test:start_check:68 - 开始检测接口请求参数为：{'boardSno': '220301360723', 'cameraName': '测试相机', 'clinicId': 1442079173893074946, 'deviceSno': 'BLD100021111800001', 'hgbCalibration': [{'reference': 20317, 'groundTruth': 0, 'measure': 25501}, {'reference': 20732, 'groundTruth': 0, 'measure': 25637}, {'reference': 19684, 'groundTruth': 231, 'measure': 2397}, {'reference': 20401, 'groundTruth': 141, 'measure': 6061}, {'reference': 20628, 'groundTruth': 71, 'measure': 12633}, {'reference': 20360, 'groundTruth': 48, 'measure': 15893}], 'hgbCurveData': [], 'hgbMeasure': 0, 'hgbReference': 0, 'path': 'c69099f6-2df3-497b-b5ac-cefdca802aa9.zip', 'patientId': '1547844016685965314', 'pointConfig': {'plt': {'focus': 0, 'points': 0}, 'rbc': {'focus': 0, 'points': 0}, 'wbc': {'focus': 0, 'points': 0}}, 'type': 1}
+2022-07-15 15:22:31.648 | INFO     | blood_check.blood_check_test:start_check:69 - 开始检测接口响应内容为:{"busiCode":0,"msg":"请求成功","data":"1547844035342229506"}
+2022-07-15 15:22:33.058 | INFO     | blood_check.blood_check_test:get_manual_status:83 - 等待一秒钟，再去查询
+2022-07-15 15:22:33.058 | INFO     | blood_check.blood_check_test:get_manual_status:84 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': None}}
+2022-07-15 15:22:34.225 | INFO     | blood_check.blood_check_test:get_manual_status:83 - 等待一秒钟，再去查询
+2022-07-15 15:22:34.225 | INFO     | blood_check.blood_check_test:get_manual_status:84 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': None}}
+2022-07-15 15:22:35.413 | INFO     | blood_check.blood_check_test:get_manual_status:83 - 等待一秒钟，再去查询
+2022-07-15 15:22:35.413 | INFO     | blood_check.blood_check_test:get_manual_status:84 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': None}}
+2022-07-15 15:22:36.588 | INFO     | blood_check.blood_check_test:get_manual_status:83 - 等待一秒钟，再去查询
+2022-07-15 15:22:36.588 | INFO     | blood_check.blood_check_test:get_manual_status:84 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': None}}
+2022-07-15 15:22:37.756 | INFO     | blood_check.blood_check_test:get_manual_status:83 - 等待一秒钟，再去查询
+2022-07-15 15:22:37.756 | INFO     | blood_check.blood_check_test:get_manual_status:84 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': None}}
+2022-07-15 15:22:38.942 | INFO     | blood_check.blood_check_test:get_manual_status:83 - 等待一秒钟，再去查询
+2022-07-15 15:22:38.942 | INFO     | blood_check.blood_check_test:get_manual_status:84 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 4, 'msg': 'WBC=0*（异常）\nRBC=0*（异常）\nPLT=0*（异常）\nHGB=0*（异常）'}}
+2022-07-15 15:22:41.045 | INFO     | blood_check.blood_check_test:create_order:98 - 生成订单接口请求参数为：{'dataId': '1547844035342229506'}
+2022-07-15 15:22:41.045 | INFO     | blood_check.blood_check_test:create_order:99 - 生成订单接口响应内容为:{"busiCode":0,"msg":"请求成功","data":{"orderNo":"BLD1000211118000012207151522392878","payUrl":"https://qr.95516.com/48020000/10VA2207157002240159178052","money":10.00,"promptMsg":"未支付","orderStatus":0}}
+2022-07-15 15:22:41.618 | INFO     | blood_check.blood_check_test:call_back:117 - 支付回调接口请求参数为：{'openId': '111111111111', 'orderNo': 'BLD1000211118000012207151522392878', 'outOrderNo': '111111111111111', 'outTransactionNo': '111111111111111111111', 'payChannel': '0', 'payFinishTime': '2022-07-15 15:25:41', 'payStatus': 'SUCCESS', 'payType': 'WXPAY', 'tradeType': 'JSAPI'}
+2022-07-15 15:22:41.619 | INFO     | blood_check.blood_check_test:call_back:118 - 支付回调接口响应内容为:{"busiCode":0,"msg":"请求成功","data":null}
+2022-07-15 15:22:41.619 | SUCCESS  | __main__:_blood_check_test:85 - 本次请求响应内容为{'code': 0, 'msg': '检测完成', 'data': []}
+2022-07-15 15:22:47.673 | INFO     | utils.login:login_test:22 - 本次登录获取token为:{'Authorization': 'bearer 39093976-9f0d-4171-98bd-bcda14fa4f41'}
+2022-07-15 15:22:48.278 | INFO     | utils.get_clinic_info_test:bind_gold_blood_device:71 - 绑定设备接口请求参数{'clinicId': 1442079173893074946, 'ids': [14], 'operateType': 1}
+2022-07-15 15:22:48.278 | INFO     | utils.get_clinic_info_test:bind_gold_blood_device:72 - 绑定设备接口返回参数{"busiCode":201,"msg":"一个诊所只能绑定同种设备一次","data":null}
+2022-07-15 15:22:48.945 | INFO     | utils.get_clinic_info_test:bind_gold_blood_device:71 - 绑定设备接口请求参数{'clinicId': 1442079173893074946, 'ids': [1386709332788838402], 'operateType': 1}
+2022-07-15 15:22:48.945 | INFO     | utils.get_clinic_info_test:bind_gold_blood_device:72 - 绑定设备接口返回参数{"busiCode":201,"msg":"一个诊所只能绑定同种设备一次","data":null}
+2022-07-15 15:22:49.817 | INFO     | gold_check.gold_check_test:add_patient:56 - 添加患者接口请求参数为:{'age': 18, 'deviceId': 'B221031135000149', 'month': 0, 'name': '华强测试', 'phone': '13622220000', 'sex': 0, 'termClinicId': 1442079173893074946}
+2022-07-15 15:22:49.818 | INFO     | gold_check.gold_check_test:add_patient:57 - 添加患者接口响应参数为:{"busiCode":0,"msg":"请求成功","data":{"patientId":"1547844119335051265"}}
+2022-07-15 15:22:52.720 | INFO     | gold_check.gold_check_test:start_check:69 - 开始检测接口请求参数为：{'clinicId': 1442079173893074946, 'file': None, 'sno': 'B221031135000149'}
+2022-07-15 15:22:52.720 | INFO     | gold_check.gold_check_test:start_check:70 - 开始检测接口响应内容为:{"busiCode":0,"msg":"请求成功","data":{"stripTypeCode":"4","stripBatch":"38","testPoctDataId":["1547844122677911554"],"imgUrl":"http://publicmedia.ehomepoct.com/jbyimage/CRP.png","reactTime":5,"warningTips":null,"stripName":"CRP检测(XXXVIII)"}}
+2022-07-15 15:22:53.959 | INFO     | gold_check.gold_check_test:create_order:87 - 生成订单接口请求参数为：{'addressDetail': '湖南省长沙市雨花区华坤时代', 'briefAddress': '湖南省长沙市雨花区雨河路279号靠近湘府路站', 'clinicId': 1442079173893074946, 'latitude': 0, 'longitude': 0, 'patientId': '1547844119335051265', 'position': '湖南省长沙市雨花区华坤时代', 'sno': 'B221031135000149', 'testDataIds': ['1547844122677911554']}
+2022-07-15 15:22:53.959 | INFO     | gold_check.gold_check_test:create_order:88 - 生成订单接口响应内容为:{"busiCode":20050100,"msg":"没有价格方案!","data":null}
+2022-07-15 15:22:54.173 | INFO     | gold_check.gold_check_test:call_back:105 - 支付回调接口请求参数为：{'clinicId': 1442079173893074946, 'file': None, 'sno': 'B221031135000149'}
+2022-07-15 15:22:54.173 | INFO     | gold_check.gold_check_test:call_back:106 - 支付回调接口响应内容为:{"busiCode":0,"msg":"请求成功","data":null}
+2022-07-15 15:22:54.173 | SUCCESS  | __main__:_gold_check_test:44 - 本次请求响应内容为{'code': -1, 'msg': '检测接口异常', 'data': []}
+2022-07-15 15:25:44.589 | INFO     | utils.login:login_test:22 - 本次登录获取token为:{'Authorization': 'bearer 39093976-9f0d-4171-98bd-bcda14fa4f41'}
+2022-07-15 15:25:45.294 | INFO     | utils.get_clinic_info_test:bind_gold_blood_device:71 - 绑定设备接口请求参数{'clinicId': 1442079173893074946, 'ids': [14], 'operateType': 1}
+2022-07-15 15:25:45.294 | INFO     | utils.get_clinic_info_test:bind_gold_blood_device:72 - 绑定设备接口返回参数{"busiCode":201,"msg":"一个诊所只能绑定同种设备一次","data":null}
+2022-07-15 15:25:45.431 | INFO     | utils.get_clinic_info_test:bind_gold_blood_device:71 - 绑定设备接口请求参数{'clinicId': 1442079173893074946, 'ids': [1386709332788838402], 'operateType': 1}
+2022-07-15 15:25:45.431 | INFO     | utils.get_clinic_info_test:bind_gold_blood_device:72 - 绑定设备接口返回参数{"busiCode":201,"msg":"一个诊所只能绑定同种设备一次","data":null}
+2022-07-15 15:25:45.770 | INFO     | gold_check.gold_check_test:add_patient:56 - 添加患者接口请求参数为:{'age': 18, 'deviceId': 'B221031135000149', 'month': 0, 'name': '华强测试', 'phone': '13622220000', 'sex': 0, 'termClinicId': 1442079173893074946}
+2022-07-15 15:25:45.771 | INFO     | gold_check.gold_check_test:add_patient:57 - 添加患者接口响应参数为:{"busiCode":0,"msg":"请求成功","data":{"patientId":"1547844857360588802"}}
+2022-07-15 15:25:46.893 | INFO     | gold_check.gold_check_test:start_check:69 - 开始检测接口请求参数为：{'clinicId': 1442079173893074946, 'file': None, 'sno': 'B221031135000149'}
+2022-07-15 15:25:46.893 | INFO     | gold_check.gold_check_test:start_check:70 - 开始检测接口响应内容为:{"busiCode":0,"msg":"请求成功","data":{"stripTypeCode":"4","stripBatch":"38","testPoctDataId":["1547844860560842754"],"imgUrl":"http://publicmedia.ehomepoct.com/jbyimage/CRP.png","reactTime":5,"warningTips":null,"stripName":"CRP检测(XXXVIII)"}}
+2022-07-15 15:25:48.687 | INFO     | gold_check.gold_check_test:create_order:87 - 生成订单接口请求参数为：{'addressDetail': '湖南省长沙市雨花区华坤时代', 'briefAddress': '湖南省长沙市雨花区雨河路279号靠近湘府路站', 'clinicId': 1442079173893074946, 'latitude': 0, 'longitude': 0, 'patientId': '1547844857360588802', 'position': '湖南省长沙市雨花区华坤时代', 'sno': 'B221031135000149', 'testDataIds': ['1547844860560842754']}
+2022-07-15 15:25:48.687 | INFO     | gold_check.gold_check_test:create_order:88 - 生成订单接口响应内容为:{"busiCode":0,"msg":"请求成功","data":{"orderNo":"B2210311350001492207151525479559","orderPrice":10.00,"orderOriginalPrice":10.00,"orderDiscounts":0.00,"orderStatus":0,"payUrl":"https://qr.95516.com/48020000/10VA2207155512548154146335","needPay":true,"showMoney":true,"showQrCode":true}}
+2022-07-15 15:25:49.055 | INFO     | gold_check.gold_check_test:call_back:105 - 支付回调接口请求参数为：{'clinicId': 1442079173893074946, 'file': None, 'sno': 'B221031135000149'}
+2022-07-15 15:25:49.056 | INFO     | gold_check.gold_check_test:call_back:106 - 支付回调接口响应内容为:{"busiCode":0,"msg":"请求成功","data":null}
+2022-07-15 15:25:49.056 | SUCCESS  | __main__:_gold_check_test:44 - 本次请求响应内容为{'code': 0, 'msg': '检测完成', 'data': []}
+2022-07-18 09:29:19.079 | INFO     | utils.login:login_test:22 - 本次登录获取token为:{'Authorization': 'bearer 39093976-9f0d-4171-98bd-bcda14fa4f41'}
+2022-07-18 09:29:19.986 | INFO     | utils.get_clinic_info_test:bind_gold_blood_device:71 - 绑定设备接口请求参数{'clinicId': 1545224171014402050, 'ids': [15], 'operateType': 1}
+2022-07-18 09:29:19.986 | INFO     | utils.get_clinic_info_test:bind_gold_blood_device:72 - 绑定设备接口返回参数{"busiCode":201,"msg":"一个诊所只能绑定同种设备一次","data":null}
+2022-07-18 09:29:20.132 | INFO     | utils.get_clinic_info_test:bind_gold_blood_device:71 - 绑定设备接口请求参数{'clinicId': 1545224171014402050, 'ids': [1386709332788838402], 'operateType': 1}
+2022-07-18 09:29:20.133 | INFO     | utils.get_clinic_info_test:bind_gold_blood_device:72 - 绑定设备接口返回参数{"busiCode":201,"msg":"一个诊所只能绑定同种设备一次","data":null}
+2022-07-18 09:30:28.448 | INFO     | utils.login:login_test:22 - 本次登录获取token为:{'Authorization': 'bearer 39093976-9f0d-4171-98bd-bcda14fa4f41'}
+2022-07-18 09:30:28.888 | INFO     | utils.get_clinic_info_test:bind_gold_blood_device:71 - 绑定设备接口请求参数{'clinicId': 1442079173893074946, 'ids': [15], 'operateType': 1}
+2022-07-18 09:30:28.889 | INFO     | utils.get_clinic_info_test:bind_gold_blood_device:72 - 绑定设备接口返回参数{"busiCode":201,"msg":"一个诊所只能绑定同种设备一次","data":null}
+2022-07-18 09:30:28.987 | INFO     | utils.get_clinic_info_test:bind_gold_blood_device:71 - 绑定设备接口请求参数{'clinicId': 1442079173893074946, 'ids': [1386709332788838402], 'operateType': 1}
+2022-07-18 09:30:28.987 | INFO     | utils.get_clinic_info_test:bind_gold_blood_device:72 - 绑定设备接口返回参数{"busiCode":201,"msg":"一个诊所只能绑定同种设备一次","data":null}

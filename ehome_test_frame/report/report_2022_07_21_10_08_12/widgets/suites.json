@@ -1,0 +1,15 @@
+{
+  "total" : 1,
+  "items" : [ {
+    "uid" : "c7e256879139f580a918627990791d11",
+    "name" : "tests.agent.mall_manage",
+    "statistic" : {
+      "failed" : 12,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 8,
+      "unknown" : 0,
+      "total" : 20
+    }
+  } ]
+}

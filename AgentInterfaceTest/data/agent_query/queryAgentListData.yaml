@@ -1,0 +1,97 @@
+#按日期查询合伙人列表分页
+- api: /ehome-dist-crm-app/app/statistical/agent/queryAgentListData
+  login_phone: 13698765432
+  assert_type: 1
+  data: {
+  "pageIndex": 1,
+  "pageSize": 10,
+  "condition": {
+    "groupStatus": "Total",
+    "staticDate": "2022-04-20"
+  }
+}
+  assert: { 'code': 0,'msg': '请求成功',data: {"total":1,"list":[{"agentName":"接口测试","agentId":"1515959916883808257","agentLevel":3,"registTime":"2022-04-18 15:46:24","headPicture":"http://patient.ehomepoct.com/images/defaultHeadPartner.png","phone":"13698765432","testAmount":0.00,"testPortion":0.00,"testTimes":0.00,"totalClinicNum":0,"newClinicNum":0,"address":""}]},dataLong: 50 }
+
+
+- api: /ehome-dist-crm-app/app/statistical/agent/queryAgentListData
+  login_phone: 13698765432
+  assert_type: 1
+  data: {
+  "pageIndex": 1,
+  "pageSize": 10,
+  "condition": {
+    "groupStatus": "Total",
+    "staticDate": "2022-04-19"
+  }
+}
+  assert: { 'code': 0,'msg': '请求成功',data: {"total":1,"list":[{"agentName":"接口测试","agentId":"1515959916883808257","agentLevel":3,"registTime":"2022-04-18 15:46:24","headPicture":"http://patient.ehomepoct.com/images/defaultHeadPartner.png","phone":"13698765432","testAmount":0.00,"testPortion":0.00,"testTimes":0.00,"totalClinicNum":0,"newClinicNum":0,"address":""}]},dataLong: 50 }
+
+
+
+- api: /ehome-dist-crm-app/app/statistical/agent/queryAgentListData
+  login_phone: 13698765432
+  assert_type: 1
+  data: {
+  "pageIndex": 1,
+  "pageSize": 10,
+  "condition": {
+    "groupStatus": "Total",
+    "staticDate": "2022-05-20"
+  }
+}
+  assert: { 'code': 0,'msg': '请求成功',data: {"total":1,"list":[{"agentName":"接口测试","agentId":"1515959916883808257","agentLevel":3,"registTime":"2022-04-18 15:46:24","headPicture":"http://patient.ehomepoct.com/images/defaultHeadPartner.png","phone":"13698765432","testAmount":0.00,"testPortion":0.00,"testTimes":0.00,"totalClinicNum":0,"newClinicNum":0,"address":""}]},dataLong: 50 }
+
+
+- api: /ehome-dist-crm-app/app/statistical/agent/queryAgentListData
+  login_phone: 13698765432
+  assert_type: 1
+  data: {
+  "pageIndex": 1,
+  "pageSize": 10,
+  "condition": {
+    "groupStatus": "New",
+    "staticDate": "2022-04-20"
+  }
+}
+  assert: { 'code': 0,'msg': '请求成功',data: {"total":0,"list":[]},dataLong: 50 }
+
+- api: /ehome-dist-crm-app/app/statistical/agent/queryAgentListData
+  login_phone: 13698765432
+  assert_type: 1
+  data: {
+  "pageIndex": 1,
+  "pageSize": 10,
+  "condition": {
+    "groupStatus": "New",
+    "staticDate": "2022-04-20"
+  }
+}
+  assert: { 'code': 0,'msg': '请求成功',data: {"total":0,"list":[]},dataLong: 50 }
+
+
+- api: /ehome-dist-crm-app/app/statistical/agent/queryAgentListData
+  login_phone: 13698765432
+  assert_type: 1
+  data: {
+  "pageIndex": 0,
+  "pageSize": 10,
+  "condition": {
+    "groupStatus": "New",
+    "staticDate": "2022-04-20"
+  }
+}
+  assert: { 'code': 0,'msg': '请求成功',data: {"total":0,"list":[]},dataLong: 50 }
+
+
+- api: /ehome-dist-crm-app/app/statistical/agent/queryAgentListData
+  login_phone: 13698765432
+  assert_type: 1
+  data: {
+  "pageIndex": 0,
+  "pageSize": 10,
+  "condition": {
+    "groupStatus": "",
+    "staticDate": ""
+  }
+}
+  assert: { 'code': -1,'msg': '接口未知异常',data: null,dataLong: 50 }

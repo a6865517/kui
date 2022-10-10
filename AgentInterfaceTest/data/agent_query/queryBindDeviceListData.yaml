@@ -1,0 +1,118 @@
+#查询当日绑定诊所列表
+- api: /ehome-dist-crm-app/app/statistical/device/queryBindDeviceListData
+  login_phone: 13698765432
+  assert_type: 1
+  data: {
+  "pageIndex": 1,
+  "pageSize": 10,
+  "condition": {
+    "groupStatus": "Total",
+    "startTime": "2020-04-13 00:00:00",
+    "endTime": "2024-04-13 23:59:59"
+  }
+}
+  assert: { 'code': 0,'msg': '请求成功',data: {"total":0,"list":[]},dataLong: 50 }
+
+- api: /ehome-dist-crm-app/app/statistical/device/queryBindDeviceListData
+  login_phone: 13698765432
+  assert_type: 1
+  data: {
+  "pageIndex": 1,
+  "pageSize": 10,
+  "condition": {
+    "groupStatus": "Unbind",
+    "startTime": "2020-04-13 00:00:00",
+    "endTime": "2024-04-13 23:59:59"
+  }
+}
+  assert: { 'code': 0,'msg': '请求成功',data: {"total":0,"list":[]},dataLong: 10 }
+
+
+- api: /ehome-dist-crm-app/app/statistical/device/queryBindDeviceListData
+  login_phone: 13698765432
+  assert_type: 1
+  data: {
+  "pageIndex": 1,
+  "pageSize": 10,
+  "condition": {
+    "groupStatus": "Total",
+    "startTime": "",
+    "endTime": "2022-04-13 23:59:59"
+  }
+}
+  assert: { 'code': -1,'msg': '接口未知异常',data: null,dataLong: 10 }
+
+
+- api: /ehome-dist-crm-app/app/statistical/device/queryBindDeviceListData
+  login_phone: 13698765432
+  assert_type: 1
+  data: {
+  "pageIndex": 1,
+  "pageSize": 10,
+  "condition": {
+    "groupStatus": "Total",
+    "startTime": "",
+    "endTime": ""
+  }
+}
+  assert: { 'code': -1,'msg': '接口未知异常',data: null,dataLong: 10 }
+
+
+- api: /ehome-dist-crm-app/app/statistical/device/queryBindDeviceListData
+  login_phone: 13698765432
+  assert_type: 1
+  data: {
+  "pageIndex": 1,
+  "pageSize": 10,
+  "condition": {
+    "groupStatus": "Total",
+    "startTime": "2022-04-13 23:59:59",
+    "endTime": ""
+  }
+}
+  assert: { 'code': -1,'msg': '接口未知异常',data: null,dataLong: 10 }
+
+
+- api: /ehome-dist-crm-app/app/statistical/device/queryBindDeviceListData
+  login_phone: 13698765432
+  assert_type: 1
+  data: {
+  "pageIndex": 1,
+  "pageSize": 200,
+  "condition": {
+    "groupStatus": "Total",
+    "startTime": "2022-04-13 23:59:59",
+    "endTime": "2022-04-13 23:59:59"
+  }
+}
+  assert: { 'code': 0,'msg': '请求成功',data: {"total":0,"list":[]},dataLong: 10 }
+
+
+- api: /ehome-dist-crm-app/app/statistical/device/queryBindDeviceListData
+  login_phone: 13698765432
+  assert_type: 1
+  data: {
+  "pageIndex": 1,
+  "pageSize": 10,
+  "condition": {
+    "groupStatus": "None",
+    "startTime": "2022-04-13 23:59:59",
+    "endTime": "2022-04-13 23:59:59"
+  }
+}
+  assert: { 'code': 1002,'msg': '查询数据失败',data: null,dataLong: 10 }
+
+
+- api: /ehome-dist-crm-app/app/statistical/device/queryBindDeviceListData
+  login_phone: 13698765432
+  assert_type: 1
+  data: {
+  "pageIndex": 1,
+  "pageSize": 10,
+  "condition": {
+    "groupStatus": "Total",
+    "startTime": "2022-04-13 23:59:59",
+    "endTime": "2022-04-13 23:59:59"
+  }
+}
+  assert: { 'code': 0,'msg': '请求成功',data: {"total":0,"list":[]},dataLong: 10 }

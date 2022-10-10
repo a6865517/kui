@@ -1,0 +1,9 @@
+2022-04-12 19:17:18.084 | INFO     | agentTestCase:test_001_post_queryEveryDayData:36 - 接口响应时间为：0.15962
+2022-04-12 19:17:18.084 | INFO     | agentTestCase:test_001_post_queryEveryDayData:38 - busicode为：0
+2022-04-12 19:17:18.085 | INFO     | agentTestCase:test_001_post_queryEveryDayData:40 - 响应内容与预期一致
+2022-04-12 19:17:18.296 | INFO     | agentTestCase:test_001_post_queryEveryDayData:36 - 接口响应时间为：0.127154
+2022-04-12 19:17:18.296 | INFO     | agentTestCase:test_001_post_queryEveryDayData:38 - busicode为：0
+2022-04-12 19:17:18.297 | INFO     | agentTestCase:test_001_post_queryEveryDayData:40 - 响应内容与预期一致
+2022-04-12 19:17:18.510 | INFO     | agentTestCase:test_001_post_queryEveryDayData:36 - 接口响应时间为：0.108354
+2022-04-12 19:17:18.510 | INFO     | agentTestCase:test_001_post_queryEveryDayData:38 - busicode为：0
+2022-04-12 19:17:18.510 | INFO     | agentTestCase:test_001_post_queryEveryDayData:40 - 响应内容与预期一致

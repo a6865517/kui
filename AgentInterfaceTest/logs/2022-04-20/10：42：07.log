@@ -1,0 +1,10 @@
+2022-04-20 10:42:08.656 | DEBUG    | common.unittestMain:req_assert:75 - 本次执行的测试用例请求内容为：{'invitationCode': 'YGKJEK', 'level': 2, 'name': '接口测试', 'parentId': '1427509025808363521', 'password': 'a6865517', 'phone': '13622221111', 'schemeId': '1003', 'verifyCode': '6728', 'inchargeArea': '[["110000","110100","110101"]]', 'inchargeAreaName': '北京市,市辖区,东城区'}
+2022-04-20 10:42:08.656 | DEBUG    | common.unittestMain:req_assert:76 - 本次执行的测试用例响应内容为：{"busiCode":0,"msg":"请求成功","data":null}
+2022-04-20 10:42:08.656 | INFO     | common.unittestMain:req_assert:79 - 接口响应时间为：0.521723
+2022-04-20 10:42:08.656 | INFO     | common.unittestMain:req_assert:81 - busicode与预期一致为：0
+2022-04-20 10:42:08.657 | INFO     | common.unittestMain:req_assert:83 - msg与预期一致
+2022-04-20 10:42:08.657 | INFO     | common.unittestMain:assert_data:92 - 响应内容与预期一致
+2022-04-20 10:42:09.175 | DEBUG    | common.unittestMain:req_assert:75 - 本次执行的测试用例请求内容为：{'invitationCode': 'YGKJEK', 'level': 2, 'name': '接口测试', 'parentId': '1427509025808363521', 'password': 'a6865517', 'phone': '13622221111', 'schemeId': '1003', 'verifyCode': '6728', 'inchargeArea': '[["110000","110100","110101"]]', 'inchargeAreaName': '北京市,市辖区,东城区'}
+2022-04-20 10:42:09.175 | DEBUG    | common.unittestMain:req_assert:76 - 本次执行的测试用例响应内容为：{"busiCode":10001007,"msg":"手机号只能注册一次","data":null}
+2022-04-20 10:42:09.175 | INFO     | common.unittestMain:req_assert:79 - 接口响应时间为：0.15365
+2022-04-20 10:42:10.393 | SUCCESS  | utils.mysql_res:update_sql:104 - --------------------------------------------------更新成功--------------------------------------------------

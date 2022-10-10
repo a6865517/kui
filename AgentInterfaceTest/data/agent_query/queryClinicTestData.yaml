@@ -1,0 +1,98 @@
+#查询诊所检测统计数据
+- api: /ehome-dist-crm-app/app/statistical/test/queryClinicTestData
+  login_phone: 13698765432
+  assert_type: 1
+  data: {
+  "startTime": "2022-04-13 23:59:59",
+  "endTime": "2022-04-13 23:59:59",
+  "clinicId": 0
+}
+  assert: { 'code': 0,'msg': '请求成功',data: {"totalTestMoney":0.00,"totalTestPortion":0.00,"testDetail":[]},dataLong: 50 }
+
+
+- api: /ehome-dist-crm-app/app/statistical/test/queryClinicTestData
+  login_phone: 13698765432
+  assert_type: 1
+  data: {
+  "startTime": "2022-04-13 23:59:59",
+  "endTime": "2022-04-13 23:59:59",
+  "clinicId": 1
+}
+  assert: { 'code': 0,'msg': '请求成功',data: {"totalTestMoney":0.00,"totalTestPortion":0.00,"testDetail":[]},dataLong: 50 }
+
+
+- api: /ehome-dist-crm-app/app/statistical/test/queryClinicTestData
+  login_phone: 13698765432
+  assert_type: 1
+  data: {
+  "startTime": "2020-04-13 23:59:59",
+  "endTime": "2022-04-13 23:59:59",
+  "clinicId": 1386661297593581569
+}
+  assert: { 'code': 0,'msg': '请求成功',data: {"totalTestMoney":0.00,"totalTestPortion":0.00,"testDetail":[]},dataLong: 50 }
+
+
+- api: /ehome-dist-crm-app/app/statistical/test/queryClinicTestData
+  login_phone: 13698765432
+  assert_type: 1
+  data: {
+  "startTime": "2020-04-13 23:59:59",
+  "endTime": "2022-04-13 23:59:59",
+  "clinicId": 1402993698760314882
+}
+  assert: { 'code': 0,'msg': '请求成功',data: {"totalTestMoney":0.00,"totalTestPortion":0.00,"testDetail":[]},dataLong: 50 }
+
+
+- api: /ehome-dist-crm-app/app/statistical/test/queryClinicTestData
+  login_phone: 13698765432
+  assert_type: 1
+  data: {
+  "startTime": "2020-04-13 23:59:59",
+  "endTime": "2022-04-13 23:59:59",
+  "clinicId": 1402993698760314882
+}
+  assert: { 'code': 0,'msg': '请求成功',data: {"totalTestMoney":0.00,"totalTestPortion":0.00,"testDetail":[]},dataLong: 50 }
+
+
+- api: /ehome-dist-crm-app/app/statistical/test/queryClinicTestData
+  login_phone: 13698765432
+  assert_type: 1
+  data: {
+  "startTime": "2022-04-13 23:59:59",
+  "endTime": "2020-04-13 23:59:59",
+  "clinicId": 1402993698760314882
+}
+  assert: { 'code': 0,'msg': '请求成功',data: {"totalTestMoney":0.00,"totalTestPortion":0.00,"testDetail":[]},dataLong: 50 }
+
+
+- api: /ehome-dist-crm-app/app/statistical/test/queryClinicTestData
+  login_phone: 13698765432
+  assert_type: 1
+  data: {
+  "startTime": "",
+  "endTime": "2020-04-13 23:59:59",
+  "clinicId": 1402993698760314882
+}
+  assert: { 'code': 400,'msg': 'startTime：开始时间不能为空',data: null,dataLong: 50}
+
+
+- api: /ehome-dist-crm-app/app/statistical/test/queryClinicTestData
+  login_phone: 13698765432
+  assert_type: 1
+  data: {
+  "startTime": "2020-04-13 23:59:59",
+  "endTime": "",
+  "clinicId": 1402993698760314882
+}
+  assert: { 'code': 400,'msg': 'endTime：结束时间不能为空',data: null,dataLong: 50}
+
+
+- api: /ehome-dist-crm-app/app/statistical/test/queryClinicTestData
+  login_phone: 13698765432
+  assert_type: 1
+  data: {
+  "startTime": "2020-04-13 23:59:59",
+  "endTime": "2020-04-13 23:59:59",
+  "clinicId":
+}
+  assert: { 'code': 400,'msg': 'clinicId：诊所id不能为空',data: null,dataLong: 50}

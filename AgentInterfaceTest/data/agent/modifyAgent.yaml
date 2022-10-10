@@ -1,0 +1,35 @@
+#修改合伙人
+- api: /ehome-dist-crm-app/app/agent/modifyAgent
+  login_phone: 13698765432
+  assert_type: 1
+  data: {"agentName": "刘华强一","agentId": "1427509025808363521"}
+  assert: { 'code': 0,'msg': '请求成功',data: null,dataLong: 50 }
+
+
+
+- api: /ehome-dist-crm-app/app/agent/modifyAgent
+  login_phone: 13698765432
+  assert_type: 1
+  data: {"agentName": "刘华强一","agentId": "1427509025808363521"}
+  assert: { 'code': 0,'msg': '请求成功',data: null,dataLong: 50 }
+
+
+- api: /ehome-dist-crm-app/app/agent/modifyAgent
+  login_phone: 13698765432
+  assert_type: 1
+  data: {"agentName": "刘华强一","agentId": ""}
+  assert: { 'code': -1,'msg': '接口未知异常',data: null,dataLong: 50 }
+
+
+- api: /ehome-dist-crm-app/app/agent/modifyAgent
+  login_phone: 13698765432
+  assert_type: 1
+  data: {"agentName": "","agentId": "1427509025808363521"}
+  assert: { 'code': 0,'msg': '请求成功',data: null,dataLong: 50 }
+
+
+- api: /ehome-dist-crm-app/app/agent/modifyAgent
+  login_phone: 13698765432
+  assert_type: 1
+  data: {"province": "410000","city": "0","town": "","address": "国际经济1","agentId": "1427509025808363521"}
+  assert: { 'code': 0,'msg': '请求成功',data: null,dataLong: 50 }

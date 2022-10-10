@@ -1,0 +1,25 @@
+2022-04-20 14:05:33.242 | DEBUG    | common.unittestMain:req_assert:76 - 本次执行的测试用例请求内容为：{'phone': '', 'smsType': ''}
+2022-04-20 14:05:33.242 | DEBUG    | common.unittestMain:req_assert:77 - 本次执行的测试用例响应内容为：{"busiCode":400,"msg":"参数解析异常","data":null}
+2022-04-20 14:05:33.242 | INFO     | common.unittestMain:req_assert:80 - 接口响应时间为：0.070874
+2022-04-20 14:05:33.242 | INFO     | common.unittestMain:req_assert:82 - busicode与预期一致为：400
+2022-04-20 14:05:33.242 | INFO     | common.unittestMain:req_assert:84 - msg与预期一致
+2022-04-20 14:05:33.242 | INFO     | common.unittestMain:assert_data:93 - 响应内容与预期一致
+2022-04-20 14:05:33.644 | DEBUG    | common.unittestMain:req_assert:76 - 本次执行的测试用例请求内容为：{'phone': '13000000000', 'smsType': 'LOGIN'}
+2022-04-20 14:05:33.644 | DEBUG    | common.unittestMain:req_assert:77 - 本次执行的测试用例响应内容为：{"busiCode":0,"msg":"请求成功","data":null}
+2022-04-20 14:05:33.644 | INFO     | common.unittestMain:req_assert:80 - 接口响应时间为：0.251706
+2022-04-20 14:05:33.645 | INFO     | common.unittestMain:req_assert:82 - busicode与预期一致为：0
+2022-04-20 14:05:33.645 | INFO     | common.unittestMain:req_assert:84 - msg与预期一致
+2022-04-20 14:05:33.645 | INFO     | common.unittestMain:assert_data:93 - 响应内容与预期一致
+2022-04-20 14:05:33.974 | DEBUG    | common.unittestMain:req_assert:76 - 本次执行的测试用例请求内容为：{'phone': '13000000000', 'smsType': 'FORGETPWD'}
+2022-04-20 14:05:33.974 | DEBUG    | common.unittestMain:req_assert:77 - 本次执行的测试用例响应内容为：{"busiCode":0,"msg":"请求成功","data":null}
+2022-04-20 14:05:33.975 | INFO     | common.unittestMain:req_assert:80 - 接口响应时间为：0.176308
+2022-04-20 14:05:33.976 | INFO     | common.unittestMain:req_assert:82 - busicode与预期一致为：0
+2022-04-20 14:05:33.976 | INFO     | common.unittestMain:req_assert:84 - msg与预期一致
+2022-04-20 14:05:33.977 | INFO     | common.unittestMain:assert_data:93 - 响应内容与预期一致
+2022-04-20 14:05:34.291 | DEBUG    | common.unittestMain:req_assert:76 - 本次执行的测试用例请求内容为：{'phone': '13000000000', 'smsType': 'TIXIAN'}
+2022-04-20 14:05:34.292 | DEBUG    | common.unittestMain:req_assert:77 - 本次执行的测试用例响应内容为：{"busiCode":0,"msg":"请求成功","data":null}
+2022-04-20 14:05:34.292 | INFO     | common.unittestMain:req_assert:80 - 接口响应时间为：0.162022
+2022-04-20 14:05:34.293 | INFO     | common.unittestMain:req_assert:82 - busicode与预期一致为：0
+2022-04-20 14:05:34.294 | INFO     | common.unittestMain:req_assert:84 - msg与预期一致
+2022-04-20 14:05:34.294 | INFO     | common.unittestMain:assert_data:93 - 响应内容与预期一致
+2022-04-20 14:05:35.627 | SUCCESS  | utils.mysql_res:update_sql:104 - --------------------------------------------------更新成功--------------------------------------------------

@@ -1,0 +1,59 @@
+#按日期查询范围内每日绑定诊所数据
+- api: /ehome-dist-crm-app/app/statistical/device/queryEveryDayData
+  login_phone: 13698765432
+  assert_type: 1
+  data: {
+  "endTime": "",
+  "startTime": "2022-04-13 23:59:59"
+}
+  assert: { 'code': 400,'msg': 'endTime：结束时间不能为空',data: null,dataLong: 10 }
+
+
+- api: /ehome-dist-crm-app/app/statistical/device/queryEveryDayData
+  login_phone: 13698765432
+  assert_type: 1
+  data: {
+  "endTime": "2022-04-13 23:59:59",
+  "startTime": ""
+}
+  assert: { 'code': 400,'msg': 'startTime：开始时间不能为空',data: null,dataLong: 10 }
+
+
+- api: /ehome-dist-crm-app/app/statistical/device/queryEveryDayData
+  login_phone: 13698765432
+  assert_type: 1
+  data: {
+  "endTime": "2022-04-13 23:59:59",
+  "startTime": "2022-04-13 23:59:59"
+}
+  assert: { 'code': 0,'msg': '请求成功',data: [],dataLong: 1 }
+
+
+- api: /ehome-dist-crm-app/app/statistical/device/queryEveryDayData
+  login_phone: 13698765432
+  assert_type: 1
+  data: {
+  "endTime": "2022-04-13 23:59:59",
+  "startTime": "2022-01-13 23:59:59"
+}
+  assert: { 'code': 0,'msg': '请求成功',data: [],dataLong: 50 }
+
+
+- api: /ehome-dist-crm-app/app/statistical/device/queryEveryDayData
+  login_phone: 13698765432
+  assert_type: 1
+  data: {
+  "endTime": "2022-01-13 23:59:59",
+  "startTime": "2022-01-13 23:59:59"
+}
+  assert: { 'code': 0,'msg': '请求成功',data: [],dataLong: 1 }
+
+
+- api: /ehome-dist-crm-app/app/statistical/device/queryEveryDayData
+  login_phone: 13698765432
+  assert_type: 1
+  data: {
+  "endTime": "asdasdasd",
+  "startTime": "asdasdasdas"
+}
+  assert: { 'code': 400,'msg': '参数解析异常',data: null,dataLong: 1 }

@@ -1,0 +1,774 @@
+2022-06-22 15:58:55.600 | INFO     | utils.login:login_test:22 - 本次登录获取token为:{'Authorization': 'bearer 1bf84635-b76b-4446-a225-9cc5be710c7c'}
+2022-06-22 15:58:56.317 | INFO     | utils.get_clinic_info_test:bind_gold_blood_device:71 - 绑定设备接口请求参数{'clinicId': 1442079173893074946, 'ids': [1386932628008534018], 'operateType': 1}
+2022-06-22 15:58:56.317 | INFO     | utils.get_clinic_info_test:bind_gold_blood_device:72 - 绑定设备接口返回参数{"busiCode":201,"msg":"一个诊所只能绑定同种设备一次","data":null}
+2022-06-22 15:58:56.441 | INFO     | utils.get_clinic_info_test:bind_gold_blood_device:71 - 绑定设备接口请求参数{'clinicId': 1442079173893074946, 'ids': [1474315307854172163], 'operateType': 1}
+2022-06-22 15:58:56.442 | INFO     | utils.get_clinic_info_test:bind_gold_blood_device:72 - 绑定设备接口返回参数{"busiCode":201,"msg":"一个诊所只能绑定同种设备一次","data":null}
+2022-06-22 15:58:56.541 | INFO     | __main__:add_patient:60 - 添加患者接口请求参数为:{'age': 18, 'deviceId': 'B221031135000149', 'month': 0, 'name': '华强测试', 'phone': '13622220000', 'sex': 0, 'termClinicId': 1442079173893074946}
+2022-06-22 15:58:56.541 | INFO     | __main__:add_patient:61 - 添加患者接口响应参数为:{"busiCode":0,"msg":"请求成功","data":{"patientId":"1539518285108281345"}}
+2022-06-22 15:58:58.521 | INFO     | __main__:start_CRP_and_SAA:88 - crp+saa检测接口请求参数为:{'clinicId': 1442079173893074946, 'sno': 'B221031135000149'}
+2022-06-22 15:58:58.522 | INFO     | __main__:start_CRP_and_SAA:89 - crp+saa检测接口响应参数为:{"busiCode":0,"msg":"请求成功","data":{"stripTypeCode":"4","stripBatch":"38","testPoctDataId":"1539518288228843522","imgUrl":"http://publicmedia.ehomepoct.com/jbyimage/CRP.png","reactTime":5,"warningTips":null,"stripName":"CRP检测(XXXVIII)"}}
+2022-06-22 15:58:59.066 | INFO     | __main__:upload_patient:72 - 发布患者信息接口请求参数为:{'age': 18, 'deviceId': 'BLD100021111800001', 'month': 0, 'name': '华强测试', 'phone': '13622220000', 'sex': 0, 'termClinicId': 1442079173893074946}
+2022-06-22 15:58:59.067 | INFO     | __main__:upload_patient:73 - 发布患者信息接口响应参数为:{"busiCode":0,"msg":"请求成功","data":"1539518293895348226"}
+2022-06-22 15:58:59.323 | INFO     | __main__:blood_test:115 - 血常规检测接口请求参数为:{'boardSno': '220301360723', 'cameraName': '测试相机', 'clinicId': 1442079173893074946, 'deviceSno': 'BLD100021111800001', 'hgbCalibration': [{'reference': 20317, 'groundTruth': 0, 'measure': 25501}, {'reference': 20732, 'groundTruth': 0, 'measure': 25637}, {'reference': 19684, 'groundTruth': 231, 'measure': 2397}, {'reference': 20401, 'groundTruth': 141, 'measure': 6061}, {'reference': 20628, 'groundTruth': 71, 'measure': 12633}, {'reference': 20360, 'groundTruth': 48, 'measure': 15893}], 'hgbCurveData': [], 'hgbMeasure': 0, 'hgbReference': 0, 'path': 'c69099f6-2df3-497b-b5ac-cefdca802aa9.zip', 'patientId': '1539518285108281345', 'pointConfig': {'plt': {'focus': 0, 'points': 0}, 'rbc': {'focus': 0, 'points': 0}, 'wbc': {'focus': 0, 'points': 0}}, 'type': 2}
+2022-06-22 15:58:59.323 | INFO     | __main__:blood_test:116 - 血常规检测接口响应参数为:{"busiCode":0,"msg":"请求成功","data":"1539518296692334594"}
+2022-06-22 15:59:04.656 | INFO     | utils.login:login_test:22 - 本次登录获取token为:{'Authorization': 'bearer 1bf84635-b76b-4446-a225-9cc5be710c7c'}
+2022-06-22 15:59:05.363 | INFO     | utils.get_clinic_info_test:bind_gold_blood_device:71 - 绑定设备接口请求参数{'clinicId': 1442079173893074946, 'ids': [1386932628008534018], 'operateType': 1}
+2022-06-22 15:59:05.364 | INFO     | utils.get_clinic_info_test:bind_gold_blood_device:72 - 绑定设备接口返回参数{"busiCode":201,"msg":"一个诊所只能绑定同种设备一次","data":null}
+2022-06-22 15:59:05.501 | INFO     | utils.get_clinic_info_test:bind_gold_blood_device:71 - 绑定设备接口请求参数{'clinicId': 1442079173893074946, 'ids': [1474315307854172163], 'operateType': 1}
+2022-06-22 15:59:05.501 | INFO     | utils.get_clinic_info_test:bind_gold_blood_device:72 - 绑定设备接口返回参数{"busiCode":201,"msg":"一个诊所只能绑定同种设备一次","data":null}
+2022-06-22 15:59:05.627 | INFO     | __main__:add_patient:60 - 添加患者接口请求参数为:{'age': 18, 'deviceId': 'B221031135000149', 'month': 0, 'name': '华强测试', 'phone': '13622220000', 'sex': 0, 'termClinicId': 1442079173893074946}
+2022-06-22 15:59:05.627 | INFO     | __main__:add_patient:61 - 添加患者接口响应参数为:{"busiCode":0,"msg":"请求成功","data":{"patientId":"1539518323221921794"}}
+2022-06-22 15:59:07.459 | INFO     | __main__:start_CRP_and_SAA:88 - crp+saa检测接口请求参数为:{'clinicId': 1442079173893074946, 'sno': 'B221031135000149'}
+2022-06-22 15:59:07.460 | INFO     | __main__:start_CRP_and_SAA:89 - crp+saa检测接口响应参数为:{"busiCode":0,"msg":"请求成功","data":{"stripTypeCode":"4","stripBatch":"38","testPoctDataId":"1539518325780447234","imgUrl":"http://publicmedia.ehomepoct.com/jbyimage/CRP.png","reactTime":5,"warningTips":null,"stripName":"CRP检测(XXXVIII)"}}
+2022-06-22 15:59:07.587 | INFO     | __main__:upload_patient:72 - 发布患者信息接口请求参数为:{'age': 18, 'deviceId': 'BLD100021111800001', 'month': 0, 'name': '华强测试', 'phone': '13622220000', 'sex': 0, 'termClinicId': 1442079173893074946}
+2022-06-22 15:59:07.587 | INFO     | __main__:upload_patient:73 - 发布患者信息接口响应参数为:{"busiCode":0,"msg":"请求成功","data":"1539518331409203202"}
+2022-06-22 15:59:07.756 | INFO     | __main__:blood_test:115 - 血常规检测接口请求参数为:{'boardSno': '220301360723', 'cameraName': '测试相机', 'clinicId': 1442079173893074946, 'deviceSno': 'BLD100021111800001', 'hgbCalibration': [{'reference': 20317, 'groundTruth': 0, 'measure': 25501}, {'reference': 20732, 'groundTruth': 0, 'measure': 25637}, {'reference': 19684, 'groundTruth': 231, 'measure': 2397}, {'reference': 20401, 'groundTruth': 141, 'measure': 6061}, {'reference': 20628, 'groundTruth': 71, 'measure': 12633}, {'reference': 20360, 'groundTruth': 48, 'measure': 15893}], 'hgbCurveData': [], 'hgbMeasure': 0, 'hgbReference': 0, 'path': 'c69099f6-2df3-497b-b5ac-cefdca802aa9.zip', 'patientId': '1539518323221921794', 'pointConfig': {'plt': {'focus': 0, 'points': 0}, 'rbc': {'focus': 0, 'points': 0}, 'wbc': {'focus': 0, 'points': 0}}, 'type': 2}
+2022-06-22 15:59:07.756 | INFO     | __main__:blood_test:116 - 血常规检测接口响应参数为:{"busiCode":0,"msg":"请求成功","data":"1539518332067094530"}
+2022-06-22 16:56:47.316 | INFO     | utils.login:login_test:22 - 本次登录获取token为:{'Authorization': 'bearer 1bf84635-b76b-4446-a225-9cc5be710c7c'}
+2022-06-22 16:56:48.179 | INFO     | utils.get_clinic_info_test:bind_gold_blood_device:71 - 绑定设备接口请求参数{'clinicId': 1442079173893074946, 'ids': [1386932628008534018], 'operateType': 1}
+2022-06-22 16:56:48.180 | INFO     | utils.get_clinic_info_test:bind_gold_blood_device:72 - 绑定设备接口返回参数{"busiCode":201,"msg":"一个诊所只能绑定同种设备一次","data":null}
+2022-06-22 16:56:48.319 | INFO     | utils.get_clinic_info_test:bind_gold_blood_device:71 - 绑定设备接口请求参数{'clinicId': 1442079173893074946, 'ids': [1474315307854172163], 'operateType': 1}
+2022-06-22 16:56:48.319 | INFO     | utils.get_clinic_info_test:bind_gold_blood_device:72 - 绑定设备接口返回参数{"busiCode":201,"msg":"一个诊所只能绑定同种设备一次","data":null}
+2022-06-22 16:56:48.427 | INFO     | __main__:add_patient:60 - 添加患者接口请求参数为:{'age': 18, 'deviceId': 'B221031135000149', 'month': 0, 'name': '华强测试', 'phone': '13622220000', 'sex': 0, 'termClinicId': 1442079173893074946}
+2022-06-22 16:56:48.427 | INFO     | __main__:add_patient:61 - 添加患者接口响应参数为:{"busiCode":0,"msg":"请求成功","data":{"patientId":"1539532847320727553"}}
+2022-06-22 16:56:50.331 | INFO     | __main__:start_CRP_and_SAA:88 - crp+saa检测接口请求参数为:{'clinicId': 1442079173893074946, 'sno': 'B221031135000149'}
+2022-06-22 16:56:50.331 | INFO     | __main__:start_CRP_and_SAA:89 - crp+saa检测接口响应参数为:{"busiCode":0,"msg":"请求成功","data":{"stripTypeCode":"4","stripBatch":"38","testPoctDataId":"1539532850390958081","imgUrl":"http://publicmedia.ehomepoct.com/jbyimage/CRP.png","reactTime":5,"warningTips":null,"stripName":"CRP检测(XXXVIII)"}}
+2022-06-22 16:56:50.456 | INFO     | __main__:upload_patient:72 - 发布患者信息接口请求参数为:{'age': 18, 'deviceId': 'BLD100021111800001', 'month': 0, 'name': '华强测试', 'phone': '13622220000', 'sex': 0, 'termClinicId': 1442079173893074946}
+2022-06-22 16:56:50.456 | INFO     | __main__:upload_patient:73 - 发布患者信息接口响应参数为:{"busiCode":0,"msg":"请求成功","data":"1539532855805804545"}
+2022-06-22 16:56:50.784 | INFO     | __main__:blood_test:115 - 血常规检测接口请求参数为:{'boardSno': '220301360723', 'cameraName': '测试相机', 'clinicId': 1442079173893074946, 'deviceSno': 'BLD100021111800001', 'hgbCalibration': [{'reference': 20317, 'groundTruth': 0, 'measure': 25501}, {'reference': 20732, 'groundTruth': 0, 'measure': 25637}, {'reference': 19684, 'groundTruth': 231, 'measure': 2397}, {'reference': 20401, 'groundTruth': 141, 'measure': 6061}, {'reference': 20628, 'groundTruth': 71, 'measure': 12633}, {'reference': 20360, 'groundTruth': 48, 'measure': 15893}], 'hgbCurveData': [], 'hgbMeasure': 0, 'hgbReference': 0, 'path': 'c69099f6-2df3-497b-b5ac-cefdca802aa9.zip', 'patientId': '1539532847320727553', 'pointConfig': {'plt': {'focus': 0, 'points': 0}, 'rbc': {'focus': 0, 'points': 0}, 'wbc': {'focus': 0, 'points': 0}}, 'type': 2}
+2022-06-22 16:56:50.784 | INFO     | __main__:blood_test:116 - 血常规检测接口响应参数为:{"busiCode":0,"msg":"请求成功","data":"1539532857113812993"}
+2022-06-22 16:57:18.838 | INFO     | utils.login:login_test:22 - 本次登录获取token为:{'Authorization': 'bearer 1bf84635-b76b-4446-a225-9cc5be710c7c'}
+2022-06-22 16:57:19.554 | INFO     | utils.get_clinic_info_test:bind_gold_blood_device:71 - 绑定设备接口请求参数{'clinicId': 1442079173893074946, 'ids': [1386932628008534018], 'operateType': 1}
+2022-06-22 16:57:19.554 | INFO     | utils.get_clinic_info_test:bind_gold_blood_device:72 - 绑定设备接口返回参数{"busiCode":201,"msg":"一个诊所只能绑定同种设备一次","data":null}
+2022-06-22 16:57:19.670 | INFO     | utils.get_clinic_info_test:bind_gold_blood_device:71 - 绑定设备接口请求参数{'clinicId': 1442079173893074946, 'ids': [1474315307854172163], 'operateType': 1}
+2022-06-22 16:57:19.670 | INFO     | utils.get_clinic_info_test:bind_gold_blood_device:72 - 绑定设备接口返回参数{"busiCode":201,"msg":"一个诊所只能绑定同种设备一次","data":null}
+2022-06-22 16:57:19.789 | INFO     | __main__:add_patient:60 - 添加患者接口请求参数为:{'age': 18, 'deviceId': 'B221031135000149', 'month': 0, 'name': '华强测试', 'phone': '13622220000', 'sex': 0, 'termClinicId': 1442079173893074946}
+2022-06-22 16:57:19.790 | INFO     | __main__:add_patient:61 - 添加患者接口响应参数为:{"busiCode":0,"msg":"请求成功","data":{"patientId":"1539532978870878210"}}
+2022-06-22 16:57:21.653 | INFO     | __main__:start_CRP_and_SAA:88 - crp+saa检测接口请求参数为:{'clinicId': 1442079173893074946, 'sno': 'B221031135000149'}
+2022-06-22 16:57:21.654 | INFO     | __main__:start_CRP_and_SAA:89 - crp+saa检测接口响应参数为:{"busiCode":0,"msg":"请求成功","data":{"stripTypeCode":"4","stripBatch":"38","testPoctDataId":"1539532981555232769","imgUrl":"http://publicmedia.ehomepoct.com/jbyimage/CRP.png","reactTime":5,"warningTips":null,"stripName":"CRP检测(XXXVIII)"}}
+2022-06-22 16:57:21.775 | INFO     | __main__:upload_patient:72 - 发布患者信息接口请求参数为:{'age': 18, 'deviceId': 'BLD100021111800001', 'month': 0, 'name': '华强测试', 'phone': '13622220000', 'sex': 0, 'termClinicId': 1442079173893074946}
+2022-06-22 16:57:21.775 | INFO     | __main__:upload_patient:73 - 发布患者信息接口响应参数为:{"busiCode":0,"msg":"请求成功","data":"1539532987171405825"}
+2022-06-22 16:57:21.991 | INFO     | __main__:blood_test:115 - 血常规检测接口请求参数为:{'boardSno': '220301360723', 'cameraName': '测试相机', 'clinicId': 1442079173893074946, 'deviceSno': 'BLD100021111800001', 'hgbCalibration': [{'reference': 20317, 'groundTruth': 0, 'measure': 25501}, {'reference': 20732, 'groundTruth': 0, 'measure': 25637}, {'reference': 19684, 'groundTruth': 231, 'measure': 2397}, {'reference': 20401, 'groundTruth': 141, 'measure': 6061}, {'reference': 20628, 'groundTruth': 71, 'measure': 12633}, {'reference': 20360, 'groundTruth': 48, 'measure': 15893}], 'hgbCurveData': [], 'hgbMeasure': 0, 'hgbReference': 0, 'path': 'c69099f6-2df3-497b-b5ac-cefdca802aa9.zip', 'patientId': '1539532978870878210', 'pointConfig': {'plt': {'focus': 0, 'points': 0}, 'rbc': {'focus': 0, 'points': 0}, 'wbc': {'focus': 0, 'points': 0}}, 'type': 2}
+2022-06-22 16:57:21.991 | INFO     | __main__:blood_test:116 - 血常规检测接口响应参数为:{"busiCode":0,"msg":"请求成功","data":"1539532987980292097"}
+2022-06-22 16:57:22.206 | INFO     | __main__:order_palce_blood:141 - 血常规下单接口请求参数为:{'boardSno': '220301360723', 'cameraName': '测试相机', 'clinicId': 1442079173893074946, 'deviceSno': 'BLD100021111800001', 'hgbCalibration': [{'reference': 20317, 'groundTruth': 0, 'measure': 25501}, {'reference': 20732, 'groundTruth': 0, 'measure': 25637}, {'reference': 19684, 'groundTruth': 231, 'measure': 2397}, {'reference': 20401, 'groundTruth': 141, 'measure': 6061}, {'reference': 20628, 'groundTruth': 71, 'measure': 12633}, {'reference': 20360, 'groundTruth': 48, 'measure': 15893}], 'hgbCurveData': [], 'hgbMeasure': 0, 'hgbReference': 0, 'path': 'c69099f6-2df3-497b-b5ac-cefdca802aa9.zip', 'patientId': '1539532978870878210', 'pointConfig': {'plt': {'focus': 0, 'points': 0}, 'rbc': {'focus': 0, 'points': 0}, 'wbc': {'focus': 0, 'points': 0}}, 'type': 2}
+2022-06-22 16:57:22.206 | INFO     | __main__:order_palce_blood:142 - 血常规下单接口响应参数为:{"busiCode":-1,"msg":"接口未知异常","data":null}
+2022-06-22 17:01:17.106 | INFO     | utils.login:login_test:22 - 本次登录获取token为:{'Authorization': 'bearer 1bf84635-b76b-4446-a225-9cc5be710c7c'}
+2022-06-22 17:01:17.814 | INFO     | utils.get_clinic_info_test:bind_gold_blood_device:71 - 绑定设备接口请求参数{'clinicId': 1442079173893074946, 'ids': [1386932628008534018], 'operateType': 1}
+2022-06-22 17:01:17.814 | INFO     | utils.get_clinic_info_test:bind_gold_blood_device:72 - 绑定设备接口返回参数{"busiCode":201,"msg":"一个诊所只能绑定同种设备一次","data":null}
+2022-06-22 17:01:17.950 | INFO     | utils.get_clinic_info_test:bind_gold_blood_device:71 - 绑定设备接口请求参数{'clinicId': 1442079173893074946, 'ids': [1474315307854172163], 'operateType': 1}
+2022-06-22 17:01:17.951 | INFO     | utils.get_clinic_info_test:bind_gold_blood_device:72 - 绑定设备接口返回参数{"busiCode":201,"msg":"一个诊所只能绑定同种设备一次","data":null}
+2022-06-22 17:01:18.060 | INFO     | __main__:add_patient:60 - 添加患者接口请求参数为:{'age': 18, 'deviceId': 'B221031135000149', 'month': 0, 'name': '华强测试', 'phone': '13622220000', 'sex': 0, 'termClinicId': 1442079173893074946}
+2022-06-22 17:01:18.060 | INFO     | __main__:add_patient:61 - 添加患者接口响应参数为:{"busiCode":0,"msg":"请求成功","data":{"patientId":"1539533978247692290"}}
+2022-06-22 17:01:20.023 | INFO     | __main__:start_CRP_and_SAA:88 - crp+saa检测接口请求参数为:{'clinicId': 1442079173893074946, 'sno': 'B221031135000149'}
+2022-06-22 17:01:20.024 | INFO     | __main__:start_CRP_and_SAA:89 - crp+saa检测接口响应参数为:{"busiCode":0,"msg":"请求成功","data":{"stripTypeCode":"4","stripBatch":"38","testPoctDataId":"1539533981267591170","imgUrl":"http://publicmedia.ehomepoct.com/jbyimage/CRP.png","reactTime":5,"warningTips":null,"stripName":"CRP检测(XXXVIII)"}}
+2022-06-22 17:01:20.140 | INFO     | __main__:upload_patient:72 - 发布患者信息接口请求参数为:{'age': 18, 'deviceId': 'BLD100021111800001', 'month': 0, 'name': '华强测试', 'phone': '13622220000', 'sex': 0, 'termClinicId': 1442079173893074946}
+2022-06-22 17:01:20.141 | INFO     | __main__:upload_patient:73 - 发布患者信息接口响应参数为:{"busiCode":0,"msg":"请求成功","data":"1539533986955067393"}
+2022-06-22 17:01:20.537 | INFO     | __main__:blood_test:115 - 血常规检测接口请求参数为:{'boardSno': '220301360723', 'cameraName': '测试相机', 'clinicId': 1442079173893074946, 'deviceSno': 'BLD100021111800001', 'hgbCalibration': [{'reference': 20317, 'groundTruth': 0, 'measure': 25501}, {'reference': 20732, 'groundTruth': 0, 'measure': 25637}, {'reference': 19684, 'groundTruth': 231, 'measure': 2397}, {'reference': 20401, 'groundTruth': 141, 'measure': 6061}, {'reference': 20628, 'groundTruth': 71, 'measure': 12633}, {'reference': 20360, 'groundTruth': 48, 'measure': 15893}], 'hgbCurveData': [], 'hgbMeasure': 0, 'hgbReference': 0, 'path': 'c69099f6-2df3-497b-b5ac-cefdca802aa9.zip', 'patientId': '1539533978247692290', 'pointConfig': {'plt': {'focus': 0, 'points': 0}, 'rbc': {'focus': 0, 'points': 0}, 'wbc': {'focus': 0, 'points': 0}}, 'type': 2}
+2022-06-22 17:01:20.538 | INFO     | __main__:blood_test:116 - 血常规检测接口响应参数为:{"busiCode":0,"msg":"请求成功","data":"1539533988447625217"}
+2022-06-22 17:01:20.767 | INFO     | __main__:order_palce_blood:141 - 血常规下单接口请求参数为:{'boardSno': '220301360723', 'cameraName': '测试相机', 'clinicId': 1442079173893074946, 'deviceSno': 'BLD100021111800001', 'hgbCalibration': [{'reference': 20317, 'groundTruth': 0, 'measure': 25501}, {'reference': 20732, 'groundTruth': 0, 'measure': 25637}, {'reference': 19684, 'groundTruth': 231, 'measure': 2397}, {'reference': 20401, 'groundTruth': 141, 'measure': 6061}, {'reference': 20628, 'groundTruth': 71, 'measure': 12633}, {'reference': 20360, 'groundTruth': 48, 'measure': 15893}], 'hgbCurveData': [], 'hgbMeasure': 0, 'hgbReference': 0, 'path': 'c69099f6-2df3-497b-b5ac-cefdca802aa9.zip', 'patientId': '1539533978247692290', 'pointConfig': {'plt': {'focus': 0, 'points': 0}, 'rbc': {'focus': 0, 'points': 0}, 'wbc': {'focus': 0, 'points': 0}}, 'type': 2}
+2022-06-22 17:01:20.767 | INFO     | __main__:order_palce_blood:142 - 血常规下单接口响应参数为:{"busiCode":-1,"msg":"接口未知异常","data":null}
+2022-06-22 17:02:13.407 | INFO     | utils.login:login_test:22 - 本次登录获取token为:{'Authorization': 'bearer 1bf84635-b76b-4446-a225-9cc5be710c7c'}
+2022-06-22 17:02:14.112 | INFO     | utils.get_clinic_info_test:bind_gold_blood_device:71 - 绑定设备接口请求参数{'clinicId': 1442079173893074946, 'ids': [1386932628008534018], 'operateType': 1}
+2022-06-22 17:02:14.113 | INFO     | utils.get_clinic_info_test:bind_gold_blood_device:72 - 绑定设备接口返回参数{"busiCode":201,"msg":"一个诊所只能绑定同种设备一次","data":null}
+2022-06-22 17:02:14.234 | INFO     | utils.get_clinic_info_test:bind_gold_blood_device:71 - 绑定设备接口请求参数{'clinicId': 1442079173893074946, 'ids': [1474315307854172163], 'operateType': 1}
+2022-06-22 17:02:14.235 | INFO     | utils.get_clinic_info_test:bind_gold_blood_device:72 - 绑定设备接口返回参数{"busiCode":201,"msg":"一个诊所只能绑定同种设备一次","data":null}
+2022-06-22 17:02:14.326 | INFO     | __main__:add_patient:60 - 添加患者接口请求参数为:{'age': 18, 'deviceId': 'B221031135000149', 'month': 0, 'name': '华强测试', 'phone': '13622220000', 'sex': 0, 'termClinicId': 1442079173893074946}
+2022-06-22 17:02:14.326 | INFO     | __main__:add_patient:61 - 添加患者接口响应参数为:{"busiCode":0,"msg":"请求成功","data":{"patientId":"1539534214248595458"}}
+2022-06-22 17:02:16.111 | INFO     | __main__:start_CRP_and_SAA:88 - crp+saa检测接口请求参数为:{'clinicId': 1442079173893074946, 'sno': 'B221031135000149'}
+2022-06-22 17:02:16.111 | INFO     | __main__:start_CRP_and_SAA:89 - crp+saa检测接口响应参数为:{"busiCode":0,"msg":"请求成功","data":{"stripTypeCode":"4","stripBatch":"38","testPoctDataId":"1539534216790343681","imgUrl":"http://publicmedia.ehomepoct.com/jbyimage/CRP.png","reactTime":5,"warningTips":null,"stripName":"CRP检测(XXXVIII)"}}
+2022-06-22 17:02:16.218 | INFO     | __main__:upload_patient:72 - 发布患者信息接口请求参数为:{'age': 18, 'deviceId': 'BLD100021111800001', 'month': 0, 'name': '华强测试', 'phone': '13622220000', 'sex': 0, 'termClinicId': 1442079173893074946}
+2022-06-22 17:02:16.218 | INFO     | __main__:upload_patient:73 - 发布患者信息接口响应参数为:{"busiCode":0,"msg":"请求成功","data":"1539534222159052801"}
+2022-06-22 17:02:16.406 | INFO     | __main__:blood_test:115 - 血常规检测接口请求参数为:{'boardSno': '220301360723', 'cameraName': '测试相机', 'clinicId': 1442079173893074946, 'deviceSno': 'BLD100021111800001', 'hgbCalibration': [{'reference': 20317, 'groundTruth': 0, 'measure': 25501}, {'reference': 20732, 'groundTruth': 0, 'measure': 25637}, {'reference': 19684, 'groundTruth': 231, 'measure': 2397}, {'reference': 20401, 'groundTruth': 141, 'measure': 6061}, {'reference': 20628, 'groundTruth': 71, 'measure': 12633}, {'reference': 20360, 'groundTruth': 48, 'measure': 15893}], 'hgbCurveData': [], 'hgbMeasure': 0, 'hgbReference': 0, 'path': 'c69099f6-2df3-497b-b5ac-cefdca802aa9.zip', 'patientId': '1539534214248595458', 'pointConfig': {'plt': {'focus': 0, 'points': 0}, 'rbc': {'focus': 0, 'points': 0}, 'wbc': {'focus': 0, 'points': 0}}, 'type': 2}
+2022-06-22 17:02:16.406 | INFO     | __main__:blood_test:116 - 血常规检测接口响应参数为:{"busiCode":0,"msg":"请求成功","data":"1539534222863081473"}
+2022-06-22 17:02:17.572 | INFO     | __main__:get_manual_status:128 - 等待一秒钟，再去查询
+2022-06-22 17:02:17.572 | INFO     | __main__:get_manual_status:129 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': ''}}
+2022-06-22 17:02:18.721 | INFO     | __main__:get_manual_status:128 - 等待一秒钟，再去查询
+2022-06-22 17:02:18.722 | INFO     | __main__:get_manual_status:129 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': ''}}
+2022-06-22 17:02:20.023 | INFO     | __main__:get_manual_status:128 - 等待一秒钟，再去查询
+2022-06-22 17:02:20.023 | INFO     | __main__:get_manual_status:129 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': ''}}
+2022-06-22 17:02:21.178 | INFO     | __main__:get_manual_status:128 - 等待一秒钟，再去查询
+2022-06-22 17:02:21.178 | INFO     | __main__:get_manual_status:129 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': ''}}
+2022-06-22 17:02:22.337 | INFO     | __main__:get_manual_status:128 - 等待一秒钟，再去查询
+2022-06-22 17:02:22.337 | INFO     | __main__:get_manual_status:129 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': ''}}
+2022-06-22 17:02:23.766 | INFO     | __main__:get_manual_status:128 - 等待一秒钟，再去查询
+2022-06-22 17:02:23.766 | INFO     | __main__:get_manual_status:129 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': ''}}
+2022-06-22 17:02:24.923 | INFO     | __main__:get_manual_status:128 - 等待一秒钟，再去查询
+2022-06-22 17:02:24.923 | INFO     | __main__:get_manual_status:129 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 3, 'msg': ''}}
+2022-06-22 17:02:28.758 | INFO     | __main__:order_palce_blood:142 - 血常规下单接口请求参数为:{'dataId': '1539534222863081473', 'recordId': '1539534222159052801'}
+2022-06-22 17:02:28.758 | INFO     | __main__:order_palce_blood:143 - 血常规下单接口响应参数为:{"busiCode":0,"msg":"请求成功","data":{"orderNo":"BLD1000211118000012206221702276091","payUrl":null,"money":null,"promptMsg":"联合检测金标仪未完成","orderStatus":null}}
+2022-06-22 17:08:34.325 | INFO     | utils.login:login_test:22 - 本次登录获取token为:{'Authorization': 'bearer 1bf84635-b76b-4446-a225-9cc5be710c7c'}
+2022-06-22 17:08:35.072 | INFO     | utils.get_clinic_info_test:bind_gold_blood_device:71 - 绑定设备接口请求参数{'clinicId': 1442079173893074946, 'ids': [1386932628008534018], 'operateType': 1}
+2022-06-22 17:08:35.072 | INFO     | utils.get_clinic_info_test:bind_gold_blood_device:72 - 绑定设备接口返回参数{"busiCode":201,"msg":"一个诊所只能绑定同种设备一次","data":null}
+2022-06-22 17:08:35.189 | INFO     | utils.get_clinic_info_test:bind_gold_blood_device:71 - 绑定设备接口请求参数{'clinicId': 1442079173893074946, 'ids': [1474315307854172163], 'operateType': 1}
+2022-06-22 17:08:35.190 | INFO     | utils.get_clinic_info_test:bind_gold_blood_device:72 - 绑定设备接口返回参数{"busiCode":201,"msg":"一个诊所只能绑定同种设备一次","data":null}
+2022-06-22 17:08:35.279 | INFO     | __main__:add_patient:60 - 添加患者接口请求参数为:{'age': 18, 'deviceId': 'B221031135000149', 'month': 0, 'name': '华强测试', 'phone': '13622220000', 'sex': 0, 'termClinicId': 1442079173893074946}
+2022-06-22 17:08:35.280 | INFO     | __main__:add_patient:61 - 添加患者接口响应参数为:{"busiCode":0,"msg":"请求成功","data":{"patientId":"1539535812089675778"}}
+2022-06-22 17:08:37.206 | INFO     | __main__:start_CRP_and_SAA:88 - crp+saa检测接口请求参数为:{'clinicId': 1442079173893074946, 'sno': 'B221031135000149'}
+2022-06-22 17:08:37.207 | INFO     | __main__:start_CRP_and_SAA:89 - crp+saa检测接口响应参数为:{"busiCode":0,"msg":"请求成功","data":{"stripTypeCode":"4","stripBatch":"38","testPoctDataId":"1539535815096991745","imgUrl":"http://publicmedia.ehomepoct.com/jbyimage/CRP.png","reactTime":5,"warningTips":null,"stripName":"CRP检测(XXXVIII)"}}
+2022-06-22 17:08:37.319 | INFO     | __main__:upload_patient:72 - 发布患者信息接口请求参数为:{'age': 18, 'deviceId': 'BLD100021111800001', 'month': 0, 'name': '华强测试', 'phone': '13622220000', 'sex': 0, 'termClinicId': 1442079173893074946}
+2022-06-22 17:08:37.319 | INFO     | __main__:upload_patient:73 - 发布患者信息接口响应参数为:{"busiCode":0,"msg":"请求成功","data":"1539535820616695809"}
+2022-06-22 17:08:40.056 | INFO     | __main__:blood_test:115 - 血常规检测接口请求参数为:{'boardSno': '220301360723', 'cameraName': '测试相机', 'clinicId': 1442079173893074946, 'deviceSno': 'BLD100021111800001', 'hgbCalibration': [{'reference': 20317, 'groundTruth': 0, 'measure': 25501}, {'reference': 20732, 'groundTruth': 0, 'measure': 25637}, {'reference': 19684, 'groundTruth': 231, 'measure': 2397}, {'reference': 20401, 'groundTruth': 141, 'measure': 6061}, {'reference': 20628, 'groundTruth': 71, 'measure': 12633}, {'reference': 20360, 'groundTruth': 48, 'measure': 15893}], 'hgbCurveData': [], 'hgbMeasure': 0, 'hgbReference': 0, 'path': 'c69099f6-2df3-497b-b5ac-cefdca802aa9.zip', 'patientId': '1539535812089675778', 'pointConfig': {'plt': {'focus': 0, 'points': 0}, 'rbc': {'focus': 0, 'points': 0}, 'wbc': {'focus': 0, 'points': 0}}, 'type': 2}
+2022-06-22 17:08:40.057 | INFO     | __main__:blood_test:116 - 血常规检测接口响应参数为:{"busiCode":0,"msg":"请求成功","data":"1539535831785005058"}
+2022-06-22 17:08:41.226 | INFO     | __main__:get_manual_status:128 - 等待一秒钟，再去查询
+2022-06-22 17:08:41.226 | INFO     | __main__:get_manual_status:129 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': ''}}
+2022-06-22 17:08:42.412 | INFO     | __main__:get_manual_status:128 - 等待一秒钟，再去查询
+2022-06-22 17:08:42.412 | INFO     | __main__:get_manual_status:129 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': ''}}
+2022-06-22 17:08:43.585 | INFO     | __main__:get_manual_status:128 - 等待一秒钟，再去查询
+2022-06-22 17:08:43.585 | INFO     | __main__:get_manual_status:129 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': ''}}
+2022-06-22 17:08:44.876 | INFO     | __main__:get_manual_status:128 - 等待一秒钟，再去查询
+2022-06-22 17:08:44.876 | INFO     | __main__:get_manual_status:129 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': ''}}
+2022-06-22 17:08:46.081 | INFO     | __main__:get_manual_status:128 - 等待一秒钟，再去查询
+2022-06-22 17:08:46.081 | INFO     | __main__:get_manual_status:129 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': ''}}
+2022-06-22 17:08:47.272 | INFO     | __main__:get_manual_status:128 - 等待一秒钟，再去查询
+2022-06-22 17:08:47.272 | INFO     | __main__:get_manual_status:129 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': ''}}
+2022-06-22 17:08:48.448 | INFO     | __main__:get_manual_status:128 - 等待一秒钟，再去查询
+2022-06-22 17:08:48.448 | INFO     | __main__:get_manual_status:129 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': ''}}
+2022-06-22 17:08:49.612 | INFO     | __main__:get_manual_status:128 - 等待一秒钟，再去查询
+2022-06-22 17:08:49.612 | INFO     | __main__:get_manual_status:129 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 4, 'msg': ''}}
+2022-06-22 17:08:50.046 | INFO     | __main__:order_palce_blood:142 - 血常规下单接口请求参数为:{'dataId': '1539535831785005058', 'recordId': '1539535820616695809'}
+2022-06-22 17:08:50.047 | INFO     | __main__:order_palce_blood:143 - 血常规下单接口响应参数为:{"busiCode":0,"msg":"请求成功","data":{"orderNo":"BLD1000211118000012206221708506799","payUrl":null,"money":null,"promptMsg":"联合检测金标仪未完成","orderStatus":null}}
+2022-06-22 17:08:50.155 | INFO     | __main__:call_back:159 - 支付回调接口请求参数为：{'openId': '111111111111', 'orderNo': 'BLD1000211118000012206221708506799', 'outOrderNo': '111111111111111', 'outTransactionNo': '111111111111111111111', 'payChannel': '0', 'payFinishTime': '2022-06-22 17:11:50', 'payStatus': 'SUCCESS', 'payType': 'WXPAY', 'tradeType': 'JSAPI'}
+2022-06-22 17:08:50.156 | INFO     | __main__:call_back:160 - 支付回调接口响应内容为:{"busiCode":0,"msg":"请求成功","data":null}
+2022-06-22 17:12:43.076 | INFO     | utils.login:login_test:22 - 本次登录获取token为:{'Authorization': 'bearer 1bf84635-b76b-4446-a225-9cc5be710c7c'}
+2022-06-22 17:12:43.775 | INFO     | utils.get_clinic_info_test:bind_gold_blood_device:71 - 绑定设备接口请求参数{'clinicId': 1442079173893074946, 'ids': [1386932628008534018], 'operateType': 1}
+2022-06-22 17:12:43.776 | INFO     | utils.get_clinic_info_test:bind_gold_blood_device:72 - 绑定设备接口返回参数{"busiCode":201,"msg":"一个诊所只能绑定同种设备一次","data":null}
+2022-06-22 17:12:43.891 | INFO     | utils.get_clinic_info_test:bind_gold_blood_device:71 - 绑定设备接口请求参数{'clinicId': 1442079173893074946, 'ids': [1474315307854172163], 'operateType': 1}
+2022-06-22 17:12:43.891 | INFO     | utils.get_clinic_info_test:bind_gold_blood_device:72 - 绑定设备接口返回参数{"busiCode":201,"msg":"一个诊所只能绑定同种设备一次","data":null}
+2022-06-22 17:12:43.990 | INFO     | __main__:add_patient:60 - 添加患者接口请求参数为:{'age': 18, 'deviceId': 'B221031135000149', 'month': 0, 'name': '华强测试', 'phone': '13622220000', 'sex': 0, 'termClinicId': 1442079173893074946}
+2022-06-22 17:12:43.990 | INFO     | __main__:add_patient:61 - 添加患者接口响应参数为:{"busiCode":0,"msg":"请求成功","data":{"patientId":"1539536855259217922"}}
+2022-06-22 17:12:45.895 | INFO     | __main__:start_CRP_and_SAA:88 - crp+saa检测接口请求参数为:{'clinicId': 1442079173893074946, 'sno': 'B221031135000149'}
+2022-06-22 17:12:45.895 | INFO     | __main__:start_CRP_and_SAA:89 - crp+saa检测接口响应参数为:{"busiCode":0,"msg":"请求成功","data":{"stripTypeCode":"4","stripBatch":"38","testPoctDataId":"1539536858266533889","imgUrl":"http://publicmedia.ehomepoct.com/jbyimage/CRP.png","reactTime":5,"warningTips":null,"stripName":"CRP检测(XXXVIII)"}}
+2022-06-22 17:12:46.014 | INFO     | __main__:upload_patient:72 - 发布患者信息接口请求参数为:{'age': 18, 'deviceId': 'BLD100021111800001', 'month': 0, 'name': '华强测试', 'phone': '13622220000', 'sex': 0, 'termClinicId': 1442079173893074946}
+2022-06-22 17:12:46.014 | INFO     | __main__:upload_patient:73 - 发布患者信息接口响应参数为:{"busiCode":0,"msg":"请求成功","data":"1539536863714934785"}
+2022-06-22 17:12:46.362 | INFO     | __main__:blood_test:115 - 血常规检测接口请求参数为:{'boardSno': '220301360723', 'cameraName': '测试相机', 'clinicId': 1442079173893074946, 'deviceSno': 'BLD100021111800001', 'hgbCalibration': [{'reference': 20317, 'groundTruth': 0, 'measure': 25501}, {'reference': 20732, 'groundTruth': 0, 'measure': 25637}, {'reference': 19684, 'groundTruth': 231, 'measure': 2397}, {'reference': 20401, 'groundTruth': 141, 'measure': 6061}, {'reference': 20628, 'groundTruth': 71, 'measure': 12633}, {'reference': 20360, 'groundTruth': 48, 'measure': 15893}], 'hgbCurveData': [], 'hgbMeasure': 0, 'hgbReference': 0, 'path': 'c69099f6-2df3-497b-b5ac-cefdca802aa9.zip', 'patientId': '1539536855259217922', 'pointConfig': {'plt': {'focus': 0, 'points': 0}, 'rbc': {'focus': 0, 'points': 0}, 'wbc': {'focus': 0, 'points': 0}}, 'type': 2}
+2022-06-22 17:12:46.362 | INFO     | __main__:blood_test:116 - 血常规检测接口响应参数为:{"busiCode":0,"msg":"请求成功","data":"1539536865018241026"}
+2022-06-22 17:12:47.579 | INFO     | __main__:get_manual_status:128 - 等待一秒钟，再去查询
+2022-06-22 17:12:47.579 | INFO     | __main__:get_manual_status:129 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': ''}}
+2022-06-22 17:12:48.761 | INFO     | __main__:get_manual_status:128 - 等待一秒钟，再去查询
+2022-06-22 17:12:48.761 | INFO     | __main__:get_manual_status:129 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': ''}}
+2022-06-22 17:12:49.941 | INFO     | __main__:get_manual_status:128 - 等待一秒钟，再去查询
+2022-06-22 17:12:49.941 | INFO     | __main__:get_manual_status:129 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': ''}}
+2022-06-22 17:12:51.095 | INFO     | __main__:get_manual_status:128 - 等待一秒钟，再去查询
+2022-06-22 17:12:51.095 | INFO     | __main__:get_manual_status:129 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': ''}}
+2022-06-22 17:12:52.290 | INFO     | __main__:get_manual_status:128 - 等待一秒钟，再去查询
+2022-06-22 17:12:52.290 | INFO     | __main__:get_manual_status:129 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': ''}}
+2022-06-22 17:12:53.455 | INFO     | __main__:get_manual_status:128 - 等待一秒钟，再去查询
+2022-06-22 17:12:53.455 | INFO     | __main__:get_manual_status:129 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': ''}}
+2022-06-22 17:12:54.616 | INFO     | __main__:get_manual_status:128 - 等待一秒钟，再去查询
+2022-06-22 17:12:54.616 | INFO     | __main__:get_manual_status:129 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': ''}}
+2022-06-22 17:12:55.791 | INFO     | __main__:get_manual_status:128 - 等待一秒钟，再去查询
+2022-06-22 17:12:55.791 | INFO     | __main__:get_manual_status:129 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 4, 'msg': ''}}
+2022-06-22 17:12:56.189 | INFO     | __main__:order_palce_blood:142 - 血常规下单接口请求参数为:{'dataId': '1539536865018241026', 'recordId': '1539536863714934785'}
+2022-06-22 17:12:56.190 | INFO     | __main__:order_palce_blood:143 - 血常规下单接口响应参数为:{"busiCode":0,"msg":"请求成功","data":{"orderNo":"BLD1000211118000012206221712565227","payUrl":null,"money":null,"promptMsg":"联合检测金标仪未完成","orderStatus":null}}
+2022-06-22 17:12:56.271 | INFO     | __main__:call_back:159 - 支付回调接口请求参数为：{'openId': '111111111111', 'orderNo': 'BLD1000211118000012206221712565227', 'outOrderNo': '111111111111111', 'outTransactionNo': '111111111111111111111', 'payChannel': '0', 'payFinishTime': '2022-06-22 17:13:56', 'payStatus': 'SUCCESS', 'payType': 'WXPAY', 'tradeType': 'JSAPI'}
+2022-06-22 17:12:56.271 | INFO     | __main__:call_back:160 - 支付回调接口响应内容为:{"busiCode":0,"msg":"请求成功","data":null}
+2022-06-22 17:13:39.546 | INFO     | utils.login:login_test:22 - 本次登录获取token为:{'Authorization': 'bearer 1bf84635-b76b-4446-a225-9cc5be710c7c'}
+2022-06-22 17:13:40.258 | INFO     | utils.get_clinic_info_test:bind_gold_blood_device:71 - 绑定设备接口请求参数{'clinicId': 1442079173893074946, 'ids': [1386932628008534018], 'operateType': 1}
+2022-06-22 17:13:40.258 | INFO     | utils.get_clinic_info_test:bind_gold_blood_device:72 - 绑定设备接口返回参数{"busiCode":201,"msg":"一个诊所只能绑定同种设备一次","data":null}
+2022-06-22 17:13:40.371 | INFO     | utils.get_clinic_info_test:bind_gold_blood_device:71 - 绑定设备接口请求参数{'clinicId': 1442079173893074946, 'ids': [1474315307854172163], 'operateType': 1}
+2022-06-22 17:13:40.371 | INFO     | utils.get_clinic_info_test:bind_gold_blood_device:72 - 绑定设备接口返回参数{"busiCode":201,"msg":"一个诊所只能绑定同种设备一次","data":null}
+2022-06-22 17:13:40.461 | INFO     | __main__:add_patient:60 - 添加患者接口请求参数为:{'age': 18, 'deviceId': 'B221031135000149', 'month': 0, 'name': '华强测试', 'phone': '13622220000', 'sex': 0, 'termClinicId': 1442079173893074946}
+2022-06-22 17:13:40.461 | INFO     | __main__:add_patient:61 - 添加患者接口响应参数为:{"busiCode":0,"msg":"请求成功","data":{"patientId":"1539537092103176194"}}
+2022-06-22 17:13:42.247 | INFO     | __main__:start_CRP_and_SAA:88 - crp+saa检测接口请求参数为:{'clinicId': 1442079173893074946, 'sno': 'B221031135000149'}
+2022-06-22 17:13:42.247 | INFO     | __main__:start_CRP_and_SAA:89 - crp+saa检测接口响应参数为:{"busiCode":0,"msg":"请求成功","data":{"stripTypeCode":"4","stripBatch":"38","testPoctDataId":"1539537094632341506","imgUrl":"http://publicmedia.ehomepoct.com/jbyimage/CRP.png","reactTime":5,"warningTips":null,"stripName":"CRP检测(XXXVIII)"}}
+2022-06-22 17:13:42.351 | INFO     | __main__:upload_patient:72 - 发布患者信息接口请求参数为:{'age': 18, 'deviceId': 'BLD100021111800001', 'month': 0, 'name': '华强测试', 'phone': '13622220000', 'sex': 0, 'termClinicId': 1442079173893074946}
+2022-06-22 17:13:42.351 | INFO     | __main__:upload_patient:73 - 发布患者信息接口响应参数为:{"busiCode":0,"msg":"请求成功","data":"1539537100026216450"}
+2022-06-22 17:13:42.567 | INFO     | __main__:blood_test:115 - 血常规检测接口请求参数为:{'boardSno': '220301360723', 'cameraName': '测试相机', 'clinicId': 1442079173893074946, 'deviceSno': 'BLD100021111800001', 'hgbCalibration': [{'reference': 20317, 'groundTruth': 0, 'measure': 25501}, {'reference': 20732, 'groundTruth': 0, 'measure': 25637}, {'reference': 19684, 'groundTruth': 231, 'measure': 2397}, {'reference': 20401, 'groundTruth': 141, 'measure': 6061}, {'reference': 20628, 'groundTruth': 71, 'measure': 12633}, {'reference': 20360, 'groundTruth': 48, 'measure': 15893}], 'hgbCurveData': [], 'hgbMeasure': 0, 'hgbReference': 0, 'path': 'c69099f6-2df3-497b-b5ac-cefdca802aa9.zip', 'patientId': '1539537092103176194', 'pointConfig': {'plt': {'focus': 0, 'points': 0}, 'rbc': {'focus': 0, 'points': 0}, 'wbc': {'focus': 0, 'points': 0}}, 'type': 2}
+2022-06-22 17:13:42.567 | INFO     | __main__:blood_test:116 - 血常规检测接口响应参数为:{"busiCode":0,"msg":"请求成功","data":"1539537100763291649"}
+2022-06-22 17:13:43.720 | INFO     | __main__:get_manual_status:128 - 等待一秒钟，再去查询
+2022-06-22 17:13:43.720 | INFO     | __main__:get_manual_status:129 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': ''}}
+2022-06-22 17:13:44.874 | INFO     | __main__:get_manual_status:128 - 等待一秒钟，再去查询
+2022-06-22 17:13:44.874 | INFO     | __main__:get_manual_status:129 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': ''}}
+2022-06-22 17:13:46.048 | INFO     | __main__:get_manual_status:128 - 等待一秒钟，再去查询
+2022-06-22 17:13:46.048 | INFO     | __main__:get_manual_status:129 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': ''}}
+2022-06-22 17:13:47.216 | INFO     | __main__:get_manual_status:128 - 等待一秒钟，再去查询
+2022-06-22 17:13:47.216 | INFO     | __main__:get_manual_status:129 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': ''}}
+2022-06-22 17:13:48.382 | INFO     | __main__:get_manual_status:128 - 等待一秒钟，再去查询
+2022-06-22 17:13:48.382 | INFO     | __main__:get_manual_status:129 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': ''}}
+2022-06-22 17:13:49.543 | INFO     | __main__:get_manual_status:128 - 等待一秒钟，再去查询
+2022-06-22 17:13:49.543 | INFO     | __main__:get_manual_status:129 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': ''}}
+2022-06-22 17:13:50.706 | INFO     | __main__:get_manual_status:128 - 等待一秒钟，再去查询
+2022-06-22 17:13:50.706 | INFO     | __main__:get_manual_status:129 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': ''}}
+2022-06-22 17:13:51.866 | INFO     | __main__:get_manual_status:128 - 等待一秒钟，再去查询
+2022-06-22 17:13:51.866 | INFO     | __main__:get_manual_status:129 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 4, 'msg': ''}}
+2022-06-22 17:13:52.240 | INFO     | __main__:order_palce_blood:142 - 血常规下单接口请求参数为:{'dataId': '1539537100763291649', 'recordId': '1539537100026216450'}
+2022-06-22 17:13:52.240 | INFO     | __main__:order_palce_blood:143 - 血常规下单接口响应参数为:{"busiCode":0,"msg":"请求成功","data":{"orderNo":"BLD1000211118000012206221713525600","payUrl":null,"money":null,"promptMsg":"联合检测金标仪未完成","orderStatus":null}}
+2022-06-22 17:13:52.419 | INFO     | __main__:call_back:159 - 支付回调接口请求参数为：{'openId': '111111111111', 'orderNo': 'BLD1000211118000012206221713525600', 'outOrderNo': '111111111111111', 'outTransactionNo': '111111111111111111111', 'payChannel': '0', 'payFinishTime': '2022-06-22 17:14:52', 'payStatus': 'SUCCESS', 'payType': 'WXPAY', 'tradeType': 'JSAPI'}
+2022-06-22 17:13:52.419 | INFO     | __main__:call_back:160 - 支付回调接口响应内容为:{"timestamp":"2022-06-22 17:13:52","status":404,"error":"Not Found","message":"","path":"/api/order/qr/callBackk"}
+2022-06-22 17:14:38.581 | INFO     | utils.login:login_test:22 - 本次登录获取token为:{'Authorization': 'bearer 1bf84635-b76b-4446-a225-9cc5be710c7c'}
+2022-06-22 17:14:39.312 | INFO     | utils.get_clinic_info_test:bind_gold_blood_device:71 - 绑定设备接口请求参数{'clinicId': 1442079173893074946, 'ids': [1386932628008534018], 'operateType': 1}
+2022-06-22 17:14:39.313 | INFO     | utils.get_clinic_info_test:bind_gold_blood_device:72 - 绑定设备接口返回参数{"busiCode":201,"msg":"一个诊所只能绑定同种设备一次","data":null}
+2022-06-22 17:14:39.465 | INFO     | utils.get_clinic_info_test:bind_gold_blood_device:71 - 绑定设备接口请求参数{'clinicId': 1442079173893074946, 'ids': [1474315307854172163], 'operateType': 1}
+2022-06-22 17:14:39.465 | INFO     | utils.get_clinic_info_test:bind_gold_blood_device:72 - 绑定设备接口返回参数{"busiCode":201,"msg":"一个诊所只能绑定同种设备一次","data":null}
+2022-06-22 17:14:39.551 | INFO     | __main__:add_patient:60 - 添加患者接口请求参数为:{'age': 18, 'deviceId': 'B221031135000149', 'month': 0, 'name': '华强测试', 'phone': '13622220000', 'sex': 0, 'termClinicId': 1442079173893074946}
+2022-06-22 17:14:39.551 | INFO     | __main__:add_patient:61 - 添加患者接口响应参数为:{"busiCode":0,"msg":"请求成功","data":{"patientId":"1539537339961376769"}}
+2022-06-22 17:14:41.314 | INFO     | __main__:start_CRP_and_SAA:88 - crp+saa检测接口请求参数为:{'clinicId': 1442079173893074946, 'sno': 'B221031135000149'}
+2022-06-22 17:14:41.315 | INFO     | __main__:start_CRP_and_SAA:89 - crp+saa检测接口响应参数为:{"busiCode":0,"msg":"请求成功","data":{"stripTypeCode":"4","stripBatch":"38","testPoctDataId":"1539537342427627522","imgUrl":"http://publicmedia.ehomepoct.com/jbyimage/CRP.png","reactTime":5,"warningTips":null,"stripName":"CRP检测(XXXVIII)"}}
+2022-06-22 17:14:41.421 | INFO     | __main__:upload_patient:72 - 发布患者信息接口请求参数为:{'age': 18, 'deviceId': 'BLD100021111800001', 'month': 0, 'name': '华强测试', 'phone': '13622220000', 'sex': 0, 'termClinicId': 1442079173893074946}
+2022-06-22 17:14:41.421 | INFO     | __main__:upload_patient:73 - 发布患者信息接口响应参数为:{"busiCode":0,"msg":"请求成功","data":"1539537347779559426"}
+2022-06-22 17:14:41.637 | INFO     | __main__:blood_test:115 - 血常规检测接口请求参数为:{'boardSno': '220301360723', 'cameraName': '测试相机', 'clinicId': 1442079173893074946, 'deviceSno': 'BLD100021111800001', 'hgbCalibration': [{'reference': 20317, 'groundTruth': 0, 'measure': 25501}, {'reference': 20732, 'groundTruth': 0, 'measure': 25637}, {'reference': 19684, 'groundTruth': 231, 'measure': 2397}, {'reference': 20401, 'groundTruth': 141, 'measure': 6061}, {'reference': 20628, 'groundTruth': 71, 'measure': 12633}, {'reference': 20360, 'groundTruth': 48, 'measure': 15893}], 'hgbCurveData': [], 'hgbMeasure': 0, 'hgbReference': 0, 'path': 'c69099f6-2df3-497b-b5ac-cefdca802aa9.zip', 'patientId': '1539537339961376769', 'pointConfig': {'plt': {'focus': 0, 'points': 0}, 'rbc': {'focus': 0, 'points': 0}, 'wbc': {'focus': 0, 'points': 0}}, 'type': 2}
+2022-06-22 17:14:41.637 | INFO     | __main__:blood_test:116 - 血常规检测接口响应参数为:{"busiCode":0,"msg":"请求成功","data":"1539537348550189057"}
+2022-06-22 17:14:42.785 | INFO     | __main__:get_manual_status:128 - 等待一秒钟，再去查询
+2022-06-22 17:14:42.785 | INFO     | __main__:get_manual_status:129 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': ''}}
+2022-06-22 17:14:43.941 | INFO     | __main__:get_manual_status:128 - 等待一秒钟，再去查询
+2022-06-22 17:14:43.941 | INFO     | __main__:get_manual_status:129 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': ''}}
+2022-06-22 17:14:45.094 | INFO     | __main__:get_manual_status:128 - 等待一秒钟，再去查询
+2022-06-22 17:14:45.094 | INFO     | __main__:get_manual_status:129 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': ''}}
+2022-06-22 17:14:46.301 | INFO     | __main__:get_manual_status:128 - 等待一秒钟，再去查询
+2022-06-22 17:14:46.301 | INFO     | __main__:get_manual_status:129 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': ''}}
+2022-06-22 17:14:47.471 | INFO     | __main__:get_manual_status:128 - 等待一秒钟，再去查询
+2022-06-22 17:14:47.471 | INFO     | __main__:get_manual_status:129 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': ''}}
+2022-06-22 17:14:48.634 | INFO     | __main__:get_manual_status:128 - 等待一秒钟，再去查询
+2022-06-22 17:14:48.634 | INFO     | __main__:get_manual_status:129 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': ''}}
+2022-06-22 17:14:49.793 | INFO     | __main__:get_manual_status:128 - 等待一秒钟，再去查询
+2022-06-22 17:14:49.793 | INFO     | __main__:get_manual_status:129 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': ''}}
+2022-06-22 17:14:51.003 | INFO     | __main__:get_manual_status:128 - 等待一秒钟，再去查询
+2022-06-22 17:14:51.003 | INFO     | __main__:get_manual_status:129 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 4, 'msg': ''}}
+2022-06-22 17:14:51.371 | INFO     | __main__:order_palce_blood:142 - 血常规下单接口请求参数为:{'dataId': '1539537348550189057', 'recordId': '1539537347779559426'}
+2022-06-22 17:14:51.371 | INFO     | __main__:order_palce_blood:143 - 血常规下单接口响应参数为:{"busiCode":0,"msg":"请求成功","data":{"orderNo":"BLD1000211118000012206221714511549","payUrl":null,"money":null,"promptMsg":"联合检测金标仪未完成","orderStatus":null}}
+2022-06-22 17:14:51.699 | INFO     | __main__:call_back:159 - 支付回调接口请求参数为：{'openId': '111111111111', 'orderNo': 'BLD1000211118000012206221714511549', 'outOrderNo': '111111111111111', 'outTransactionNo': '111111111111111111111', 'payChannel': '0', 'payFinishTime': '2022-06-22 17:15:51', 'payStatus': 'SUCCESS', 'payType': 'WXPAY', 'tradeType': 'JSAPI'}
+2022-06-22 17:14:51.699 | INFO     | __main__:call_back:160 - 支付回调接口响应内容为:{"busiCode":0,"msg":"请求成功","data":null}
+2022-06-22 17:16:24.857 | INFO     | utils.login:login_test:22 - 本次登录获取token为:{'Authorization': 'bearer 1bf84635-b76b-4446-a225-9cc5be710c7c'}
+2022-06-22 17:16:25.565 | INFO     | utils.get_clinic_info_test:bind_gold_blood_device:71 - 绑定设备接口请求参数{'clinicId': 1442079173893074946, 'ids': [1386932628008534018], 'operateType': 1}
+2022-06-22 17:16:25.565 | INFO     | utils.get_clinic_info_test:bind_gold_blood_device:72 - 绑定设备接口返回参数{"busiCode":201,"msg":"一个诊所只能绑定同种设备一次","data":null}
+2022-06-22 17:16:25.677 | INFO     | utils.get_clinic_info_test:bind_gold_blood_device:71 - 绑定设备接口请求参数{'clinicId': 1442079173893074946, 'ids': [1474315307854172163], 'operateType': 1}
+2022-06-22 17:16:25.677 | INFO     | utils.get_clinic_info_test:bind_gold_blood_device:72 - 绑定设备接口返回参数{"busiCode":201,"msg":"一个诊所只能绑定同种设备一次","data":null}
+2022-06-22 17:16:25.763 | INFO     | __main__:add_patient:60 - 添加患者接口请求参数为:{'age': 18, 'deviceId': 'B221031135000149', 'month': 0, 'name': '华强测试', 'phone': '13622220000', 'sex': 0, 'termClinicId': 1442079173893074946}
+2022-06-22 17:16:25.763 | INFO     | __main__:add_patient:61 - 添加患者接口响应参数为:{"busiCode":0,"msg":"请求成功","data":{"patientId":"1539537785442598914"}}
+2022-06-22 17:16:27.671 | INFO     | __main__:start_CRP_and_SAA:88 - crp+saa检测接口请求参数为:{'clinicId': 1442079173893074946, 'sno': 'B221031135000149'}
+2022-06-22 17:16:27.671 | INFO     | __main__:start_CRP_and_SAA:89 - crp+saa检测接口响应参数为:{"busiCode":0,"msg":"请求成功","data":{"stripTypeCode":"4","stripBatch":"38","testPoctDataId":"1539537788307308546","imgUrl":"http://publicmedia.ehomepoct.com/jbyimage/CRP.png","reactTime":5,"warningTips":null,"stripName":"CRP检测(XXXVIII)"}}
+2022-06-22 17:16:27.785 | INFO     | __main__:upload_patient:72 - 发布患者信息接口请求参数为:{'age': 18, 'deviceId': 'BLD100021111800001', 'month': 0, 'name': '华强测试', 'phone': '13622220000', 'sex': 0, 'termClinicId': 1442079173893074946}
+2022-06-22 17:16:27.786 | INFO     | __main__:upload_patient:73 - 发布患者信息接口响应参数为:{"busiCode":0,"msg":"请求成功","data":"1539537793881538561"}
+2022-06-22 17:16:27.891 | INFO     | __main__:create_order:102 - 创建订单接口请求参数为:{'addressDetail': '湖南省长沙市雨花区华坤时代', 'briefAddress': '湖南省长沙市雨花区雨河路279号靠近湘府路站', 'latitude': 113.029384, 'longitude': 28.111673, 'recordId': '1539537785442598914', 'sno': 'B221031135000149', 'testDataIds': ['1539537788307308546', '1539537792006684673']}
+2022-06-22 17:16:27.892 | INFO     | __main__:create_order:103 - 创建订单接口响应参数为:{"busiCode":50000101,"msg":"本次联测已取消。如需检测请重新检测！","data":null}
+2022-06-22 17:16:28.169 | INFO     | __main__:blood_test:116 - 血常规检测接口请求参数为:{'boardSno': '220301360723', 'cameraName': '测试相机', 'clinicId': 1442079173893074946, 'deviceSno': 'BLD100021111800001', 'hgbCalibration': [{'reference': 20317, 'groundTruth': 0, 'measure': 25501}, {'reference': 20732, 'groundTruth': 0, 'measure': 25637}, {'reference': 19684, 'groundTruth': 231, 'measure': 2397}, {'reference': 20401, 'groundTruth': 141, 'measure': 6061}, {'reference': 20628, 'groundTruth': 71, 'measure': 12633}, {'reference': 20360, 'groundTruth': 48, 'measure': 15893}], 'hgbCurveData': [], 'hgbMeasure': 0, 'hgbReference': 0, 'path': 'c69099f6-2df3-497b-b5ac-cefdca802aa9.zip', 'patientId': '1539537785442598914', 'pointConfig': {'plt': {'focus': 0, 'points': 0}, 'rbc': {'focus': 0, 'points': 0}, 'wbc': {'focus': 0, 'points': 0}}, 'type': 2}
+2022-06-22 17:16:28.169 | INFO     | __main__:blood_test:117 - 血常规检测接口响应参数为:{"busiCode":0,"msg":"请求成功","data":"1539537795386171394"}
+2022-06-22 17:16:29.333 | INFO     | __main__:get_manual_status:129 - 等待一秒钟，再去查询
+2022-06-22 17:16:29.333 | INFO     | __main__:get_manual_status:130 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': ''}}
+2022-06-22 17:16:30.490 | INFO     | __main__:get_manual_status:129 - 等待一秒钟，再去查询
+2022-06-22 17:16:30.490 | INFO     | __main__:get_manual_status:130 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': ''}}
+2022-06-22 17:16:31.649 | INFO     | __main__:get_manual_status:129 - 等待一秒钟，再去查询
+2022-06-22 17:16:31.649 | INFO     | __main__:get_manual_status:130 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': ''}}
+2022-06-22 17:16:32.818 | INFO     | __main__:get_manual_status:129 - 等待一秒钟，再去查询
+2022-06-22 17:16:32.818 | INFO     | __main__:get_manual_status:130 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': ''}}
+2022-06-22 17:16:33.993 | INFO     | __main__:get_manual_status:129 - 等待一秒钟，再去查询
+2022-06-22 17:16:33.993 | INFO     | __main__:get_manual_status:130 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': ''}}
+2022-06-22 17:16:35.151 | INFO     | __main__:get_manual_status:129 - 等待一秒钟，再去查询
+2022-06-22 17:16:35.152 | INFO     | __main__:get_manual_status:130 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': ''}}
+2022-06-22 17:16:36.307 | INFO     | __main__:get_manual_status:129 - 等待一秒钟，再去查询
+2022-06-22 17:16:36.307 | INFO     | __main__:get_manual_status:130 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': ''}}
+2022-06-22 17:16:37.469 | INFO     | __main__:get_manual_status:129 - 等待一秒钟，再去查询
+2022-06-22 17:16:37.469 | INFO     | __main__:get_manual_status:130 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 4, 'msg': ''}}
+2022-06-22 17:16:37.829 | INFO     | __main__:order_palce_blood:143 - 血常规下单接口请求参数为:{'dataId': '1539537795386171394', 'recordId': '1539537793881538561'}
+2022-06-22 17:16:37.830 | INFO     | __main__:order_palce_blood:144 - 血常规下单接口响应参数为:{"busiCode":0,"msg":"请求成功","data":{"orderNo":"BLD1000211118000012206221716379649","payUrl":null,"money":null,"promptMsg":"联合检测金标仪未完成","orderStatus":null}}
+2022-06-22 17:16:38.168 | INFO     | __main__:call_back:160 - 支付回调接口请求参数为：{'openId': '111111111111', 'orderNo': 'BLD1000211118000012206221716379649', 'outOrderNo': '111111111111111', 'outTransactionNo': '111111111111111111111', 'payChannel': '0', 'payFinishTime': '2022-06-22 17:17:37', 'payStatus': 'SUCCESS', 'payType': 'WXPAY', 'tradeType': 'JSAPI'}
+2022-06-22 17:16:38.168 | INFO     | __main__:call_back:161 - 支付回调接口响应内容为:{"busiCode":0,"msg":"请求成功","data":null}
+2022-06-22 17:18:45.463 | INFO     | utils.login:login_test:22 - 本次登录获取token为:{'Authorization': 'bearer 1bf84635-b76b-4446-a225-9cc5be710c7c'}
+2022-06-22 17:18:46.185 | INFO     | utils.get_clinic_info_test:bind_gold_blood_device:71 - 绑定设备接口请求参数{'clinicId': 1442079173893074946, 'ids': [1386932628008534018], 'operateType': 1}
+2022-06-22 17:18:46.185 | INFO     | utils.get_clinic_info_test:bind_gold_blood_device:72 - 绑定设备接口返回参数{"busiCode":201,"msg":"一个诊所只能绑定同种设备一次","data":null}
+2022-06-22 17:18:46.329 | INFO     | utils.get_clinic_info_test:bind_gold_blood_device:71 - 绑定设备接口请求参数{'clinicId': 1442079173893074946, 'ids': [1474315307854172163], 'operateType': 1}
+2022-06-22 17:18:46.329 | INFO     | utils.get_clinic_info_test:bind_gold_blood_device:72 - 绑定设备接口返回参数{"busiCode":201,"msg":"一个诊所只能绑定同种设备一次","data":null}
+2022-06-22 17:18:46.443 | INFO     | __main__:add_patient:60 - 添加患者接口请求参数为:{'age': 18, 'deviceId': 'B221031135000149', 'month': 0, 'name': '华强测试', 'phone': '13622220000', 'sex': 0, 'termClinicId': 1442079173893074946}
+2022-06-22 17:18:46.443 | INFO     | __main__:add_patient:61 - 添加患者接口响应参数为:{"busiCode":0,"msg":"请求成功","data":{"patientId":"1539538375463731202"}}
+2022-06-22 17:18:48.549 | INFO     | __main__:start_CRP_and_SAA:88 - crp+saa检测接口请求参数为:{'clinicId': 1442079173893074946, 'sno': 'B221031135000149'}
+2022-06-22 17:18:48.549 | INFO     | __main__:start_CRP_and_SAA:89 - crp+saa检测接口响应参数为:{"busiCode":0,"msg":"请求成功","data":{"stripTypeCode":"4","stripBatch":"38","testPoctDataId":"1539538378601070594","imgUrl":"http://publicmedia.ehomepoct.com/jbyimage/CRP.png","reactTime":5,"warningTips":null,"stripName":"CRP检测(XXXVIII)"}}
+2022-06-22 17:18:48.656 | INFO     | __main__:upload_patient:72 - 发布患者信息接口请求参数为:{'age': 18, 'deviceId': 'B221031135000149', 'month': 0, 'name': '华强测试', 'phone': '13622220000', 'sex': 0, 'termClinicId': 1442079173893074946}
+2022-06-22 17:18:48.657 | INFO     | __main__:upload_patient:73 - 发布患者信息接口响应参数为:{"busiCode":0,"msg":"请求成功","data":"1539538384754114561"}
+2022-06-22 17:18:48.753 | INFO     | __main__:create_order:102 - 金标仪创建联测订单接口请求参数为:{'addressDetail': '湖南省长沙市雨花区华坤时代', 'briefAddress': '湖南省长沙市雨花区雨河路279号靠近湘府路站', 'latitude': 113.029384, 'longitude': 28.111673, 'recordId': '1539538375463731202', 'sno': 'B221031135000149', 'testDataIds': ['1539538378601070594', '1539538383017672705']}
+2022-06-22 17:18:48.753 | INFO     | __main__:create_order:103 - 金标仪创建联测订单接口响应参数为:{"busiCode":50000101,"msg":"本次联测已取消。如需检测请重新检测！","data":null}
+2022-06-22 17:18:49.153 | INFO     | __main__:blood_test:116 - 血常规检测接口请求参数为:{'boardSno': '220301360723', 'cameraName': '测试相机', 'clinicId': 1442079173893074946, 'deviceSno': 'BLD100021111800001', 'hgbCalibration': [{'reference': 20317, 'groundTruth': 0, 'measure': 25501}, {'reference': 20732, 'groundTruth': 0, 'measure': 25637}, {'reference': 19684, 'groundTruth': 231, 'measure': 2397}, {'reference': 20401, 'groundTruth': 141, 'measure': 6061}, {'reference': 20628, 'groundTruth': 71, 'measure': 12633}, {'reference': 20360, 'groundTruth': 48, 'measure': 15893}], 'hgbCurveData': [], 'hgbMeasure': 0, 'hgbReference': 0, 'path': 'c69099f6-2df3-497b-b5ac-cefdca802aa9.zip', 'patientId': '1539538375463731202', 'pointConfig': {'plt': {'focus': 0, 'points': 0}, 'rbc': {'focus': 0, 'points': 0}, 'wbc': {'focus': 0, 'points': 0}}, 'type': 2}
+2022-06-22 17:18:49.153 | INFO     | __main__:blood_test:117 - 血常规检测接口响应参数为:{"busiCode":0,"msg":"请求成功","data":"1539538386686566402"}
+2022-06-22 17:18:50.310 | INFO     | __main__:get_manual_status:129 - 等待一秒钟，再去查询
+2022-06-22 17:18:50.310 | INFO     | __main__:get_manual_status:130 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': ''}}
+2022-06-22 17:18:51.466 | INFO     | __main__:get_manual_status:129 - 等待一秒钟，再去查询
+2022-06-22 17:18:51.466 | INFO     | __main__:get_manual_status:130 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': ''}}
+2022-06-22 17:18:52.626 | INFO     | __main__:get_manual_status:129 - 等待一秒钟，再去查询
+2022-06-22 17:18:52.626 | INFO     | __main__:get_manual_status:130 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': ''}}
+2022-06-22 17:18:53.781 | INFO     | __main__:get_manual_status:129 - 等待一秒钟，再去查询
+2022-06-22 17:18:53.782 | INFO     | __main__:get_manual_status:130 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': ''}}
+2022-06-22 17:18:54.939 | INFO     | __main__:get_manual_status:129 - 等待一秒钟，再去查询
+2022-06-22 17:18:54.939 | INFO     | __main__:get_manual_status:130 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': ''}}
+2022-06-22 17:18:56.097 | INFO     | __main__:get_manual_status:129 - 等待一秒钟，再去查询
+2022-06-22 17:18:56.097 | INFO     | __main__:get_manual_status:130 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': ''}}
+2022-06-22 17:18:57.248 | INFO     | __main__:get_manual_status:129 - 等待一秒钟，再去查询
+2022-06-22 17:18:57.248 | INFO     | __main__:get_manual_status:130 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': ''}}
+2022-06-22 17:18:58.410 | INFO     | __main__:get_manual_status:129 - 等待一秒钟，再去查询
+2022-06-22 17:18:58.410 | INFO     | __main__:get_manual_status:130 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 4, 'msg': ''}}
+2022-06-22 17:18:58.750 | INFO     | __main__:order_palce_blood:143 - 血常规下单接口请求参数为:{'dataId': '1539538386686566402', 'recordId': '1539538384754114561'}
+2022-06-22 17:18:58.750 | INFO     | __main__:order_palce_blood:144 - 血常规下单接口响应参数为:{"busiCode":0,"msg":"请求成功","data":{"orderNo":"BLD1000211118000012206221718583748","payUrl":null,"money":null,"promptMsg":"联合检测金标仪未完成","orderStatus":null}}
+2022-06-22 17:18:59.084 | INFO     | __main__:call_back:160 - 支付回调接口请求参数为：{'openId': '111111111111', 'orderNo': 'BLD1000211118000012206221718583748', 'outOrderNo': '111111111111111', 'outTransactionNo': '111111111111111111111', 'payChannel': '0', 'payFinishTime': '2022-06-22 17:19:58', 'payStatus': 'SUCCESS', 'payType': 'WXPAY', 'tradeType': 'JSAPI'}
+2022-06-22 17:18:59.085 | INFO     | __main__:call_back:161 - 支付回调接口响应内容为:{"busiCode":0,"msg":"请求成功","data":null}
+2022-06-22 17:21:50.937 | INFO     | utils.login:login_test:22 - 本次登录获取token为:{'Authorization': 'bearer 1bf84635-b76b-4446-a225-9cc5be710c7c'}
+2022-06-22 17:21:51.645 | INFO     | utils.get_clinic_info_test:bind_gold_blood_device:71 - 绑定设备接口请求参数{'clinicId': 1442079173893074946, 'ids': [1386932628008534018], 'operateType': 1}
+2022-06-22 17:21:51.645 | INFO     | utils.get_clinic_info_test:bind_gold_blood_device:72 - 绑定设备接口返回参数{"busiCode":201,"msg":"一个诊所只能绑定同种设备一次","data":null}
+2022-06-22 17:21:51.762 | INFO     | utils.get_clinic_info_test:bind_gold_blood_device:71 - 绑定设备接口请求参数{'clinicId': 1442079173893074946, 'ids': [1474315307854172163], 'operateType': 1}
+2022-06-22 17:21:51.762 | INFO     | utils.get_clinic_info_test:bind_gold_blood_device:72 - 绑定设备接口返回参数{"busiCode":201,"msg":"一个诊所只能绑定同种设备一次","data":null}
+2022-06-22 17:21:51.848 | INFO     | __main__:add_patient:60 - 添加患者接口请求参数为:{'age': 18, 'deviceId': 'B221031135000149', 'month': 0, 'name': '华强测试', 'phone': '13622220000', 'sex': 0, 'termClinicId': 1442079173893074946}
+2022-06-22 17:21:51.849 | INFO     | __main__:add_patient:61 - 添加患者接口响应参数为:{"busiCode":0,"msg":"请求成功","data":{"patientId":"1539539153154801665"}}
+2022-06-22 17:21:53.777 | INFO     | __main__:start_CRP_and_SAA:88 - crp+saa检测接口请求参数为:{'clinicId': 1442079173893074946, 'sno': 'B221031135000149'}
+2022-06-22 17:21:53.777 | INFO     | __main__:start_CRP_and_SAA:89 - crp+saa检测接口响应参数为:{"busiCode":0,"msg":"请求成功","data":{"stripTypeCode":"4","stripBatch":"38","testPoctDataId":"1539539156388610049","imgUrl":"http://publicmedia.ehomepoct.com/jbyimage/CRP.png","reactTime":5,"warningTips":null,"stripName":"CRP检测(XXXVIII)"}}
+2022-06-22 17:21:53.887 | INFO     | __main__:upload_patient:72 - 发布患者信息接口请求参数为:{'age': 18, 'deviceId': 'B221031135000149', 'month': 0, 'name': '华强测试', 'phone': '13622220000', 'sex': 0, 'termClinicId': 1442079173893074946}
+2022-06-22 17:21:53.887 | INFO     | __main__:upload_patient:73 - 发布患者信息接口响应参数为:{"busiCode":0,"msg":"请求成功","data":"1539539161669238785"}
+2022-06-22 17:21:54.240 | INFO     | __main__:create_order:102 - 金标仪创建联测订单接口请求参数为:{'addressDetail': '湖南省长沙市雨花区华坤时代', 'briefAddress': '湖南省长沙市雨花区雨河路279号靠近湘府路站', 'latitude': 113.029384, 'longitude': 28.111673, 'recordId': '1539539161669238785', 'sno': 'B221031135000149', 'testDataIds': ['1539539156388610049', '1539539159928602626']}
+2022-06-22 17:21:54.240 | INFO     | __main__:create_order:103 - 金标仪创建联测订单接口响应参数为:{"busiCode":0,"msg":"请求成功","data":null}
+2022-06-22 17:21:54.663 | INFO     | __main__:blood_test:116 - 血常规检测接口请求参数为:{'boardSno': '220301360723', 'cameraName': '测试相机', 'clinicId': 1442079173893074946, 'deviceSno': 'BLD100021111800001', 'hgbCalibration': [{'reference': 20317, 'groundTruth': 0, 'measure': 25501}, {'reference': 20732, 'groundTruth': 0, 'measure': 25637}, {'reference': 19684, 'groundTruth': 231, 'measure': 2397}, {'reference': 20401, 'groundTruth': 141, 'measure': 6061}, {'reference': 20628, 'groundTruth': 71, 'measure': 12633}, {'reference': 20360, 'groundTruth': 48, 'measure': 15893}], 'hgbCurveData': [], 'hgbMeasure': 0, 'hgbReference': 0, 'path': 'c69099f6-2df3-497b-b5ac-cefdca802aa9.zip', 'patientId': '1539539153154801665', 'pointConfig': {'plt': {'focus': 0, 'points': 0}, 'rbc': {'focus': 0, 'points': 0}, 'wbc': {'focus': 0, 'points': 0}}, 'type': 2}
+2022-06-22 17:21:54.664 | INFO     | __main__:blood_test:117 - 血常规检测接口响应参数为:{"busiCode":0,"msg":"请求成功","data":"1539539164658655234"}
+2022-06-22 17:21:55.826 | INFO     | __main__:get_manual_status:129 - 等待一秒钟，再去查询
+2022-06-22 17:21:55.826 | INFO     | __main__:get_manual_status:130 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': ''}}
+2022-06-22 17:21:56.989 | INFO     | __main__:get_manual_status:129 - 等待一秒钟，再去查询
+2022-06-22 17:21:56.989 | INFO     | __main__:get_manual_status:130 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': ''}}
+2022-06-22 17:21:58.140 | INFO     | __main__:get_manual_status:129 - 等待一秒钟，再去查询
+2022-06-22 17:21:58.140 | INFO     | __main__:get_manual_status:130 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': ''}}
+2022-06-22 17:21:59.304 | INFO     | __main__:get_manual_status:129 - 等待一秒钟，再去查询
+2022-06-22 17:21:59.304 | INFO     | __main__:get_manual_status:130 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': ''}}
+2022-06-22 17:22:00.461 | INFO     | __main__:get_manual_status:129 - 等待一秒钟，再去查询
+2022-06-22 17:22:00.461 | INFO     | __main__:get_manual_status:130 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': ''}}
+2022-06-22 17:22:01.743 | INFO     | __main__:get_manual_status:129 - 等待一秒钟，再去查询
+2022-06-22 17:22:01.743 | INFO     | __main__:get_manual_status:130 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': ''}}
+2022-06-22 17:22:02.931 | INFO     | __main__:get_manual_status:129 - 等待一秒钟，再去查询
+2022-06-22 17:22:02.931 | INFO     | __main__:get_manual_status:130 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': ''}}
+2022-06-22 17:22:04.082 | INFO     | __main__:get_manual_status:129 - 等待一秒钟，再去查询
+2022-06-22 17:22:04.082 | INFO     | __main__:get_manual_status:130 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 4, 'msg': ''}}
+2022-06-22 17:22:05.702 | INFO     | __main__:order_palce_blood:143 - 血常规下单接口请求参数为:{'dataId': '1539539164658655234', 'recordId': '1539539161669238785'}
+2022-06-22 17:22:05.703 | INFO     | __main__:order_palce_blood:144 - 血常规下单接口响应参数为:{"busiCode":0,"msg":"请求成功","data":{"orderNo":"B2210311350001492206221721546624","payUrl":"https://qr.95516.com/48020000/10VA2206227782205177202052","money":0.01,"promptMsg":"未支付","orderStatus":0}}
+2022-06-22 17:22:06.039 | INFO     | __main__:call_back:160 - 支付回调接口请求参数为：{'openId': '111111111111', 'orderNo': 'B2210311350001492206221721546624', 'outOrderNo': '111111111111111', 'outTransactionNo': '111111111111111111111', 'payChannel': '0', 'payFinishTime': '2022-06-22 17:23:05', 'payStatus': 'SUCCESS', 'payType': 'WXPAY', 'tradeType': 'JSAPI'}
+2022-06-22 17:22:06.040 | INFO     | __main__:call_back:161 - 支付回调接口响应内容为:{"busiCode":0,"msg":"请求成功","data":null}
+2022-06-22 17:25:25.537 | INFO     | utils.login:login_test:22 - 本次登录获取token为:{'Authorization': 'bearer 1bf84635-b76b-4446-a225-9cc5be710c7c'}
+2022-06-22 17:25:26.184 | INFO     | utils.get_clinic_info_test:bind_gold_blood_device:71 - 绑定设备接口请求参数{'clinicId': 1442079173893074946, 'ids': [1386932628008534018], 'operateType': 1}
+2022-06-22 17:25:26.184 | INFO     | utils.get_clinic_info_test:bind_gold_blood_device:72 - 绑定设备接口返回参数{"busiCode":201,"msg":"一个诊所只能绑定同种设备一次","data":null}
+2022-06-22 17:25:26.300 | INFO     | utils.get_clinic_info_test:bind_gold_blood_device:71 - 绑定设备接口请求参数{'clinicId': 1442079173893074946, 'ids': [1474315307854172163], 'operateType': 1}
+2022-06-22 17:25:26.301 | INFO     | utils.get_clinic_info_test:bind_gold_blood_device:72 - 绑定设备接口返回参数{"busiCode":201,"msg":"一个诊所只能绑定同种设备一次","data":null}
+2022-06-22 17:25:26.501 | INFO     | __main__:add_patient:54 - 添加患者接口请求参数为:{'clinicId': 1442079173893074946, 'mobilePhone': '13600000000', 'userAge': 10, 'userMonth': 0, 'userName': '测试检测数据', 'userSex': 0}
+2022-06-22 17:25:26.501 | INFO     | __main__:add_patient:55 - 添加患者接口响应参数为:{"busiCode":0,"msg":"请求成功","data":"1539540053259706370"}
+2022-06-22 17:25:26.773 | INFO     | __main__:start_check:67 - 开始检测接口请求参数为：{'boardSno': '220301360723', 'cameraName': '测试相机', 'clinicId': 1442079173893074946, 'deviceSno': 'BLD100021111800001', 'hgbCalibration': [{'reference': 20317, 'groundTruth': 0, 'measure': 25501}, {'reference': 20732, 'groundTruth': 0, 'measure': 25637}, {'reference': 19684, 'groundTruth': 231, 'measure': 2397}, {'reference': 20401, 'groundTruth': 141, 'measure': 6061}, {'reference': 20628, 'groundTruth': 71, 'measure': 12633}, {'reference': 20360, 'groundTruth': 48, 'measure': 15893}], 'hgbCurveData': [], 'hgbMeasure': 0, 'hgbReference': 0, 'path': 'c69099f6-2df3-497b-b5ac-cefdca802aa9.zip', 'patientId': '1539540053259706370', 'pointConfig': {'plt': {'focus': 0, 'points': 0}, 'rbc': {'focus': 0, 'points': 0}, 'wbc': {'focus': 0, 'points': 0}}, 'type': 1}
+2022-06-22 17:25:26.773 | INFO     | __main__:start_check:68 - 开始检测接口响应内容为:{"busiCode":0,"msg":"请求成功","data":"1539540054455083009"}
+2022-06-22 17:25:27.937 | INFO     | __main__:get_manual_status:82 - 等待一秒钟，再去查询
+2022-06-22 17:25:27.937 | INFO     | __main__:get_manual_status:83 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': ''}}
+2022-06-22 17:25:29.096 | INFO     | __main__:get_manual_status:82 - 等待一秒钟，再去查询
+2022-06-22 17:25:29.096 | INFO     | __main__:get_manual_status:83 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': ''}}
+2022-06-22 17:25:30.252 | INFO     | __main__:get_manual_status:82 - 等待一秒钟，再去查询
+2022-06-22 17:25:30.252 | INFO     | __main__:get_manual_status:83 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': ''}}
+2022-06-22 17:25:31.408 | INFO     | __main__:get_manual_status:82 - 等待一秒钟，再去查询
+2022-06-22 17:25:31.408 | INFO     | __main__:get_manual_status:83 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': ''}}
+2022-06-22 17:25:32.572 | INFO     | __main__:get_manual_status:82 - 等待一秒钟，再去查询
+2022-06-22 17:25:32.572 | INFO     | __main__:get_manual_status:83 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': ''}}
+2022-06-22 17:25:33.729 | INFO     | __main__:get_manual_status:82 - 等待一秒钟，再去查询
+2022-06-22 17:25:33.729 | INFO     | __main__:get_manual_status:83 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': ''}}
+2022-06-22 17:25:34.893 | INFO     | __main__:get_manual_status:82 - 等待一秒钟，再去查询
+2022-06-22 17:25:34.893 | INFO     | __main__:get_manual_status:83 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': ''}}
+2022-06-22 17:25:36.050 | INFO     | __main__:get_manual_status:82 - 等待一秒钟，再去查询
+2022-06-22 17:25:36.050 | INFO     | __main__:get_manual_status:83 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 4, 'msg': ''}}
+2022-06-22 17:25:36.980 | INFO     | __main__:create_order:97 - 生成订单接口请求参数为：{'dataId': '1539540054455083009'}
+2022-06-22 17:25:36.981 | INFO     | __main__:create_order:98 - 生成订单接口响应内容为:{"busiCode":0,"msg":"请求成功","data":{"orderNo":"BLD1000211118000012206221725369588","payUrl":"https://qr.95516.com/48020000/10VA2206220802537178380783","money":0.01,"promptMsg":"未支付","orderStatus":0}}
+2022-06-22 17:25:37.309 | INFO     | __main__:call_back:116 - 支付回调接口请求参数为：{'openId': '111111111111', 'orderNo': 'BLD1000211118000012206221725369588', 'outOrderNo': '111111111111111', 'outTransactionNo': '111111111111111111111', 'payChannel': '0', 'payFinishTime': '2022-06-22 17:28:36', 'payStatus': 'SUCCESS', 'payType': 'WXPAY', 'tradeType': 'JSAPI'}
+2022-06-22 17:25:37.310 | INFO     | __main__:call_back:117 - 支付回调接口响应内容为:{"busiCode":0,"msg":"请求成功","data":null}
+2022-06-22 17:33:14.001 | INFO     | utils.login:login_test:22 - 本次登录获取token为:{'Authorization': 'bearer 1bf84635-b76b-4446-a225-9cc5be710c7c'}
+2022-06-22 17:33:14.705 | INFO     | utils.get_clinic_info_test:bind_gold_blood_device:71 - 绑定设备接口请求参数{'clinicId': 1442079173893074946, 'ids': [1386932628008534018], 'operateType': 1}
+2022-06-22 17:33:14.705 | INFO     | utils.get_clinic_info_test:bind_gold_blood_device:72 - 绑定设备接口返回参数{"busiCode":201,"msg":"一个诊所只能绑定同种设备一次","data":null}
+2022-06-22 17:33:14.829 | INFO     | utils.get_clinic_info_test:bind_gold_blood_device:71 - 绑定设备接口请求参数{'clinicId': 1442079173893074946, 'ids': [1474315307854172163], 'operateType': 1}
+2022-06-22 17:33:14.829 | INFO     | utils.get_clinic_info_test:bind_gold_blood_device:72 - 绑定设备接口返回参数{"busiCode":201,"msg":"一个诊所只能绑定同种设备一次","data":null}
+2022-06-22 17:33:14.939 | INFO     | __main__:add_patient:60 - 添加患者接口请求参数为:{'age': 18, 'deviceId': 'B221031135000149', 'month': 0, 'name': '华强测试', 'phone': '13622220000', 'sex': 0, 'termClinicId': 1442079173893074946}
+2022-06-22 17:33:14.939 | INFO     | __main__:add_patient:61 - 添加患者接口响应参数为:{"busiCode":0,"msg":"请求成功","data":{"patientId":"1539542018246115329"}}
+2022-06-22 17:33:16.849 | INFO     | __main__:start_CRP_and_SAA:88 - crp+saa检测接口请求参数为:{'clinicId': 1442079173893074946, 'sno': 'B221031135000149'}
+2022-06-22 17:33:16.849 | INFO     | __main__:start_CRP_and_SAA:89 - crp+saa检测接口响应参数为:{"busiCode":0,"msg":"请求成功","data":{"stripTypeCode":"4","stripBatch":"38","testPoctDataId":"1539542021148573697","imgUrl":"http://publicmedia.ehomepoct.com/jbyimage/CRP.png","reactTime":5,"warningTips":null,"stripName":"CRP检测(XXXVIII)"}}
+2022-06-22 17:33:16.958 | INFO     | __main__:upload_patient:72 - 发布患者信息接口请求参数为:{'age': 18, 'deviceId': 'B221031135000149', 'month': 0, 'name': '华强测试', 'phone': '13622220000', 'sex': 0, 'termClinicId': 1442079173893074946}
+2022-06-22 17:33:16.958 | INFO     | __main__:upload_patient:73 - 发布患者信息接口响应参数为:{"busiCode":0,"msg":"请求成功","data":"1539542026697637889"}
+2022-06-22 17:33:17.331 | INFO     | __main__:blood_test:115 - 血常规检测接口请求参数为:{'boardSno': '220301360723', 'cameraName': '测试相机', 'clinicId': 1442079173893074946, 'deviceSno': 'BLD100021111800001', 'hgbCalibration': [{'reference': 20317, 'groundTruth': 0, 'measure': 25501}, {'reference': 20732, 'groundTruth': 0, 'measure': 25637}, {'reference': 19684, 'groundTruth': 231, 'measure': 2397}, {'reference': 20401, 'groundTruth': 141, 'measure': 6061}, {'reference': 20628, 'groundTruth': 71, 'measure': 12633}, {'reference': 20360, 'groundTruth': 48, 'measure': 15893}], 'hgbCurveData': [], 'hgbMeasure': 0, 'hgbReference': 0, 'path': 'c69099f6-2df3-497b-b5ac-cefdca802aa9.zip', 'patientId': '1539542018246115329', 'pointConfig': {'plt': {'focus': 0, 'points': 0}, 'rbc': {'focus': 0, 'points': 0}, 'wbc': {'focus': 0, 'points': 0}}, 'type': 2}
+2022-06-22 17:33:17.331 | INFO     | __main__:blood_test:116 - 血常规检测接口响应参数为:{"busiCode":0,"msg":"请求成功","data":"1539542028126773249"}
+2022-06-22 17:33:18.486 | INFO     | __main__:get_manual_status:128 - 等待一秒钟，再去查询
+2022-06-22 17:33:18.486 | INFO     | __main__:get_manual_status:129 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': ''}}
+2022-06-22 17:33:19.651 | INFO     | __main__:get_manual_status:128 - 等待一秒钟，再去查询
+2022-06-22 17:33:19.651 | INFO     | __main__:get_manual_status:129 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': ''}}
+2022-06-22 17:33:20.926 | INFO     | __main__:get_manual_status:128 - 等待一秒钟，再去查询
+2022-06-22 17:33:20.926 | INFO     | __main__:get_manual_status:129 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': ''}}
+2022-06-22 17:33:22.085 | INFO     | __main__:get_manual_status:128 - 等待一秒钟，再去查询
+2022-06-22 17:33:22.085 | INFO     | __main__:get_manual_status:129 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': ''}}
+2022-06-22 17:33:23.246 | INFO     | __main__:get_manual_status:128 - 等待一秒钟，再去查询
+2022-06-22 17:33:23.246 | INFO     | __main__:get_manual_status:129 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': ''}}
+2022-06-22 17:33:24.419 | INFO     | __main__:get_manual_status:128 - 等待一秒钟，再去查询
+2022-06-22 17:33:24.419 | INFO     | __main__:get_manual_status:129 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': ''}}
+2022-06-22 17:33:25.574 | INFO     | __main__:get_manual_status:128 - 等待一秒钟，再去查询
+2022-06-22 17:33:25.574 | INFO     | __main__:get_manual_status:129 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': ''}}
+2022-06-22 17:33:26.732 | INFO     | __main__:get_manual_status:128 - 等待一秒钟，再去查询
+2022-06-22 17:33:26.732 | INFO     | __main__:get_manual_status:129 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 4, 'msg': ''}}
+2022-06-22 17:33:27.076 | INFO     | __main__:order_palce_blood:142 - 血常规下单接口请求参数为:{'dataId': '1539542028126773249', 'recordId': '1539542026697637889'}
+2022-06-22 17:33:27.076 | INFO     | __main__:order_palce_blood:143 - 血常规下单接口响应参数为:{"busiCode":0,"msg":"请求成功","data":{"orderNo":"BLD1000211118000012206221733276804","payUrl":null,"money":null,"promptMsg":"联合检测金标仪未完成","orderStatus":null}}
+2022-06-22 17:33:27.404 | INFO     | __main__:call_back:159 - 支付回调接口请求参数为：{'openId': '111111111111', 'orderNo': 'BLD1000211118000012206221733276804', 'outOrderNo': '111111111111111', 'outTransactionNo': '111111111111111111111', 'payChannel': '0', 'payFinishTime': '2022-06-22 17:34:27', 'payStatus': 'SUCCESS', 'payType': 'WXPAY', 'tradeType': 'JSAPI'}
+2022-06-22 17:33:27.404 | INFO     | __main__:call_back:160 - 支付回调接口响应内容为:{"busiCode":0,"msg":"请求成功","data":null}
+2022-06-22 17:34:05.604 | INFO     | utils.login:login_test:22 - 本次登录获取token为:{'Authorization': 'bearer 1bf84635-b76b-4446-a225-9cc5be710c7c'}
+2022-06-22 17:34:06.357 | INFO     | utils.get_clinic_info_test:bind_gold_blood_device:71 - 绑定设备接口请求参数{'clinicId': 1442079173893074946, 'ids': [1386932628008534018], 'operateType': 1}
+2022-06-22 17:34:06.357 | INFO     | utils.get_clinic_info_test:bind_gold_blood_device:72 - 绑定设备接口返回参数{"busiCode":201,"msg":"一个诊所只能绑定同种设备一次","data":null}
+2022-06-22 17:34:06.510 | INFO     | utils.get_clinic_info_test:bind_gold_blood_device:71 - 绑定设备接口请求参数{'clinicId': 1442079173893074946, 'ids': [1474315307854172163], 'operateType': 1}
+2022-06-22 17:34:06.510 | INFO     | utils.get_clinic_info_test:bind_gold_blood_device:72 - 绑定设备接口返回参数{"busiCode":201,"msg":"一个诊所只能绑定同种设备一次","data":null}
+2022-06-22 17:34:06.614 | INFO     | __main__:add_patient:60 - 添加患者接口请求参数为:{'age': 18, 'deviceId': 'B221031135000149', 'month': 0, 'name': '华强测试', 'phone': '13622220000', 'sex': 0, 'termClinicId': 1442079173893074946}
+2022-06-22 17:34:06.615 | INFO     | __main__:add_patient:61 - 添加患者接口响应参数为:{"busiCode":0,"msg":"请求成功","data":{"patientId":"1539542234999357442"}}
+2022-06-22 17:34:08.359 | INFO     | __main__:start_CRP_and_SAA:88 - crp+saa检测接口请求参数为:{'clinicId': 1442079173893074946, 'sno': 'B221031135000149'}
+2022-06-22 17:34:08.359 | INFO     | __main__:start_CRP_and_SAA:89 - crp+saa检测接口响应参数为:{"busiCode":0,"msg":"请求成功","data":{"stripTypeCode":"4","stripBatch":"38","testPoctDataId":"1539542237536911361","imgUrl":"http://publicmedia.ehomepoct.com/jbyimage/CRP.png","reactTime":5,"warningTips":null,"stripName":"CRP检测(XXXVIII)"}}
+2022-06-22 17:34:08.480 | INFO     | __main__:upload_patient:72 - 发布患者信息接口请求参数为:{'age': 18, 'deviceId': 'B221031135000149', 'month': 0, 'name': '华强测试', 'phone': '13622220000', 'sex': 0, 'termClinicId': 1442079173893074946}
+2022-06-22 17:34:08.481 | INFO     | __main__:upload_patient:73 - 发布患者信息接口响应参数为:{"busiCode":0,"msg":"请求成功","data":"1539542242792374273"}
+2022-06-22 17:34:08.797 | INFO     | __main__:create_order:102 - 金标仪创建联测订单接口请求参数为:{'addressDetail': '湖南省长沙市雨花区华坤时代', 'briefAddress': '湖南省长沙市雨花区雨河路279号靠近湘府路站', 'latitude': 113.029384, 'longitude': 28.111673, 'recordId': '1539542242792374273', 'sno': 'B221031135000149', 'testDataIds': ['1539542237536911361', '1539542240997212162']}
+2022-06-22 17:34:08.797 | INFO     | __main__:create_order:103 - 金标仪创建联测订单接口响应参数为:{"busiCode":0,"msg":"请求成功","data":null}
+2022-06-22 17:34:08.973 | INFO     | __main__:blood_test:116 - 血常规检测接口请求参数为:{'boardSno': '220301360723', 'cameraName': '测试相机', 'clinicId': 1442079173893074946, 'deviceSno': 'BLD100021111800001', 'hgbCalibration': [{'reference': 20317, 'groundTruth': 0, 'measure': 25501}, {'reference': 20732, 'groundTruth': 0, 'measure': 25637}, {'reference': 19684, 'groundTruth': 231, 'measure': 2397}, {'reference': 20401, 'groundTruth': 141, 'measure': 6061}, {'reference': 20628, 'groundTruth': 71, 'measure': 12633}, {'reference': 20360, 'groundTruth': 48, 'measure': 15893}], 'hgbCurveData': [], 'hgbMeasure': 0, 'hgbReference': 0, 'path': 'c69099f6-2df3-497b-b5ac-cefdca802aa9.zip', 'patientId': '1539542234999357442', 'pointConfig': {'plt': {'focus': 0, 'points': 0}, 'rbc': {'focus': 0, 'points': 0}, 'wbc': {'focus': 0, 'points': 0}}, 'type': 2}
+2022-06-22 17:34:08.973 | INFO     | __main__:blood_test:117 - 血常规检测接口响应参数为:{"busiCode":0,"msg":"请求成功","data":"1539542244758380546"}
+2022-06-22 17:34:10.132 | INFO     | __main__:get_manual_status:129 - 等待一秒钟，再去查询
+2022-06-22 17:34:10.132 | INFO     | __main__:get_manual_status:130 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': ''}}
+2022-06-22 17:34:11.286 | INFO     | __main__:get_manual_status:129 - 等待一秒钟，再去查询
+2022-06-22 17:34:11.286 | INFO     | __main__:get_manual_status:130 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': ''}}
+2022-06-22 17:34:12.472 | INFO     | __main__:get_manual_status:129 - 等待一秒钟，再去查询
+2022-06-22 17:34:12.472 | INFO     | __main__:get_manual_status:130 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': ''}}
+2022-06-22 17:34:13.642 | INFO     | __main__:get_manual_status:129 - 等待一秒钟，再去查询
+2022-06-22 17:34:13.642 | INFO     | __main__:get_manual_status:130 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': ''}}
+2022-06-22 17:34:14.803 | INFO     | __main__:get_manual_status:129 - 等待一秒钟，再去查询
+2022-06-22 17:34:14.803 | INFO     | __main__:get_manual_status:130 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': ''}}
+2022-06-22 17:34:16.018 | INFO     | __main__:get_manual_status:129 - 等待一秒钟，再去查询
+2022-06-22 17:34:16.018 | INFO     | __main__:get_manual_status:130 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': ''}}
+2022-06-22 17:34:17.174 | INFO     | __main__:get_manual_status:129 - 等待一秒钟，再去查询
+2022-06-22 17:34:17.174 | INFO     | __main__:get_manual_status:130 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': ''}}
+2022-06-22 17:34:18.330 | INFO     | __main__:get_manual_status:129 - 等待一秒钟，再去查询
+2022-06-22 17:34:18.330 | INFO     | __main__:get_manual_status:130 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 4, 'msg': ''}}
+2022-06-22 17:34:19.212 | INFO     | __main__:order_palce_blood:143 - 血常规下单接口请求参数为:{'dataId': '1539542244758380546', 'recordId': '1539542242792374273'}
+2022-06-22 17:34:19.212 | INFO     | __main__:order_palce_blood:144 - 血常规下单接口响应参数为:{"busiCode":0,"msg":"请求成功","data":{"orderNo":"B2210311350001492206221734082632","payUrl":"https://qr.95516.com/48020000/10VA2206224113419171050434","money":0.01,"promptMsg":"未支付","orderStatus":0}}
+2022-06-22 17:34:19.536 | INFO     | __main__:call_back:160 - 支付回调接口请求参数为：{'openId': '111111111111', 'orderNo': 'B2210311350001492206221734082632', 'outOrderNo': '111111111111111', 'outTransactionNo': '111111111111111111111', 'payChannel': '0', 'payFinishTime': '2022-06-22 17:35:19', 'payStatus': 'SUCCESS', 'payType': 'WXPAY', 'tradeType': 'JSAPI'}
+2022-06-22 17:34:19.536 | INFO     | __main__:call_back:161 - 支付回调接口响应内容为:{"busiCode":0,"msg":"请求成功","data":null}
+2022-06-22 17:34:32.070 | INFO     | utils.login:login_test:22 - 本次登录获取token为:{'Authorization': 'bearer 1bf84635-b76b-4446-a225-9cc5be710c7c'}
+2022-06-22 17:34:32.779 | INFO     | utils.get_clinic_info_test:bind_gold_blood_device:71 - 绑定设备接口请求参数{'clinicId': 1442079173893074946, 'ids': [1386932628008534018], 'operateType': 1}
+2022-06-22 17:34:32.779 | INFO     | utils.get_clinic_info_test:bind_gold_blood_device:72 - 绑定设备接口返回参数{"busiCode":201,"msg":"一个诊所只能绑定同种设备一次","data":null}
+2022-06-22 17:34:32.895 | INFO     | utils.get_clinic_info_test:bind_gold_blood_device:71 - 绑定设备接口请求参数{'clinicId': 1442079173893074946, 'ids': [1474315307854172163], 'operateType': 1}
+2022-06-22 17:34:32.895 | INFO     | utils.get_clinic_info_test:bind_gold_blood_device:72 - 绑定设备接口返回参数{"busiCode":201,"msg":"一个诊所只能绑定同种设备一次","data":null}
+2022-06-22 17:34:32.990 | INFO     | __main__:add_patient:60 - 添加患者接口请求参数为:{'age': 18, 'deviceId': 'B221031135000149', 'month': 0, 'name': '华强测试', 'phone': '13622220000', 'sex': 0, 'termClinicId': 1442079173893074946}
+2022-06-22 17:34:32.990 | INFO     | __main__:add_patient:61 - 添加患者接口响应参数为:{"busiCode":0,"msg":"请求成功","data":{"patientId":"1539542345624125441"}}
+2022-06-22 17:34:34.814 | INFO     | __main__:start_CRP_and_SAA:88 - crp+saa检测接口请求参数为:{'clinicId': 1442079173893074946, 'sno': 'B221031135000149'}
+2022-06-22 17:34:34.814 | INFO     | __main__:start_CRP_and_SAA:89 - crp+saa检测接口响应参数为:{"busiCode":0,"msg":"请求成功","data":{"stripTypeCode":"4","stripBatch":"38","testPoctDataId":"1539542348170067970","imgUrl":"http://publicmedia.ehomepoct.com/jbyimage/CRP.png","reactTime":5,"warningTips":null,"stripName":"CRP检测(XXXVIII)"}}
+2022-06-22 17:34:34.938 | INFO     | __main__:upload_patient:72 - 发布患者信息接口请求参数为:{'age': 18, 'deviceId': 'B221031135000149', 'month': 0, 'name': '华强测试', 'phone': '13622220000', 'sex': 0, 'termClinicId': 1442079173893074946}
+2022-06-22 17:34:34.938 | INFO     | __main__:upload_patient:73 - 发布患者信息接口响应参数为:{"busiCode":0,"msg":"请求成功","data":"1539542353761075201"}
+2022-06-22 17:34:35.203 | INFO     | __main__:create_order:102 - 金标仪创建联测订单接口请求参数为:{'addressDetail': '湖南省长沙市雨花区华坤时代', 'briefAddress': '湖南省长沙市雨花区雨河路279号靠近湘府路站', 'latitude': 113.029384, 'longitude': 28.111673, 'recordId': '1539542353761075201', 'sno': 'B221031135000149', 'testDataIds': ['1539542348170067970', '1539542351974301698']}
+2022-06-22 17:34:35.203 | INFO     | __main__:create_order:103 - 金标仪创建联测订单接口响应参数为:{"busiCode":0,"msg":"请求成功","data":null}
+2022-06-22 17:34:35.385 | INFO     | __main__:blood_test:116 - 血常规检测接口请求参数为:{'boardSno': '220301360723', 'cameraName': '测试相机', 'clinicId': 1442079173893074946, 'deviceSno': 'BLD100021111800001', 'hgbCalibration': [{'reference': 20317, 'groundTruth': 0, 'measure': 25501}, {'reference': 20732, 'groundTruth': 0, 'measure': 25637}, {'reference': 19684, 'groundTruth': 231, 'measure': 2397}, {'reference': 20401, 'groundTruth': 141, 'measure': 6061}, {'reference': 20628, 'groundTruth': 71, 'measure': 12633}, {'reference': 20360, 'groundTruth': 48, 'measure': 15893}], 'hgbCurveData': [], 'hgbMeasure': 0, 'hgbReference': 0, 'path': 'c69099f6-2df3-497b-b5ac-cefdca802aa9.zip', 'patientId': '1539542345624125441', 'pointConfig': {'plt': {'focus': 0, 'points': 0}, 'rbc': {'focus': 0, 'points': 0}, 'wbc': {'focus': 0, 'points': 0}}, 'type': 2}
+2022-06-22 17:34:35.386 | INFO     | __main__:blood_test:117 - 血常规检测接口响应参数为:{"busiCode":0,"msg":"请求成功","data":"1539542355534143490"}
+2022-06-22 17:34:36.598 | INFO     | __main__:get_manual_status:129 - 等待一秒钟，再去查询
+2022-06-22 17:34:36.598 | INFO     | __main__:get_manual_status:130 - 查询算法接口结果{'busiCode': 401, 'msg': '认证未通过'}
+2022-06-22 17:35:50.022 | INFO     | utils.login:login_sta:33 - 本次登录获取token为:{'Authorization': 'bearer 643c6a0a-d92b-456a-8b92-b4816cc1624b'}
+2022-06-22 17:35:50.685 | INFO     | utils.get_clinic_info_sta:bind_gold_blood_device:71 - 绑定设备接口请求参数{'clinicId': 1442082995943571458, 'ids': [1391993393100926977], 'operateType': 1}
+2022-06-22 17:35:50.685 | INFO     | utils.get_clinic_info_sta:bind_gold_blood_device:72 - 绑定设备接口返回参数{"busiCode":201,"msg":"一个诊所只能绑定同种设备一次","data":null}
+2022-06-22 17:35:50.781 | INFO     | utils.get_clinic_info_sta:bind_gold_blood_device:71 - 绑定设备接口请求参数{'clinicId': 1442082995943571458, 'ids': [1387605672557346818], 'operateType': 1}
+2022-06-22 17:35:50.781 | INFO     | utils.get_clinic_info_sta:bind_gold_blood_device:72 - 绑定设备接口返回参数{"busiCode":201,"msg":"一个诊所只能绑定同种设备一次","data":null}
+2022-06-22 17:35:50.883 | INFO     | __main__:add_patient:60 - 添加患者接口请求参数为:{'age': 18, 'deviceId': 'B221031135000026', 'month': 0, 'name': '华强测试', 'phone': '13622220000', 'sex': 0, 'termClinicId': 1442082995943571458}
+2022-06-22 17:35:50.883 | INFO     | __main__:add_patient:61 - 添加患者接口响应参数为:{"msg":"认证未通过","busiCode":401}
+2022-06-22 17:37:04.994 | INFO     | utils.login:login_sta:33 - 本次登录获取token为:{'Authorization': 'bearer 643c6a0a-d92b-456a-8b92-b4816cc1624b'}
+2022-06-22 17:37:05.696 | INFO     | utils.get_clinic_info_sta:bind_gold_blood_device:71 - 绑定设备接口请求参数{'clinicId': 1442082995943571458, 'ids': [1391993393100926977], 'operateType': 1}
+2022-06-22 17:37:05.697 | INFO     | utils.get_clinic_info_sta:bind_gold_blood_device:72 - 绑定设备接口返回参数{"busiCode":201,"msg":"一个诊所只能绑定同种设备一次","data":null}
+2022-06-22 17:37:05.791 | INFO     | utils.get_clinic_info_sta:bind_gold_blood_device:71 - 绑定设备接口请求参数{'clinicId': 1442082995943571458, 'ids': [1387605672557346818], 'operateType': 1}
+2022-06-22 17:37:05.792 | INFO     | utils.get_clinic_info_sta:bind_gold_blood_device:72 - 绑定设备接口返回参数{"busiCode":201,"msg":"一个诊所只能绑定同种设备一次","data":null}
+2022-06-22 17:37:05.861 | INFO     | __main__:add_patient:60 - 添加患者接口请求参数为:{'age': 18, 'deviceId': 'B221031135000026', 'month': 0, 'name': '华强测试', 'phone': '13622220000', 'sex': 0, 'termClinicId': 1442082995943571458}
+2022-06-22 17:37:05.862 | INFO     | __main__:add_patient:61 - 添加患者接口响应参数为:{"msg":"认证未通过","busiCode":401}
+2022-06-22 17:39:14.400 | INFO     | utils.login:login_sta:33 - 本次登录获取token为:{'Authorization': 'bearer 643c6a0a-d92b-456a-8b92-b4816cc1624b'}
+2022-06-22 17:39:15.146 | INFO     | utils.get_clinic_info_sta:bind_gold_blood_device:71 - 绑定设备接口请求参数{'clinicId': 1442082995943571458, 'ids': [1391993393100926977], 'operateType': 1}
+2022-06-22 17:39:15.146 | INFO     | utils.get_clinic_info_sta:bind_gold_blood_device:72 - 绑定设备接口返回参数{"busiCode":201,"msg":"一个诊所只能绑定同种设备一次","data":null}
+2022-06-22 17:39:15.243 | INFO     | utils.get_clinic_info_sta:bind_gold_blood_device:71 - 绑定设备接口请求参数{'clinicId': 1442082995943571458, 'ids': [1387605672557346818], 'operateType': 1}
+2022-06-22 17:39:15.243 | INFO     | utils.get_clinic_info_sta:bind_gold_blood_device:72 - 绑定设备接口返回参数{"busiCode":201,"msg":"一个诊所只能绑定同种设备一次","data":null}
+2022-06-22 17:40:02.213 | INFO     | utils.login:login_sta:33 - 本次登录获取token为:{'Authorization': 'bearer 643c6a0a-d92b-456a-8b92-b4816cc1624b'}
+2022-06-22 17:40:02.871 | INFO     | utils.get_clinic_info_sta:bind_gold_blood_device:71 - 绑定设备接口请求参数{'clinicId': 1442082995943571458, 'ids': [1391993393100926977], 'operateType': 1}
+2022-06-22 17:40:02.871 | INFO     | utils.get_clinic_info_sta:bind_gold_blood_device:72 - 绑定设备接口返回参数{"busiCode":201,"msg":"一个诊所只能绑定同种设备一次","data":null}
+2022-06-22 17:40:02.965 | INFO     | utils.get_clinic_info_sta:bind_gold_blood_device:71 - 绑定设备接口请求参数{'clinicId': 1442082995943571458, 'ids': [1387605672557346818], 'operateType': 1}
+2022-06-22 17:40:02.965 | INFO     | utils.get_clinic_info_sta:bind_gold_blood_device:72 - 绑定设备接口返回参数{"busiCode":201,"msg":"一个诊所只能绑定同种设备一次","data":null}
+2022-06-22 17:40:03.047 | INFO     | __main__:add_patient:60 - 添加患者接口请求参数为:{'age': 18, 'deviceId': 'B221031135000026', 'month': 0, 'name': '华强测试', 'phone': '13622220000', 'sex': 0, 'termClinicId': 1442082995943571458}
+2022-06-22 17:40:03.048 | INFO     | __main__:add_patient:61 - 添加患者接口响应参数为:{"busiCode":0,"msg":"请求成功","data":{"patientId":"1539543729991168002"}}
+2022-06-22 17:40:04.630 | INFO     | __main__:start_CRP_and_SAA:88 - crp+saa检测接口请求参数为:{'clinicId': 1442082995943571458, 'sno': 'B221031135000026'}
+2022-06-22 17:40:04.631 | INFO     | __main__:start_CRP_and_SAA:89 - crp+saa检测接口响应参数为:{"busiCode":0,"msg":"请求成功","data":{"stripTypeCode":"4","stripBatch":"38","testPoctDataId":"1539543733510189057","imgUrl":"http://publicmedia.ehomepoct.com/CRP.png","reactTime":5,"warningTips":null,"stripName":"CRP检测(XXXVIII)"}}
+2022-06-22 17:40:04.734 | INFO     | __main__:upload_patient:72 - 发布患者信息接口请求参数为:{'age': 18, 'deviceId': 'B221031135000026', 'month': 0, 'name': '华强测试', 'phone': '13622220000', 'sex': 0, 'termClinicId': 1442082995943571458}
+2022-06-22 17:40:04.734 | INFO     | __main__:upload_patient:73 - 发布患者信息接口响应参数为:{"busiCode":0,"msg":"请求成功","data":"1539543737041793025"}
+2022-06-22 17:40:04.998 | INFO     | __main__:create_order:102 - 金标仪创建联测订单接口请求参数为:{'addressDetail': '湖南省长沙市雨花区华坤时代', 'briefAddress': '湖南省长沙市雨花区雨河路279号靠近湘府路站', 'latitude': 113.029384, 'longitude': 28.111673, 'recordId': '1539543737041793025', 'sno': 'B221031135000026', 'testDataIds': ['1539543733510189057', '1539543736488144898']}
+2022-06-22 17:40:04.998 | INFO     | __main__:create_order:103 - 金标仪创建联测订单接口响应参数为:{"busiCode":-1,"msg":"接口未知异常","data":null}
+2022-06-22 17:40:05.351 | INFO     | __main__:blood_test:116 - 血常规检测接口请求参数为:{'boardSno': '220301360723', 'cameraName': '测试相机', 'clinicId': 1442082995943571458, 'deviceSno': 'BLD100121031900002', 'hgbCalibration': [{'reference': 20317, 'groundTruth': 0, 'measure': 25501}, {'reference': 20732, 'groundTruth': 0, 'measure': 25637}, {'reference': 19684, 'groundTruth': 231, 'measure': 2397}, {'reference': 20401, 'groundTruth': 141, 'measure': 6061}, {'reference': 20628, 'groundTruth': 71, 'measure': 12633}, {'reference': 20360, 'groundTruth': 48, 'measure': 15893}], 'hgbCurveData': [], 'hgbMeasure': 0, 'hgbReference': 0, 'path': 'c69099f6-2df3-497b-b5ac-cefdca802aa9.zip', 'patientId': '1539543729991168002', 'pointConfig': {'plt': {'focus': 0, 'points': 0}, 'rbc': {'focus': 0, 'points': 0}, 'wbc': {'focus': 0, 'points': 0}}, 'type': 2}
+2022-06-22 17:40:05.352 | INFO     | __main__:blood_test:117 - 血常规检测接口响应参数为:{"busiCode":0,"msg":"请求成功","data":"1539543739530264578"}
+2022-06-22 17:40:06.553 | INFO     | __main__:get_manual_status:129 - 等待一秒钟，再去查询
+2022-06-22 17:40:06.553 | INFO     | __main__:get_manual_status:130 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': ''}}
+2022-06-22 17:40:07.708 | INFO     | __main__:get_manual_status:129 - 等待一秒钟，再去查询
+2022-06-22 17:40:07.708 | INFO     | __main__:get_manual_status:130 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': ''}}
+2022-06-22 17:40:08.869 | INFO     | __main__:get_manual_status:129 - 等待一秒钟，再去查询
+2022-06-22 17:40:08.869 | INFO     | __main__:get_manual_status:130 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': ''}}
+2022-06-22 17:40:10.032 | INFO     | __main__:get_manual_status:129 - 等待一秒钟，再去查询
+2022-06-22 17:40:10.032 | INFO     | __main__:get_manual_status:130 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': ''}}
+2022-06-22 17:40:11.189 | INFO     | __main__:get_manual_status:129 - 等待一秒钟，再去查询
+2022-06-22 17:40:11.190 | INFO     | __main__:get_manual_status:130 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': ''}}
+2022-06-22 17:40:12.354 | INFO     | __main__:get_manual_status:129 - 等待一秒钟，再去查询
+2022-06-22 17:40:12.354 | INFO     | __main__:get_manual_status:130 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': ''}}
+2022-06-22 17:40:13.510 | INFO     | __main__:get_manual_status:129 - 等待一秒钟，再去查询
+2022-06-22 17:40:13.510 | INFO     | __main__:get_manual_status:130 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 3, 'msg': ''}}
+2022-06-22 17:40:13.795 | INFO     | __main__:order_palce_blood:143 - 血常规下单接口请求参数为:{'dataId': '1539543739530264578', 'recordId': '1539543737041793025'}
+2022-06-22 17:40:13.796 | INFO     | __main__:order_palce_blood:144 - 血常规下单接口响应参数为:{"busiCode":-1,"msg":"接口未知异常","data":null}
+2022-06-22 17:40:13.901 | INFO     | __main__:call_back:160 - 支付回调接口请求参数为：{'openId': '111111111111', 'orderNo': None, 'outOrderNo': '111111111111111', 'outTransactionNo': '111111111111111111111', 'payChannel': '0', 'payFinishTime': '2022-06-22 17:41:13', 'payStatus': 'SUCCESS', 'payType': 'WXPAY', 'tradeType': 'JSAPI'}
+2022-06-22 17:40:13.901 | INFO     | __main__:call_back:161 - 支付回调接口响应内容为:{"busiCode":0,"msg":"请求成功","data":null}
+2022-06-22 17:41:43.448 | INFO     | utils.login:login_test:22 - 本次登录获取token为:{'Authorization': 'bearer 1bf84635-b76b-4446-a225-9cc5be710c7c'}
+2022-06-22 17:41:44.152 | INFO     | utils.get_clinic_info_test:bind_gold_blood_device:71 - 绑定设备接口请求参数{'clinicId': 1442079173893074946, 'ids': [1386932628008534018], 'operateType': 1}
+2022-06-22 17:41:44.152 | INFO     | utils.get_clinic_info_test:bind_gold_blood_device:72 - 绑定设备接口返回参数{"busiCode":201,"msg":"一个诊所只能绑定同种设备一次","data":null}
+2022-06-22 17:41:44.287 | INFO     | utils.get_clinic_info_test:bind_gold_blood_device:71 - 绑定设备接口请求参数{'clinicId': 1442079173893074946, 'ids': [1474315307854172163], 'operateType': 1}
+2022-06-22 17:41:44.287 | INFO     | utils.get_clinic_info_test:bind_gold_blood_device:72 - 绑定设备接口返回参数{"busiCode":201,"msg":"一个诊所只能绑定同种设备一次","data":null}
+2022-06-22 17:41:44.371 | INFO     | __main__:add_patient:60 - 添加患者接口请求参数为:{'age': 18, 'deviceId': 'B221031135000149', 'month': 0, 'name': '华强测试', 'phone': '13622220000', 'sex': 0, 'termClinicId': 1442079173893074946}
+2022-06-22 17:41:44.371 | INFO     | __main__:add_patient:61 - 添加患者接口响应参数为:{"busiCode":0,"msg":"请求成功","data":{"patientId":"1539544154975567873"}}
+2022-06-22 17:41:46.207 | INFO     | __main__:start_CRP_and_SAA:88 - crp+saa检测接口请求参数为:{'clinicId': 1442079173893074946, 'sno': 'B221031135000149'}
+2022-06-22 17:41:46.207 | INFO     | __main__:start_CRP_and_SAA:89 - crp+saa检测接口响应参数为:{"busiCode":0,"msg":"请求成功","data":{"stripTypeCode":"4","stripBatch":"38","testPoctDataId":"1539544157873831938","imgUrl":"http://publicmedia.ehomepoct.com/jbyimage/CRP.png","reactTime":5,"warningTips":null,"stripName":"CRP检测(XXXVIII)"}}
+2022-06-22 17:41:46.329 | INFO     | __main__:upload_patient:72 - 发布患者信息接口请求参数为:{'age': 18, 'deviceId': 'B221031135000149', 'month': 0, 'name': '华强测试', 'phone': '13622220000', 'sex': 0, 'termClinicId': 1442079173893074946}
+2022-06-22 17:41:46.329 | INFO     | __main__:upload_patient:73 - 发布患者信息接口响应参数为:{"busiCode":0,"msg":"请求成功","data":"1539544163158654978"}
+2022-06-22 17:41:46.686 | INFO     | __main__:create_order:102 - 金标仪创建联测订单接口请求参数为:{'addressDetail': '湖南省长沙市雨花区华坤时代', 'briefAddress': '湖南省长沙市雨花区雨河路279号靠近湘府路站', 'latitude': 113.029384, 'longitude': 28.111673, 'recordId': '1539544163158654978', 'sno': 'B221031135000149', 'testDataIds': ['1539544157873831938', '1539544161363492865']}
+2022-06-22 17:41:46.686 | INFO     | __main__:create_order:103 - 金标仪创建联测订单接口响应参数为:{"busiCode":0,"msg":"请求成功","data":null}
+2022-06-22 17:41:47.032 | INFO     | __main__:blood_test:116 - 血常规检测接口请求参数为:{'boardSno': '220301360723', 'cameraName': '测试相机', 'clinicId': 1442079173893074946, 'deviceSno': 'BLD100021111800001', 'hgbCalibration': [{'reference': 20317, 'groundTruth': 0, 'measure': 25501}, {'reference': 20732, 'groundTruth': 0, 'measure': 25637}, {'reference': 19684, 'groundTruth': 231, 'measure': 2397}, {'reference': 20401, 'groundTruth': 141, 'measure': 6061}, {'reference': 20628, 'groundTruth': 71, 'measure': 12633}, {'reference': 20360, 'groundTruth': 48, 'measure': 15893}], 'hgbCurveData': [], 'hgbMeasure': 0, 'hgbReference': 0, 'path': 'c69099f6-2df3-497b-b5ac-cefdca802aa9.zip', 'patientId': '1539544154975567873', 'pointConfig': {'plt': {'focus': 0, 'points': 0}, 'rbc': {'focus': 0, 'points': 0}, 'wbc': {'focus': 0, 'points': 0}}, 'type': 2}
+2022-06-22 17:41:47.522 | INFO     | __main__:blood_test:117 - 血常规检测接口响应参数为:{"busiCode":0,"msg":"请求成功","data":"1539544166001270786"}
+2022-06-22 17:41:48.681 | INFO     | __main__:get_manual_status:129 - 等待一秒钟，再去查询
+2022-06-22 17:41:48.681 | INFO     | __main__:get_manual_status:130 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': ''}}
+2022-06-22 17:41:49.842 | INFO     | __main__:get_manual_status:129 - 等待一秒钟，再去查询
+2022-06-22 17:41:49.842 | INFO     | __main__:get_manual_status:130 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': ''}}
+2022-06-22 17:41:51.004 | INFO     | __main__:get_manual_status:129 - 等待一秒钟，再去查询
+2022-06-22 17:41:51.004 | INFO     | __main__:get_manual_status:130 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': ''}}
+2022-06-22 17:41:52.166 | INFO     | __main__:get_manual_status:129 - 等待一秒钟，再去查询
+2022-06-22 17:41:52.166 | INFO     | __main__:get_manual_status:130 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': ''}}
+2022-06-22 17:41:53.320 | INFO     | __main__:get_manual_status:129 - 等待一秒钟，再去查询
+2022-06-22 17:41:53.320 | INFO     | __main__:get_manual_status:130 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': ''}}
+2022-06-22 17:41:54.475 | INFO     | __main__:get_manual_status:129 - 等待一秒钟，再去查询
+2022-06-22 17:41:54.475 | INFO     | __main__:get_manual_status:130 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': ''}}
+2022-06-22 17:41:55.633 | INFO     | __main__:get_manual_status:129 - 等待一秒钟，再去查询
+2022-06-22 17:41:55.633 | INFO     | __main__:get_manual_status:130 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 4, 'msg': ''}}
+2022-06-22 17:41:56.505 | INFO     | __main__:order_palce_blood:143 - 血常规下单接口请求参数为:{'dataId': '1539544166001270786', 'recordId': '1539544163158654978'}
+2022-06-22 17:41:56.505 | INFO     | __main__:order_palce_blood:144 - 血常规下单接口响应参数为:{"busiCode":0,"msg":"请求成功","data":{"orderNo":"B2210311350001492206221741469982","payUrl":"https://qr.95516.com/48020000/10VA2206225714156179491740","money":0.01,"promptMsg":"未支付","orderStatus":0}}
+2022-06-22 17:41:56.839 | INFO     | __main__:call_back:160 - 支付回调接口请求参数为：{'openId': '111111111111', 'orderNo': 'B2210311350001492206221741469982', 'outOrderNo': '111111111111111', 'outTransactionNo': '111111111111111111111', 'payChannel': '0', 'payFinishTime': '2022-06-22 17:42:56', 'payStatus': 'SUCCESS', 'payType': 'WXPAY', 'tradeType': 'JSAPI'}
+2022-06-22 17:41:56.839 | INFO     | __main__:call_back:161 - 支付回调接口响应内容为:{"busiCode":0,"msg":"请求成功","data":null}
+2022-06-22 17:42:04.407 | INFO     | utils.login:login_sta:33 - 本次登录获取token为:{'Authorization': 'bearer 643c6a0a-d92b-456a-8b92-b4816cc1624b'}
+2022-06-22 17:42:05.112 | INFO     | utils.get_clinic_info_sta:bind_gold_blood_device:71 - 绑定设备接口请求参数{'clinicId': 1442082995943571458, 'ids': [1391993393100926977], 'operateType': 1}
+2022-06-22 17:42:05.113 | INFO     | utils.get_clinic_info_sta:bind_gold_blood_device:72 - 绑定设备接口返回参数{"busiCode":201,"msg":"一个诊所只能绑定同种设备一次","data":null}
+2022-06-22 17:42:05.211 | INFO     | utils.get_clinic_info_sta:bind_gold_blood_device:71 - 绑定设备接口请求参数{'clinicId': 1442082995943571458, 'ids': [1387605672557346818], 'operateType': 1}
+2022-06-22 17:42:05.211 | INFO     | utils.get_clinic_info_sta:bind_gold_blood_device:72 - 绑定设备接口返回参数{"busiCode":201,"msg":"一个诊所只能绑定同种设备一次","data":null}
+2022-06-22 17:42:05.293 | INFO     | __main__:add_patient:60 - 添加患者接口请求参数为:{'age': 18, 'deviceId': 'B221031135000026', 'month': 0, 'name': '华强测试', 'phone': '13622220000', 'sex': 0, 'termClinicId': 1442082995943571458}
+2022-06-22 17:42:05.293 | INFO     | __main__:add_patient:61 - 添加患者接口响应参数为:{"busiCode":0,"msg":"请求成功","data":{"patientId":"1539544242732249089"}}
+2022-06-22 17:42:06.799 | INFO     | __main__:start_CRP_and_SAA:88 - crp+saa检测接口请求参数为:{'clinicId': 1442082995943571458, 'sno': 'B221031135000026'}
+2022-06-22 17:42:06.800 | INFO     | __main__:start_CRP_and_SAA:89 - crp+saa检测接口响应参数为:{"busiCode":0,"msg":"请求成功","data":{"stripTypeCode":"4","stripBatch":"38","testPoctDataId":"1539544245974446081","imgUrl":"http://publicmedia.ehomepoct.com/CRP.png","reactTime":5,"warningTips":null,"stripName":"CRP检测(XXXVIII)"}}
+2022-06-22 17:42:06.905 | INFO     | __main__:upload_patient:72 - 发布患者信息接口请求参数为:{'age': 18, 'deviceId': 'B221031135000026', 'month': 0, 'name': '华强测试', 'phone': '13622220000', 'sex': 0, 'termClinicId': 1442082995943571458}
+2022-06-22 17:42:06.906 | INFO     | __main__:upload_patient:73 - 发布患者信息接口响应参数为:{"busiCode":0,"msg":"请求成功","data":"1539544249464107009"}
+2022-06-22 17:42:07.143 | INFO     | __main__:create_order:102 - 金标仪创建联测订单接口请求参数为:{'addressDetail': '湖南省长沙市雨花区华坤时代', 'briefAddress': '湖南省长沙市雨花区雨河路279号靠近湘府路站', 'latitude': 113.029384, 'longitude': 28.111673, 'recordId': '1539544249464107009', 'sno': 'B221031135000026', 'testDataIds': ['1539544245974446081', '1539544248914653186']}
+2022-06-22 17:42:07.143 | INFO     | __main__:create_order:103 - 金标仪创建联测订单接口响应参数为:{"busiCode":-1,"msg":"接口未知异常","data":null}
+2022-06-22 17:42:07.380 | INFO     | __main__:blood_test:116 - 血常规检测接口请求参数为:{'boardSno': '220301360723', 'cameraName': '测试相机', 'clinicId': 1442082995943571458, 'deviceSno': 'BLD100121031900002', 'hgbCalibration': [{'reference': 20317, 'groundTruth': 0, 'measure': 25501}, {'reference': 20732, 'groundTruth': 0, 'measure': 25637}, {'reference': 19684, 'groundTruth': 231, 'measure': 2397}, {'reference': 20401, 'groundTruth': 141, 'measure': 6061}, {'reference': 20628, 'groundTruth': 71, 'measure': 12633}, {'reference': 20360, 'groundTruth': 48, 'measure': 15893}], 'hgbCurveData': [], 'hgbMeasure': 0, 'hgbReference': 0, 'path': 'c69099f6-2df3-497b-b5ac-cefdca802aa9.zip', 'patientId': '1539544242732249089', 'pointConfig': {'plt': {'focus': 0, 'points': 0}, 'rbc': {'focus': 0, 'points': 0}, 'wbc': {'focus': 0, 'points': 0}}, 'type': 2}
+2022-06-22 17:42:07.381 | INFO     | __main__:blood_test:117 - 血常规检测接口响应参数为:{"busiCode":0,"msg":"请求成功","data":"1539544251352793089"}
+2022-06-22 17:42:08.556 | INFO     | __main__:get_manual_status:129 - 等待一秒钟，再去查询
+2022-06-22 17:42:08.556 | INFO     | __main__:get_manual_status:130 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': ''}}
+2022-06-22 17:42:09.715 | INFO     | __main__:get_manual_status:129 - 等待一秒钟，再去查询
+2022-06-22 17:42:09.715 | INFO     | __main__:get_manual_status:130 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': ''}}
+2022-06-22 17:42:10.868 | INFO     | __main__:get_manual_status:129 - 等待一秒钟，再去查询
+2022-06-22 17:42:10.868 | INFO     | __main__:get_manual_status:130 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': ''}}
+2022-06-22 17:42:12.027 | INFO     | __main__:get_manual_status:129 - 等待一秒钟，再去查询
+2022-06-22 17:42:12.027 | INFO     | __main__:get_manual_status:130 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': ''}}
+2022-06-22 17:42:13.189 | INFO     | __main__:get_manual_status:129 - 等待一秒钟，再去查询
+2022-06-22 17:42:13.189 | INFO     | __main__:get_manual_status:130 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': ''}}
+2022-06-22 17:42:14.346 | INFO     | __main__:get_manual_status:129 - 等待一秒钟，再去查询
+2022-06-22 17:42:14.347 | INFO     | __main__:get_manual_status:130 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': ''}}
+2022-06-22 17:42:15.500 | INFO     | __main__:get_manual_status:129 - 等待一秒钟，再去查询
+2022-06-22 17:42:15.500 | INFO     | __main__:get_manual_status:130 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 3, 'msg': ''}}
+2022-06-22 17:42:15.771 | INFO     | __main__:order_palce_blood:143 - 血常规下单接口请求参数为:{'dataId': '1539544251352793089', 'recordId': '1539544249464107009'}
+2022-06-22 17:42:15.771 | INFO     | __main__:order_palce_blood:144 - 血常规下单接口响应参数为:{"busiCode":-1,"msg":"接口未知异常","data":null}
+2022-06-22 17:42:15.918 | INFO     | __main__:call_back:160 - 支付回调接口请求参数为：{'openId': '111111111111', 'orderNo': None, 'outOrderNo': '111111111111111', 'outTransactionNo': '111111111111111111111', 'payChannel': '0', 'payFinishTime': '2022-06-22 17:43:15', 'payStatus': 'SUCCESS', 'payType': 'WXPAY', 'tradeType': 'JSAPI'}
+2022-06-22 17:42:15.918 | INFO     | __main__:call_back:161 - 支付回调接口响应内容为:{"busiCode":0,"msg":"请求成功","data":null}
+2022-06-22 17:51:16.800 | INFO     | utils.login:login_test:22 - 本次登录获取token为:{'Authorization': 'bearer 1bf84635-b76b-4446-a225-9cc5be710c7c'}
+2022-06-22 17:51:17.509 | INFO     | utils.get_clinic_info_test:bind_gold_blood_device:71 - 绑定设备接口请求参数{'clinicId': 1442079173893074946, 'ids': [1386932628008534018], 'operateType': 1}
+2022-06-22 17:51:17.509 | INFO     | utils.get_clinic_info_test:bind_gold_blood_device:72 - 绑定设备接口返回参数{"busiCode":201,"msg":"一个诊所只能绑定同种设备一次","data":null}
+2022-06-22 17:51:17.626 | INFO     | utils.get_clinic_info_test:bind_gold_blood_device:71 - 绑定设备接口请求参数{'clinicId': 1442079173893074946, 'ids': [1474315307854172163], 'operateType': 1}
+2022-06-22 17:51:17.626 | INFO     | utils.get_clinic_info_test:bind_gold_blood_device:72 - 绑定设备接口返回参数{"busiCode":201,"msg":"一个诊所只能绑定同种设备一次","data":null}
+2022-06-22 17:51:17.779 | INFO     | __main__:add_patient:61 - 添加患者接口请求参数为:{'age': 18, 'deviceId': 'B221031135000149', 'month': 0, 'name': '华强测试', 'phone': '13622220000', 'sex': 0, 'termClinicId': 1442079173893074946}
+2022-06-22 17:51:17.779 | INFO     | __main__:add_patient:62 - 添加患者接口响应参数为:{"busiCode":0,"msg":"请求成功","data":{"patientId":"1539546560023035905"}}
+2022-06-22 17:51:19.678 | INFO     | __main__:start_CRP_and_SAA:89 - crp+saa检测接口请求参数为:{'clinicId': 1442079173893074946, 'sno': 'B221031135000149'}
+2022-06-22 17:51:19.678 | INFO     | __main__:start_CRP_and_SAA:90 - crp+saa检测接口响应参数为:{"busiCode":0,"msg":"请求成功","data":{"stripTypeCode":"4","stripBatch":"38","testPoctDataId":"1539546562791276545","imgUrl":"http://publicmedia.ehomepoct.com/jbyimage/CRP.png","reactTime":5,"warningTips":null,"stripName":"CRP检测(XXXVIII)"}}
+2022-06-22 17:51:19.829 | INFO     | __main__:upload_patient:73 - 发布患者信息接口请求参数为:{'age': 18, 'deviceId': 'B221031135000149', 'month': 0, 'name': '华强测试', 'phone': '13622220000', 'sex': 0, 'termClinicId': 1442079173893074946}
+2022-06-22 17:51:19.829 | INFO     | __main__:upload_patient:74 - 发布患者信息接口响应参数为:{"busiCode":0,"msg":"请求成功","data":"1539546568591998977"}
+2022-06-22 17:51:20.185 | INFO     | __main__:create_order:103 - 金标仪创建联测订单接口请求参数为:{'addressDetail': '湖南省长沙市雨花区华坤时代', 'briefAddress': '湖南省长沙市雨花区雨河路279号靠近湘府路站', 'latitude': 113.029384, 'longitude': 28.111673, 'recordId': '1539546568591998977', 'sno': 'B221031135000149', 'testDataIds': ['1539546562791276545', '1539546566603898882']}
+2022-06-22 17:51:20.186 | INFO     | __main__:create_order:104 - 金标仪创建联测订单接口响应参数为:{"busiCode":0,"msg":"请求成功","data":null}
+2022-06-22 17:51:20.565 | INFO     | __main__:blood_test:117 - 血常规检测接口请求参数为:{'boardSno': '220301360723', 'cameraName': '测试相机', 'clinicId': 1442079173893074946, 'deviceSno': 'BLD100021111800001', 'hgbCalibration': [{'reference': 20317, 'groundTruth': 0, 'measure': 25501}, {'reference': 20732, 'groundTruth': 0, 'measure': 25637}, {'reference': 19684, 'groundTruth': 231, 'measure': 2397}, {'reference': 20401, 'groundTruth': 141, 'measure': 6061}, {'reference': 20628, 'groundTruth': 71, 'measure': 12633}, {'reference': 20360, 'groundTruth': 48, 'measure': 15893}], 'hgbCurveData': [], 'hgbMeasure': 0, 'hgbReference': 0, 'path': 'c69099f6-2df3-497b-b5ac-cefdca802aa9.zip', 'patientId': '1539546560023035905', 'pointConfig': {'plt': {'focus': 0, 'points': 0}, 'rbc': {'focus': 0, 'points': 0}, 'wbc': {'focus': 0, 'points': 0}}, 'type': 2}
+2022-06-22 17:51:20.566 | INFO     | __main__:blood_test:118 - 血常规检测接口响应参数为:{"busiCode":0,"msg":"请求成功","data":"1539546571581415425"}
+2022-06-22 17:51:21.854 | INFO     | __main__:get_manual_status:130 - 等待一秒钟，再去查询
+2022-06-22 17:51:21.854 | INFO     | __main__:get_manual_status:131 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': ''}}
+2022-06-22 17:51:23.027 | INFO     | __main__:get_manual_status:130 - 等待一秒钟，再去查询
+2022-06-22 17:51:23.027 | INFO     | __main__:get_manual_status:131 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': ''}}
+2022-06-22 17:51:24.200 | INFO     | __main__:get_manual_status:130 - 等待一秒钟，再去查询
+2022-06-22 17:51:24.200 | INFO     | __main__:get_manual_status:131 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': ''}}
+2022-06-22 17:51:25.362 | INFO     | __main__:get_manual_status:130 - 等待一秒钟，再去查询
+2022-06-22 17:51:25.362 | INFO     | __main__:get_manual_status:131 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': ''}}
+2022-06-22 17:51:26.516 | INFO     | __main__:get_manual_status:130 - 等待一秒钟，再去查询
+2022-06-22 17:51:26.516 | INFO     | __main__:get_manual_status:131 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': ''}}
+2022-06-22 17:51:27.674 | INFO     | __main__:get_manual_status:130 - 等待一秒钟，再去查询
+2022-06-22 17:51:27.674 | INFO     | __main__:get_manual_status:131 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': ''}}
+2022-06-22 17:51:28.830 | INFO     | __main__:get_manual_status:130 - 等待一秒钟，再去查询
+2022-06-22 17:51:28.831 | INFO     | __main__:get_manual_status:131 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': ''}}
+2022-06-22 17:51:30.005 | INFO     | __main__:get_manual_status:130 - 等待一秒钟，再去查询
+2022-06-22 17:51:30.005 | INFO     | __main__:get_manual_status:131 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 4, 'msg': ''}}
+2022-06-22 17:51:31.152 | INFO     | __main__:order_palce_blood:144 - 血常规下单接口请求参数为:{'dataId': '1539546571581415425', 'recordId': '1539546568591998977'}
+2022-06-22 17:51:31.152 | INFO     | __main__:order_palce_blood:145 - 血常规下单接口响应参数为:{"busiCode":0,"msg":"请求成功","data":{"orderNo":"B2210311350001492206221751206340","payUrl":"https://qr.95516.com/48020000/10VA2206222305131179000765","money":0.01,"promptMsg":"未支付","orderStatus":0}}
+2022-06-22 17:51:31.491 | INFO     | __main__:call_back:161 - 支付回调接口请求参数为：{'openId': '111111111111', 'orderNo': 'B2210311350001492206221751206340', 'outOrderNo': '111111111111111', 'outTransactionNo': '111111111111111111111', 'payChannel': '0', 'payFinishTime': '2022-06-22 17:52:31', 'payStatus': 'SUCCESS', 'payType': 'WXPAY', 'tradeType': 'JSAPI'}
+2022-06-22 17:51:31.491 | INFO     | __main__:call_back:162 - 支付回调接口响应内容为:{"busiCode":0,"msg":"请求成功","data":null}
+2022-06-22 17:51:47.656 | INFO     | utils.login:login_sta:33 - 本次登录获取token为:{'Authorization': 'bearer 643c6a0a-d92b-456a-8b92-b4816cc1624b'}
+2022-06-22 17:51:48.352 | INFO     | utils.get_clinic_info_sta:bind_gold_blood_device:71 - 绑定设备接口请求参数{'clinicId': 1442082995943571458, 'ids': [1391993393100926977], 'operateType': 1}
+2022-06-22 17:51:48.352 | INFO     | utils.get_clinic_info_sta:bind_gold_blood_device:72 - 绑定设备接口返回参数{"busiCode":201,"msg":"一个诊所只能绑定同种设备一次","data":null}
+2022-06-22 17:51:48.450 | INFO     | utils.get_clinic_info_sta:bind_gold_blood_device:71 - 绑定设备接口请求参数{'clinicId': 1442082995943571458, 'ids': [1387605672557346818], 'operateType': 1}
+2022-06-22 17:51:48.450 | INFO     | utils.get_clinic_info_sta:bind_gold_blood_device:72 - 绑定设备接口返回参数{"busiCode":201,"msg":"一个诊所只能绑定同种设备一次","data":null}
+2022-06-22 17:51:48.597 | INFO     | __main__:add_patient:61 - 添加患者接口请求参数为:{'age': 18, 'deviceId': 'B221031135000026', 'month': 0, 'name': '华强测试', 'phone': '13622220000', 'sex': 0, 'termClinicId': 1442082995943571458}
+2022-06-22 17:51:48.598 | INFO     | __main__:add_patient:62 - 添加患者接口响应参数为:{"busiCode":0,"msg":"请求成功","data":{"patientId":"1539546689294938113"}}
+2022-06-22 17:51:50.085 | INFO     | __main__:start_CRP_and_SAA:89 - crp+saa检测接口请求参数为:{'clinicId': 1442082995943571458, 'sno': 'B221031135000026'}
+2022-06-22 17:51:50.086 | INFO     | __main__:start_CRP_and_SAA:90 - crp+saa检测接口响应参数为:{"busiCode":0,"msg":"请求成功","data":{"stripTypeCode":"4","stripBatch":"38","testPoctDataId":"1539546692520357890","imgUrl":"http://publicmedia.ehomepoct.com/CRP.png","reactTime":5,"warningTips":null,"stripName":"CRP检测(XXXVIII)"}}
+2022-06-22 17:51:50.187 | INFO     | __main__:upload_patient:73 - 发布患者信息接口请求参数为:{'age': 18, 'deviceId': 'B221031135000026', 'month': 0, 'name': '华强测试', 'phone': '13622220000', 'sex': 0, 'termClinicId': 1442082995943571458}
+2022-06-22 17:51:50.188 | INFO     | __main__:upload_patient:74 - 发布患者信息接口响应参数为:{"busiCode":0,"msg":"请求成功","data":"1539546695942909954"}
+2022-06-22 17:51:50.414 | INFO     | __main__:create_order:103 - 金标仪创建联测订单接口请求参数为:{'addressDetail': '湖南省长沙市雨花区华坤时代', 'briefAddress': '湖南省长沙市雨花区雨河路279号靠近湘府路站', 'latitude': 113.029384, 'longitude': 28.111673, 'recordId': '1539546695942909954', 'sno': 'B221031135000026', 'testDataIds': ['1539546692520357890', '1539546695406039042']}
+2022-06-22 17:51:50.415 | INFO     | __main__:create_order:104 - 金标仪创建联测订单接口响应参数为:{"busiCode":-1,"msg":"接口未知异常","data":null}
+2022-06-22 17:51:50.657 | INFO     | __main__:blood_test:117 - 血常规检测接口请求参数为:{'boardSno': '220301360723', 'cameraName': '测试相机', 'clinicId': 1442082995943571458, 'deviceSno': 'BLD100121031900002', 'hgbCalibration': [{'reference': 20317, 'groundTruth': 0, 'measure': 25501}, {'reference': 20732, 'groundTruth': 0, 'measure': 25637}, {'reference': 19684, 'groundTruth': 231, 'measure': 2397}, {'reference': 20401, 'groundTruth': 141, 'measure': 6061}, {'reference': 20628, 'groundTruth': 71, 'measure': 12633}, {'reference': 20360, 'groundTruth': 48, 'measure': 15893}], 'hgbCurveData': [], 'hgbMeasure': 0, 'hgbReference': 0, 'path': 'c69099f6-2df3-497b-b5ac-cefdca802aa9.zip', 'patientId': '1539546689294938113', 'pointConfig': {'plt': {'focus': 0, 'points': 0}, 'rbc': {'focus': 0, 'points': 0}, 'wbc': {'focus': 0, 'points': 0}}, 'type': 2}
+2022-06-22 17:51:50.658 | INFO     | __main__:blood_test:118 - 血常规检测接口响应参数为:{"busiCode":0,"msg":"请求成功","data":"1539546697806430210"}
+2022-06-22 17:51:51.824 | INFO     | __main__:get_manual_status:130 - 等待一秒钟，再去查询
+2022-06-22 17:51:51.824 | INFO     | __main__:get_manual_status:131 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': ''}}
+2022-06-22 17:51:52.985 | INFO     | __main__:get_manual_status:130 - 等待一秒钟，再去查询
+2022-06-22 17:51:52.985 | INFO     | __main__:get_manual_status:131 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': ''}}
+2022-06-22 17:51:54.140 | INFO     | __main__:get_manual_status:130 - 等待一秒钟，再去查询
+2022-06-22 17:51:54.140 | INFO     | __main__:get_manual_status:131 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': ''}}
+2022-06-22 17:51:55.295 | INFO     | __main__:get_manual_status:130 - 等待一秒钟，再去查询
+2022-06-22 17:51:55.295 | INFO     | __main__:get_manual_status:131 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': ''}}
+2022-06-22 17:51:56.442 | INFO     | __main__:get_manual_status:130 - 等待一秒钟，再去查询
+2022-06-22 17:51:56.442 | INFO     | __main__:get_manual_status:131 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': ''}}
+2022-06-22 17:51:57.606 | INFO     | __main__:get_manual_status:130 - 等待一秒钟，再去查询
+2022-06-22 17:51:57.606 | INFO     | __main__:get_manual_status:131 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': ''}}
+2022-06-22 17:51:58.767 | INFO     | __main__:get_manual_status:130 - 等待一秒钟，再去查询
+2022-06-22 17:51:58.767 | INFO     | __main__:get_manual_status:131 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': ''}}
+2022-06-22 17:51:59.927 | INFO     | __main__:get_manual_status:130 - 等待一秒钟，再去查询
+2022-06-22 17:51:59.927 | INFO     | __main__:get_manual_status:131 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 3, 'msg': ''}}
+2022-06-22 17:52:00.166 | INFO     | __main__:order_palce_blood:144 - 血常规下单接口请求参数为:{'dataId': '1539546697806430210', 'recordId': '1539546695942909954'}
+2022-06-22 17:52:00.166 | INFO     | __main__:order_palce_blood:145 - 血常规下单接口响应参数为:{"busiCode":-1,"msg":"接口未知异常","data":null}
+2022-06-22 17:52:00.237 | INFO     | __main__:call_back:161 - 支付回调接口请求参数为：{'openId': '111111111111', 'orderNo': None, 'outOrderNo': '111111111111111', 'outTransactionNo': '111111111111111111111', 'payChannel': '0', 'payFinishTime': '2022-06-22 17:53:00', 'payStatus': 'SUCCESS', 'payType': 'WXPAY', 'tradeType': 'JSAPI'}
+2022-06-22 17:52:00.237 | INFO     | __main__:call_back:162 - 支付回调接口响应内容为:{"busiCode":0,"msg":"请求成功","data":null}
+2022-06-22 17:53:53.406 | INFO     | utils.login:login_sta:33 - 本次登录获取token为:{'Authorization': 'bearer 643c6a0a-d92b-456a-8b92-b4816cc1624b'}
+2022-06-22 17:53:54.100 | INFO     | utils.get_clinic_info_sta:bind_gold_blood_device:71 - 绑定设备接口请求参数{'clinicId': 1442082995943571458, 'ids': [1391993393100926977], 'operateType': 1}
+2022-06-22 17:53:54.100 | INFO     | utils.get_clinic_info_sta:bind_gold_blood_device:72 - 绑定设备接口返回参数{"busiCode":201,"msg":"一个诊所只能绑定同种设备一次","data":null}
+2022-06-22 17:53:54.195 | INFO     | utils.get_clinic_info_sta:bind_gold_blood_device:71 - 绑定设备接口请求参数{'clinicId': 1442082995943571458, 'ids': [1387605672557346818], 'operateType': 1}
+2022-06-22 17:53:54.195 | INFO     | utils.get_clinic_info_sta:bind_gold_blood_device:72 - 绑定设备接口返回参数{"busiCode":201,"msg":"一个诊所只能绑定同种设备一次","data":null}
+2022-06-22 17:53:54.364 | INFO     | __main__:add_patient:61 - 添加患者接口请求参数为:{'age': 18, 'deviceId': 'B221031135000026', 'month': 0, 'name': '华强测试', 'phone': '13622220000', 'sex': 0, 'termClinicId': 1442082995943571458}
+2022-06-22 17:53:54.365 | INFO     | __main__:add_patient:62 - 添加患者接口响应参数为:{"busiCode":0,"msg":"请求成功","data":{"patientId":"1539547216804163586"}}
+2022-06-22 17:53:55.837 | INFO     | __main__:start_CRP_and_SAA:89 - crp+saa检测接口请求参数为:{'clinicId': 1442082995943571458, 'sno': 'B221031135000026'}
+2022-06-22 17:53:55.838 | INFO     | __main__:start_CRP_and_SAA:90 - crp+saa检测接口响应参数为:{"busiCode":0,"msg":"请求成功","data":{"stripTypeCode":"4","stripBatch":"38","testPoctDataId":"1539547219907948546","imgUrl":"http://publicmedia.ehomepoct.com/CRP.png","reactTime":5,"warningTips":null,"stripName":"CRP检测(XXXVIII)"}}
+2022-06-22 17:53:55.950 | INFO     | __main__:upload_patient:73 - 发布患者信息接口请求参数为:{'age': 18, 'deviceId': 'B221031135000026', 'month': 0, 'name': '华强测试', 'phone': '13622220000', 'sex': 0, 'termClinicId': 1442082995943571458}
+2022-06-22 17:53:55.950 | INFO     | __main__:upload_patient:74 - 发布患者信息接口响应参数为:{"busiCode":0,"msg":"请求成功","data":"1539547223418580993"}
+2022-06-22 17:53:56.286 | INFO     | __main__:create_order:103 - 金标仪创建联测订单接口请求参数为:{'addressDetail': '湖南省长沙市雨花区华坤时代', 'briefAddress': '湖南省长沙市雨花区雨河路279号靠近湘府路站', 'latitude': 113.029384, 'longitude': 28.111673, 'recordId': '1539547223418580993', 'sno': 'B221031135000026', 'testDataIds': ['1539547219907948546', '1539547222848155650']}
+2022-06-22 17:53:56.287 | INFO     | __main__:create_order:104 - 金标仪创建联测订单接口响应参数为:{"busiCode":0,"msg":"请求成功","data":null}
+2022-06-22 17:53:56.541 | INFO     | __main__:blood_test:117 - 血常规检测接口请求参数为:{'boardSno': '220301360723', 'cameraName': '测试相机', 'clinicId': 1442082995943571458, 'deviceSno': 'BLD100121031900002', 'hgbCalibration': [{'reference': 20317, 'groundTruth': 0, 'measure': 25501}, {'reference': 20732, 'groundTruth': 0, 'measure': 25637}, {'reference': 19684, 'groundTruth': 231, 'measure': 2397}, {'reference': 20401, 'groundTruth': 141, 'measure': 6061}, {'reference': 20628, 'groundTruth': 71, 'measure': 12633}, {'reference': 20360, 'groundTruth': 48, 'measure': 15893}], 'hgbCurveData': [], 'hgbMeasure': 0, 'hgbReference': 0, 'path': 'c69099f6-2df3-497b-b5ac-cefdca802aa9.zip', 'patientId': '1539547216804163586', 'pointConfig': {'plt': {'focus': 0, 'points': 0}, 'rbc': {'focus': 0, 'points': 0}, 'wbc': {'focus': 0, 'points': 0}}, 'type': 2}
+2022-06-22 17:53:56.541 | INFO     | __main__:blood_test:118 - 血常规检测接口响应参数为:{"busiCode":0,"msg":"请求成功","data":"1539547225802194945"}
+2022-06-22 17:53:57.763 | INFO     | __main__:get_manual_status:130 - 等待一秒钟，再去查询
+2022-06-22 17:53:57.763 | INFO     | __main__:get_manual_status:131 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': ''}}
+2022-06-22 17:53:58.919 | INFO     | __main__:get_manual_status:130 - 等待一秒钟，再去查询
+2022-06-22 17:53:58.919 | INFO     | __main__:get_manual_status:131 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': ''}}
+2022-06-22 17:54:00.082 | INFO     | __main__:get_manual_status:130 - 等待一秒钟，再去查询
+2022-06-22 17:54:00.082 | INFO     | __main__:get_manual_status:131 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': ''}}
+2022-06-22 17:54:01.240 | INFO     | __main__:get_manual_status:130 - 等待一秒钟，再去查询
+2022-06-22 17:54:01.240 | INFO     | __main__:get_manual_status:131 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': ''}}
+2022-06-22 17:54:02.397 | INFO     | __main__:get_manual_status:130 - 等待一秒钟，再去查询
+2022-06-22 17:54:02.397 | INFO     | __main__:get_manual_status:131 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': ''}}
+2022-06-22 17:54:03.547 | INFO     | __main__:get_manual_status:130 - 等待一秒钟，再去查询
+2022-06-22 17:54:03.547 | INFO     | __main__:get_manual_status:131 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': ''}}
+2022-06-22 17:54:04.696 | INFO     | __main__:get_manual_status:130 - 等待一秒钟，再去查询
+2022-06-22 17:54:04.696 | INFO     | __main__:get_manual_status:131 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 3, 'msg': ''}}
+2022-06-22 17:54:05.864 | INFO     | __main__:order_palce_blood:144 - 血常规下单接口请求参数为:{'dataId': '1539547225802194945', 'recordId': '1539547223418580993'}
+2022-06-22 17:54:05.865 | INFO     | __main__:order_palce_blood:145 - 血常规下单接口响应参数为:{"busiCode":0,"msg":"请求成功","data":{"orderNo":"B2210311350000262206221753567808","payUrl":"https://qr.95516.com/48020000/10VA2206220505406176711630","money":10.00,"promptMsg":"未支付","orderStatus":0}}
+2022-06-22 17:54:06.205 | INFO     | __main__:call_back:161 - 支付回调接口请求参数为：{'openId': '111111111111', 'orderNo': 'B2210311350000262206221753567808', 'outOrderNo': '111111111111111', 'outTransactionNo': '111111111111111111111', 'payChannel': '0', 'payFinishTime': '2022-06-22 17:55:05', 'payStatus': 'SUCCESS', 'payType': 'WXPAY', 'tradeType': 'JSAPI'}
+2022-06-22 17:54:06.205 | INFO     | __main__:call_back:162 - 支付回调接口响应内容为:{"busiCode":0,"msg":"请求成功","data":null}
+2022-06-22 17:54:45.245 | INFO     | utils.login:login_test:22 - 本次登录获取token为:{'Authorization': 'bearer 1bf84635-b76b-4446-a225-9cc5be710c7c'}
+2022-06-22 17:54:46.030 | INFO     | utils.get_clinic_info_test:bind_gold_blood_device:71 - 绑定设备接口请求参数{'clinicId': 1442079173893074946, 'ids': [1386932628008534018], 'operateType': 1}
+2022-06-22 17:54:46.030 | INFO     | utils.get_clinic_info_test:bind_gold_blood_device:72 - 绑定设备接口返回参数{"busiCode":201,"msg":"一个诊所只能绑定同种设备一次","data":null}
+2022-06-22 17:54:46.230 | INFO     | utils.get_clinic_info_test:bind_gold_blood_device:71 - 绑定设备接口请求参数{'clinicId': 1442079173893074946, 'ids': [1474315307854172163], 'operateType': 1}
+2022-06-22 17:54:46.230 | INFO     | utils.get_clinic_info_test:bind_gold_blood_device:72 - 绑定设备接口返回参数{"busiCode":201,"msg":"一个诊所只能绑定同种设备一次","data":null}
+2022-06-22 17:54:46.435 | INFO     | __main__:add_patient:61 - 添加患者接口请求参数为:{'age': 18, 'deviceId': 'B221031135000149', 'month': 0, 'name': '华强测试', 'phone': '13622220000', 'sex': 0, 'termClinicId': 1442079173893074946}
+2022-06-22 17:54:46.435 | INFO     | __main__:add_patient:62 - 添加患者接口响应参数为:{"busiCode":0,"msg":"请求成功","data":{"patientId":"1539547435172954113"}}
+2022-06-22 17:54:48.547 | INFO     | __main__:start_CRP_and_SAA:89 - crp+saa检测接口请求参数为:{'clinicId': 1442079173893074946, 'sno': 'B221031135000149'}
+2022-06-22 17:54:48.548 | INFO     | __main__:start_CRP_and_SAA:90 - crp+saa检测接口响应参数为:{"busiCode":0,"msg":"请求成功","data":{"stripTypeCode":"4","stripBatch":"38","testPoctDataId":"1539547438775861250","imgUrl":"http://publicmedia.ehomepoct.com/jbyimage/CRP.png","reactTime":5,"warningTips":null,"stripName":"CRP检测(XXXVIII)"}}
+2022-06-22 17:54:48.654 | INFO     | __main__:upload_patient:73 - 发布患者信息接口请求参数为:{'age': 18, 'deviceId': 'B221031135000149', 'month': 0, 'name': '华强测试', 'phone': '13622220000', 'sex': 0, 'termClinicId': 1442079173893074946}
+2022-06-22 17:54:48.654 | INFO     | __main__:upload_patient:74 - 发布患者信息接口响应参数为:{"busiCode":0,"msg":"请求成功","data":"1539547444480114689"}
+2022-06-22 17:54:48.949 | INFO     | __main__:create_order:103 - 金标仪创建联测订单接口请求参数为:{'addressDetail': '湖南省长沙市雨花区华坤时代', 'briefAddress': '湖南省长沙市雨花区雨河路279号靠近湘府路站', 'latitude': 113.029384, 'longitude': 28.111673, 'recordId': '1539547444480114689', 'sno': 'B221031135000149', 'testDataIds': ['1539547438775861250', '1539547442768838657']}
+2022-06-22 17:54:48.950 | INFO     | __main__:create_order:104 - 金标仪创建联测订单接口响应参数为:{"busiCode":0,"msg":"请求成功","data":null}
+2022-06-22 17:54:49.257 | INFO     | __main__:blood_test:117 - 血常规检测接口请求参数为:{'boardSno': '220301360723', 'cameraName': '测试相机', 'clinicId': 1442079173893074946, 'deviceSno': 'BLD100021111800001', 'hgbCalibration': [{'reference': 20317, 'groundTruth': 0, 'measure': 25501}, {'reference': 20732, 'groundTruth': 0, 'measure': 25637}, {'reference': 19684, 'groundTruth': 231, 'measure': 2397}, {'reference': 20401, 'groundTruth': 141, 'measure': 6061}, {'reference': 20628, 'groundTruth': 71, 'measure': 12633}, {'reference': 20360, 'groundTruth': 48, 'measure': 15893}], 'hgbCurveData': [], 'hgbMeasure': 0, 'hgbReference': 0, 'path': 'c69099f6-2df3-497b-b5ac-cefdca802aa9.zip', 'patientId': '1539547435172954113', 'pointConfig': {'plt': {'focus': 0, 'points': 0}, 'rbc': {'focus': 0, 'points': 0}, 'wbc': {'focus': 0, 'points': 0}}, 'type': 2}
+2022-06-22 17:54:49.257 | INFO     | __main__:blood_test:118 - 血常规检测接口响应参数为:{"busiCode":0,"msg":"请求成功","data":"1539547446903300097"}
+2022-06-22 17:54:50.416 | INFO     | __main__:get_manual_status:130 - 等待一秒钟，再去查询
+2022-06-22 17:54:50.416 | INFO     | __main__:get_manual_status:131 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': ''}}
+2022-06-22 17:54:51.573 | INFO     | __main__:get_manual_status:130 - 等待一秒钟，再去查询
+2022-06-22 17:54:51.573 | INFO     | __main__:get_manual_status:131 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': ''}}
+2022-06-22 17:54:52.735 | INFO     | __main__:get_manual_status:130 - 等待一秒钟，再去查询
+2022-06-22 17:54:52.735 | INFO     | __main__:get_manual_status:131 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': ''}}
+2022-06-22 17:54:53.901 | INFO     | __main__:get_manual_status:130 - 等待一秒钟，再去查询
+2022-06-22 17:54:53.901 | INFO     | __main__:get_manual_status:131 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': ''}}
+2022-06-22 17:54:55.091 | INFO     | __main__:get_manual_status:130 - 等待一秒钟，再去查询
+2022-06-22 17:54:55.091 | INFO     | __main__:get_manual_status:131 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': ''}}
+2022-06-22 17:54:56.248 | INFO     | __main__:get_manual_status:130 - 等待一秒钟，再去查询
+2022-06-22 17:54:56.248 | INFO     | __main__:get_manual_status:131 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': ''}}
+2022-06-22 17:54:57.451 | INFO     | __main__:get_manual_status:130 - 等待一秒钟，再去查询
+2022-06-22 17:54:57.451 | INFO     | __main__:get_manual_status:131 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': ''}}
+2022-06-22 17:54:58.613 | INFO     | __main__:get_manual_status:130 - 等待一秒钟，再去查询
+2022-06-22 17:54:58.613 | INFO     | __main__:get_manual_status:131 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 4, 'msg': ''}}
+2022-06-22 17:54:59.711 | INFO     | __main__:order_palce_blood:144 - 血常规下单接口请求参数为:{'dataId': '1539547446903300097', 'recordId': '1539547444480114689'}
+2022-06-22 17:54:59.711 | INFO     | __main__:order_palce_blood:145 - 血常规下单接口响应参数为:{"busiCode":0,"msg":"请求成功","data":{"orderNo":"B2210311350001492206221754487588","payUrl":"https://qr.95516.com/48020000/10VA2206228155459171812458","money":9.00,"promptMsg":"未支付","orderStatus":0}}
+2022-06-22 17:55:00.180 | INFO     | __main__:call_back:161 - 支付回调接口请求参数为：{'openId': '111111111111', 'orderNo': 'B2210311350001492206221754487588', 'outOrderNo': '111111111111111', 'outTransactionNo': '111111111111111111111', 'payChannel': '0', 'payFinishTime': '2022-06-22 17:55:59', 'payStatus': 'SUCCESS', 'payType': 'WXPAY', 'tradeType': 'JSAPI'}
+2022-06-22 17:55:00.180 | INFO     | __main__:call_back:162 - 支付回调接口响应内容为:{"busiCode":0,"msg":"请求成功","data":null}
+2022-06-22 17:59:58.931 | INFO     | utils.login:login_test:22 - 本次登录获取token为:{'Authorization': 'bearer 1bf84635-b76b-4446-a225-9cc5be710c7c'}
+2022-06-22 17:59:59.644 | INFO     | utils.get_clinic_info_test:bind_gold_blood_device:71 - 绑定设备接口请求参数{'clinicId': 1442079173893074946, 'ids': [1386932628008534018], 'operateType': 1}
+2022-06-22 17:59:59.644 | INFO     | utils.get_clinic_info_test:bind_gold_blood_device:72 - 绑定设备接口返回参数{"busiCode":201,"msg":"一个诊所只能绑定同种设备一次","data":null}
+2022-06-22 17:59:59.767 | INFO     | utils.get_clinic_info_test:bind_gold_blood_device:71 - 绑定设备接口请求参数{'clinicId': 1442079173893074946, 'ids': [1474315307854172163], 'operateType': 1}
+2022-06-22 17:59:59.768 | INFO     | utils.get_clinic_info_test:bind_gold_blood_device:72 - 绑定设备接口返回参数{"busiCode":201,"msg":"一个诊所只能绑定同种设备一次","data":null}
+2022-06-22 17:59:59.950 | INFO     | __main__:add_patient:61 - 添加患者接口请求参数为:{'age': 18, 'deviceId': 'B221031135000149', 'month': 0, 'name': '华强测试', 'phone': '13622220000', 'sex': 0, 'termClinicId': 1442079173893074946}
+2022-06-22 17:59:59.950 | INFO     | __main__:add_patient:62 - 添加患者接口响应参数为:{"busiCode":0,"msg":"请求成功","data":{"patientId":"1539548750179532801"}}
+2022-06-22 18:00:01.784 | INFO     | __main__:start_CRP_and_SAA:89 - crp+saa检测接口请求参数为:{'clinicId': 1442079173893074946, 'sno': 'B221031135000149'}
+2022-06-22 18:00:01.784 | INFO     | __main__:start_CRP_and_SAA:90 - crp+saa检测接口响应参数为:{"busiCode":0,"msg":"请求成功","data":{"stripTypeCode":"4","stripBatch":"38","testPoctDataId":"1539548752968744962","imgUrl":"http://publicmedia.ehomepoct.com/jbyimage/CRP.png","reactTime":5,"warningTips":null,"stripName":"CRP检测(XXXVIII)"}}
+2022-06-22 18:00:01.894 | INFO     | __main__:upload_patient:73 - 发布患者信息接口请求参数为:{'age': 18, 'deviceId': 'B221031135000149', 'month': 0, 'name': '华强测试', 'phone': '13622220000', 'sex': 0, 'termClinicId': 1442079173893074946}
+2022-06-22 18:00:01.894 | INFO     | __main__:upload_patient:74 - 发布患者信息接口响应参数为:{"busiCode":0,"msg":"请求成功","data":"1539548758316482562"}
+2022-06-22 18:00:02.196 | INFO     | __main__:blood_test:116 - 血常规检测接口请求参数为:{'boardSno': '220301360723', 'cameraName': '测试相机', 'clinicId': 1442079173893074946, 'deviceSno': 'BLD100021111800001', 'hgbCalibration': [{'reference': 20317, 'groundTruth': 0, 'measure': 25501}, {'reference': 20732, 'groundTruth': 0, 'measure': 25637}, {'reference': 19684, 'groundTruth': 231, 'measure': 2397}, {'reference': 20401, 'groundTruth': 141, 'measure': 6061}, {'reference': 20628, 'groundTruth': 71, 'measure': 12633}, {'reference': 20360, 'groundTruth': 48, 'measure': 15893}], 'hgbCurveData': [], 'hgbMeasure': 0, 'hgbReference': 0, 'path': 'c69099f6-2df3-497b-b5ac-cefdca802aa9.zip', 'patientId': '1539548750179532801', 'pointConfig': {'plt': {'focus': 0, 'points': 0}, 'rbc': {'focus': 0, 'points': 0}, 'wbc': {'focus': 0, 'points': 0}}, 'type': 2}
+2022-06-22 18:00:02.196 | INFO     | __main__:blood_test:117 - 血常规检测接口响应参数为:{"busiCode":0,"msg":"请求成功","data":"1539548759464599554"}
+2022-06-22 18:00:03.366 | INFO     | __main__:get_manual_status:129 - 等待一秒钟，再去查询
+2022-06-22 18:00:03.366 | INFO     | __main__:get_manual_status:130 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': ''}}
+2022-06-22 18:00:04.517 | INFO     | __main__:get_manual_status:129 - 等待一秒钟，再去查询
+2022-06-22 18:00:04.517 | INFO     | __main__:get_manual_status:130 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': ''}}
+2022-06-22 18:00:05.675 | INFO     | __main__:get_manual_status:129 - 等待一秒钟，再去查询
+2022-06-22 18:00:05.675 | INFO     | __main__:get_manual_status:130 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': ''}}
+2022-06-22 18:00:06.829 | INFO     | __main__:get_manual_status:129 - 等待一秒钟，再去查询
+2022-06-22 18:00:06.829 | INFO     | __main__:get_manual_status:130 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': ''}}
+2022-06-22 18:00:07.986 | INFO     | __main__:get_manual_status:129 - 等待一秒钟，再去查询
+2022-06-22 18:00:07.986 | INFO     | __main__:get_manual_status:130 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': ''}}
+2022-06-22 18:00:09.133 | INFO     | __main__:get_manual_status:129 - 等待一秒钟，再去查询
+2022-06-22 18:00:09.133 | INFO     | __main__:get_manual_status:130 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': ''}}
+2022-06-22 18:00:10.287 | INFO     | __main__:get_manual_status:129 - 等待一秒钟，再去查询
+2022-06-22 18:00:10.287 | INFO     | __main__:get_manual_status:130 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': ''}}
+2022-06-22 18:00:11.440 | INFO     | __main__:get_manual_status:129 - 等待一秒钟，再去查询
+2022-06-22 18:00:11.440 | INFO     | __main__:get_manual_status:130 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 4, 'msg': ''}}
+2022-06-22 18:00:11.764 | INFO     | __main__:order_palce_blood:143 - 血常规下单接口请求参数为:{'dataId': '1539548759464599554', 'recordId': '1539548758316482562'}
+2022-06-22 18:00:11.764 | INFO     | __main__:order_palce_blood:144 - 血常规下单接口响应参数为:{"busiCode":0,"msg":"请求成功","data":{"orderNo":"BLD1000211118000012206221800118185","payUrl":null,"money":null,"promptMsg":"联合检测金标仪未完成","orderStatus":null}}
+2022-06-22 18:00:12.241 | INFO     | __main__:call_back:160 - 支付回调接口请求参数为：{'openId': '111111111111', 'orderNo': 'BLD1000211118000012206221800118185', 'outOrderNo': '111111111111111', 'outTransactionNo': '111111111111111111111', 'payChannel': '0', 'payFinishTime': '2022-06-22 18:01:11', 'payStatus': 'SUCCESS', 'payType': 'WXPAY', 'tradeType': 'JSAPI'}
+2022-06-22 18:00:12.241 | INFO     | __main__:call_back:161 - 支付回调接口响应内容为:{"busiCode":0,"msg":"请求成功","data":null}
+2022-06-22 18:00:36.424 | INFO     | utils.login:login_sta:33 - 本次登录获取token为:{'Authorization': 'bearer 643c6a0a-d92b-456a-8b92-b4816cc1624b'}
+2022-06-22 18:00:37.085 | INFO     | utils.get_clinic_info_sta:bind_gold_blood_device:71 - 绑定设备接口请求参数{'clinicId': 1442082995943571458, 'ids': [1391993393100926977], 'operateType': 1}
+2022-06-22 18:00:37.086 | INFO     | utils.get_clinic_info_sta:bind_gold_blood_device:72 - 绑定设备接口返回参数{"busiCode":201,"msg":"一个诊所只能绑定同种设备一次","data":null}
+2022-06-22 18:00:37.188 | INFO     | utils.get_clinic_info_sta:bind_gold_blood_device:71 - 绑定设备接口请求参数{'clinicId': 1442082995943571458, 'ids': [1387605672557346818], 'operateType': 1}
+2022-06-22 18:00:37.188 | INFO     | utils.get_clinic_info_sta:bind_gold_blood_device:72 - 绑定设备接口返回参数{"busiCode":201,"msg":"一个诊所只能绑定同种设备一次","data":null}
+2022-06-22 18:01:08.792 | INFO     | utils.login:login_sta:33 - 本次登录获取token为:{'Authorization': 'bearer 643c6a0a-d92b-456a-8b92-b4816cc1624b'}
+2022-06-22 18:01:09.453 | INFO     | utils.get_clinic_info_sta:bind_gold_blood_device:71 - 绑定设备接口请求参数{'clinicId': 1442082995943571458, 'ids': [1391993393100926977], 'operateType': 1}
+2022-06-22 18:01:09.454 | INFO     | utils.get_clinic_info_sta:bind_gold_blood_device:72 - 绑定设备接口返回参数{"busiCode":201,"msg":"一个诊所只能绑定同种设备一次","data":null}
+2022-06-22 18:01:09.555 | INFO     | utils.get_clinic_info_sta:bind_gold_blood_device:71 - 绑定设备接口请求参数{'clinicId': 1442082995943571458, 'ids': [1387605672557346818], 'operateType': 1}
+2022-06-22 18:01:09.555 | INFO     | utils.get_clinic_info_sta:bind_gold_blood_device:72 - 绑定设备接口返回参数{"busiCode":201,"msg":"一个诊所只能绑定同种设备一次","data":null}
+2022-06-22 18:01:09.863 | INFO     | __main__:add_patient:61 - 添加患者接口请求参数为:{'age': 18, 'deviceId': 'B221031135000026', 'month': 0, 'name': '华强测试', 'phone': '13622220000', 'sex': 0, 'termClinicId': 1442082995943571458}
+2022-06-22 18:01:09.863 | INFO     | __main__:add_patient:62 - 添加患者接口响应参数为:{"busiCode":0,"msg":"请求成功","data":{"patientId":"1539549043423555585"}}
+2022-06-22 18:01:11.512 | INFO     | __main__:start_CRP_and_SAA:89 - crp+saa检测接口请求参数为:{'clinicId': 1442082995943571458, 'sno': 'B221031135000026'}
+2022-06-22 18:01:11.512 | INFO     | __main__:start_CRP_and_SAA:90 - crp+saa检测接口响应参数为:{"busiCode":0,"msg":"请求成功","data":{"stripTypeCode":"4","stripBatch":"38","testPoctDataId":"1539549047076794369","imgUrl":"http://publicmedia.ehomepoct.com/CRP.png","reactTime":5,"warningTips":null,"stripName":"CRP检测(XXXVIII)"}}
+2022-06-22 18:01:11.625 | INFO     | __main__:upload_patient:73 - 发布患者信息接口请求参数为:{'age': 18, 'deviceId': 'B221031135000026', 'month': 0, 'name': '华强测试', 'phone': '13622220000', 'sex': 0, 'termClinicId': 1442082995943571458}
+2022-06-22 18:01:11.625 | INFO     | __main__:upload_patient:74 - 发布患者信息接口响应参数为:{"busiCode":0,"msg":"请求成功","data":"1539549050771976194"}
+2022-06-22 18:01:11.968 | INFO     | __main__:blood_test:116 - 血常规检测接口请求参数为:{'boardSno': '220301360723', 'cameraName': '测试相机', 'clinicId': 1442082995943571458, 'deviceSno': 'BLD100121031900002', 'hgbCalibration': [{'reference': 20317, 'groundTruth': 0, 'measure': 25501}, {'reference': 20732, 'groundTruth': 0, 'measure': 25637}, {'reference': 19684, 'groundTruth': 231, 'measure': 2397}, {'reference': 20401, 'groundTruth': 141, 'measure': 6061}, {'reference': 20628, 'groundTruth': 71, 'measure': 12633}, {'reference': 20360, 'groundTruth': 48, 'measure': 15893}], 'hgbCurveData': [], 'hgbMeasure': 0, 'hgbReference': 0, 'path': 'c69099f6-2df3-497b-b5ac-cefdca802aa9.zip', 'patientId': '1539549043423555585', 'pointConfig': {'plt': {'focus': 0, 'points': 0}, 'rbc': {'focus': 0, 'points': 0}, 'wbc': {'focus': 0, 'points': 0}}, 'type': 2}
+2022-06-22 18:01:11.968 | INFO     | __main__:blood_test:117 - 血常规检测接口响应参数为:{"busiCode":0,"msg":"请求成功","data":"1539549052127985666"}
+2022-06-22 18:01:13.120 | INFO     | __main__:get_manual_status:129 - 等待一秒钟，再去查询
+2022-06-22 18:01:13.121 | INFO     | __main__:get_manual_status:130 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': ''}}
+2022-06-22 18:01:14.277 | INFO     | __main__:get_manual_status:129 - 等待一秒钟，再去查询
+2022-06-22 18:01:14.277 | INFO     | __main__:get_manual_status:130 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': ''}}
+2022-06-22 18:01:15.434 | INFO     | __main__:get_manual_status:129 - 等待一秒钟，再去查询
+2022-06-22 18:01:15.434 | INFO     | __main__:get_manual_status:130 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': ''}}
+2022-06-22 18:01:16.600 | INFO     | __main__:get_manual_status:129 - 等待一秒钟，再去查询
+2022-06-22 18:01:16.600 | INFO     | __main__:get_manual_status:130 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': ''}}
+2022-06-22 18:01:17.769 | INFO     | __main__:get_manual_status:129 - 等待一秒钟，再去查询
+2022-06-22 18:01:17.769 | INFO     | __main__:get_manual_status:130 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': ''}}
+2022-06-22 18:01:18.942 | INFO     | __main__:get_manual_status:129 - 等待一秒钟，再去查询
+2022-06-22 18:01:18.942 | INFO     | __main__:get_manual_status:130 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 1, 'msg': ''}}
+2022-06-22 18:01:20.090 | INFO     | __main__:get_manual_status:129 - 等待一秒钟，再去查询
+2022-06-22 18:01:20.090 | INFO     | __main__:get_manual_status:130 - 查询算法接口结果{'busiCode': 0, 'msg': '请求成功', 'data': {'status': 3, 'msg': ''}}
+2022-06-22 18:01:20.535 | INFO     | __main__:order_palce_blood:143 - 血常规下单接口请求参数为:{'dataId': '1539549052127985666', 'recordId': '1539549050771976194'}
+2022-06-22 18:01:20.535 | INFO     | __main__:order_palce_blood:144 - 血常规下单接口响应参数为:{"busiCode":0,"msg":"请求成功","data":{"orderNo":"BLD1001210319000022206221801201237","payUrl":null,"money":null,"promptMsg":"联合检测金标仪未完成","orderStatus":null}}
+2022-06-22 18:01:20.891 | INFO     | __main__:call_back:160 - 支付回调接口请求参数为：{'openId': '111111111111', 'orderNo': 'BLD1001210319000022206221801201237', 'outOrderNo': '111111111111111', 'outTransactionNo': '111111111111111111111', 'payChannel': '0', 'payFinishTime': '2022-06-22 18:02:20', 'payStatus': 'SUCCESS', 'payType': 'WXPAY', 'tradeType': 'JSAPI'}
+2022-06-22 18:01:20.891 | INFO     | __main__:call_back:161 - 支付回调接口响应内容为:{"busiCode":0,"msg":"请求成功","data":null}

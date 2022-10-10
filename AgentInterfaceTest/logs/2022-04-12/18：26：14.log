@@ -1,0 +1,3 @@
+2022-04-12 18:26:14.696 | INFO     | agentTestCase:test_001_post_queryEveryDayData:36 - 接口响应时间为：0.11474
+2022-04-12 18:26:14.697 | INFO     | agentTestCase:test_001_post_queryEveryDayData:38 - busicode为：0
+2022-04-12 18:26:14.697 | INFO     | agentTestCase:test_001_post_queryEveryDayData:40 - 该账号总计合伙人为：130符合预期
